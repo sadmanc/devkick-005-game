@@ -158,3 +158,188 @@ Supplier prices that could lower this:
 Both are listed in [`data/competitors_games_ai.csv`](data/competitors_games_ai.csv). They score against standard US/UK (and Indian) English, not Glaswegian, so at best they are a backup scorer.
 
 ---
+## 2. Competitors (60+ products, 5 groups)
+
+**Threat** means how likely the product is to take Sound Local's players or money in the next 18 months. It is our judgement.
+- **Regional** = teaches regional accents (Glasgow, Scouse and so on), not just "American" or "British".
+- **Scored** = you speak and get feedback.
+- **Game/chars** = game loop or characters you talk to.
+
+Full fields and links: [`data/competitors_direct.csv`](data/competitors_direct.csv), [`data/competitors_bigapps.csv`](data/competitors_bigapps.csv), [`data/competitors_gapfill.csv`](data/competitors_gapfill.csv), [`data/competitors_games_ai.csv`](data/competitors_games_ai.csv). All the rows below are also in [`data/competitors_master.csv`](data/competitors_master.csv). Store figures are from the US App Store and Google Play on 15 Nov 2026.
+
+### 2.1 Direct accent and pronunciation apps
+| Product | What it is | Scale | Price (US) | Regional | Scored | Game/chars | Threat |
+|---|---|---|---|---|---|---|---|
+| ELSA Speak | AI pronunciation coach for non-native learners | 10M+ GP installs; iOS 4.75 (114,812); ~$60M raised ([TechCrunch](https://techcrunch.com/2023/09/12/elsa-series-c/)) | $19.99/mo, $99.99/yr | No (mainly US) | Yes (phoneme) | AI role-play | Medium |
+| BoldVoice | Accent coaching for non-native professionals | 1M+ GP; >$10M ARR, 5M downloads, $21M Series A ([PR](https://www.prnewswire.com/news-releases/boldvoice-raises-21m-series-a-to-give-a-billion-non-native-english-speakers-their-own-ai-voice-coach-302671777.html)) | $14.99–24.99/mo, $89.99–199.99/yr | No (US) | Yes | No | Medium |
+| Speakometer | AI accent scoring, US/UK | 500K+ GP | $4.99/mo, $29.99/yr | No | Yes | No | Low |
+| Speechling | Non-profit; human coaches mark recordings | 500K+ GP | Free; $19.99/mo | No | Human | No | Low |
+| Say It (Oxford/Phona) | Compares your waveform to a model | iOS 4.12 (248); Google Play page 404 | $13.49/mo, $105.99/yr | No (UK/US) | Yes | No | Low |
+| (How to) Pronounce | Reference audio | iOS 4.79 (33,431) | $0.99–4.99 packs | Some | No | No | Low |
+| Accent Training | American "melody" drills | iOS 4.65 (11,055) | $4.99/mo, $39.99/yr | No | Listen-repeat | No | Low |
+| YouGlish | Search YouTube by accent (US, UK, AU, CA, IE, SCO, NZ, ZA) | 500K+ GP | Free (paid tiers UNVERIFIED) | Filter only | No | No | Low |
+| ChatterFox | AI + human American accent coaching | 10K+ GP | ~$55 per item | No | Yes | No | Low |
+| Sounds Right (British Council) | Free phonemic chart | Google Play page 404 (appears delisted) | Free | No | No | No | None |
+| **Accentify** | "Duolingo-style" accent lessons for actors and natives; human coaches + AI coach | 10K+ GP; ~270 paying subscribers (founder, [LinkedIn](https://www.linkedin.com/posts/elijahkhan_startups-voiceai-accents-activity-7472309832667238400-oPmO), self-reported) | $3.99/wk, $4.99–9.99/mo, $39.99/yr | **Yes** (Scottish, Scouse, Irish, Southern US…) | Human + AI | No | **High** |
+| The Accent Kit | Dialect-coach audio kits for actors | 50K+ GP; iOS 3.17 (24) | $9.99 per accent (incl. "North Glasgow Male") | **Yes** (100+) | No | No | Medium |
+| Accentuate (app) | Accent coach for actors, 5 scored courses + 35 voices (incl. a Scottish "Isla") | 10+ GP (launched Sep 2026) | Pro $5.99 | Partly | Yes | No | Medium (idea overlap) |
+| Accent Coach: Master Accents | On-device scoring of sounds, rhythm and melody; 27 accents | iOS 2.0 (1 rating) | Free; Mac $10 | Yes | Yes (rhythm/melody) | No | Low today; shows pitch scoring is easy to copy |
+| AnyAccent | AI "closeness" score, UK/US/AU | 0 ratings | $4.99/mo, $99.99/yr | Partly | Yes | AI personas | Low |
+| Mimic: Accent Training | On-device score, UK/US packs | 10+ GP | $9.99 per pack | No | Yes | No | Low |
+| The Voice Café | Accent audio for actors (Geordie, Cockney…) | iOS 2.89 (9) | $2.99 per accent | Yes | No | No | Low |
+| IDEA archive | Free dialect recordings, ~1,800 samples from 135 countries ([IDEA](https://www.dialectsarchive.com/)) | Web | Free | Yes | No | No | Low (also a possible partner) |
+
+*Blabby (on the brief's list) turned out not to be an accent-training app, so it is excluded.*
+
+### 2.2 Big language apps and AI speaking apps
+| Product | What it is | Scale | Price (US iOS) | Accent angle | Threat |
+|---|---|---|---|---|---|
+| **Duolingo** | Gamified languages + chess + maths; Video Call with AI characters | 500M+ GP; 64.9M DAU; $1.22bn FY26 guidance | Super $12.99/mo, $83.99/yr | Blog covers English dialects ([blog](https://blog.duolingo.com/english-dialects/)); no selectable regional English course (UNVERIFIED) | **High** (fast copier with huge reach) |
+| Babbel | Subscription lessons + Babbel Speak AI + live classes | 50M+ GP; 2024 revenue €284.9M ([register via firmendata](https://firmendata.com/en/company/berlin-charlottenburg/HRB267419/babbel-group-gmbh)) | $12.95+ | Varieties only across languages | Low |
+| Speak | Speaking-first AI tutor, OpenAI-backed | 10M+ GP; >$100M annualised (Forbes ME; an older report says ~$50M, a conflict); $1B valuation ([TechCrunch](https://techcrunch.com/2024/12/10/openai-backed-speak-raises-78m-at-1b-valuation-to-help-users-learn-languages-by-talking-out-loud/)) | $17.99–39.99/mo | Reviewers ask for dialect choice | Medium |
+| Praktika | AI avatar tutors | 10M+ GP; CEO: $55M ARR, ~0.5M payers | $9.99/mo, $59.99–139.99/yr | US/UK/AU/"Asian" tutor voices ([help](https://intercom.help/praktika-ai/en/articles/10707916-learning-process)) | Medium-High (could add "local" avatars) |
+| Loora | English-only AI conversation coach | 10M+ GP; "tens of millions" ARR; $43M raised | ~$11–156 per item (GP) | US or UK ([support](https://www.loora.com/support/features/british-or-american-english)) | Medium |
+| Talkpal | GPT-based chat and call tutor, 130+ languages | 5M+ GP | $19.99–119.99 (GP) | "English (British)" option | Low |
+| Langua | AI conversation using voices cloned from real native speakers | 100K+ GP; founder: $308K MRR (self-reported) | $19.90–199.90 (GP) | **Country-specific dialect voices**: the nearest big-app feature to Sound Local | Medium |
+| Busuu (Chegg) | Courses + native-speaker community feedback | 50M+ GP; bought by Chegg for ~$436M ([Chegg](https://investor.chegg.com/Press-Releases/press-release-details/2021/Chegg-to-Enter-Rapidly-Expanding-Digital-Language-Learning-Market-with-Acquisition-of-Busuu)) | ~$10.50/mo, $62.99/yr (third-party price check) | None found | Low |
+| Memrise | Native-speaker video clips + AI chat partners | 50M+ GP; ~$25M raised (CB Insights) | Varies widely and A/B-tested (WEAK) | None | Low |
+| Rosetta Stone (IXL) | Immersion lessons; TruAccent speech scoring | 10M+ GP | $19.99/mo, $159/yr, $299 lifetime ([buy page](https://www.rosettastone.com/buy)) | TruAccent scores against native speakers, not regions | Low |
+
+### 2.3 Tutors and human coaching
+| Product | What it is | Price | Threat |
+|---|---|---|---|
+| Cambly | On-demand native-speaker video tutors | ~$8.65–18.75 per 30-min lesson depending on plan ([Cambly](https://www.cambly.com/en/subscribe?currency=USD)); ~$60M raised ([Forbes](https://www.forbes.com/sites/kenrickcai/2022/06/08/cambly-series-b-english-language-app-profitable/)) | Low |
+| Preply | Tutor marketplace; $150M Series D at $1.2B (Jan 2026, [Preply](https://preply.com/en/blog/preply-raises-150-million-to-shape-the-future-of-education-through-human-led-ai-enhanced-learning/)) | Tutors set prices; platform takes the trial lesson + 33%→18% ([Preply](https://preply.com/en/teach)). Example: British pronunciation tutor $60 per 50 min ([Preply](https://preply.com/en/tutor/5484243)) | Low |
+| italki | Tutor marketplace, 150+ languages | $5–120 per lesson; 15–21% commission ([italki](https://support.italki.com/hc/en-us/articles/206352068-How-does-italki-charge-a-commission)) | Low |
+| Dialect coaches | 1:1 coaching for actors | $120–180/hr in the US; £100–135/hr in the UK; £65 discounted actor rate | Low (a partner channel, and the price anchor) |
+| The Accent Bank | Coach-led courses and social channels; £40 Scottish DIY course; claims 1.4M+ followers ([site](https://www.theaccentbank.com/learn-accents)) | £37–140 | Medium (content competitor, possible partner) |
+| 21 Accents (Amy Walker) | YouTube membership academy | $4.99 or $8.99/mo ([site](https://www.21accents.com/21accentsacademy)) | Low |
+
+### 2.4 Accent games and entertainment
+| Product | What it is | Price | Threat |
+|---|---|---|---|
+| Accentle | Daily "guess the accent" web game, 126 accents; pub licence | Free; $1.99/day, $4.99/mo, $7.99/mo pub licence ([press](https://accentle.com/press/)) | Medium (listening only, but owns "Wordle for accents") |
+| DialectGuessr, AccentGuessr | Free web guessing toys | Free | Low |
+| Other Voices: Accent Game | Android: perform an accent, earn points for "accuracy and expression" ([Play](https://play.google.com/store/apps/details?id=com.othervoices)) | Free with ads; 100+ installs | Low (the closest concept, no traction) |
+| The Accent Game, Guess the Accent | Listening quizzes | Free | Low |
+| Heads Up! (Warner Bros.) | Party guessing game with an Accents deck | iOS $1.99 + decks; 10M+ GP | Low (could add a scored deck) |
+| Accentuate / Utter Nonsense board games | Read cards aloud in accents; people judge | ~£23–29 | Low |
+| Mimic Party (Steam) | Voice party game; a local AI scores pitch and rhythm ([Steam](https://store.steampowered.com/app/5053820)) | UNVERIFIED | Low, but proves pitch scoring is a commodity |
+| Accent creators (TikTok/YouTube) | Kallmekris, Amy Walker, WIRED's Erik Singer, Glasgow comedians | Free | Competes for attention; best partners |
+
+### 2.5 AI voice platforms (copy threats and suppliers)
+| Product | Role | Threat |
+|---|---|---|
+| **OpenAI (ChatGPT voice, gpt-realtime)** | Free voice chat that can imitate and coach accents on request | **High** for casual use. No game, calibrated score, characters or progression |
+| Google (Gemini Live, Translate practice) | Accent and character switching in Gemini Live; pronunciation practice in Translate | Medium-High |
+| ElevenLabs | Sound Local's own speech-to-text and voice supplier; accent-filterable voice library; Agents at ~$0.08/min ([pricing](https://elevenlabs.io/pricing)) | Medium (a supplier that could build a consumer demo) |
+| Azure, Speechace, SpeechSuper | Pronunciation-scoring APIs scored against standard US/UK/Indian English | Supplier only |
+| Voicemod | Real-time voice changer | Low |
+| Krisp accent conversion | Software that changes call-centre agents' accents live | Low for consumers; it erodes the call-centre training market |
+
+---
+
+## 3. What users love and hate (review mining)
+
+**Method.** We read 469 store and Trustpilot reviews of 9 products: ELSA, BoldVoice, Duolingo (speaking-related reviews only), Speechling, Speak, Praktika, Babbel (speaking-related reviews only), Cambly and The Accent Kit. That gave 848 theme codes. We also read 6 Reddit threads.
+- The sample is **star-stratified**: about equal numbers of 1–5 star reviews per app. So the counts show what people *talk about*, not what share of users feel it.
+- One AI coder did the coding, with no second check.
+- Reddit rate-limited us, so Reddit evidence is qualitative only.
+
+Data: [`data/review_mining.csv`](data/review_mining.csv) (one row per review × theme, with links) and [`data/review_themes.csv`](data/review_themes.csv). Full write-up: [`raw/lane-review-mining.md`](raw/lane-review-mining.md).
+
+| App | n | Top complaints (count) | Top praise (count) |
+|---|---|---|---|
+| ELSA Speak | 64 | Bugs, mic, crashes (28); paywall (12); billing (9) | Felt progress (10); content (7) |
+| BoldVoice | 69 | Paywall (14); billing (10); scoring accuracy (10) | Felt progress (12); useful feedback (9) |
+| Duolingo (speaking) | 70 | Bugs, mic (19); scoring accuracy (17); paywall (13) | **Fun and gamification (12)**; progress (10) |
+| Speechling | 45 | Bugs, mic (12); UX (8); support (7) | Useful feedback (8); human coaches (7) |
+| Speak | 44 | Scoring accuracy (12); paywall (10) | Progress (6); fun (5) |
+| Praktika | 44 | AI conversation quality (14); billing (8) | AI conversation (6); progress (5) |
+| Babbel (speaking) | 45 | Content (17); scoring accuracy (9) | Structure (12) |
+| Cambly | 43 | UX (8); price (5) (14 of 43 reviews were by tutors) | Friendly tutors (8) |
+| The Accent Kit | 45 | Audio and download bugs (19); **accent choice and authenticity (11)** | **Fit for actors and natives (7)** |
+
+**Short quotes** (verbatim, under 15 words; links in the CSV):
+- Scoring cuts both ways: "it marks you wrong even if your correct" (Duolingo). "app keeps giving a 100% score (or close) even when I sound nothing like" (BoldVoice).
+- One correct accent: "it would be awesome if you could choose what dialect to speak in." (Speak). On Reddit, about Britain: "We have about 1000 accents in this country".
+- Conversation quality: "The avatar constantly interrupts" and "very often it simply doesn't hear me." (Praktika).
+- Recognition: "at least half of the time it doesn't recognize what I said correctly." (Babbel).
+- Paywalls: "you literally can't do anything in the free version." (Speak).
+- Drills are boring: "Very Monotonous and repetitive content" (BoldVoice).
+- Actors want this: "Super handy when I need to perfect an accent for an audition" and "my drama students use it everytime we are rehearsing a play." (The Accent Kit).
+- Authenticity matters: "it didnt sound anything like people here!" (The Accent Kit).
+
+**Openings for Sound Local** (our inference):
+1. **Explain the score kindly.** Show *why* a local heard you a certain way, such as "your vowels were spot on, your melody went up at the end". Never show a bare percentage. Reviewers distrust scores whether they are too harsh or too generous.
+2. **Make regional accents the product.** Every big app treats one accent as "correct", and reviewers notice.
+3. **Treat the mic as the product.** Mic and audio bugs are the #1 complaint for ELSA, Duolingo and The Accent Kit. Add a mic check on the first screen and a text fallback.
+4. **Don't trap people with trials.** Billing and trial anger is the angriest theme across the paid apps. Free to play in the browser with no card; passes that don't auto-renew for the Party and Production options.
+5. **Turn-taking and voice quality decide whether a conversation feels real.** Use push-to-talk, short replies from characters and lifelike ElevenLabs voices.
+6. **Beat drills with place and story.** Duolingo's fun is the bar. Accent apps feel like homework.
+7. **Authenticity is a quality bar, not just a respect issue.** Users can tell when a voice "didn't sound anything like people here". Local Accent Leads sign off every region.
+
+---
+
+## 4. Positioning maps
+
+Positions are our judgement from the products' own descriptions. GitHub renders these charts.
+
+**Map A: serious vs fun × one standard accent vs local variety**
+```mermaid
+quadrantChart
+    title Serious vs fun, standard vs local accents
+    x-axis Serious drills --> Fun and social
+    y-axis One standard accent --> Local accent variety
+    quadrant-1 Empty space Sound Local targets
+    quadrant-2 Actor tools
+    quadrant-3 Accent reduction
+    quadrant-4 Gamified learning
+    ELSA: [0.15, 0.10]
+    BoldVoice: [0.10, 0.07]
+    Speak: [0.35, 0.15]
+    Praktika: [0.42, 0.22]
+    Duolingo: [0.78, 0.14]
+    Langua: [0.40, 0.38]
+    Accentify: [0.28, 0.75]
+    Accent Kit: [0.08, 0.82]
+    Dialect coach: [0.12, 0.92]
+    Accentle: [0.82, 0.70]
+    Heads Up: [0.93, 0.50]
+    ChatGPT voice: [0.55, 0.52]
+    Sound Local: [0.85, 0.92]
+```
+
+**Map B: drills or listening vs character conversation × standard vs local**
+```mermaid
+quadrantChart
+    title Drills vs conversation, standard vs local accents
+    x-axis Drills or listening --> Conversation with characters
+    y-axis One standard accent --> Local accent variety
+    quadrant-1 Empty space Sound Local targets
+    quadrant-2 Static regional content
+    quadrant-3 Pronunciation drills
+    quadrant-4 AI tutors
+    ELSA: [0.22, 0.10]
+    BoldVoice: [0.10, 0.07]
+    Speak: [0.70, 0.15]
+    Praktika: [0.85, 0.22]
+    Loora: [0.78, 0.12]
+    Duolingo Video Call: [0.62, 0.10]
+    Langua: [0.75, 0.38]
+    Accentify: [0.20, 0.75]
+    Accent Kit: [0.05, 0.82]
+    Accentle: [0.06, 0.70]
+    Other Voices: [0.25, 0.60]
+    Dialect coach: [0.55, 0.92]
+    ChatGPT voice: [0.92, 0.50]
+    Sound Local: [0.90, 0.90]
+```
+
+**How to read them.** The top-right corner of both maps is empty except for Sound Local. The two nearest threats come from different directions:
+- **ChatGPT voice** (middle right) already does conversation and can do any accent, but has no game, local authenticity or score.
+- **Accentify, The Accent Kit and dialect coaches** (top left) own regional content for actors, but as lessons or audio.
+
+Sound Local wins by being further right than the actor tools and further up than ChatGPT. That means the characters and the authentic local voices have to be the product, not decoration.
+
+---
