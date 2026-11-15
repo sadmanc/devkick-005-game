@@ -31,6 +31,10 @@ describe('voice line jobs', () => {
       expect(existsSync(`public/${level.celebration.audio}`)).toBe(true);
     }
   });
+
+  it('says every placement line in the Glasgow voice', () => {
+    expect(new Set(buildJobs(scotland, voiceConfig.scotland).map((j) => j.voiceId))).toEqual(new Set([voiceConfig.scotland.voiceId]));
+  });
 });
 
 describe('Mumbai voice jobs (per character, pending native review)', async () => {

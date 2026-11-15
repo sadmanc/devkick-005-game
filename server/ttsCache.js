@@ -16,6 +16,8 @@ export function createLru(max = 100) {
       map.set(key, value);
       if (map.size > max) map.delete(map.keys().next().value);
     },
+    has: (key) => map.has(key),
+    delete: (key) => map.delete(key),
     get size() {
       return map.size;
     },
@@ -24,7 +26,8 @@ export function createLru(max = 100) {
 
 export const ttsKey = (voiceId, text) => `${voiceId}\u0000${text}`;
 
-// Wrap a voice(text, key, voiceId) function so identical lines are only voiced once per instance.
+// Wrap a voice(text, key, voiceId) function so identical lines are only voiced once per instance. The
+// in-flight promise is cached, so two players asking for the same line at once share one vendor call.
 export function cachedVoice(voice, cache = createLru()) {
   const stats = { hits: 0, misses: 0 };
   async function speak(text, key, voiceId) {
@@ -35,10 +38,12 @@ export function cachedVoice(voice, cache = createLru()) {
       return hit;
     }
     stats.misses++;
-    const audio = await voice(text, key, voiceId);
+    const audio = voice(text, key, voiceId);
     cache.set(k, audio);
+    audio.catch(() => cache.get(k) === audio && cache.delete(k));
     return audio;
   }
   speak.stats = stats;
+  speak.has = (text, voiceId) => cache.has(ttsKey(voiceId, text));
   return speak;
 }

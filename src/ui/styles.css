@@ -653,3 +653,16 @@ body.reduce *, body.reduce *::before, body.reduce *::after { animation: none !im
 }
 .review-badge[hidden] { display: none; }
 .cast-card .card-standin { display: block; width: 100%; aspect-ratio: 1; border-radius: 10px; }
+
+/* Phones in landscape: Talk sits bottom-right under the thumb, the prompt card scrolls if it runs long,
+   and the credit stays on screen (small, bottom-left). */
+@media (max-height: 450px) {
+  .talkrow { position: absolute; right: 18px; bottom: 18px; flex-direction: column; align-items: flex-end; gap: 8px; }
+  .prompt { min-height: 0; overflow-y: auto; margin-right: 200px; margin-bottom: 0; min-width: 0; align-self: stretch; }
+  .scots { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; max-width: 100%; scrollbar-width: none; }
+  .scots::before { content: attr(data-count) ":"; flex: none; align-self: center; }
+  .scots::-webkit-scrollbar { display: none; }
+  .scots .word { flex: none; }
+  #test .bubble { margin-top: 6px; }
+  #credit { display: block; font-size: 10px; bottom: 3px; left: 10px; padding: 1px 6px; border-radius: 6px; color: var(--paper); background: rgba(29, 27, 46, 0.55); z-index: 6; }
+}

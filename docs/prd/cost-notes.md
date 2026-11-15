@@ -30,7 +30,6 @@ Units only (tokens, TTS characters, STT seconds). Prices change; multiply by tod
 | LLM output tokens (worst case per call) | 2,000 cap | 350 cap | **-82%** on runaway turns |
 | ElevenLabs TTS characters | 1,196 | **698** | ≤ 900 |
 | STT seconds | 36 | 36 | same (can't shorten what the player says) |
-| Scripted quest (Mumbai) | n/a | **0 Anthropic, 0 runtime TTS**, only STT | 0 / 0 |
 
 Per turn on average: TTS 150 → 87 characters, non-cached input 281 → 229 tokens, output 121 → 96 tokens.
 
@@ -38,12 +37,12 @@ Per turn on average: TTS 150 → 87 characters, non-cached input 281 → 229 tok
 
 | | Before | After |
 |---|---|---|
-| NPC openings (Senga, Hamish, every Mumbai character) | 1 LLM call + 1 TTS call per conversation | authored greeting + pre-generated mp3 (browser voice until it exists): **0 AI calls before the first answer** |
+| NPC openings (Senga, Hamish) | 1 LLM call + 1 TTS call per conversation | authored greeting + pre-generated mp3 (browser voice until it exists): **0 AI calls before the first answer** |
 | `max_tokens` | 2000 | 350 |
 | History sent | every line so far | last 8 lines |
 | Reply length | 1-2 sentences, up to 220 characters, the turn failed if longer | one short sentence plus a question, ~110 characters, cap 160 (prompt + schema); an over-long reply is cut at the last full sentence instead of failing |
 | Turns where nothing was heard | full LLM call + TTS | authored line, **0 LLM, 0 TTS** |
-| Simple turns (short answers, quest wording) | main model | `OTTER_MODEL_FAST` if set (default = main model, no change) |
+| Simple turns (opening, short answers) | main model | `OTTER_MODEL_FAST` if set (default = main model, no change) |
 | Live TTS model | `eleven_v3` for every reply | `TTS_MODEL_LIVE` if set (default `eleven_v3`, no change); authored lines stay v3 mp3s |
 | Repeated lines (echo phrases, fallbacks) | voiced every time | voiced once per instance (`server/ttsCache.js`, 100 lines, per TTS model) |
 | Past `MAX_AI_TURNS_PER_DAY` (default 2000) | unlimited spend | authored "come back tomorrow" line, no vendor calls |
@@ -54,7 +53,7 @@ Per turn on average: TTS 150 → 87 characters, non-cached input 281 → 229 tok
 | Setting | What it does | Saving | Quality risk |
 |---|---|---|---|
 | `TTS_MODEL_LIVE=eleven_flash_v2_5` | improvised replies use Flash instead of v3 | TTS **$0.08 → $0.04 per 1K characters** (-50%) | flatter delivery, weaker accent, no audio tags (they are stripped) |
-| `OTTER_MODEL_FAST=<smaller Claude model>` | short answers and quest wording use it | depends on the model picked | less witty short replies |
+| `OTTER_MODEL_FAST=<smaller Claude model>` | short answers use it | depends on the model picked | less witty short replies |
 | `OTTER_MODEL=<model>` | every free-talk turn | depends on the model picked | everything |
 
 ElevenLabs prices were checked on elevenlabs.io/pricing/api on 2026-11-15: v3 $0.08, v3 Conversational
@@ -63,7 +62,7 @@ $0.04, Flash / Turbo $0.04 per 1K characters; Scribe STT $0.20 per hour. Check a
 ## Quality guardrails
 
 The aim is cheaper without sounding clipped. Replies are asked to sound like a real person talking
-(contractions, one or two sentences, ~140 characters) rather than squeezed short: one short sentence plus a question, the way people actually talk at a
+(contractions, ~110 characters) rather than squeezed short: one short sentence plus a question, the way people actually talk at a
 counter or a bus door. Lines are never cut mid-word. The greeting is still the character's own
 authored line, and pre-generated audio keeps the full v3 accent.
 

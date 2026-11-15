@@ -284,10 +284,11 @@ export async function handleOtter(body, env, deps = {}) {
   const parsed = Request.safeParse(body ?? {});
   if (!parsed.success) throw new HttpError(400, `Bad request: ${parsed.error.issues[0]?.message}`);
   const { trust, turn, history, audio: answerAudio, audioType, npc, accent, echoAccent, echo, opening, kind } = parsed.data;
-  if (!aiTurns.take(maxTurnsPerDay(env))) {
+  const capped = () => {
     console.warn('[otter] daily AI turn cap reached: authored fallback, no vendor calls');
     return authoredTurn(parsed.data, CAPPED[regionOf(npc)], { capped: true });
-  }
+  };
+  if (aiTurns.used() >= maxTurnsPerDay(env)) return capped();
   let said = opening ? '' : parsed.data.said;
   if (answerAudio && !opening) {
     if (!env.ELEVENLABS_API_KEY) throw new HttpError(500, 'ELEVENLABS_API_KEY is needed to transcribe audio');
@@ -295,7 +296,9 @@ export async function handleOtter(body, env, deps = {}) {
   }
 
   // Nothing heard: an authored line, no model call and no TTS (the client speaks it with the browser voice).
-  if (!opening && !said.trim()) return authoredTurn(parsed.data, NOT_HEARD[regionOf(npc)], { notHeard: true });
+  if (!opening && !said.trim()) return authoredTurn(parsed.data, NOT_HEARD[regionOf(npc)], { notHeard: true, echo });
+  // Only turns that reach the model count against the day's AI budget.
+  if (!aiTurns.take(maxTurnsPerDay(env))) return capped();
 
   // With no key, the SDK uses the local `ant auth login` profile (dev only; deploys need the key).
   const client =
@@ -317,6 +320,7 @@ export async function handleOtter(body, env, deps = {}) {
   let audio = null;
   let echoAudio = null;
   const tts = Boolean(env.ELEVENLABS_API_KEY && voiceId);
+  let billed = [];
   if (!env.ELEVENLABS_API_KEY) {
     console.warn('[otter] ELEVENLABS_API_KEY not set: the client will use the browser voice');
   } else if (!voiceId) {
@@ -336,12 +340,14 @@ export async function handleOtter(body, env, deps = {}) {
           return voiceCached(text, key, STANDARD[npc] ?? STANDARD.otter);
         });
       };
+      // Cache hits cost nothing, so only lines not already voiced count as TTS characters in the log.
+      billed = [turnOut.reply, turnOut.echo].filter((l) => l && !voiceCached.has(ttsText(l, ttsModel), voiceId));
       [audio, echoAudio] = await Promise.all([speak(turnOut.reply), turnOut.echo ? speak(turnOut.echo).catch(() => null) : null]);
     } catch (err) {
       console.error('[otter] TTS failed, client will use the browser voice:', err.message);
     }
   }
-  logUsage({ npc, model, asked, tts: tts ? [turnOut.reply, turnOut.echo] : [], answerAudio });
+  logUsage({ npc, model, asked, tts: billed, answerAudio });
   return {
     heard: said.trim(),
     reply: stripTags(turnOut.reply),
@@ -371,7 +377,7 @@ export async function nodeHandler(req, res, env, handler = handleOtter) {
     res.end(JSON.stringify(data));
   };
   if (req.method !== 'POST') return send(405, { error: 'POST only' });
-  const limit = limiterFor(handler.name || 'api').check(clientIp(req));
+  const limit = limiterFor(handler.name || 'api').check(clientIp(req, Boolean(env?.VERCEL)));
   if (!limit.ok) {
     res.setHeader('retry-after', String(limit.retryAfter));
     return send(429, { error: 'Too many requests. Take a breather and come back later.', retryAfter: limit.retryAfter, scope: limit.scope });

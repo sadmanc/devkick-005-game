@@ -57,9 +57,14 @@ export function maxTurnsPerDay(env) {
   return Number.isFinite(n) && n >= 0 ? n : DEFAULT_MAX_AI_TURNS_PER_DAY;
 }
 
-// The caller's IP: first hop of x-forwarded-for (Vercel and most proxies set it), else the socket.
-export function clientIp(req) {
-  const fwd = req.headers?.['x-forwarded-for'];
-  const first = (Array.isArray(fwd) ? fwd[0] : fwd)?.split(',')[0]?.trim();
-  return first || req.headers?.['x-real-ip'] || req.socket?.remoteAddress || 'unknown';
+// The caller's IP. Forwarded headers are only trusted behind a proxy that overwrites them (Vercel sets
+// x-forwarded-for / x-real-ip itself); anywhere else a caller could rotate them to dodge the limits, so
+// the socket address is used.
+export function clientIp(req, trustProxy = false) {
+  if (trustProxy) {
+    const fwd = req.headers?.['x-forwarded-for'];
+    const first = (Array.isArray(fwd) ? fwd[0] : fwd)?.split(',')[0]?.trim();
+    if (first || req.headers?.['x-real-ip']) return first || req.headers['x-real-ip'];
+  }
+  return req.socket?.remoteAddress || 'unknown';
 }
