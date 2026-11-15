@@ -58,3 +58,14 @@ describe('region registry', () => {
     expect(getRegion('atlantis')).toBe(REGIONS.scotland);
   });
 });
+
+describe('lesson progress storage', () => {
+  it('keeps progress in memory when storage is blocked or throws', async () => {
+    const { loadProgress, saveProgress } = await import('../src/game/lessonRun.js');
+    const broken = { getItem: () => { throw new Error('blocked'); }, setItem: () => { throw new Error('blocked'); } };
+    expect(loadProgress('toronto-test', broken)).toBe(0);
+    saveProgress('toronto-test', 3, broken);
+    expect(loadProgress('toronto-test', broken)).toBe(3);
+    expect(loadProgress('toronto-test', null)).toBe(3);
+  });
+});

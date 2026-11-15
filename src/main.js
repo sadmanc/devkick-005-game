@@ -925,6 +925,7 @@ $('play').addEventListener('click', () => {
 });
 // Map pins come from the region registry; picking one loads that region's intro, cast, words and scene.
 function chooseRegion(id) {
+  if (region.id !== id) placedAt = 0; // a placement skip belongs to the region it was earned in
   region = REGIONS[id];
   place = region.content;
   cast = region.cast;

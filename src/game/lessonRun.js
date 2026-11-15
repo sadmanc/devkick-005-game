@@ -27,18 +27,31 @@ export const unitTestItems = (place) => place.unitTest?.items ?? place.test;
 
 export const starsFor = (avg) => (avg >= 0.8 ? 3 : avg >= 0.6 ? 2 : 1);
 
-export function loadProgress(region, storage = globalThis.localStorage) {
+// Progress also lives in memory, so blocked or full storage still unlocks the next lesson this visit.
+const memory = {};
+const storageOf = (storage) => {
   try {
-    return Number(storage?.getItem(KEY(region))) || 0;
+    return storage === undefined ? globalThis.localStorage : storage;
   } catch {
-    return 0;
+    return null; // reading localStorage itself throws when storage is blocked
   }
+};
+
+export function loadProgress(region, storage) {
+  let saved = 0;
+  try {
+    saved = Number(storageOf(storage)?.getItem(KEY(region))) || 0;
+  } catch {
+    /* blocked storage: memory only */
+  }
+  return Math.max(saved, memory[region] ?? 0);
 }
 
-export function saveProgress(region, n, storage = globalThis.localStorage) {
+export function saveProgress(region, n, storage) {
+  memory[region] = Math.max(n, memory[region] ?? 0);
   try {
-    storage?.setItem(KEY(region), String(n));
+    storageOf(storage)?.setItem(KEY(region), String(n));
   } catch {
-    /* private mode: progress lasts this visit only */
+    /* private mode or full: progress lasts this visit only */
   }
 }
