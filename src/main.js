@@ -751,6 +751,8 @@ async function questTalkTurn(r) {
   $('result-score').textContent = String(t.state.mood);
   $('result-note').textContent = `${t.ending === 'win' ? npc.win : npc.bust} Locals won over: ${wins} of ${Object.keys(cast).length}.`;
   $('again').textContent = 'Talk to someone else';
+  $('result-ribbon').textContent = 'Your accent';
+  $('start-learning').textContent = 'Start learning';
   $('bubble').classList.remove('show');
   show('result');
   stage.react(t.ending === 'win' ? 'good' : 'ok');
