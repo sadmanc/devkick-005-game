@@ -1,0 +1,186 @@
+{
+ "foot_goose_f2_gap_z": {
+  "awb": 0.15,
+  "bdl": 0.41,
+  "clb": 0.23,
+  "jmk": 0.7,
+  "ksp": 0.04,
+  "rms": 0.28,
+  "slt": 0.43
+ },
+ "vowel_tokens_per_speaker": {
+  "awb": 1863,
+  "bdl": 2050,
+  "clb": 1980,
+  "jmk": 1793,
+  "ksp": 2040,
+  "rms": 1921,
+  "slt": 1760
+ },
+ "diphthong_glide_length_z": {
+  "FACE": {
+   "awb": 0.56,
+   "jmk": 0.74,
+   "ksp": 0.16,
+   "bdl": 0.73,
+   "rms": 0.92
+  },
+  "GOAT": {
+   "awb": 0.12,
+   "jmk": 0.18,
+   "ksp": 0.14,
+   "bdl": 0.31,
+   "rms": 0.38
+  },
+  "PRICE": {
+   "awb": 2.05,
+   "jmk": 1.91,
+   "ksp": 1.79,
+   "bdl": 1.34,
+   "rms": 1.53
+  },
+  "MOUTH": {
+   "awb": 1.45,
+   "jmk": 1.2,
+   "ksp": 0.53,
+   "bdl": 0.73,
+   "rms": 1.09
+  }
+ },
+ "canadian_raising_onset_f1_z_mean_n": {
+  "PRICE": {
+   "jmk": {
+    "voiced": [
+     1.13,
+     70
+    ],
+    "voiceless": [
+     1.24,
+     45
+    ]
+   },
+   "bdl": {
+    "voiced": [
+     1.24,
+     71
+    ],
+    "voiceless": [
+     1.3,
+     46
+    ]
+   },
+   "rms": {
+    "voiced": [
+     1.27,
+     70
+    ],
+    "voiceless": [
+     1.05,
+     46
+    ]
+   },
+   "awb": {
+    "voiced": [
+     1.54,
+     73
+    ],
+    "voiceless": [
+     1.54,
+     46
+    ]
+   },
+   "ksp": {
+    "voiced": [
+     1.36,
+     72
+    ],
+    "voiceless": [
+     1.45,
+     46
+    ]
+   }
+  },
+  "MOUTH": {
+   "jmk": {
+    "voiced": [
+     1.37,
+     17
+    ],
+    "voiceless": [
+     0.54,
+     12
+    ]
+   },
+   "bdl": {
+    "voiced": [
+     1.21,
+     20
+    ],
+    "voiceless": [
+     1.0,
+     13
+    ]
+   },
+   "rms": {
+    "voiced": [
+     0.69,
+     23
+    ],
+    "voiceless": [
+     1.03,
+     11
+    ]
+   },
+   "awb": {
+    "voiced": [
+     1.15,
+     21
+    ],
+    "voiceless": [
+     1.08,
+     14
+    ]
+   },
+   "ksp": {
+    "voiced": [
+     0.92,
+     23
+    ],
+    "voiceless": [
+     0.73,
+     11
+    ]
+   }
+  }
+ },
+ "rhotic_f3_min_median_hz": {
+  "bdl": [
+   2075,
+   109
+  ],
+  "rms": [
+   1758,
+   112
+  ],
+  "slt": [
+   1922,
+   110
+  ],
+  "clb": [
+   1904,
+   109
+  ],
+  "jmk": [
+   1831,
+   110
+  ],
+  "awb": [
+   2031,
+   107
+  ],
+  "ksp": [
+   2409,
+   112
+  ]
+ }
+}
