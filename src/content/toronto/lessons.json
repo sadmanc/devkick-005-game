@@ -68,7 +68,8 @@
           "tip": "Keep \"welcome to\" light and let \"TRAW\" carry the weight.",
           "audio": "assets/audio/toronto/lessons/trawna-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/trawna-intro.mp3"
     },
     {
       "id": "raising-out",
@@ -103,7 +104,8 @@
           "tip": "\"House\" starts high and short. Compare it with \"how\".",
           "audio": "assets/audio/toronto/lessons/raising-out-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/raising-out-intro.mp3"
     },
     {
       "id": "raising-right",
@@ -138,7 +140,8 @@
           "tip": "Every \"ice\", \"nice\", \"-night\" gets the higher start.",
           "audio": "assets/audio/toronto/lessons/raising-right-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/raising-right-intro.mp3"
     },
     {
       "id": "sorry",
@@ -173,7 +176,8 @@
           "tip": "\"Caught\" sounds just like \"cot\".",
           "audio": "assets/audio/toronto/lessons/sorry-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/sorry-intro.mp3"
     },
     {
       "id": "eh",
@@ -210,7 +214,8 @@
           "tip": "\"Out\" starts high (\"uh-oot\"), then the friendly rise on \"eh?\".",
           "audio": "assets/audio/toronto/lessons/eh-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/eh-intro.mp3"
     },
     {
       "id": "places",
@@ -247,7 +252,8 @@
           "tip": "\"Yonge\" is just \"young\".",
           "audio": "assets/audio/toronto/lessons/places-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/places-intro.mp3"
     },
     {
       "id": "mans",
@@ -285,7 +291,8 @@
           "tip": "\"MAN-dem\", even beats.",
           "audio": "assets/audio/toronto/lessons/mans-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/mans-intro.mp3"
     },
     {
       "id": "ahlie-styll",
@@ -323,7 +330,8 @@
           "tip": "\"Styll\" lands flat and sure.",
           "audio": "assets/audio/toronto/lessons/ahlie-styll-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/ahlie-styll-intro.mp3"
     },
     {
       "id": "say-less",
@@ -361,7 +369,8 @@
           "tip": "Two even, punchy beats: \"SAY LESS\".",
           "audio": "assets/audio/toronto/lessons/say-less-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/say-less-intro.mp3"
     },
     {
       "id": "rhythm",
@@ -398,7 +407,22 @@
           "tip": "\"Dem\" with a clean D.",
           "audio": "assets/audio/toronto/lessons/rhythm-2.mp3"
         }
-      ]
+      ],
+      "introAudio": "assets/audio/toronto/lessons/rhythm-intro.mp3"
     }
-  ]
+  ],
+  "reactions": {
+    "good": {
+      "text": "Nice! That's the 6ix right there.",
+      "audio": "assets/audio/toronto/lessons/react-good.mp3"
+    },
+    "ok": {
+      "text": "Close, bud. Once more, nice and relaxed.",
+      "audio": "assets/audio/toronto/lessons/react-ok.mp3"
+    },
+    "bad": {
+      "text": "Hmm, not quite. Listen again and copy the tune, eh.",
+      "audio": "assets/audio/toronto/lessons/react-bad.mp3"
+    }
+  }
 }

@@ -7,7 +7,8 @@ import { measureAccent } from './game/accentCheck.js';
 import { band, clampTrust, placement, trustDelta } from './game/placement.js';
 import { listen, isSupported } from './voice/index.js';
 import { createLive } from './game/liveVoice.js';
-import { createLessons } from './ui/lessons.js';
+import { createLessons, roadmapFrom } from './ui/lessons.js';
+import { lessonItems, unitTestItems, starsFor, loadProgress, saveProgress } from './game/lessonRun.js';
 import { newChat, applyTurn, lineFrom, talk as askOtter, START_TRUST } from './game/conversation.js';
 import { startRecording, blobToBase64 } from './voice/record.js';
 import { turn } from './game/flowers.js';
@@ -56,7 +57,18 @@ function show(id) {
 // Placement: a good accent test skips you 50 lessons ahead, otherwise you start at lesson 1.
 const SKIP_AT = 0.6;
 const SKIP_LESSONS = 50;
-const lessons = createLessons({ root: $('learn'), onTap: ({ state }) => sfx(state === 'locked' ? 'ok' : 'tap') });
+const lessons = createLessons({
+  root: $('learn'),
+  onTap: ({ state, id }) => {
+    sfx(state === 'locked' ? 'ok' : 'tap');
+    if (state !== 'locked' && id && region.lessons?.playable) openLesson(id);
+  },
+});
+// A region with playable lessons (lessons.json) plays them through the say-it-back test screen.
+let run = null; // { id, title, items, intro, test } while a lesson or the unit test is on
+const testItems = () => run?.items ?? place.test;
+const playableLessons = () => (region.lessons?.playable ? region.lessons : null);
+const roadmapNodes = (pack) => roadmapFrom(pack).flatMap((u) => u.nodes);
 let placedAt = 0;
 
 // score counts up (time grows with the number, 0.35..1.2 s), then the card settles
@@ -74,11 +86,19 @@ function countUp(el, to) {
 
 function showResult(average, level) {
   const well = average >= SKIP_AT;
-  placedAt = well ? SKIP_LESSONS : 0;
+  const pack = playableLessons();
+  const skip = pack ? pack.units[0].lessons.length : SKIP_LESSONS;
+  placedAt = well ? skip : 0;
   $('result-level').textContent = level.name;
-  $('result-note').textContent = well
-    ? `Ye sound like ye belong here. Skipping you ahead ${SKIP_LESSONS} lessons to lesson ${SKIP_LESSONS + 1}.`
-    : 'Everyone starts somewhere. You begin at lesson 1.';
+  $('result-note').textContent = pack
+    ? well
+      ? `You sound like you belong here. Skipping you ahead ${skip} lessons to "${pack.units[1].title}".`
+      : 'Everyone starts somewhere. You begin at lesson 1.'
+    : well
+      ? `Ye sound like ye belong here. Skipping you ahead ${SKIP_LESSONS} lessons to lesson ${SKIP_LESSONS + 1}.`
+      : 'Everyone starts somewhere. You begin at lesson 1.';
+  $('result-ribbon').textContent = 'Your accent';
+  $('start-learning').textContent = 'Start learning';
   $('result-score').textContent = '0';
   show('result');
   popIn($('result').querySelector('.popup'));
@@ -221,8 +241,8 @@ function stopCaptions() {
 }
 
 function showItem(i) {
-  const item = place.test[i];
-  $('step').textContent = `${i + 1} / ${place.test.length}`;
+  const item = testItems()[i];
+  $('step').textContent = `${i + 1} / ${testItems().length}`;
   $('level').textContent = item.level[0].toUpperCase() + item.level.slice(1);
   $('line').textContent = item.line;
   $('meaning').textContent = `Means: ${item.meaning}`;
@@ -511,7 +531,8 @@ async function finishChat(outcome) {
   }
 }
 
-async function startTest() {
+async function startTest(lesson = null) {
+  run = lesson;
   mode = 'test';
   showSuggestions(null);
   primeMic();
@@ -527,13 +548,13 @@ async function startTest() {
   busy = true;
   setTalk(false, 'Listen...');
   showItem(0);
-  await otterSays(place.character.intro, 'suspicious');
+  await otterSays(run ? run.intro : place.character.intro, run ? 'talk' : 'suspicious');
   await new Promise((r) => setTimeout(r, 250));
   await presentItem();
 }
 
 async function presentItem() {
-  const item = place.test[index];
+  const item = testItems()[index];
   busy = true;
   setTalk(false, 'Listen...');
   await otterSays({ text: `Say: "${item.line}"`, audio: item.audio ? item.audio : null });
@@ -560,7 +581,7 @@ async function replayLine() {
     await otterSays(questLine, 'talk');
     return readyToTalk();
   }
-  const item = place.test[index];
+  const item = testItems()[index];
   sfx('tap');
   busy = true;
   setTalk(false, 'Listen...');
@@ -757,7 +778,7 @@ function beginTalk() {
   }
   live.start();
   if (mode === 'flowers' || mode === 'quest') live.hide(); // no reference clip here: keep the mic ring, drop "Match %"
-  const item = place.test[index];
+  const item = testItems()[index];
   session = mode === 'flowers' || mode === 'quest' ? listen() : listen({ expected: item.accepted.concat(item.line), referenceUrl: item.audio });
 }
 
@@ -794,7 +815,7 @@ async function endTalk() {
 }
 
 async function judge(r) {
-  const item = place.test[index];
+  const item = testItems()[index];
   if (r.error === 'not-allowed') {
     $('heard').textContent = 'Allow the microphone (the mic or lock icon by the address bar), then hold Talk again. No need to refresh.';
     busy = false;
@@ -829,7 +850,7 @@ async function judge(r) {
   scores.push(score);
   await new Promise((res) => setTimeout(res, 700));
   index += 1;
-  if (index < place.test.length) {
+  if (index < testItems().length) {
     showItem(index);
     await presentItem();
   } else {
@@ -838,6 +859,7 @@ async function judge(r) {
 }
 
 async function finish() {
+  if (run) return finishLesson();
   const p = placement(scores, place.path);
   await otterSays(place.character.outro, 'talk');
   $('bubble').classList.remove('show');
@@ -851,6 +873,47 @@ async function finish() {
   } else {
     sfx('level');
   }
+}
+
+// ---- lessons: open one from the roadmap, then stars and progress when it's done
+function openLesson(id) {
+  const pack = playableLessons();
+  if (!isSupported()) {
+    alert('This browser cannot record the microphone. Try Chrome, Safari or Edge.');
+    return;
+  }
+  if (id === 'test') return startTest({ id, title: pack.test.title, items: unitTestItems(place), test: true, intro: { text: `${pack.test.title}! ${unitTestItems(place).length} lines. Say each one like a local.` } });
+  const lesson = pack.lessons.find((l) => l.id === id);
+  startTest({ id, title: lesson.title, items: lessonItems(pack, lesson), intro: { text: `${lesson.title}. ${lesson.goal}`, audio: lesson.introAudio ?? null } });
+}
+
+async function finishLesson() {
+  const pack = playableLessons();
+  const avg = scores.reduce((a, b) => a + b, 0) / Math.max(1, scores.length);
+  const stars = starsFor(avg);
+  const nodes = roadmapNodes(pack);
+  const at = nodes.findIndex((n) => n.id === run.id);
+  const passed = run.test ? avg >= SKIP_AT : true;
+  if (passed) saveProgress(region.id, Math.max(loadProgress(region.id), at + 1));
+  const level = run.test ? placement(scores, place.path).level : null;
+  $('bubble').classList.remove('show');
+  $('result-ribbon').textContent = run.test ? pack.test.title : 'Lesson complete';
+  $('result-level').textContent = run.test ? level.name : run.title;
+  const next = nodes[at + 1];
+  $('result-note').textContent = `${'★'.repeat(stars)}${'☆'.repeat(3 - stars)}  ${
+    run.test ? (passed ? 'You passed! The whole unit is done.' : 'Not yet. Do a few lessons again and come back.') : next ? `Next up: ${next.label}.` : 'Unit done!'
+  }`;
+  $('start-learning').textContent = 'Back to lessons';
+  $('result-score').textContent = '0';
+  show('result');
+  popIn($('result').querySelector('.popup'));
+  countUp($('result-score'), Math.round(avg * 100));
+  stage.react(stars >= 2 ? 'good' : 'ok');
+  if (level?.celebration && passed) {
+    setBed('off');
+    await say(level.celebration);
+    setBed('full');
+  } else sfx('level');
 }
 
 // ---- wiring
@@ -918,7 +981,7 @@ $('intro-test').addEventListener('click', () => {
     alert('This browser cannot record the microphone. Try Chrome, Safari or Edge.');
     return;
   }
-  startTest();
+  startTest(null);
 });
 $('result-test').addEventListener('click', () => $('intro-test').click());
 $('again-line').addEventListener('click', replayLine);
@@ -934,7 +997,7 @@ $('again').addEventListener('click', () => {
   sfx('tap');
   if (mode === 'chat' || mode === 'quest') showCast();
   else if (mode === 'flowers') startFlowers();
-  else startTest();
+  else startTest(run);
 });
 $('to-map').addEventListener('click', () => {
   sfx('tap');
@@ -976,7 +1039,11 @@ $('set-motion').addEventListener('change', (e) => {
 $('start-learning').addEventListener('click', () => {
   sfx('tap');
   show('learn');
-  lessons.open(placedAt, { skipped: placedAt > 0 });
+  const pack = playableLessons();
+  if (!pack) return lessons.open(placedAt, { skipped: placedAt > 0 });
+  const done = loadProgress(region.id);
+  const cur = Math.max(done, placedAt);
+  lessons.open(cur, { skipped: placedAt > done, roadmap: roadmapFrom(pack) });
 });
 $('learn-back').addEventListener('click', () => {
   sfx('tap');

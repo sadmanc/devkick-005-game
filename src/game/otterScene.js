@@ -8,6 +8,7 @@ import { createLoop } from './loop.js';
 import { createActor } from './actor.js';
 import cast from '../content/cast.json';
 import { buildMumbaiSet, MUMBAI_SKY } from './mumbaiScene.js';
+import { buildTorontoSet, TORONTO_SKY } from './torontoScene.js';
 import { voiceLevel } from './audio.js';
 
 // casts: every region's cast, keyed by region id. Glasgow's street and cast show until setRegion() picks another.
@@ -49,7 +50,11 @@ export function createStage(container, casts = { scotland: cast }) {
   // Weather follows the otter's trust: 0 = dreich downpour, 1 = the sun breaks through over the tenements.
   const GREY = new THREE.Color('#aab4be');
   const BLUE = new THREE.Color('#a8d4f5');
-  const SKY = { scotland: [GREY, BLUE], mumbai: [new THREE.Color(MUMBAI_SKY.low), new THREE.Color(MUMBAI_SKY.high)] };
+  const SKY = {
+    scotland: [GREY, BLUE],
+    mumbai: [new THREE.Color(MUMBAI_SKY.low), new THREE.Color(MUMBAI_SKY.high)],
+    toronto: [new THREE.Color(TORONTO_SKY.low), new THREE.Color(TORONTO_SKY.high)],
+  };
   let region = 'scotland';
   let weather = 0.3;
   let weatherGoal = 0.3;
@@ -136,6 +141,9 @@ export function createStage(container, casts = { scotland: cast }) {
   const mumbaiSet = buildMumbaiSet();
   mumbaiSet.visible = false;
   scene.add(mumbaiSet);
+  const torontoSet = buildTorontoSet();
+  torontoSet.visible = false;
+  scene.add(torontoSet);
   new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(
     'assets/models/glasgow.glb',
     (gltf) => {
@@ -227,6 +235,7 @@ export function createStage(container, casts = { scotland: cast }) {
       region = id;
       glasgowSet.visible = id === 'scotland';
       mumbaiSet.visible = id === 'mumbai';
+      torontoSet.visible = id === 'toronto';
       for (const [aid, a] of Object.entries(actors)) a.setVisible(regionOfActor[aid] === id);
       focused = actors[Object.keys(casts[id])[0]];
       frame(focused, true);
