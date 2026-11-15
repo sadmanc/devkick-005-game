@@ -343,3 +343,180 @@ quadrantChart
 Sound Local wins by being further right than the actor tools and further up than ChatGPT. That means the characters and the authentic local voices have to be the product, not decoration.
 
 ---
+## 5. How Sound Local wins
+
+### 5.1 Advantages (what we have that others don't)
+- **The concept is unclaimed at scale**: regional accents, for fluent speakers, through play, by talking to characters. See section 2.
+- **Glasgow is a strong first region.** Glasgow and Scottish accents are proven content: four videos with 4.8–8.7M views each (section 1). Actors already buy Glasgow kits.
+- **Local characters with a point of view.** A Glaswegian who reacts to how you sound is content people want to share. A phoneme score is not.
+- **The Respect Charter and Local Accent Leads.** These are a real difference in a category where getting it wrong means backlash. Reviewers notice voices that "didn't sound anything like people here".
+- **Free in the browser.** People can play from a TikTok link with no install or card, which answers the paywall complaints.
+
+### 5.2 Weaknesses (seen when we played it, 15 Nov 2026)
+Screenshots: [`img/product-*.png`](img/).
+- **Mic failure and no fallback.** In our VM the placement test said "Didn't catch that" and free talk said "Could not use the microphone". This was a VM limit, but there is no "type instead" path.
+- **Slow start.** About 40–45 seconds from opening to the first prompt. This was measured informally, not under controlled conditions.
+- **Phone layout.** At 844×390 landscape the free-talk panel pushes the record and replay buttons off-screen (`img/product-phone-landscape.png`).
+- **Only one region** (Scotland) can be played. The map shows other regions as locked.
+- **Scoring is unvalidated.** We have no evidence yet that the score matches what real Glaswegians hear. Speech-to-text and pitch can be thrown by background noise and by accents themselves.
+- **AI cost** grows with every conversation (section 1.3).
+- **A small team against well-funded copiers.**
+
+### 5.3 SWOT
+| | Helpful | Harmful |
+|---|---|---|
+| **Internal** | **Strengths:** unclaimed concept; characters and humour; Respect Charter; browser and zero install; modern voice stack (ElevenLabs + Claude) | **Weaknesses:** mic and phone UX; one region; unvalidated score; AI cost per user; no audience yet |
+| **External** | **Opportunities:** performers already pay for regional accents; 1.4M international students in the UK and Canada; accent content is proven on TikTok and YouTube; creators drive this category; drama-school licences | **Threats:** ChatGPT/Gemini voice; Duolingo copying; Accentify adding AI conversation; 2026 indie wave; accent-mocking backlash; app-store AI and data rules |
+
+### 5.4 The wedge (where to start)
+**"Glaswegians rate your Glaswegian."** It is a 3-minute browser challenge:
+1. Talk to a Glasgow character.
+2. Get a kind, specific verdict.
+3. Share a card or clip.
+4. Locals reply.
+
+It is fun first. Underneath, the same engine becomes a **Production Pass for actors** preparing a Scottish role, which is the first thing to charge for.
+
+Toronto comes next. It is the home market, has a large international-student population, and "Canadian accent" content travels well with low backlash risk.
+
+### 5.5 Features that decide whether it wins
+1. **A mic check and a text fallback on the first screen.** Being heard reliably is the product.
+2. **Feedback that explains itself.** The character says why ("your 'o' was pure Glasgow, but your sentence went up at the end like a question"). No bare percentages.
+3. **A share card or clip** with your verdict, sized for TikTok and Reels. This is the growth loop.
+4. **Locals in the loop.** Local Accent Leads record the reference lines and sign off each region. Later, community "rate this tourist" voting.
+5. **An actor mode.** Script import, a slow replay of the reference, and comparing one sound against a near-miss ("minimal pairs"). Accent Kit reviewers ask for exactly this.
+6. **A no-guilt progression.** Neighbourhoods, characters and slang unlock as you play. Streaks are optional.
+7. **A cost-controlled AI.** Scripted and cached lines for most of the free game; AI conversation as the paid reward.
+
+### 5.6 Long-term moat (in order of strength)
+1. **Licensed local voice data and the Accent Lead network.** Consented recordings of real locals in each city, plus a paid community of locals. This is hard for Duolingo or OpenAI to fake credibly, and it improves scoring over time.
+2. **A brand and community owning "same language, different voice".** Creators, duets and region launches.
+3. **Characters and world IP.** People come back for characters, as Duolingo shows with Duo and Lily.
+4. **A scoring model tuned per region**, using the voice data from point 1. This is the *weakest* moat alone, because pitch and rhythm scoring is already in indie apps and Mimic Party.
+
+### 5.7 What to avoid
+- **Becoming "accent reduction".** That is ELSA's and BoldVoice's fight, against non-native speakers' insecurity. Stay "accent acquisition", for fun and craft.
+- **"Accent accuracy %" claims.** They invite the trust complaints in section 3 and could be read as saying an accent is "wrong".
+- **Launching Mumbai, Singapore or other non-white accents without local leads and consent.** The backlash risk is highest there.
+- **Unlimited free AI chat.** The cost per user kills the margin.
+- **Auto-renew trials and hard paywalls.** These cause the angriest competitor reviews.
+- **Call-centre sales for now.** It is the wrong product (they want neutral, not regional), and software like Krisp is replacing that training anyway.
+
+---
+
+## 6. Go-to-market
+
+### 6.1 How competitors grew (benchmarks in [`data/gtm_benchmarks.csv`](data/gtm_benchmarks.csv))
+- **Praktika:** one creator video format, copied by creators, took ARR from ~$1M to $12M in a month ([RevenueCat](https://www.revenuecat.com/blog/growth/adam-turaev-praktika-sub-club-podcast-2026)).
+- **BoldVoice:** about $200 paid to one YouTube creator unlocked paid growth. It now spends six figures a month across Meta, Google, TikTok and Apple Search Ads ([RevenueCat blog](https://www.revenuecat.com/blog/), company-reported, MEDIUM).
+- **Speak:** a repeatable TikTok format reached about 300M views (agency case study, MEDIUM). Apple Search Ads case study: [Apple](https://ads.apple.com/app-store/success-stories/speak).
+- **ELSA:** a creator programme paying 10% commission ([ELSA creators](https://elsaspeak.com/en/creators/)).
+- **Duolingo:** about 80% of users came by word of mouth (2023). It is moving to paid creators as organic TikTok reach falls (Business Insider, 2026; MEDIUM).
+
+### 6.2 Cost benchmarks
+| Item | Benchmark | Strength |
+|---|---|---|
+| Cost per install, iOS / Android, all apps | $1.5–3.5 / $1.5–4 ([Business of Apps](https://www.businessofapps.com/ads/cpi/research/cost-per-install/)) | MEDIUM |
+| Education CPI | ~$2.91 ([AppRevs](https://apprevs.com/benchmarks/education/)) | WEAK |
+| Freemium download → paid (35 days) | 2.18% median, 7.9% top 10% ([RevenueCat](https://www.revenuecat.com/pdf/state-of-subscription-apps-2025.pdf)) | STRONG |
+| Nano TikTok creator | ~$50–200 per video; $350–850 at 5K–25K followers ([agency blog](https://awisee.com/blog/tiktok-influencer-rates/)) | WEAK |
+
+**What this means (DERIVED).** At $3 per install and 2% conversion, one paying user costs about $150 in ads. That is more than two years of Pro. **Paid ads only work later, for performer and student targeting with proven conversion.** Use creators and organic clips first.
+
+### 6.3 Channels, in order
+1. **TikTok and Reels: each local-accent unit is a clip.** Every region unit (a Glasgow slang word, a Toronto "eh") gets a 15–30 second "can you say it like a local?" clip featuring a character. Formats:
+   - "Locals rate tourists": locals duet player attempts.
+   - "Glaswegian reacts to your Glaswegian".
+   - Accent-offs between creators.
+   - Ask local comedians to duet (Glasgow comedians already do accent TikToks).
+2. **Nano and micro creators**: accent creators, drama students and expat creators. Pay per video, plus an affiliate cut on passes (ELSA's 10% model).
+3. **Performers**: drama schools, Equity/ACTRA/SAG-AFTRA newsletters, audition-prep communities, and dialect coaches as affiliates (offer them a coach dashboard).
+4. **Universities**: international-student welcome weeks and international offices in Glasgow (Glasgow, Strathclyde, Caledonian) and Toronto (U of T, TMU, York, Humber). Pitch it as "understand your new city", with a free semester code for student unions (ASSUMPTION: not tested).
+5. **Press and community**: local press (Glasgow Live, The Courier already cover accent TikTokers) and r/glasgow-style communities, done respectfully.
+6. **Paid** (later): Apple Search Ads on "Scottish accent", "accent for actors" and similar searches, once conversion is measured.
+
+### 6.4 Launch plan (first 12 weeks)
+| Weeks | What | Success metric |
+|---|---|---|
+| 0–2 | Fix the mic check, text fallback, phone layout and a sub-15-second start; add a share card; cap free AI | 80%+ of sessions reach the first verdict |
+| 2–4 | Glasgow creator test: 10 nano creators, ~$1.5–2K; 3 Glasgow locals as Accent Leads on camera | 100K+ clip views; 5%+ of visitors share |
+| 3–6 | Performer pilot: 3–5 drama schools or coaches; Production Pass at $39–49 | 30+ paid passes; coach testimonials |
+| 6–8 | University pilot in Glasgow and Toronto (welcome-week codes) | 1,000 student plays; return rate in week 2 |
+| 8–12 | Toronto region launch event ("Torontonians rate your Toronto"); Pro subscription on the web | D7 retention ≥15%; 2%+ of actives on a paid plan |
+
+### 6.5 Pricing recommendation
+| Tier | Price | What's in it | Why |
+|---|---|---|---|
+| Free | $0 | All scripted scenes in one region; 3 AI conversations a week; share cards | Answers paywall anger; keeps AI cost low |
+| Party Pass | $2.99 a week, **no auto-renew** | Unlimited scripted play + 15 AI conversations, all regions, party mode | Impulse buy for fun players; Accentle charges $1.99 a day |
+| **Pro** | **$9.99/mo or $59.99/yr** | All regions; 30 AI conversations a month (fair use); progress history | Matches Praktika ($9.99) and sits under Duolingo ($12.99) and ELSA ($19.99) |
+| **Production Pass** | **$49 for 8 weeks** (PRD: $39) | Actor mode: script import, slow replay, minimal pairs, unlimited practice on one accent | Still under half of one coaching hour ($120+); competes with $9.99 static kits by adding scoring |
+| Schools | ~$40 per seat per year (ASSUMPTION) | Teacher dashboard | Drama-school licences; test in the pilot |
+
+Sell on the web first, through Stripe. That avoids app-store fees while the game is browser-only, and lets passes be one-off. When native apps launch, Apple's rules for auto-renewing subscriptions (3.1.2) apply.
+
+---
+
+## 7. Risks and mitigations
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| **Duolingo or Praktika copies "accents"** | Medium-High if accents trend | High | Move first with creators; own regional authenticity (Accent Leads, licensed local voices); characters and humour; partner with locals Duolingo can't easily sign |
+| **ChatGPT/Gemini voice "good enough" for free** | High for casual users | Medium | Offer what a chatbot doesn't: a game, progression, a shareable verdict, authentic recorded locals, an actor toolkit |
+| **AI cost per user eats the margin** | High at current prices | High | Free cap; caching; scripted lines; fair use on Pro; measure real cost per conversation weekly; cheaper speech-to-text options |
+| **Accent backlash ("mocking" a culture)** | Medium; highest for Indian, Singaporean, Caribbean and other non-white accents | High | Respect Charter as a product rule; local Accent Leads paid and credited; the player is the joke, never the locals; launch sensitive regions only with local co-creators; fast takedown and report flow |
+| **App-store and data rules** | Certain once apps launch | Medium | Apple 5.1.2(i) (Nov 2025) requires explicit permission before sharing personal data with third-party AI ([Apple](https://developer.apple.com/news/?id=ey6d8onl)), so ask before sending voice to ElevenLabs or Anthropic; Google Play AI content policy requires a way to report AI output ([Play](https://support.google.com/googleplay/android-developer/answer/14094294?hl=en)); privacy policy names suppliers and retention |
+| **Children's voice data (COPPA)** | Medium if under-13s play | High | Amended COPPA (effective June 2025) counts a child's voice recording as personal information ([eCFR](https://www.ecfr.gov/on/2025-06-23/title-16/chapter-I/subchapter-C/part-312)); declare 13+, add an age gate, stay out of Apple Kids and Play Families, delete audio right after scoring. A lawyer should review this (UK/EU children's rules NOT RESEARCHED) |
+| **Scoring is wrong or biased** | Medium | High (trust) | Validate against Accent Lead ratings before launch; describe the score as "how a local hears you"; let players appeal or replay |
+| **Mic friction kills the funnel** | High in browsers | High | Mic check, text fallback, clear permission copy, test on iOS Safari |
+| **An indie competitor gets traction first** (Accentify, Accentuate) | Medium | Medium | Ship the creator test within weeks; consider partnering or licensing with coaches |
+
+Policy notes with quotes: [`raw/lane-store-policy.md`](raw/lane-store-policy.md).
+
+---
+
+## 8. Decisions for the founder
+1. **Which segment pays first?** *Recommendation: performers*, with a Production Pass and a drama-school pilot. International students are second. Fun players are the free audience and the growth engine.
+2. **Which region after Glasgow?** *Recommendation: Toronto.* It is the home market, has many international students (691K study-permit holders in Canada, though falling), and low backlash risk. Mumbai or Singapore come only after Local Accent Leads are signed and the Respect Charter process is proven.
+3. **Web or app stores first?** *Recommendation: web first, with Stripe passes.* Zero install suits TikTok traffic, and there are no store fees or review delays. Build native apps once week-4 retention is proven.
+4. **Pricing?** *Recommendation:* the table in 6.5. Keep the PRD's $9.99/$59.99 for Pro but add an AI fair-use cap. Raise the Production Pass to $49. Make passes non-renewing.
+5. **How much free AI?** *Recommendation: 3 AI conversations a week*, with scripted and cached content for the rest. Review this monthly against measured cost.
+6. **Age floor?** *Recommendation: 13+, declared, with an age gate.* Stay out of Apple Kids and Google Play Families. Delete voice right after scoring. Get a privacy lawyer's review before the native app launch.
+7. **Business-to-business?** *Recommendation: drama schools yes* (small pilots now). *Call centres no*: they need neutral, not regional, accents, and Krisp-style software is replacing that training.
+8. **How to describe the score?** *Recommendation: "how a local hears you"*, with spoken, specific feedback. Never "accent accuracy %", and never "correct" versus "wrong" accent.
+9. **Accent Lead model?** *Recommendation:* pay locals per recorded set plus a revenue share in their region, and credit them in the game. This is both the ethics and the moat.
+10. **Respond to Accentify?** *Recommendation: watch it, and consider a partnership.* Their human coaches and our game loop complement each other. Don't compete on lessons.
+
+---
+
+## Appendix A: What is complete, what is weak
+
+**Complete:**
+- market sizing with method;
+- 60+ products across 5 groups (direct-app and big-app store data from 15 Nov 2026);
+- review mining (469 reviews, 9 apps);
+- positioning maps, SWOT, GTM plan, pricing, risks and decisions.
+
+**Weak or unverified (don't quote these without checking):**
+- All analyst market sizes and our TAM/SAM/SOM, which are ASSUMPTION-driven.
+- Revenue figures for ELSA, Babbel and Speak (conflicting or estimated).
+- Accentify's ~270 payers (self-reported).
+- TikTok view totals (blocked by a login wall).
+- Creator rates and CPI (agency and aggregator figures).
+- Busuu and Memrise prices (third-party price checks).
+- Mimic Party details.
+
+**Not researched:**
+- Liftoff and AppsFlyer CPI reports.
+- Instagram Reels creator rates.
+- Toronto and Singapore creators.
+- UK and EU children's data rules.
+- Glasgow-specific dialect-coach prices.
+- Review mining for Talkpal, Busuu and Accentify (too few reviews).
+
+**Product walkthrough:** done in a VM browser. The mic did not work there, so we could not complete a voice turn, and we did not check console errors.
+
+## Appendix B: Files
+- [`sources.md`](sources.md): every source, with URL, title, access date and what it supports.
+- [`data/`](data/): competitor tables (direct, big apps, gap-fill, games and AI, master), pricing tables, review mining, market sizes, GTM benchmarks.
+- [`raw/`](raw/): each research lane's full notes and source lists.
+- [`img/`](img/): product walkthrough screenshots, plus store screenshots of competitors (`img/stores/`, `img/direct/`).
