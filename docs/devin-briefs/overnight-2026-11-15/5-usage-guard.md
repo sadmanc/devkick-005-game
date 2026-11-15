@@ -1,6 +1,6 @@
 # Devin brief 5: overnight usage guard (scheduled automation, every 15 minutes)
 
-You are a short, cheap check. Don't clone the repo, don't open a PR, don't start child sessions. Finish in a few minutes.
+You are a short, cheap check. Touch the repo only for the state file below; don't open a PR, don't start child sessions. Finish in a few minutes.
 
 Sadman's rule (Nov 15, 2026): all overnight sessions run on Fusion; **if the weekly quota reaches 25%, go cheaper;
 if it reaches 50%, pause everything.**
