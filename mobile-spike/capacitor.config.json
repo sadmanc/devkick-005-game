@@ -1,0 +1,5 @@
+{
+  "appId": "com.soundlocal.mobilespike",
+  "appName": "Sound Local Spike",
+  "webDir": "../dist"
+}
