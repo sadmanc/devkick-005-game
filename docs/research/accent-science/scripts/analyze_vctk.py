@@ -224,6 +224,12 @@ save(fig, '12-embedding-map-tsne.png', SRC + ' One dot = one utterance; circle =
 fig, ax = plt.subplots(figsize=(11, 4.8))
 wb = {}
 chosen = [n for n in sets if 'Sex' not in n]
+
+
+def short(n):
+    return n.replace(' (self-supervised)', '').replace('Pitch + rhythm + vowels + R', 'Pitch+rhythm+\nvowels+R').replace(' (', '\n(')
+
+
 for i, name in enumerate(chosen):
     X = StandardScaler().fit_transform(sets[name])
     S = pd.DataFrame(X).groupby(groups).mean()
@@ -236,9 +242,9 @@ for i, name in enumerate(chosen):
                boxprops=dict(facecolor='#56B4E9'), medianprops=dict(color='k'))
     wb[name] = dict(within=round(float(np.median(d[same])), 3), between=round(float(np.median(d[~same])), 3),
                     auc=round(float(roc_auc_score(~same, D[iu])), 3))
-ax.set_xticks([i * 3 + .5 for i in range(len(chosen))], [f'{n}\nAUC {wb[n]["auc"]:.2f}' for n in chosen], fontsize=7)
-ax.set(ylabel='distance between two speakers (relative)', title='Same-accent pairs (left box) vs different-accent pairs (right box). AUC 0.5 = no separation, 1 = perfect')
-save(fig, '13-within-vs-between-accent.png', SRC + ' Speaker averages over 24 sentences.')
+ax.set_xticks([i * 3 + .5 for i in range(len(chosen))], [short(n) + f'\nAUC {wb[n]["auc"]:.2f}' for n in chosen], fontsize=7)
+ax.set(ylabel='distance between two speakers (relative)', title='Speaker distance: same-accent pairs (left box) vs different-accent pairs (right box)\nAUC 0.5 = no separation, 1 = perfect')
+save(fig, '13-within-vs-between-accent.png', SRC + ' Speaker averages over 12-24 sentences.')
 out['within_between_speaker_distance'] = wb
 (RESULTS / 'vctk_results.json').write_text(json.dumps(out, indent=1, default=float))
 f.to_csv(RESULTS / 'vctk_utterance_features.csv', index=False, float_format='%.4f',

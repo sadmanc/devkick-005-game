@@ -25,6 +25,7 @@ DATA = Path('/home/ubuntu/accent-data')
 RESULTS = Path(__file__).resolve().parent.parent / 'results'
 RNG = np.random.default_rng(0)
 CONDITIONS = ['telephone 300-3400 Hz', 'Opus 12 kbit/s', 'babble noise 10 dB', 'room reverb']
+SHORT = ['telephone\n300-3400 Hz', 'Opus\n12 kbit/s', 'babble\nnoise 10 dB', 'room\nreverb']
 
 
 def telephone(y):
@@ -134,22 +135,22 @@ if __name__ == '__main__':
         rows[cond] = r
     feats = [k for k in rows[CONDITIONS[0]] if 'r' in rows[CONDITIONS[0]][k]]
     m = np.array([[rows[c][f]['r'] for c in CONDITIONS] for f in feats])
-    fig, axes = plt.subplots(1, 2, figsize=(15, 5.2), gridspec_kw=dict(width_ratios=[1.4, 1]))
+    fig, axes = plt.subplots(1, 2, figsize=(15, 5.6), gridspec_kw=dict(width_ratios=[1.3, 1], wspace=.55))
     axes[0].imshow(m, cmap='RdYlGn', vmin=0, vmax=1)
     for i in range(len(feats)):
         for j in range(len(CONDITIONS)):
             ch = rows[CONDITIONS[j]][feats[i]]['median_abs_change_pct']
             axes[0].text(j, i, f'r={m[i, j]:.2f}\n({ch:.0f}% shift)', ha='center', va='center', fontsize=8)
-    axes[0].set_xticks(range(len(CONDITIONS)), CONDITIONS, fontsize=8)
+    axes[0].set_xticks(range(len(CONDITIONS)), SHORT, fontsize=8)
     axes[0].set_yticks(range(len(feats)), feats, fontsize=8)
-    axes[0].set_title('Does the measurement survive the channel? (r = correlation with the studio value)', fontsize=10)
+    axes[0].set_title('Does the measurement survive the channel?\n(r = correlation with the studio value; % = median change)', fontsize=10)
     scores = [rows[c]['game melody+rhythm score vs own clean take']['mean_score'] for c in CONDITIONS]
-    axes[1].barh(CONDITIONS, scores, color='#0072B2')
+    axes[1].barh(SHORT, scores, color='#0072B2')
     for i, s in enumerate(scores):
         axes[1].text(s + .01, i, f'{s:.2f}', va='center', fontsize=9)
     axes[1].set_xlim(0, 1.1); axes[1].invert_yaxis()
-    axes[1].set_xlabel('current game score: degraded copy vs the same clean recording (1 = identical)')
-    axes[1].set_title('Current Sound Local score on the SAME take after the channel', fontsize=10)
+    axes[1].set_xlabel('score vs same clean take (1 = identical)')
+    axes[1].set_title('Current Sound Local score:\nsame take, before vs after the channel', fontsize=10)
     save(fig, '15-phone-robustness.png',
          f'Data: VCTK (CC BY 4.0), {len(results)} recordings (sentences 2-6, all speakers). Simulated channels; same alignment for clean and degraded.')
     RESULTS.mkdir(exist_ok=True)

@@ -1,0 +1,288 @@
+{
+ "speakers_per_accent": {
+  "Scottish": 14,
+  "Canadian": 8,
+  "American": 14,
+  "Indian": 3,
+  "English": 13
+ },
+ "women_per_accent": {
+  "Scottish": 5,
+  "Canadian": 5,
+  "American": 11,
+  "Indian": 1,
+  "English": 8
+ },
+ "utterances_per_accent": {
+  "American": 335,
+  "Scottish": 321,
+  "English": 306,
+  "Canadian": 186,
+  "Indian": 72
+ },
+ "foot_goose_f2_gap_by_accent": {
+  "American": {
+   "mean": 0.77,
+   "std": 0.28,
+   "count": 14
+  },
+  "Canadian": {
+   "mean": 0.77,
+   "std": 0.16,
+   "count": 8
+  },
+  "English": {
+   "mean": 1.23,
+   "std": 0.38,
+   "count": 13
+  },
+  "Indian": {
+   "mean": 0.24,
+   "std": 0.56,
+   "count": 3
+  },
+  "Scottish": {
+   "mean": 0.79,
+   "std": 0.44,
+   "count": 14
+  }
+ },
+ "bath_minus_trap_f2_by_accent": {
+  "American": {
+   "mean": -0.31,
+   "std": 0.23,
+   "count": 14
+  },
+  "Canadian": {
+   "mean": -0.39,
+   "std": 0.26,
+   "count": 8
+  },
+  "English": {
+   "mean": -0.78,
+   "std": 0.42,
+   "count": 13
+  },
+  "Indian": {
+   "mean": -0.59,
+   "std": 0.44,
+   "count": 3
+  },
+  "Scottish": {
+   "mean": -0.22,
+   "std": 0.27,
+   "count": 14
+  }
+ },
+ "bath_tokens": 101,
+ "rhythm_means_by_accent": {
+  "American": {
+   "percent_v": 42.06,
+   "delta_c": 61.81,
+   "npvi_v": 56.84,
+   "rpvi_c": 66.28,
+   "varco_v": 55.75,
+   "rate": 4.66
+  },
+  "Canadian": {
+   "percent_v": 40.54,
+   "delta_c": 58.58,
+   "npvi_v": 54.31,
+   "rpvi_c": 62.86,
+   "varco_v": 54.09,
+   "rate": 4.87
+  },
+  "English": {
+   "percent_v": 39.61,
+   "delta_c": 58.26,
+   "npvi_v": 57.6,
+   "rpvi_c": 63.1,
+   "varco_v": 57.2,
+   "rate": 4.98
+  },
+  "Indian": {
+   "percent_v": 41.9,
+   "delta_c": 62.03,
+   "npvi_v": 58.98,
+   "rpvi_c": 68.43,
+   "varco_v": 54.29,
+   "rate": 4.71
+  },
+  "Scottish": {
+   "percent_v": 38.21,
+   "delta_c": 61.21,
+   "npvi_v": 54.9,
+   "rpvi_c": 66.11,
+   "varco_v": 53.92,
+   "rate": 4.85
+  }
+ },
+ "pitch_range_st_by_accent": {
+  "American": {
+   "mean": 11.3,
+   "std": 3.42
+  },
+  "Canadian": {
+   "mean": 11.89,
+   "std": 4.22
+  },
+  "English": {
+   "mean": 10.33,
+   "std": 2.8
+  },
+  "Indian": {
+   "mean": 10.66,
+   "std": 2.99
+  },
+  "Scottish": {
+   "mean": 9.51,
+   "std": 4.25
+  }
+ },
+ "rhotic_f3_by_accent_sex": {
+  "American": {
+   "F": 1974.0,
+   "M": 1758.0
+  },
+  "Canadian": {
+   "F": 1990.0,
+   "M": 1845.0
+  },
+  "English": {
+   "F": 2648.0,
+   "M": 2477.0
+  },
+  "Indian": {
+   "F": 2154.0,
+   "M": 1947.0
+  },
+  "Scottish": {
+   "F": 1988.0,
+   "M": 1987.0
+  }
+ },
+ "balanced_accuracy_leave_one_speaker_out": {
+  "Sex only (confound check)": 0.157,
+  "Pitch range/variability": 0.181,
+  "Rhythm metrics": 0.238,
+  "Rhoticity (F3)": 0.313,
+  "Vowel formants (Lobanov)": 0.515,
+  "Pitch + rhythm + vowels + R": 0.516,
+  "MFCC means": 0.322,
+  "wavlm layer 7 (self-supervised)": 0.643,
+  "wav2vec2 layer 6 (self-supervised)": 0.61
+ },
+ "ssl_layer_accuracy": {
+  "wavlm": [
+   0.336,
+   0.364,
+   0.393,
+   0.404,
+   0.431,
+   0.555,
+   0.6,
+   0.643,
+   0.635,
+   0.636,
+   0.622,
+   0.619,
+   0.607
+  ],
+  "wav2vec2": [
+   0.351,
+   0.404,
+   0.422,
+   0.415,
+   0.458,
+   0.572,
+   0.61,
+   0.596,
+   0.597,
+   0.6,
+   0.545,
+   0.506,
+   0.471
+  ]
+ },
+ "best_feature_set": "wavlm layer 7 (self-supervised)",
+ "best_speaker_level_vote_accuracy": 0.712,
+ "confusion_best": {
+  "Scottish": {
+   "Scottish": 0.9,
+   "Canadian": 0.02,
+   "American": 0.03,
+   "Indian": 0.0,
+   "English": 0.05
+  },
+  "Canadian": {
+   "Scottish": 0.02,
+   "Canadian": 0.2,
+   "American": 0.75,
+   "Indian": 0.03,
+   "English": 0.0
+  },
+  "American": {
+   "Scottish": 0.03,
+   "Canadian": 0.38,
+   "American": 0.59,
+   "Indian": 0.01,
+   "English": 0.0
+  },
+  "Indian": {
+   "Scottish": 0.06,
+   "Canadian": 0.29,
+   "American": 0.07,
+   "Indian": 0.57,
+   "English": 0.01
+  },
+  "English": {
+   "Scottish": 0.02,
+   "Canadian": 0.0,
+   "American": 0.0,
+   "Indian": 0.02,
+   "English": 0.95
+  }
+ },
+ "within_between_speaker_distance": {
+  "Pitch range/variability": {
+   "within": 1.019,
+   "between": 0.99,
+   "auc": 0.494
+  },
+  "Rhythm metrics": {
+   "within": 0.936,
+   "between": 1.014,
+   "auc": 0.55
+  },
+  "Rhoticity (F3)": {
+   "within": 0.476,
+   "between": 1.296,
+   "auc": 0.771
+  },
+  "Vowel formants (Lobanov)": {
+   "within": 0.702,
+   "between": 1.06,
+   "auc": 0.819
+  },
+  "Pitch + rhythm + vowels + R": {
+   "within": 0.761,
+   "between": 1.068,
+   "auc": 0.8
+  },
+  "MFCC means": {
+   "within": 0.95,
+   "between": 1.015,
+   "auc": 0.572
+  },
+  "wavlm layer 7 (self-supervised)": {
+   "within": 0.875,
+   "between": 1.034,
+   "auc": 0.738
+  },
+  "wav2vec2 layer 6 (self-supervised)": {
+   "within": 0.892,
+   "between": 1.029,
+   "auc": 0.726
+  }
+ }
+}
