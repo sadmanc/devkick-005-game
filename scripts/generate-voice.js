@@ -21,7 +21,7 @@ function loadEnv() {
   }
 }
 
-async function tts({ prompt }, { voiceId, modelId }, key) {
+async function tts({ prompt, voiceId }, { modelId }, key) {
   const res = await fetch(`${API}/${voiceId}?output_format=mp3_44100_128`, {
     method: 'POST',
     headers: { 'xi-api-key': key, 'content-type': 'application/json' },
@@ -37,9 +37,11 @@ async function main() {
   const dry = flags.includes('--dry');
   const place = JSON.parse(readFileSync(resolve(root, `src/content/${placeId}.json`), 'utf8'));
   const config = JSON.parse(readFileSync(resolve(root, 'scripts/voice-config.json'), 'utf8'))[placeId];
+  const castFile = resolve(root, 'src/content/cast.json');
+  const cast = placeId === 'scotland' && existsSync(castFile) ? JSON.parse(readFileSync(castFile, 'utf8')) : {};
   if (!config?.voiceId) throw new Error(`No voiceId for "${placeId}" in scripts/voice-config.json`);
 
-  const jobs = buildJobs(place, config).filter((j) => force || !existsSync(resolve(root, 'public', j.audio)));
+  const jobs = buildJobs(place, config, cast).filter((j) => force || !existsSync(resolve(root, 'public', j.audio)));
   if (dry) return jobs.forEach((j) => console.log(`${j.audio}  <-  ${j.prompt}`));
 
   loadEnv();

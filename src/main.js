@@ -392,14 +392,11 @@ async function startChat(id = npc.id) {
     lastOtterLine = place.character.intro;
     showSuggestions(OPENING_SUGGESTIONS.otter);
   } else {
-    // a fresh greeting in their own voice every time; the written one if the server is slow or down
-    $('bubble-text').textContent = '…';
-    $('bubble').classList.add('show');
-    setTalk(false, `${npc.short} is sizing ye up...`);
-    const hello = await askOtter(chat, { npc: npc.id, opening: true }, { timeoutMs: 12000 }).catch(() => null);
-    lastOtterLine = hello ? lineFrom(hello) : { text: npc.greeting, audio: null };
-    if (hello) chat = { ...chat, history: [{ who: 'otter', text: hello.reply }] };
-    showSuggestions(hello?.suggestions?.length ? hello.suggestions : OPENING_SUGGESTIONS[npc.id]);
+    // The authored greeting and its pre-generated mp3 (browser voice until it exists): no AI call before
+    // the player's first answer.
+    lastOtterLine = { text: npc.greeting, audio: npc.greetingAudio ?? null };
+    chat = { ...chat, history: [{ who: 'otter', text: npc.greeting }] };
+    showSuggestions(OPENING_SUGGESTIONS[npc.id]);
   }
   await otterSays(lastOtterLine, 'suspicious');
   readyToTalk();
@@ -435,6 +432,11 @@ async function chatTurn(blob) {
   const { value: answer, error } = await pending;
   if (error) {
     console.warn('[chat] /api/otter failed:', error.message);
+    // 429: this player is going too fast (or the day's AI turns are spent); a kind line, not an error
+    if (error.status === 429) {
+      await otterSays({ text: "Haud on, pal, ye've worn me oot! Gie it a wee minute and come back later." }, 'ok');
+      return readyToTalk('Too many turns for now. Come back in a minute.');
+    }
     await otterSays({ text: 'Sorry pal, couldnae hear ye ower the rain. Say that again?' }, 'ok');
     return readyToTalk('');
   }

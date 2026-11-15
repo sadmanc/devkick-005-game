@@ -31,4 +31,17 @@ describe('voice line jobs', () => {
       expect(existsSync(`public/${level.celebration.audio}`)).toBe(true);
     }
   });
+
+  it('voices the Glasgow NPC greetings in their own voices (no AI call for hello)', async () => {
+    const cast = (await import('../src/content/cast.json')).default;
+    const jobs = buildJobs({ character: {}, test: [] }, voiceConfig.scotland, cast);
+    expect(jobs.map((j) => [j.audio, j.voiceId])).toEqual([
+      ['assets/audio/scotland/greeting-senga.mp3', voiceConfig.scotland.characters.senga.voiceId],
+      ['assets/audio/scotland/greeting-hamish.mp3', voiceConfig.scotland.characters.hamish.voiceId],
+    ]);
+  });
+
+  it('says every placement line in the Glasgow voice', () => {
+    expect(new Set(buildJobs(scotland, voiceConfig.scotland).map((j) => j.voiceId))).toEqual(new Set([voiceConfig.scotland.voiceId]));
+  });
 });

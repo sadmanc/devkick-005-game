@@ -34,6 +34,7 @@
     "goal": "Order your chips like a real Glaswegian",
     "card": "assets/images/npcs/senga.webp",
     "greeting": "Right, whit're ye havin'? Hurry up, there's a queue!",
+    "greetingAudio": "assets/audio/scotland/greeting-senga.mp3",
     "win": "Senga slipped you a free pizza crunch!",
     "bust": "TOURIST! Senga nicked your chips."
   },
@@ -56,6 +57,7 @@
     "goal": "Get on the bus like a real Glaswegian",
     "card": "assets/images/npcs/hamish.webp",
     "greeting": "Where ye gaun, pal? Ah've no got all day.",
+    "greetingAudio": "assets/audio/scotland/greeting-hamish.mp3",
     "win": "\"On ye go, son.\" Big Hamish let you on!",
     "bust": "\"Next!\" Big Hamish shut the doors on you."
   }

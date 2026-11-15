@@ -10,11 +10,19 @@ export function collectLines(place) {
   return lines.filter((l) => l?.text && l?.audio);
 }
 
-// Adds the voice direction tag (if any) in front of the text.
-export function buildJobs(place, config) {
+// Adds the voice direction tag (if any) in front of the text. Cast greetings with a greetingAudio path
+// are said in that character's own voice (config.characters.<id>.voiceId), so hello needs no AI call.
+export function buildJobs(place, config, cast = {}) {
   const direction = config.direction ?? {};
-  return collectLines(place).map(({ text, audio }) => {
+  const job = (speaker) => ({ text, audio }) => {
     const tag = direction[audio.split('/').pop()];
-    return { audio, prompt: tag ? `${tag} ${text}` : text };
-  });
+    const voiceId = config.characters?.[speaker]?.voiceId ?? config.voiceId;
+    return { audio, prompt: tag ? `${tag} ${text}` : text, voiceId };
+  };
+  return [
+    ...collectLines(place).map(job(null)),
+    ...Object.values(cast)
+      .filter((c) => c.greeting && c.greetingAudio)
+      .map((c) => job(c.id)({ text: c.greeting, audio: c.greetingAudio })),
+  ];
 }

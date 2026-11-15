@@ -5,7 +5,7 @@ export const MOODS = ['good', 'ok', 'bad', 'suspicious'];
 export const ACTIONS = ['none', 'laugh', 'lean_in', 'cross_arms', 'point_down_street', 'wave_over_pal', 'turn_away'];
 
 export const OtterTurn = z.object({
-  reply: z.string().min(1).max(220),
+  reply: z.string().min(1).max(160),
   mood: z.enum(MOODS),
   action: z.enum(ACTIONS),
   trust_delta: z.number().int().min(-30).max(30),
