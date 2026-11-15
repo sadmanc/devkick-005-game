@@ -2,6 +2,7 @@
 
 Caches one (layers x 768) array per file under DATA/ssl/<model>/<corpus>/ (outside git).
 """
+import os
 import argparse
 import json
 from pathlib import Path
@@ -31,7 +32,7 @@ def files(data, corpus):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    p.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     p.add_argument('--model', choices=MODELS, default='wavlm')
     p.add_argument('--corpus', choices=['vctk', 'arctic'], default='vctk')
     p.add_argument('--threads', type=int, default=6)

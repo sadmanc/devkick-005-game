@@ -1,3 +1,4 @@
+import os
 import argparse
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
@@ -37,7 +38,7 @@ def one(job):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    p.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     p.add_argument('--workers', type=int, default=6)
     a = p.parse_args()
     meta = {}

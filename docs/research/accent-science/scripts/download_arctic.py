@@ -1,4 +1,5 @@
 """Download original ARCTIC archives; retain data outside the git repository."""
+import os
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
@@ -46,7 +47,7 @@ def download(root, speaker):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    parser.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     args = parser.parse_args()
     args.data.mkdir(parents=True, exist_ok=True)
     with ThreadPoolExecutor(max_workers=4) as pool:

@@ -1,4 +1,5 @@
 """Prepare 16 kHz VCTK WAV/TXT pairs for MFA (external working directory)."""
+import os
 import argparse
 from pathlib import Path
 import shutil
@@ -7,7 +8,7 @@ from features import load
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    p.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     a = p.parse_args()
     for txt in sorted((a.data / 'vctk/txt').glob('*/*.txt')):
         sid, uid = txt.parent.name, txt.stem

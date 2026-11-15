@@ -1,4 +1,5 @@
 """Shared chart style: Okabe-Ito colour-blind-safe palette, one colour per accent."""
+import os
 from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
@@ -7,7 +8,7 @@ import matplotlib.pyplot as plt
 HERE = Path(__file__).resolve().parent
 CHARTS = HERE.parent / 'charts'
 RESULTS = HERE.parent / 'results'
-DATA = Path('/home/ubuntu/accent-data')
+DATA = Path(os.environ.get('DATA', '/home/ubuntu/accent-data'))
 ACCENTS = ['Scottish', 'Canadian', 'American', 'Indian', 'English']
 LABEL = dict(Scottish='Scottish', Canadian='Canadian', American='American (US)',
              Indian='Indian English', English='Southern English')

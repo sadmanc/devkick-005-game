@@ -2,7 +2,7 @@
 
 The findings are in [REPORT.md](REPORT.md). This page explains how to rebuild every number and chart
 from the original recordings. No audio is stored in this repo: the scripts download it to a working
-folder outside git (default `/home/ubuntu/accent-data`; change with `--data` or `DATA=`).
+folder outside git (default `/home/ubuntu/accent-data`; set the `DATA` environment variable to use another folder, which every script and `--data` default respects).
 
 ## What is here
 

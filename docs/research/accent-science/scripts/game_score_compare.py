@@ -4,6 +4,7 @@ src/voice/pitch.js) give higher scores to same-accent pairs than to different-ac
 Every pair of speakers reading the identical sentence is scored, one as "player" and one as
 "reference". Writes charts/14-current-game-score.png and results/game_score_results.json.
 """
+import os
 import itertools
 import json
 import re
@@ -17,7 +18,7 @@ from game_score import contour, compare
 from download_arctic import SPEAKERS
 from style import COLOR, LABEL, save
 
-DATA = Path('/home/ubuntu/accent-data')
+DATA = Path(os.environ.get('DATA', '/home/ubuntu/accent-data'))
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE.parent / 'results'
 

@@ -1,3 +1,4 @@
+import os
 import argparse
 from concurrent.futures import ProcessPoolExecutor
 import json
@@ -23,7 +24,7 @@ def one(job):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    parser.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     parser.add_argument('--sentences', type=int, default=120)
     parser.add_argument('--workers', type=int, default=6)
     args = parser.parse_args()

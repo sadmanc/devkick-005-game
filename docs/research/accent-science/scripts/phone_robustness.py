@@ -6,6 +6,7 @@ cafe-like babble noise at 10 dB SNR, and a small reverberant room. Features are 
 on the degraded audio with the SAME forced-alignment boundaries, and compared to the clean
 values. Writes charts/15-phone-robustness.png and results/phone_robustness.json.
 """
+import os
 import json
 import subprocess
 import tempfile
@@ -21,7 +22,7 @@ from game_score import contour, compare
 from extract_vctk import read_tiers
 from style import save
 
-DATA = Path('/home/ubuntu/accent-data')
+DATA = Path(os.environ.get('DATA', '/home/ubuntu/accent-data'))
 RESULTS = Path(__file__).resolve().parent.parent / 'results'
 RNG = np.random.default_rng(0)
 CONDITIONS = ['telephone 300-3400 Hz', 'Opus 12 kbit/s', 'babble noise 10 dB', 'room reverb']

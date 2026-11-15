@@ -1,4 +1,5 @@
 """Range-download a declared VCTK subset from the official Edinburgh ZIP."""
+import os
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
@@ -42,7 +43,7 @@ def speaker(root, sid, n):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('--data', type=Path, default=Path('/home/ubuntu/accent-data'))
+    p.add_argument('--data', type=Path, default=Path(os.environ.get('DATA', '/home/ubuntu/accent-data')))
     p.add_argument('--sentences', type=int, default=24)
     args = p.parse_args()
     root = args.data / 'vctk'

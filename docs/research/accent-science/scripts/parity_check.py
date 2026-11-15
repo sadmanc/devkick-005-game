@@ -1,4 +1,5 @@
 """Check game_score.py against the real src/voice/pitch.js on real clips (needs node)."""
+import os
 import json
 import subprocess
 from pathlib import Path
@@ -6,7 +7,7 @@ import numpy as np
 from features import load
 from game_score import contour, compare, semitones, resample
 
-DATA = Path('/home/ubuntu/accent-data')
+DATA = Path(os.environ.get('DATA', '/home/ubuntu/accent-data'))
 REPO = Path(__file__).resolve().parents[4]
 pairs = [('awb', 'bdl', 'arctic_a0005'), ('ksp', 'jmk', 'arctic_a0012'), ('slt', 'rms', 'arctic_a0024')]
 for a, b, uid in pairs:
