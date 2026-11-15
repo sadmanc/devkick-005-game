@@ -9,7 +9,7 @@ import { addExpressions } from './expressions.js';
 const flat = (color) => new THREE.MeshStandardMaterial({ color, flatShading: true });
 
 // Stand-in: body, belly, head, muzzle, eyes and a hat in the character's colours.
-function standIn({ fur = '#7a5233', belly = '#d8b48a', hat = '#2f5aa8', bobble = '#d33b3b', beak = null, tail = null }) {
+function standIn({ fur = '#7a5233', belly = '#d8b48a', hat = '#2f5aa8', bobble = '#d33b3b', beak = null }) {
   const g = new THREE.Group();
   const dark = new THREE.MeshStandardMaterial({ color: '#1d1410' });
   const body = new THREE.Mesh(new THREE.CapsuleGeometry(0.45, 0.8, 6, 12), flat(fur));
@@ -34,19 +34,6 @@ function standIn({ fur = '#7a5233', belly = '#d8b48a', hat = '#2f5aa8', bobble =
   const pom = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 6), flat(bobble));
   pom.position.set(0, 2.36, 0);
   g.add(body, front, head, snout, eyeL, eyeR, cap, pom);
-  // optional tail fan (the peacock): a few flat feathers behind the body, each with an eye spot
-  if (tail) {
-    for (let k = 0; k < 7; k += 1) {
-      const a = (k - 3) * 0.32;
-      const feather = new THREE.Mesh(new THREE.CapsuleGeometry(0.13, 0.95, 2, 6), flat(k % 2 ? tail : fur));
-      feather.scale.z = 0.25;
-      feather.position.set(Math.sin(a) * 0.75, 1.15 + Math.cos(a) * 0.75, -0.42);
-      feather.rotation.z = -a;
-      const spot = new THREE.Mesh(new THREE.SphereGeometry(0.08, 8, 6), flat(bobble));
-      spot.position.set(Math.sin(a) * 1.25, 1.15 + Math.cos(a) * 1.25, -0.38);
-      g.add(feather, spot);
-    }
-  }
   return g;
 }
 

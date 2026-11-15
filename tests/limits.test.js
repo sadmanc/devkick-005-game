@@ -55,9 +55,13 @@ describe('daily AI turn cap', () => {
 });
 
 describe('clientIp', () => {
-  it('uses the first forwarded hop, then the socket', () => {
-    expect(clientIp({ headers: { 'x-forwarded-for': '9.9.9.9, 10.0.0.1' } })).toBe('9.9.9.9');
-    expect(clientIp({ headers: {}, socket: { remoteAddress: '127.0.0.1' } })).toBe('127.0.0.1');
+  it('behind a trusted proxy uses the first forwarded hop, then the socket', () => {
+    expect(clientIp({ headers: { 'x-forwarded-for': '9.9.9.9, 10.0.0.1' } }, true)).toBe('9.9.9.9');
+    expect(clientIp({ headers: {}, socket: { remoteAddress: '127.0.0.1' } }, true)).toBe('127.0.0.1');
+  });
+  it('ignores forwarded headers when there is no trusted proxy', () => {
+    const req = { headers: { 'x-forwarded-for': '1.2.3.4', 'x-real-ip': '5.6.7.8' }, socket: { remoteAddress: '127.0.0.1' } };
+    expect(clientIp(req)).toBe('127.0.0.1');
   });
 });
 
@@ -66,7 +70,7 @@ describe('API guards', async () => {
   const { vi } = await import('vitest');
   const call = async (ip, handler) => {
     const res = { headers: {}, setHeader(k, v) { this.headers[k] = v; }, end(b) { this.body = JSON.parse(b); } };
-    await nodeHandler({ method: 'POST', headers: { 'x-forwarded-for': ip }, body: {} }, res, {}, handler);
+    await nodeHandler({ method: 'POST', headers: { 'x-forwarded-for': ip }, body: {} }, res, { VERCEL: '1' }, handler);
     return res;
   };
   it('answers 429 with Retry-After once an IP goes over 20 a minute', async () => {
@@ -84,9 +88,16 @@ describe('API guards', async () => {
     const glasgow = await handleOtter({ said: 'aye', audio: 'AAAA', npc: 'senga', trust: 40, turn: 2 }, env);
     expect(glasgow).toMatchObject({ capped: true, trust: 40, delta: 0, turn: 2, outcome: 'continue', audio: null });
     expect(glasgow.reply).toMatch(/morra/);
-    const mumbai = await handleOtter({ said: 'haan', npc: 'mor', trust: 30, turn: 0 }, env);
-    expect(mumbai.reply).toMatch(/tomorrow/);
     expect(fetchSpy).not.toHaveBeenCalled();
     fetchSpy.mockRestore();
+  });
+  it('silent answers do not spend the daily AI budget', async () => {
+    const env = { MAX_AI_TURNS_PER_DAY: '1' };
+    for (let i = 0; i < 3; i += 1) expect((await handleOtter({ said: '', npc: 'senga' }, env)).notHeard).toBe(true);
+    const create = vi.fn(async () => ({ stop_reason: 'end_turn', content: [{ type: 'text', text: JSON.stringify({ reply: 'Aye, whit ye havin?', mood: 'ok', action: 'none', trust_delta: 0, sounded_local: false, hint: '', echo: '', suggestions: [] }) }] }));
+    const client = { beta: { messages: { create } } };
+    const res = await handleOtter({ said: 'a fish supper please', npc: 'senga' }, env, { client });
+    expect(res.capped).toBeUndefined();
+    expect(create).toHaveBeenCalledTimes(1);
   });
 });

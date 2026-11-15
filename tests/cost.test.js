@@ -32,7 +32,6 @@ describe('model routing', () => {
   it('sends simple turns to OTTER_MODEL_FAST and the rest to OTTER_MODEL', () => {
     const e = { OTTER_MODEL: 'big', OTTER_MODEL_FAST: 'small' };
     expect(modelFor({ opening: true }, e)).toBe('small');
-    expect(modelFor({ kind: 'quest', said: 'one two three four five six' }, e)).toBe('small');
     expect(modelFor({ said: 'aye pal' }, e)).toBe('small');
     expect(modelFor({ said: 'aye pal', echo: 'gaun yersel' }, e)).toBe('big');
     expect(modelFor({ said: 'ah go tae the chippy every friday night' }, e)).toBe('big');
@@ -75,8 +74,8 @@ describe('the model request', () => {
     expect(fetchSpy).not.toHaveBeenCalled();
     expect(glasgow).toMatchObject({ notHeard: true, trust: 50, turn: 3, audio: null });
     expect(glasgow.reply).toMatch(/couldnae hear/);
-    const mumbai = await handleOtter({ said: '', npc: 'mor' }, env, { client });
-    expect(mumbai.reply).toMatch(/couldn't hear/);
+    const retry = await handleOtter({ said: '', npc: 'otter', echo: 'pure dead brilliant', trust: 50, turn: 3 }, env, { client });
+    expect(retry.echo).toBe('pure dead brilliant');
     fetchSpy.mockRestore();
   });
 });
@@ -95,11 +94,21 @@ describe('TTS cache', () => {
   it('voices the same voice + text once', async () => {
     const voice = vi.fn(async (text, key, id) => `${id}:${text}`);
     const speak = cachedVoice(voice);
-    expect(await speak('Haan, chalo.', 'k', 'v1')).toBe('v1:Haan, chalo.');
-    await speak('Haan, chalo.', 'k', 'v1');
-    await speak('Haan, chalo.', 'k', 'v2');
+    expect(await speak('Aye, nae bother.', 'k', 'v1')).toBe('v1:Aye, nae bother.');
+    await speak('Aye, nae bother.', 'k', 'v1');
+    await speak('Aye, nae bother.', 'k', 'v2');
     expect(voice).toHaveBeenCalledTimes(2);
     expect(speak.stats).toEqual({ hits: 1, misses: 2 });
+  });
+  it('shares one vendor call between concurrent requests, and forgets failures', async () => {
+    const voice = vi.fn(async (text) => text);
+    const speak = cachedVoice(voice);
+    await Promise.all([speak('Aye.', 'k', 'v1'), speak('Aye.', 'k', 'v1')]);
+    expect(voice).toHaveBeenCalledTimes(1);
+    const flaky = vi.fn().mockRejectedValueOnce(new Error('503')).mockResolvedValue('ok');
+    const speak2 = cachedVoice(flaky);
+    await expect(speak2('Aye.', 'k', 'v1')).rejects.toThrow('503');
+    expect(await speak2('Aye.', 'k', 'v1')).toBe('ok');
   });
 });
 
@@ -153,15 +162,5 @@ describe('TTS_MODEL_LIVE', async () => {
   it('keeps audio tags for v3 and strips them for other models', () => {
     expect(ttsText('[laughs] Aye, pal.', 'eleven_v3')).toBe('[laughs] Aye, pal.');
     expect(ttsText('[laughs] Aye, pal.', 'eleven_flash_v2_5')).toBe('Aye, pal.');
-  });
-});
-
-describe('live reply voices', async () => {
-  const { voiceFor } = await import('../server/otter.js');
-  it('never gives a Mumbai character the Glaswegian otter voice', () => {
-    expect(voiceFor('mor')).toBe(null);
-    expect(voiceFor('mor', { VOICE_MOR: 'm1' })).toBe('m1');
-    expect(voiceFor('senga')).toBe('U8lGdXfIYVx0Nas6m5XL');
-    expect(voiceFor('otter')).toBe('9wOu10b6k3SOUgwDbKKv');
   });
 });
