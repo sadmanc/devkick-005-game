@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sound Local Spike</string>
+    <string name="title_activity_main">Sound Local Spike</string>
+    <string name="package_name">com.soundlocal.mobilespike</string>
+    <string name="custom_url_scheme">com.soundlocal.mobilespike</string>
+</resources>
