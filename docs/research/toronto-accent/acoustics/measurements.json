@@ -1,0 +1,2797 @@
+{
+ "about": "Reference recordings measured by measure.py. All are Speech Accent Archive readings of the same elicitation paragraph ('Please call Stella...'), George Mason University, CC BY-NC-SA 4.0 (https://accent.gmu.edu/download). Audio is downloaded to a temp dir outside the repo and deleted after measuring; only these references and the numbers are committed. Glasgow 'otter' lines are the game's own ElevenLabs lines (public/assets/audio/scotland).",
+ "clips": [
+  {
+   "group": "toronto",
+   "id": "english101",
+   "source": "https://accent.gmu.edu/samples/english101/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "french mandarin",
+    "age, sex": "18, female",
+    "english residence": "canada",
+    "length of english residence": "18 years"
+   },
+   "duration_s": 19.98,
+   "f0_mean_hz": 195.0,
+   "f0_sd_st": 2.92,
+   "f0_range_st_5_95": 8.77,
+   "speech_rate_syl_s": 3.4,
+   "articulation_rate_syl_s": 5.2,
+   "pause_count": 17,
+   "pause_mean_s": 0.365,
+   "pause_rate_per_min": 51.1,
+   "pct_v_proxy": 70.7,
+   "delta_c_proxy_ms": 53.6,
+   "npvi_v_proxy": 56.5,
+   "phrase_finals_st": [
+    -1.01,
+    -0.75,
+    3.97,
+    -3.28,
+    -3.08,
+    5.11,
+    3.7,
+    2.96,
+    -4.85,
+    -4.2,
+    -1.95
+   ],
+   "phrase_final_rise_pct": 36.4,
+   "phrase_final_fall_pct": 54.5,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.48,
+     "f1": 417,
+     "f2": 2304
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.74,
+     "f1": 713,
+     "f2": 1429
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.62,
+     "f1": 766,
+     "f2": 1836
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.24,
+     "f1": 533,
+     "f2": 2237
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.26,
+     "f1": 708,
+     "f2": 1817
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 6.58,
+     "f1": 807,
+     "f2": 1594
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.82,
+     "f1": 650,
+     "f2": 2034
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.12,
+     "f1": 693,
+     "f2": 1756
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.24,
+     "f1": 665,
+     "f2": 1962
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.18,
+     "f1": 489,
+     "f2": 1444
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.02,
+     "f1": 615,
+     "f2": 1139
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.42,
+     "f1": 567,
+     "f2": 1462
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 16.54,
+     "f1": 440,
+     "f2": 1592
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 16.76,
+     "f1": 562,
+     "f2": 709
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english132",
+   "source": "https://accent.gmu.edu/samples/english132/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "18, female",
+    "english residence": "canada",
+    "length of english residence": "18 years"
+   },
+   "duration_s": 21.93,
+   "f0_mean_hz": 225.5,
+   "f0_sd_st": 2.23,
+   "f0_range_st_5_95": 7.43,
+   "speech_rate_syl_s": 3.1,
+   "articulation_rate_syl_s": 4.14,
+   "pause_count": 10,
+   "pause_mean_s": 0.462,
+   "pause_rate_per_min": 27.4,
+   "pct_v_proxy": 68.8,
+   "delta_c_proxy_ms": 53.7,
+   "npvi_v_proxy": 42.7,
+   "phrase_finals_st": [
+    -2.25,
+    -1.35,
+    -2.05,
+    0.61,
+    -0.81,
+    -1.46,
+    -2.82,
+    -1.16,
+    -3.93,
+    -2.9,
+    -2.24
+   ],
+   "phrase_final_rise_pct": 0.0,
+   "phrase_final_fall_pct": 81.8,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.6,
+     "f1": 332,
+     "f2": 2658
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.96,
+     "f1": 718,
+     "f2": 1136
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 2.04,
+     "f1": 921,
+     "f2": 1836
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.98,
+     "f1": 486,
+     "f2": 1657
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.96,
+     "f1": 690,
+     "f2": 2069
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 8.2,
+     "f1": 975,
+     "f2": 1674
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.36,
+     "f1": 832,
+     "f2": 1899
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 11.2,
+     "f1": 538,
+     "f2": 1526
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 13.18,
+     "f1": 795,
+     "f2": 1087
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 14.7,
+     "f1": 658,
+     "f2": 1833
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 18.02,
+     "f1": 334,
+     "f2": 1755
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 18.24,
+     "f1": 621,
+     "f2": 1996
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english28",
+   "source": "https://accent.gmu.edu/samples/english28/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "french russian",
+    "age, sex": "54, male",
+    "english residence": "canada",
+    "length of english residence": "54 years"
+   },
+   "duration_s": 26.36,
+   "f0_mean_hz": 101.5,
+   "f0_sd_st": 1.81,
+   "f0_range_st_5_95": 5.23,
+   "speech_rate_syl_s": 2.39,
+   "articulation_rate_syl_s": 4.0,
+   "pause_count": 22,
+   "pause_mean_s": 0.408,
+   "pause_rate_per_min": 50.1,
+   "pct_v_proxy": 73.4,
+   "delta_c_proxy_ms": 64.5,
+   "npvi_v_proxy": 64.7,
+   "phrase_finals_st": [
+    -2.8,
+    2.2,
+    1.37,
+    0.57,
+    1.65,
+    0.32,
+    -0.47,
+    -0.36,
+    2.76,
+    -1.46,
+    -2.21,
+    0.35,
+    -0.31,
+    -1.1
+   ],
+   "phrase_final_rise_pct": 28.6,
+   "phrase_final_fall_pct": 28.6,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.66,
+     "f1": 286,
+     "f2": 2220
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.96,
+     "f1": 584,
+     "f2": 1141
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.94,
+     "f1": 631,
+     "f2": 1525
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 6.76,
+     "f1": 522,
+     "f2": 1490
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 8.64,
+     "f1": 632,
+     "f2": 1187
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 8.92,
+     "f1": 592,
+     "f2": 1649
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 9.78,
+     "f1": 615,
+     "f2": 1489
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 12.14,
+     "f1": 514,
+     "f2": 1644
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 13.48,
+     "f1": 272,
+     "f2": 1227
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 15.68,
+     "f1": 583,
+     "f2": 945
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 17.98,
+     "f1": 459,
+     "f2": 1028
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 21.96,
+     "f1": 306,
+     "f2": 2314
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 22.44,
+     "f1": 274,
+     "f2": 1557
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english301",
+   "source": "https://accent.gmu.edu/samples/english301/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "41, male",
+    "english residence": "canada",
+    "length of english residence": "41 years"
+   },
+   "duration_s": 20.26,
+   "f0_mean_hz": 134.6,
+   "f0_sd_st": 4.2,
+   "f0_range_st_5_95": 13.58,
+   "speech_rate_syl_s": 2.81,
+   "articulation_rate_syl_s": 3.4,
+   "pause_count": 8,
+   "pause_mean_s": 0.366,
+   "pause_rate_per_min": 23.7,
+   "pct_v_proxy": 64.3,
+   "delta_c_proxy_ms": 53.9,
+   "npvi_v_proxy": 64.8,
+   "phrase_finals_st": [
+    -8.55,
+    7.22,
+    -4.01,
+    0.12,
+    -0.76,
+    -1.5,
+    -0.91,
+    0.65
+   ],
+   "phrase_final_rise_pct": 12.5,
+   "phrase_final_fall_pct": 37.5,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.38,
+     "f1": 256,
+     "f2": 2187
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.72,
+     "f1": 553,
+     "f2": 885
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.7,
+     "f1": 811,
+     "f2": 1522
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.66,
+     "f1": 567,
+     "f2": 1476
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.14,
+     "f1": 499,
+     "f2": 1914
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.44,
+     "f1": 710,
+     "f2": 1484
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.28,
+     "f1": 350,
+     "f2": 1773
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.16,
+     "f1": 345,
+     "f2": 1403
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 11.9,
+     "f1": 515,
+     "f2": 808
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.4,
+     "f1": 535,
+     "f2": 1116
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 16.48,
+     "f1": 303,
+     "f2": 1446
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 16.66,
+     "f1": 277,
+     "f2": 1773
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english542",
+   "source": "https://accent.gmu.edu/samples/english542/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "french",
+    "age, sex": "60, male",
+    "english residence": "canada, usa",
+    "length of english residence": "55 years"
+   },
+   "duration_s": 18.53,
+   "f0_mean_hz": 99.9,
+   "f0_sd_st": 2.99,
+   "f0_range_st_5_95": 10.3,
+   "speech_rate_syl_s": 2.32,
+   "articulation_rate_syl_s": 4.24,
+   "pause_count": 16,
+   "pause_mean_s": 0.412,
+   "pause_rate_per_min": 51.8,
+   "pct_v_proxy": 50.8,
+   "delta_c_proxy_ms": 75.9,
+   "npvi_v_proxy": 62.8,
+   "phrase_finals_st": [
+    0.02,
+    -0.27,
+    -1.65,
+    -3.23,
+    -6.36,
+    -4.23,
+    0.76
+   ],
+   "phrase_final_rise_pct": 0.0,
+   "phrase_final_fall_pct": 57.1,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.46,
+     "f1": 313,
+     "f2": 2014
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.76,
+     "f1": 651,
+     "f2": 1025
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.34,
+     "f1": 684,
+     "f2": 1348
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 4.48,
+     "f1": 511,
+     "f2": 1557
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 5.86,
+     "f1": 629,
+     "f2": 1580
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.12,
+     "f1": 687,
+     "f2": 1384
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 7.84,
+     "f1": 672,
+     "f2": 1588
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 8.6,
+     "f1": 356,
+     "f2": 1354
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 10.34,
+     "f1": 685,
+     "f2": 1403
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 11.8,
+     "f1": 459,
+     "f2": 1401
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 14.98,
+     "f1": 357,
+     "f2": 1402
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 15.16,
+     "f1": 507,
+     "f2": 1651
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english574",
+   "source": "https://accent.gmu.edu/samples/english574/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "cantonese korean",
+    "age, sex": "26, female",
+    "english residence": "canada",
+    "length of english residence": "23 years"
+   },
+   "duration_s": 22.27,
+   "f0_mean_hz": 170.8,
+   "f0_sd_st": 2.8,
+   "f0_range_st_5_95": 9.01,
+   "speech_rate_syl_s": 2.87,
+   "articulation_rate_syl_s": 4.12,
+   "pause_count": 10,
+   "pause_mean_s": 0.55,
+   "pause_rate_per_min": 26.9,
+   "pct_v_proxy": 61.7,
+   "delta_c_proxy_ms": 54.0,
+   "npvi_v_proxy": 58.6,
+   "phrase_finals_st": [
+    -1.29,
+    0.19,
+    -2.67,
+    -1.11,
+    0.6,
+    5.28,
+    0.41,
+    -6.65
+   ],
+   "phrase_final_rise_pct": 12.5,
+   "phrase_final_fall_pct": 50.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.76,
+     "f1": 416,
+     "f2": 2449
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 1.02,
+     "f1": 719,
+     "f2": 1225
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.92,
+     "f1": 925,
+     "f2": 1634
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 5.14,
+     "f1": 437,
+     "f2": 2079
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.96,
+     "f1": 594,
+     "f2": 1689
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 7.48,
+     "f1": 1010,
+     "f2": 1518
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.7,
+     "f1": 804,
+     "f2": 1863
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.92,
+     "f1": 949,
+     "f2": 1575
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.14,
+     "f1": 785,
+     "f2": 1948
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.98,
+     "f1": 459,
+     "f2": 1718
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 13.0,
+     "f1": 976,
+     "f2": 1550
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 14.84,
+     "f1": 596,
+     "f2": 1239
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 18.28,
+     "f1": 382,
+     "f2": 1900
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 18.48,
+     "f1": 502,
+     "f2": 2043
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english61",
+   "source": "https://accent.gmu.edu/samples/english61/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "19, male",
+    "english residence": "canada",
+    "length of english residence": "19 years"
+   },
+   "duration_s": 19.12,
+   "f0_mean_hz": 153.9,
+   "f0_sd_st": 3.01,
+   "f0_range_st_5_95": 9.14,
+   "speech_rate_syl_s": 3.09,
+   "articulation_rate_syl_s": 4.08,
+   "pause_count": 12,
+   "pause_mean_s": 0.301,
+   "pause_rate_per_min": 37.6,
+   "pct_v_proxy": 63.3,
+   "delta_c_proxy_ms": 50.8,
+   "npvi_v_proxy": 61.7,
+   "phrase_finals_st": [
+    -3.55,
+    -0.48,
+    3.59,
+    4.49,
+    -2.48,
+    -1.01,
+    2.2,
+    -0.44,
+    -1.2,
+    -2.66
+   ],
+   "phrase_final_rise_pct": 30.0,
+   "phrase_final_fall_pct": 50.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.6,
+     "f1": 317,
+     "f2": 2576
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.88,
+     "f1": 565,
+     "f2": 1000
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.5,
+     "f1": 809,
+     "f2": 1738
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.04,
+     "f1": 391,
+     "f2": 1878
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 4.68,
+     "f1": 559,
+     "f2": 1380
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 5.86,
+     "f1": 789,
+     "f2": 1400
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.16,
+     "f1": 693,
+     "f2": 1639
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.38,
+     "f1": 697,
+     "f2": 1542
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 8.36,
+     "f1": 530,
+     "f2": 1815
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 9.08,
+     "f1": 424,
+     "f2": 1641
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 10.72,
+     "f1": 768,
+     "f2": 1806
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 12.74,
+     "f1": 473,
+     "f2": 1153
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 15.4,
+     "f1": 328,
+     "f2": 1373
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 15.58,
+     "f1": 459,
+     "f2": 1876
+    }
+   ]
+  },
+  {
+   "group": "toronto",
+   "id": "english647",
+   "source": "https://accent.gmu.edu/samples/english647/",
+   "speaker": {
+    "birth place": "toronto, ontario, canada",
+    "native language": "english",
+    "other language(s)": "french",
+    "age, sex": "70, male",
+    "english residence": "canada",
+    "length of english residence": "70 years"
+   },
+   "duration_s": 35.11,
+   "f0_mean_hz": 133.9,
+   "f0_sd_st": 3.55,
+   "f0_range_st_5_95": 11.22,
+   "speech_rate_syl_s": 2.25,
+   "articulation_rate_syl_s": 3.55,
+   "pause_count": 21,
+   "pause_mean_s": 0.459,
+   "pause_rate_per_min": 35.9,
+   "pct_v_proxy": 72.4,
+   "delta_c_proxy_ms": 90.7,
+   "npvi_v_proxy": 62.7,
+   "phrase_finals_st": [
+    -5.36,
+    -1.72,
+    1.71,
+    4.96,
+    0.51,
+    -3.46,
+    2.46,
+    1.15,
+    -2.15,
+    3.81,
+    9.1,
+    7.98,
+    5.29,
+    3.79,
+    4.27,
+    6.32,
+    -9.09
+   ],
+   "phrase_final_rise_pct": 64.7,
+   "phrase_final_fall_pct": 29.4,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 1.92,
+     "f1": 352,
+     "f2": 2074
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 2.3,
+     "f1": 593,
+     "f2": 942
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 3.88,
+     "f1": 742,
+     "f2": 1533
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 9.44,
+     "f1": 527,
+     "f2": 1431
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 11.84,
+     "f1": 495,
+     "f2": 1772
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 12.3,
+     "f1": 729,
+     "f2": 1387
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 15.5,
+     "f1": 619,
+     "f2": 1402
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 16.7,
+     "f1": 470,
+     "f2": 1276
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 19.58,
+     "f1": 541,
+     "f2": 888
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 22.66,
+     "f1": 463,
+     "f2": 1461
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 28.32,
+     "f1": 329,
+     "f2": 1880
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 28.62,
+     "f1": 505,
+     "f2": 1634
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english59",
+   "source": "https://accent.gmu.edu/samples/english59/",
+   "speaker": {
+    "birth place": "columbus, ohio, usa",
+    "native language": "english",
+    "other language(s)": "greek german",
+    "age, sex": "30, male",
+    "english residence": "usa",
+    "length of english residence": "30 years"
+   },
+   "duration_s": 18.01,
+   "f0_mean_hz": 117.8,
+   "f0_sd_st": 2.6,
+   "f0_range_st_5_95": 8.3,
+   "speech_rate_syl_s": 3.33,
+   "articulation_rate_syl_s": 4.96,
+   "pause_count": 13,
+   "pause_mean_s": 0.336,
+   "pause_rate_per_min": 43.3,
+   "pct_v_proxy": 62.2,
+   "delta_c_proxy_ms": 58.9,
+   "npvi_v_proxy": 44.5,
+   "phrase_finals_st": [
+    -6.63,
+    -1.44,
+    2.56,
+    -0.57,
+    -3.89,
+    1.81,
+    -2.33,
+    -0.32
+   ],
+   "phrase_final_rise_pct": 25.0,
+   "phrase_final_fall_pct": 50.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.78,
+     "f1": 350,
+     "f2": 1941
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 1.06,
+     "f1": 667,
+     "f2": 916
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 2.06,
+     "f1": 740,
+     "f2": 1446
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 4.84,
+     "f1": 589,
+     "f2": 1524
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.04,
+     "f1": 674,
+     "f2": 1518
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.24,
+     "f1": 669,
+     "f2": 1326
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 8.04,
+     "f1": 575,
+     "f2": 1571
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 8.9,
+     "f1": 630,
+     "f2": 1079
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 10.5,
+     "f1": 649,
+     "f2": 1311
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.74,
+     "f1": 649,
+     "f2": 1370
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 11.78,
+     "f1": 495,
+     "f2": 977
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 14.74,
+     "f1": 441,
+     "f2": 1465
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 14.9,
+     "f1": 549,
+     "f2": 1644
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english10",
+   "source": "https://accent.gmu.edu/samples/english10/",
+   "speaker": {
+    "birth place": "davenport, iowa, usa",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "35, female",
+    "english residence": "usa",
+    "length of english residence": "35 years"
+   },
+   "duration_s": 21.57,
+   "f0_mean_hz": 163.3,
+   "f0_sd_st": 2.25,
+   "f0_range_st_5_95": 5.8,
+   "speech_rate_syl_s": 2.32,
+   "articulation_rate_syl_s": 3.49,
+   "pause_count": 19,
+   "pause_mean_s": 0.321,
+   "pause_rate_per_min": 52.8,
+   "pct_v_proxy": 59.6,
+   "delta_c_proxy_ms": 106.0,
+   "npvi_v_proxy": 61.7,
+   "phrase_finals_st": [
+    -4.41,
+    -0.38,
+    -0.35,
+    -0.06,
+    0.19,
+    -0.07,
+    0.49,
+    -1.91,
+    0.05
+   ],
+   "phrase_final_rise_pct": 0.0,
+   "phrase_final_fall_pct": 22.2,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.68,
+     "f1": 385,
+     "f2": 2259
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.96,
+     "f1": 676,
+     "f2": 1279
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.7,
+     "f1": 781,
+     "f2": 1900
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.66,
+     "f1": 668,
+     "f2": 1679
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 7.06,
+     "f1": 920,
+     "f2": 1527
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.18,
+     "f1": 957,
+     "f2": 1715
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.52,
+     "f1": 784,
+     "f2": 1803
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.38,
+     "f1": 729,
+     "f2": 1999
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.22,
+     "f1": 504,
+     "f2": 1719
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.14,
+     "f1": 788,
+     "f2": 1729
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.58,
+     "f1": 512,
+     "f2": 1453
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 16.82,
+     "f1": 380,
+     "f2": 1499
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 17.04,
+     "f1": 694,
+     "f2": 1996
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english187",
+   "source": "https://accent.gmu.edu/samples/english187/",
+   "speaker": {
+    "birth place": "algona, iowa, usa",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "42, female",
+    "english residence": "usa",
+    "length of english residence": "42 years"
+   },
+   "duration_s": 21.12,
+   "f0_mean_hz": 196.4,
+   "f0_sd_st": 4.22,
+   "f0_range_st_5_95": 13.65,
+   "speech_rate_syl_s": 3.31,
+   "articulation_rate_syl_s": 4.07,
+   "pause_count": 9,
+   "pause_mean_s": 0.314,
+   "pause_rate_per_min": 25.6,
+   "pct_v_proxy": 73.5,
+   "delta_c_proxy_ms": 49.1,
+   "npvi_v_proxy": 63.4,
+   "phrase_finals_st": [
+    -5.75,
+    -8.39,
+    2.79,
+    0.09,
+    -4.63,
+    -0.38,
+    -6.75,
+    -4.77,
+    -0.72
+   ],
+   "phrase_final_rise_pct": 11.1,
+   "phrase_final_fall_pct": 55.6,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.68,
+     "f1": 328,
+     "f2": 2584
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 1.0,
+     "f1": 629,
+     "f2": 1051
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.9,
+     "f1": 921,
+     "f2": 1670
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.86,
+     "f1": 505,
+     "f2": 1931
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.58,
+     "f1": 602,
+     "f2": 1581
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 6.84,
+     "f1": 782,
+     "f2": 1254
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.08,
+     "f1": 656,
+     "f2": 1789
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.34,
+     "f1": 780,
+     "f2": 1642
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.14,
+     "f1": 737,
+     "f2": 2013
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.12,
+     "f1": 568,
+     "f2": 1310
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.02,
+     "f1": 838,
+     "f2": 1581
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.68,
+     "f1": 504,
+     "f2": 1135
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 17.02,
+     "f1": 279,
+     "f2": 1142
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 17.26,
+     "f1": 246,
+     "f2": 1748
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english197",
+   "source": "https://accent.gmu.edu/samples/english197/",
+   "speaker": {
+    "birth place": "iowa city, iowa, usa",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "22, male",
+    "english residence": "usa",
+    "length of english residence": "22 years"
+   },
+   "duration_s": 21.77,
+   "f0_mean_hz": 157.0,
+   "f0_sd_st": 4.87,
+   "f0_range_st_5_95": 16.42,
+   "speech_rate_syl_s": 3.08,
+   "articulation_rate_syl_s": 4.48,
+   "pause_count": 12,
+   "pause_mean_s": 0.451,
+   "pause_rate_per_min": 33.1,
+   "pct_v_proxy": 73.4,
+   "delta_c_proxy_ms": 45.3,
+   "npvi_v_proxy": 62.2,
+   "phrase_finals_st": [
+    -7.5,
+    -9.05,
+    -1.96,
+    -13.09,
+    -6.03,
+    -0.44,
+    -4.51,
+    3.36,
+    -8.81,
+    -7.3,
+    -11.39
+   ],
+   "phrase_final_rise_pct": 9.1,
+   "phrase_final_fall_pct": 81.8,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.56,
+     "f1": 317,
+     "f2": 2187
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.86,
+     "f1": 611,
+     "f2": 934
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.88,
+     "f1": 584,
+     "f2": 1804
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.62,
+     "f1": 507,
+     "f2": 1508
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.42,
+     "f1": 417,
+     "f2": 1826
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.7,
+     "f1": 651,
+     "f2": 1523
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.62,
+     "f1": 573,
+     "f2": 1585
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.48,
+     "f1": 350,
+     "f2": 1613
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.5,
+     "f1": 593,
+     "f2": 1741
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.94,
+     "f1": 455,
+     "f2": 1544
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 17.32,
+     "f1": 380,
+     "f2": 1527
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 17.56,
+     "f1": 455,
+     "f2": 1730
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english492",
+   "source": "https://accent.gmu.edu/samples/english492/",
+   "speaker": {
+    "birth place": "omaha, nebraska, usa",
+    "native language": "english",
+    "other language(s)": "spanish german",
+    "age, sex": "22, female",
+    "english residence": "usa",
+    "length of english residence": "22 years"
+   },
+   "duration_s": 21.48,
+   "f0_mean_hz": 237.3,
+   "f0_sd_st": 5.03,
+   "f0_range_st_5_95": 20.42,
+   "speech_rate_syl_s": 3.07,
+   "articulation_rate_syl_s": 5.04,
+   "pause_count": 15,
+   "pause_mean_s": 0.471,
+   "pause_rate_per_min": 41.9,
+   "pct_v_proxy": 70.4,
+   "delta_c_proxy_ms": 37.6,
+   "npvi_v_proxy": 59.7,
+   "phrase_finals_st": [
+    5.69,
+    8.01,
+    -12.72,
+    1.81,
+    -12.34,
+    -1.04,
+    -3.05,
+    -1.61,
+    0.42,
+    -3.5,
+    -2.99,
+    -2.85
+   ],
+   "phrase_final_rise_pct": 25.0,
+   "phrase_final_fall_pct": 66.7,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.66,
+     "f1": 410,
+     "f2": 2415
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.92,
+     "f1": 790,
+     "f2": 1393
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.72,
+     "f1": 917,
+     "f2": 1872
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.3,
+     "f1": 733,
+     "f2": 1951
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.86,
+     "f1": 788,
+     "f2": 2043
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.14,
+     "f1": 926,
+     "f2": 1852
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.26,
+     "f1": 584,
+     "f2": 2320
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.38,
+     "f1": 833,
+     "f2": 1739
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 13.82,
+     "f1": 668,
+     "f2": 1645
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 17.68,
+     "f1": 498,
+     "f2": 1790
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 17.92,
+     "f1": 609,
+     "f2": 2106
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english104",
+   "source": "https://accent.gmu.edu/samples/english104/",
+   "speaker": {
+    "birth place": "youngstown, ohio, usa",
+    "native language": "english",
+    "other language(s)": "spanish",
+    "age, sex": "18, female",
+    "english residence": "usa",
+    "length of english residence": "18 years"
+   },
+   "duration_s": 19.55,
+   "f0_mean_hz": 218.1,
+   "f0_sd_st": 3.15,
+   "f0_range_st_5_95": 6.93,
+   "speech_rate_syl_s": 2.92,
+   "articulation_rate_syl_s": 3.91,
+   "pause_count": 10,
+   "pause_mean_s": 0.386,
+   "pause_rate_per_min": 30.7,
+   "pct_v_proxy": 69.3,
+   "delta_c_proxy_ms": 50.8,
+   "npvi_v_proxy": 55.2,
+   "phrase_finals_st": [
+    1.0,
+    -0.37,
+    -0.12,
+    0.18,
+    -0.16,
+    -2.35,
+    -0.37,
+    -2.4,
+    -9.49
+   ],
+   "phrase_final_rise_pct": 0.0,
+   "phrase_final_fall_pct": 33.3,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.66,
+     "f1": 455,
+     "f2": 2436
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.92,
+     "f1": 715,
+     "f2": 1272
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.86,
+     "f1": 932,
+     "f2": 1702
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 4.92,
+     "f1": 750,
+     "f2": 1846
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.6,
+     "f1": 733,
+     "f2": 2148
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.9,
+     "f1": 902,
+     "f2": 1696
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 8.48,
+     "f1": 817,
+     "f2": 2008
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 9.34,
+     "f1": 520,
+     "f2": 1654
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 11.2,
+     "f1": 903,
+     "f2": 1076
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 12.7,
+     "f1": 541,
+     "f2": 1601
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 15.58,
+     "f1": 411,
+     "f2": 1401
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 15.78,
+     "f1": 683,
+     "f2": 1829
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english118",
+   "source": "https://accent.gmu.edu/samples/english118/",
+   "speaker": {
+    "birth place": "akron, ohio, usa",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "19, male",
+    "english residence": "usa",
+    "length of english residence": "17 years"
+   },
+   "duration_s": 19.38,
+   "f0_mean_hz": 108.9,
+   "f0_sd_st": 2.08,
+   "f0_range_st_5_95": 7.18,
+   "speech_rate_syl_s": 2.68,
+   "articulation_rate_syl_s": 3.96,
+   "pause_count": 14,
+   "pause_mean_s": 0.36,
+   "pause_rate_per_min": 43.3,
+   "pct_v_proxy": 67.5,
+   "delta_c_proxy_ms": 65.3,
+   "npvi_v_proxy": 53.1,
+   "phrase_finals_st": [
+    -3.41,
+    -0.46,
+    -2.32,
+    1.87,
+    -1.28,
+    -0.76,
+    -0.54,
+    -1.83
+   ],
+   "phrase_final_rise_pct": 12.5,
+   "phrase_final_fall_pct": 50.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.7,
+     "f1": 278,
+     "f2": 2389
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.94,
+     "f1": 604,
+     "f2": 1067
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.94,
+     "f1": 704,
+     "f2": 1437
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.8,
+     "f1": 527,
+     "f2": 1766
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.34,
+     "f1": 569,
+     "f2": 1344
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 6.3,
+     "f1": 685,
+     "f2": 1174
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.44,
+     "f1": 654,
+     "f2": 1332
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.68,
+     "f1": 663,
+     "f2": 1339
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 8.28,
+     "f1": 526,
+     "f2": 1837
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 9.08,
+     "f1": 209,
+     "f2": 1456
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 11.06,
+     "f1": 650,
+     "f2": 1405
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 15.8,
+     "f1": 337,
+     "f2": 1184
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 16.02,
+     "f1": 536,
+     "f2": 1609
+    }
+   ]
+  },
+  {
+   "group": "general_american",
+   "id": "english126",
+   "source": "https://accent.gmu.edu/samples/english126/",
+   "speaker": {
+    "birth place": "cincinnati, ohio, usa",
+    "native language": "english",
+    "other language(s)": "spanish",
+    "age, sex": "34, female",
+    "english residence": "usa",
+    "length of english residence": "34 years"
+   },
+   "duration_s": 18.98,
+   "f0_mean_hz": 215.8,
+   "f0_sd_st": 4.64,
+   "f0_range_st_5_95": 14.95,
+   "speech_rate_syl_s": 3.06,
+   "articulation_rate_syl_s": 3.93,
+   "pause_count": 10,
+   "pause_mean_s": 0.332,
+   "pause_rate_per_min": 31.6,
+   "pct_v_proxy": 69.8,
+   "delta_c_proxy_ms": 50.9,
+   "npvi_v_proxy": 64.9,
+   "phrase_finals_st": [
+    -9.18,
+    -3.06,
+    -3.51,
+    4.02,
+    -5.1,
+    -5.01,
+    0.12,
+    -0.11,
+    -10.53,
+    -1.75
+   ],
+   "phrase_final_rise_pct": 10.0,
+   "phrase_final_fall_pct": 70.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.74,
+     "f1": 403,
+     "f2": 2454
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 1.0,
+     "f1": 850,
+     "f2": 1427
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.72,
+     "f1": 1058,
+     "f2": 1853
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.12,
+     "f1": 749,
+     "f2": 1687
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.54,
+     "f1": 777,
+     "f2": 1924
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 6.78,
+     "f1": 943,
+     "f2": 1841
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 8.78,
+     "f1": 868,
+     "f2": 2022
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 9.6,
+     "f1": 549,
+     "f2": 1578
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 11.38,
+     "f1": 795,
+     "f2": 1075
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 12.72,
+     "f1": 610,
+     "f2": 1402
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 15.76,
+     "f1": 444,
+     "f2": 1574
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 15.96,
+     "f1": 681,
+     "f2": 2015
+    }
+   ]
+  },
+  {
+   "group": "glasgow",
+   "id": "english228",
+   "source": "https://accent.gmu.edu/samples/english228/",
+   "speaker": {
+    "birth place": "glasgow, scotland, uk",
+    "native language": "english",
+    "other language(s)": "french german krio",
+    "age, sex": "59, female",
+    "english residence": "scotland, usa, sierra leone",
+    "length of english residence": "59 years"
+   },
+   "duration_s": 26.6,
+   "f0_mean_hz": 197.6,
+   "f0_sd_st": 3.26,
+   "f0_range_st_5_95": 10.46,
+   "speech_rate_syl_s": 2.97,
+   "articulation_rate_syl_s": 3.85,
+   "pause_count": 13,
+   "pause_mean_s": 0.412,
+   "pause_rate_per_min": 29.3,
+   "pct_v_proxy": 65.1,
+   "delta_c_proxy_ms": 59.6,
+   "npvi_v_proxy": 67.5,
+   "phrase_finals_st": [
+    -4.59,
+    -2.6,
+    -0.9,
+    -1.28,
+    1.17,
+    -2.67,
+    -2.01,
+    -1.76,
+    0.36,
+    -2.81,
+    -1.3,
+    -7.56
+   ],
+   "phrase_final_rise_pct": 8.3,
+   "phrase_final_fall_pct": 75.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.84,
+     "f1": 351,
+     "f2": 2254
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 1.1,
+     "f1": 666,
+     "f2": 1261
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.84,
+     "f1": 696,
+     "f2": 1365
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.82,
+     "f1": 505,
+     "f2": 2027
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.64,
+     "f1": 633,
+     "f2": 1789
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 7.82,
+     "f1": 808,
+     "f2": 1443
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 8.2,
+     "f1": 641,
+     "f2": 1655
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 8.58,
+     "f1": 772,
+     "f2": 1543
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.94,
+     "f1": 718,
+     "f2": 1793
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 11.96,
+     "f1": 525,
+     "f2": 1643
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 14.1,
+     "f1": 680,
+     "f2": 1061
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 16.46,
+     "f1": 584,
+     "f2": 1370
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 20.16,
+     "f1": 388,
+     "f2": 2380
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 20.54,
+     "f1": 671,
+     "f2": 1998
+    }
+   ]
+  },
+  {
+   "group": "glasgow",
+   "id": "english24",
+   "source": "https://accent.gmu.edu/samples/english24/",
+   "speaker": {
+    "birth place": "glasgow, scotland, uk",
+    "native language": "english",
+    "other language(s)": "french",
+    "age, sex": "37, male",
+    "english residence": "uk,usa",
+    "length of english residence": "37 years"
+   },
+   "duration_s": 21.19,
+   "f0_mean_hz": 116.8,
+   "f0_sd_st": 2.66,
+   "f0_range_st_5_95": 8.44,
+   "speech_rate_syl_s": 2.78,
+   "articulation_rate_syl_s": 4.43,
+   "pause_count": 16,
+   "pause_mean_s": 0.419,
+   "pause_rate_per_min": 45.3,
+   "pct_v_proxy": 63.3,
+   "delta_c_proxy_ms": 52.9,
+   "npvi_v_proxy": 57.2,
+   "phrase_finals_st": [
+    1.41,
+    -0.97,
+    1.95,
+    -0.7,
+    -1.39,
+    0.68,
+    0.54,
+    -2.3,
+    -5.08,
+    2.16,
+    -2.01,
+    -2.99,
+    -1.38
+   ],
+   "phrase_final_rise_pct": 23.1,
+   "phrase_final_fall_pct": 46.2,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.54,
+     "f1": 418,
+     "f2": 1074
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.76,
+     "f1": 407,
+     "f2": 1006
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.5,
+     "f1": 861,
+     "f2": 1381
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.06,
+     "f1": 444,
+     "f2": 1551
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 6.9,
+     "f1": 341,
+     "f2": 1740
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.14,
+     "f1": 635,
+     "f2": 1284
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 9.2,
+     "f1": 720,
+     "f2": 1397
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 10.14,
+     "f1": 366,
+     "f2": 1016
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 12.16,
+     "f1": 386,
+     "f2": 665
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 17.12,
+     "f1": 264,
+     "f2": 1546
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 17.32,
+     "f1": 430,
+     "f2": 1641
+    }
+   ]
+  },
+  {
+   "group": "glasgow",
+   "id": "english440",
+   "source": "https://accent.gmu.edu/samples/english440/",
+   "speaker": {
+    "birth place": "glasgow, scotland, uk",
+    "native language": "english",
+    "other language(s)": "spanish",
+    "age, sex": "22, female",
+    "english residence": "scotland",
+    "length of english residence": "22 years"
+   },
+   "duration_s": 23.21,
+   "f0_mean_hz": 223.0,
+   "f0_sd_st": 3.44,
+   "f0_range_st_5_95": 9.7,
+   "speech_rate_syl_s": 3.02,
+   "articulation_rate_syl_s": 5.01,
+   "pause_count": 17,
+   "pause_mean_s": 0.4,
+   "pause_rate_per_min": 43.9,
+   "pct_v_proxy": 65.5,
+   "delta_c_proxy_ms": 58.2,
+   "npvi_v_proxy": 59.7,
+   "phrase_finals_st": [
+    -1.35,
+    -2.48,
+    -2.03,
+    -0.24,
+    2.68,
+    -3.26,
+    -1.91,
+    -0.09,
+    -1.0,
+    -7.6,
+    -4.28,
+    -2.54
+   ],
+   "phrase_final_rise_pct": 8.3,
+   "phrase_final_fall_pct": 75.0,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 1.56,
+     "f1": 366,
+     "f2": 2197
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 3.16,
+     "f1": 892,
+     "f2": 1433
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 8.8,
+     "f1": 999,
+     "f2": 1858
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 9.02,
+     "f1": 746,
+     "f2": 1605
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 9.3,
+     "f1": 876,
+     "f2": 1628
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 11.44,
+     "f1": 764,
+     "f2": 1728
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 12.4,
+     "f1": 546,
+     "f2": 1820
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 14.42,
+     "f1": 736,
+     "f2": 1116
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 16.06,
+     "f1": 563,
+     "f2": 1740
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 19.36,
+     "f1": 677,
+     "f2": 2324
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 19.54,
+     "f1": 532,
+     "f2": 1329
+    }
+   ]
+  },
+  {
+   "group": "glasgow",
+   "id": "english620",
+   "source": "https://accent.gmu.edu/samples/english620/",
+   "speaker": {
+    "birth place": "glasgow, scotland, uk",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "55, male",
+    "english residence": "uk, usa",
+    "length of english residence": "55 years"
+   },
+   "duration_s": 23.96,
+   "f0_mean_hz": 130.7,
+   "f0_sd_st": 3.3,
+   "f0_range_st_5_95": 11.02,
+   "speech_rate_syl_s": 2.88,
+   "articulation_rate_syl_s": 3.71,
+   "pause_count": 8,
+   "pause_mean_s": 0.445,
+   "pause_rate_per_min": 20.0,
+   "pct_v_proxy": 74.1,
+   "delta_c_proxy_ms": 52.1,
+   "npvi_v_proxy": 56.5,
+   "phrase_finals_st": [
+    0.35,
+    0.94,
+    -1.18,
+    -4.09,
+    3.18,
+    2.21,
+    -1.55,
+    -0.71,
+    -2.73
+   ],
+   "phrase_final_rise_pct": 22.2,
+   "phrase_final_fall_pct": 44.4,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.66,
+     "f1": 362,
+     "f2": 2248
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.94,
+     "f1": 556,
+     "f2": 965
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.88,
+     "f1": 675,
+     "f2": 1395
+    },
+    {
+     "word": "six",
+     "set": "KIT",
+     "t": 4.82,
+     "f1": 495,
+     "f2": 1680
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.7,
+     "f1": 466,
+     "f2": 1774
+    },
+    {
+     "word": "five",
+     "set": "PRICE (voiced, unraised)",
+     "t": 7.18,
+     "f1": 644,
+     "f2": 1188
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.34,
+     "f1": 364,
+     "f2": 1908
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.64,
+     "f1": 679,
+     "f2": 1197
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.2,
+     "f1": 550,
+     "f2": 1594
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 11.12,
+     "f1": 449,
+     "f2": 1154
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 13.2,
+     "f1": 634,
+     "f2": 1446
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 14.74,
+     "f1": 453,
+     "f2": 1374
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 18.54,
+     "f1": 405,
+     "f2": 1670
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 18.84,
+     "f1": 429,
+     "f2": 1956
+    }
+   ]
+  },
+  {
+   "group": "glasgow",
+   "id": "english80",
+   "source": "https://accent.gmu.edu/samples/english80/",
+   "speaker": {
+    "birth place": "glasgow, scotland, uk",
+    "native language": "english",
+    "other language(s)": "none",
+    "age, sex": "34, male",
+    "english residence": "uk, canada",
+    "length of english residence": "34 years"
+   },
+   "duration_s": 22.42,
+   "f0_mean_hz": 130.9,
+   "f0_sd_st": 3.1,
+   "f0_range_st_5_95": 9.86,
+   "speech_rate_syl_s": 2.9,
+   "articulation_rate_syl_s": 4.6,
+   "pause_count": 18,
+   "pause_mean_s": 0.414,
+   "pause_rate_per_min": 48.2,
+   "pct_v_proxy": 53.5,
+   "delta_c_proxy_ms": 64.3,
+   "npvi_v_proxy": 49.5,
+   "phrase_finals_st": [
+    -5.74,
+    -1.28,
+    0.35,
+    -0.26,
+    -1.98,
+    -4.7,
+    -2.54,
+    0.64,
+    1.18,
+    -6.27,
+    -7.27,
+    -1.46
+   ],
+   "phrase_final_rise_pct": 8.3,
+   "phrase_final_fall_pct": 66.7,
+   "vowels": [
+    {
+     "word": "call",
+     "set": "THOUGHT",
+     "t": 0.36,
+     "f1": 315,
+     "f2": 2283
+    },
+    {
+     "word": "stella",
+     "set": "DRESS",
+     "t": 0.64,
+     "f1": 560,
+     "f2": 1129
+    },
+    {
+     "word": "ask",
+     "set": "TRAP",
+     "t": 1.58,
+     "f1": 816,
+     "f2": 1512
+    },
+    {
+     "word": "fresh",
+     "set": "DRESS",
+     "t": 5.38,
+     "f1": 518,
+     "f2": 1641
+    },
+    {
+     "word": "thick",
+     "set": "KIT",
+     "t": 7.2,
+     "f1": 368,
+     "f2": 2193
+    },
+    {
+     "word": "slabs",
+     "set": "TRAP",
+     "t": 7.46,
+     "f1": 833,
+     "f2": 1318
+    },
+    {
+     "word": "snack",
+     "set": "TRAP",
+     "t": 10.08,
+     "f1": 733,
+     "f2": 1050
+    },
+    {
+     "word": "bob",
+     "set": "LOT",
+     "t": 11.26,
+     "f1": 447,
+     "f2": 1232
+    },
+    {
+     "word": "plastic",
+     "set": "TRAP",
+     "t": 13.48,
+     "f1": 606,
+     "f2": 790
+    },
+    {
+     "word": "frog",
+     "set": "LOT/THOUGHT",
+     "t": 15.06,
+     "f1": 527,
+     "f2": 1086
+    },
+    {
+     "word": "red",
+     "set": "DRESS",
+     "t": 18.7,
+     "f1": 366,
+     "f2": 1505
+    },
+    {
+     "word": "bags",
+     "set": "TRAP-before-g",
+     "t": 18.9,
+     "f1": 758,
+     "f2": 1656
+    }
+   ]
+  },
+  {
+   "group": "glasgow_otter",
+   "id": "otter",
+   "source": "public/assets/audio/scotland/*.mp3",
+   "speaker": {
+    "note": "game ElevenLabs lines, 22 files concatenated"
+   },
+   "duration_s": 66.3,
+   "f0_mean_hz": 178.2,
+   "f0_sd_st": 6.18,
+   "f0_range_st_5_95": 19.91,
+   "speech_rate_syl_s": 2.61,
+   "articulation_rate_syl_s": 4.01,
+   "pause_count": 48,
+   "pause_mean_s": 0.459,
+   "pause_rate_per_min": 43.4,
+   "pct_v_proxy": 76.2,
+   "delta_c_proxy_ms": 136.3,
+   "npvi_v_proxy": 75.1,
+   "phrase_finals_st": [
+    4.83,
+    3.34,
+    -3.82,
+    -4.08,
+    2.59,
+    -5.59,
+    0.32,
+    -4.77,
+    2.56,
+    -3.68,
+    -2.05,
+    -7.45,
+    -1.55,
+    2.75,
+    -4.96,
+    -9.58,
+    -0.37,
+    -1.54,
+    -1.0,
+    0.25,
+    -4.01,
+    -3.01,
+    -2.59,
+    -7.66,
+    -1.43,
+    -4.67,
+    -6.01,
+    2.87,
+    9.9,
+    3.13,
+    -3.69,
+    -3.81,
+    -0.9,
+    -6.5,
+    -7.33,
+    -4.8,
+    -2.89,
+    -4.09,
+    -12.98,
+    -9.03,
+    0.53
+   ],
+   "phrase_final_rise_pct": 19.5,
+   "phrase_final_fall_pct": 68.3,
+   "vowels": []
+  }
+ ]
+}
