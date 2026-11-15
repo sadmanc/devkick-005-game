@@ -1,0 +1,24 @@
+metric,value,unit,region,year,source_url,accessed,strength,notes
+iOS CPI (all apps),1.5–3.5,USD per install,Global,2025,https://www.businessofapps.com/ads/cpi/research/cost-per-install/,2026-11-15,MEDIUM,Business of Apps aggregate; not specific to education
+Android CPI (all apps),1.5–4.00,USD per install,Global,2025,https://www.businessofapps.com/ads/cpi/research/cost-per-install/,2026-11-15,MEDIUM,
+Mobile CPM range,0.78–7.00,"USD per 1,000 impressions",Global,2025,https://www.businessofapps.com/ads/cpi/research/cost-per-install/,2026-11-15,WEAK,Very wide range
+Education app CPI,2.91,USD per install,US (likely Apple Search Ads),2026,https://apprevs.com/benchmarks/education/,2026-11-15,WEAK,Methodology unclear; ranked #7 cheapest of 15 categories
+Education cost per tap,1.52,USD,US,2026,https://apprevs.com/benchmarks/education/,2026-11-15,WEAK,Tap-to-install rate 56.4%
+Education payer rate,3.1,% of installs,Global,2026,https://apprevs.com/benchmarks/education/,2026-11-15,WEAK,
+Education LTV per payer (year 1),22.82,USD,Global,2026,https://apprevs.com/benchmarks/education/,2026-11-15,WEAK,
+Education revenue per install,0.30,USD,Global,2026,https://apprevs.com/benchmarks/education/,2026-11-15,WEAK,$0.38 North America vs $0.08 India/SEA
+Average education subscription,8.13 per month / 56.09 per year,USD,Global,2026,https://www.businessofapps.com/data/education-app-benchmarks/,2026-11-15,MEDIUM,Close to the PRD's $59.99/yr assumption
+TikTok CPM (ecommerce),4.08,USD,US,2025,https://www.triplewhale.com/blog/tiktok-benchmarks,2026-11-15,MEDIUM,"Down 28.5% YoY; Meta median $15.06. Ecommerce data, not apps"
+TikTok CPM peak,11.09,USD,US,2024 (March),https://www.rightsideup.com/blog/tiktok-cpm-trends,2026-11-15,MEDIUM,Down 22.2% YoY in Q1 2025
+"TikTok creator rate, nano",50–200,USD per video,US,2025,https://awisee.com/blog/tiktok-influencer-rates/,2026-11-15,WEAK,Agency blog
+"TikTok creator rate, 5K–25K followers",350–850,USD per video,US,2025,https://blavityinc.com/how-much-do-influencers-charge-per-post/,2026-11-15,WEAK,Publisher survey
+"TikTok creator rate, macro","5,000+",USD per post,US,2025,https://awisee.com/blog/tiktok-influencer-rates/,2026-11-15,WEAK,
+"TikTok creator rate, celebrity","50,000+",USD per post,US,2025,https://awisee.com/blog/tiktok-influencer-rates/,2026-11-15,WEAK,
+Reels/Instagram creator rates by tier,UNVERIFIED,USD,,,https://impact.com/influencer/how-much-do-influencers-charge-per-post/,2026-11-15,UNVERIFIED,Tier table not extracted; page only confirms Instagram costs more than TikTok
+BoldVoice early creator payment,~200,USD for one YouTube video,US,~2022,https://www.pmf.show/blog/boldvoice-anada-lakra-consumer-app-10m-arr,2026-11-15,MEDIUM,Founder interview; that video 'unlocked' paid growth
+Praktika ARR jump after one creator video,1M to 12M,USD ARR within a month,Global,2026,https://www.revenuecat.com/blog/,2026-11-15,MEDIUM,Company-reported via RevenueCat; came after 10 months of outreach
+ELSA creator commission,10,% commission plus free Pro,Global,2026,https://elsaspeak.com/en/creators/,2026-11-15,STRONG,Official page
+BoldVoice paid UA budget,six figures,"USD per month (Meta, Google, TikTok, ASA)",US,2026,https://www.ycombinator.com/companies/boldvoice/jobs,2026-11-15,MEDIUM,From a job post
+Duolingo share of users from word of mouth,~80,%,Global,2023,https://www.adexchanger.com,2026-11-15,MEDIUM,AdExchanger 2023
+Duolingo TikTok followers,17M,followers,Global,2026,https://www.businessinsider.com,2026-11-15,MEDIUM,BI 2026-04-22: organic reach falling; moving to a paid 'creator army'
+Duolingo DAU,64.9M,daily active users,Global,Q3 2026,https://investors.duolingo.com,2026-11-15,STRONG,+29% YoY
