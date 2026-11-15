@@ -63,8 +63,23 @@ for metadata, captions and transcripts. Go slow and human-paced; stop on any cap
 to get around it. Try logged out first. If the secrets `IG_RESEARCH_USERNAME` / `IG_RESEARCH_PASSWORD`
 or `TIKTOK_RESEARCH_USERNAME` / `TIKTOK_RESEARCH_PASSWORD` exist, you may sign in with them (they are a
 throwaway research account); if a platform needs a login and there is no secret, note it in the PR and move on.
-**Don't commit any downloaded video or audio.** You may download audio to a temp folder to measure pitch
-and rhythm (same idea as `src/voice/` scoring) and write the numbers into STUDY.md, then delete it.
+**Use every clip as an acoustic reference (Sadman's ask).** Accents differ in measurable ways, so don't
+just describe the clips: measure them. Download the audio of every usable clip to a temp folder (outside the
+repo), cut the speech of Toronto speakers, and measure with Python (Praat via `parselmouth`, `librosa`, or a
+forced aligner such as Montreal Forced Aligner / `whisperx` for word timings):
+- pitch (F0): mean, range, contour shape at phrase ends (rises, falls, uptalk);
+- vowels: F1/F2 formants for the key vowels (Canadian raising in "about/house/right" vs "loud/ride",
+  the Canadian Shift vowels in "bit/bet/bat", cot-caught) plotted as vowel charts;
+- rhythm and timing: speech rate, nPVI / %V / deltaC rhythm metrics, pause lengths;
+- anything else that separates Toronto speech (e.g. t-flapping and "Trawna" t-dropping, MTE features).
+Compare the numbers with a General American reference and with the Glasgow otter's lines in
+`public/` (same measurements), and commit the **numbers, scripts and charts** (PNG/SVG) under
+`docs/research/toronto-accent/acoustics/`, with which clip and timestamp each number came from. Then use what
+you found: tell the lessons what to listen for, and if the measurements are clear enough, give the accent
+score per-region targets for Toronto (pitch contour, rhythm, key vowels) the way the otter's clip is the
+target for Glasgow. **Never commit or ship the downloaded audio or video, and never clone a voice from it:**
+it is reference data only. Delete the temp audio when done. Session 4 (accent science) is researching the
+general method tonight on branch `sadman/accent-science`; you don't need to wait for it.
 
 ### M2. Toronto region pack (content)
 
@@ -113,7 +128,8 @@ Answer this properly in `docs/research/toronto-accent/voice-plan.md`, then do th
    record a consenting Torontonian (a team member or friend) and what script they'd read.
 4. Also say whether v3's audio tags or a pronunciation dictionary (for "Trawna", "eh", slang) help.
 
-If the secret `ELEVENLABS_API_KEY` exists: run the voice designs (up to **6** designs) and generate the
+Sadman is adding Devin secrets tonight: check for them again when you reach this milestone, not only at the
+start. If the secret `ELEVENLABS_API_KEY` exists: run the voice designs (up to **6** designs) and generate the
 authored lines (greetings, lesson lines, reactions; up to ~20,000 characters), log every one in
 `assets/manifest.json` with the exact prompt, and wire them in. If it doesn't exist: write the generation
 script so a human can run it in one command, and use the existing fallback voice path; say so in the PR.

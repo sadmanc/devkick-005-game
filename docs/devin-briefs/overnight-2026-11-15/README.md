@@ -1,12 +1,14 @@
 # Overnight Devin run, Nov 15, 2026 (Sadman)
 
-Three Devin sessions run in parallel tonight, each with its own brief in this folder:
+Four Devin sessions run in parallel tonight, each with its own brief in this folder:
 
 | Session | Brief | Branch it pushes | What it hands back |
 | --- | --- | --- | --- |
 | 1. Toronto unit | [1-toronto-unit.md](1-toronto-unit.md) | `sadman/toronto-unit` | A playable Toronto region (lesson roadmap + talk-to-the-locals playground) and a Toronto accent study, as a PR |
 | 2. Mobile app feasibility | [2-mobile-feasibility.md](2-mobile-feasibility.md) | `sadman/mobile-feasibility` | `docs/research/mobile-app/FEASIBILITY.md` (+ an Android proof build if it works), as a PR |
 | 3. Market and competitors | [3-market-analysis.md](3-market-analysis.md) | `sadman/market-analysis` | `docs/research/market/REPORT.md`, as a PR |
+| 4. Accent science | [4-accent-science.md](4-accent-science.md) | `sadman/accent-science` | `docs/research/accent-science/REPORT.md` with charts made from real data, as a PR |
+
 
 ## Where things stand (read this first, every session)
 
@@ -24,7 +26,7 @@ Three Devin sessions run in parallel tonight, each with its own brief in this fo
   and every NPC concept picture in `art/npcs/`.
 - **The live game:** https://sound-local.vercel.app (Glasgow).
 
-## Rules for all three sessions
+## Rules for all four sessions
 
 1. **Start from `sadman/overnight-context`.** Create your own branch (table above). Never push to `main`,
    never force-push, never merge a PR, never touch another session's branch or files. Open one PR into
