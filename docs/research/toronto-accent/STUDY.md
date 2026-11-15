@@ -91,7 +91,7 @@ anything about crime) are explained in this study but **not taught as jokes** in
 - **Unit 2, "Talk like the 6ix"** (4 lessons): mans and mandem; ahlie, styll and bare; wagwan, say less and fam;
   and the street rhythm (TH-stopping in *ting*, *dem*). Each comes with its meaning, where it comes from and when it
   fits. Every lesson says the joke is on the tourist.
-- **"Prove You're From the 6ix"**: the end-of-unit test, 7 lines from both units.
+- **"Prove You're From the 6ix"**: the end-of-unit test, 6 lines from both units.
 - **Scoring**: the in-browser matcher accepts common spellings and mishearings (Trawna/Tronna/Tranna,
   ahlie/allie/ah lie), see `src/game/torontoWords.js`. Vowel-quality scoring (raising, the Canadian Shift) is
   beyond the current matcher, so lessons teach those sounds through tips and listening rather than scores.
