@@ -1,0 +1,413 @@
+{
+  "id": "streetcar",
+  "name": "Next stop, Spadina",
+  "review": "pending native review",
+  "wording": "scripted",
+  "character": {
+    "id": "gus",
+    "name": "Gus"
+  },
+  "intro": "Gus's red streetcar, rush hour. Get on, ask if it goes to Spadina, find your stop at Yonge and say thanks as you leave by the back doors. Don't sound like a tourist.",
+  "mood": 40,
+  "leaveAt": 10,
+  "winAt": 60,
+  "noLocal": -4,
+  "localMax": 8,
+  "miss": -5,
+  "localWords": [
+    "eh",
+    "sorry",
+    "streetcar",
+    "the ttc",
+    "ttc",
+    "spadina",
+    "yonge",
+    "queen",
+    "king",
+    "dundas",
+    "bud",
+    "buddy",
+    "have a good one",
+    "thanks",
+    "thank you",
+    "no worries",
+    "trawna",
+    "the 6ix",
+    "for sure"
+  ],
+  "topics": [
+    {
+      "words": [
+        "traffic",
+        "late",
+        "slow",
+        "delay"
+      ],
+      "mood": 4,
+      "reply": {
+        "text": "Traffic on King? Every day, bud. We'll get there.",
+        "means": "There's traffic every day on King Street, but we'll get there.",
+        "audio": "assets/audio/toronto/quests/streetcar/topic-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "cold",
+        "snow",
+        "winter",
+        "toque"
+      ],
+      "mood": 4,
+      "reply": {
+        "text": "Pull that toque down, it's a cold one.",
+        "means": "Wear your winter hat, it's cold.",
+        "audio": "assets/audio/toronto/quests/streetcar/topic-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "leafs",
+        "hockey",
+        "raptors",
+        "jays",
+        "game"
+      ],
+      "mood": 5,
+      "reply": {
+        "text": "You going to the game? Half this car is, eh.",
+        "means": "Are you going to the game? Lots of people on board are.",
+        "audio": "assets/audio/toronto/quests/streetcar/topic-3.mp3"
+      }
+    }
+  ],
+  "traps": [
+    {
+      "words": [
+        "tram",
+        "trolley",
+        "cable car",
+        "choo choo",
+        "train"
+      ],
+      "mood": -8,
+      "reply": {
+        "text": "It's a streetcar, bud. Red, slow and proud of it.",
+        "means": "It's called a streetcar here.",
+        "audio": "assets/audio/toronto/quests/streetcar/trap-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "spa deena",
+        "spadeena",
+        "spa dena"
+      ],
+      "mood": -6,
+      "reply": {
+        "text": "Spa-DYE-na, bud. DYE. But yeah, I go there.",
+        "means": "It's pronounced spa-DYE-na. Yes, I go there.",
+        "audio": "assets/audio/toronto/quests/streetcar/trap-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "yongee",
+        "yon gay",
+        "yon gee",
+        "yawn"
+      ],
+      "mood": -6,
+      "reply": {
+        "text": "Yonge? Like \"young\", bud. Rhymes with tongue.",
+        "means": "Yonge is said \"young\".",
+        "audio": "assets/audio/toronto/quests/streetcar/trap-3.mp3"
+      }
+    }
+  ],
+  "asides": {
+    "warm": [
+      {
+        "text": "Ha, you ride this line a lot, eh?",
+        "means": "You take this streetcar a lot, right?",
+        "audio": "assets/audio/toronto/quests/streetcar/warm-1.mp3"
+      },
+      {
+        "text": "Now there's a local.",
+        "means": "You sound like a local.",
+        "audio": "assets/audio/toronto/quests/streetcar/warm-2.mp3"
+      }
+    ],
+    "cold": [
+      {
+        "text": "Very formal. You on a school trip?",
+        "means": "That's very formal. Are you on a school trip?",
+        "audio": "assets/audio/toronto/quests/streetcar/cold-1.mp3"
+      },
+      {
+        "text": "Relax, bud, it's a streetcar, not an airport.",
+        "means": "Relax, this is just a streetcar.",
+        "audio": "assets/audio/toronto/quests/streetcar/cold-2.mp3"
+      }
+    ],
+    "huh": [
+      {
+        "text": "Sorry, bud, the bell's loud. Say again?",
+        "means": "Sorry, the bell is loud. Can you repeat that?",
+        "audio": "assets/audio/toronto/quests/streetcar/huh-1.mp3"
+      },
+      {
+        "text": "What's that? Speak up, eh.",
+        "means": "What did you say? A bit louder, please.",
+        "audio": "assets/audio/toronto/quests/streetcar/huh-2.mp3"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "board",
+      "label": "got on",
+      "say": {
+        "text": "Hop on, hop on. Tap your card, eh.",
+        "means": "Get on board and tap your fare card.",
+        "audio": "assets/audio/toronto/quests/streetcar/board.mp3"
+      },
+      "facts": [
+        "Gus is driving the red streetcar along Queen Street.",
+        "Say hi as you tap on."
+      ],
+      "hint": "Hey, how's it going?",
+      "intents": [
+        {
+          "words": [
+            "how's it going",
+            "hows it going",
+            "how are ya",
+            "hey bud",
+            "morning bud",
+            "what's up"
+          ],
+          "next": "where",
+          "mood": 10,
+          "reply": {
+            "text": "Not bad, not bad. Where ya headed?",
+            "means": "Pretty good. Where are you going?",
+            "audio": "assets/audio/toronto/quests/streetcar/board-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "hey",
+            "hi",
+            "hello",
+            "morning",
+            "thanks"
+          ],
+          "next": "where",
+          "mood": 6,
+          "reply": {
+            "text": "Morning. Where ya headed?",
+            "means": "Good morning. Where are you going?",
+            "audio": "assets/audio/toronto/quests/streetcar/board-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "excuse me",
+            "pardon",
+            "good day",
+            "greetings",
+            "ticket"
+          ],
+          "next": "where",
+          "mood": 2,
+          "reply": {
+            "text": "Just tap the card there. Where ya going?",
+            "means": "Just tap your card. Where are you going?",
+            "audio": "assets/audio/toronto/quests/streetcar/board-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "where",
+      "label": "asked the way",
+      "say": {
+        "text": "So where ya headed?",
+        "means": "Where are you going?",
+        "audio": "assets/audio/toronto/quests/streetcar/where.mp3"
+      },
+      "facts": [
+        "Spadina Avenue is said spa-DYE-na.",
+        "Ask if this goes to Spadina."
+      ],
+      "hint": "Does this go to Spadina?",
+      "intents": [
+        {
+          "words": [
+            "spadina",
+            "spadyna",
+            "spa dyna",
+            "spa dina"
+          ],
+          "next": "stop",
+          "mood": 14,
+          "reply": {
+            "text": "Spadina? Yep, couple of stops. I'll call it.",
+            "means": "Spadina, yes, in a couple of stops. I'll announce it.",
+            "audio": "assets/audio/toronto/quests/streetcar/where-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "queen",
+            "king",
+            "dundas",
+            "kensington",
+            "chinatown"
+          ],
+          "next": "stop",
+          "mood": 8,
+          "reply": {
+            "text": "Yep, I go right by there. Grab a seat.",
+            "means": "Yes, I pass there. Take a seat.",
+            "audio": "assets/audio/toronto/quests/streetcar/where-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "downtown",
+            "city centre",
+            "center",
+            "the city",
+            "tourist"
+          ],
+          "next": "stop",
+          "mood": 2,
+          "reply": {
+            "text": "Downtown? Bud, you're in it. Where exactly?",
+            "means": "You're already downtown. Where exactly?",
+            "audio": "assets/audio/toronto/quests/streetcar/where-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stop",
+      "label": "found your stop",
+      "say": {
+        "text": "Next stop coming up. This you?",
+        "means": "We're nearly at the next stop. Is it yours?",
+        "audio": "assets/audio/toronto/quests/streetcar/stop.mp3"
+      },
+      "facts": [
+        "Yonge Street is said \"young\".",
+        "Ask if this is your stop for Yonge."
+      ],
+      "hint": "Sorry, is this the stop for Yonge?",
+      "intents": [
+        {
+          "words": [
+            "young",
+            "yonge",
+            "is this yonge",
+            "stop for yonge",
+            "stop for young"
+          ],
+          "next": "thanks",
+          "mood": 12,
+          "reply": {
+            "text": "Yonge is next, bud. Back doors, eh.",
+            "means": "Yonge Street is next. Use the back doors.",
+            "audio": "assets/audio/toronto/quests/streetcar/stop-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "my stop",
+            "this one",
+            "next stop",
+            "here"
+          ],
+          "next": "thanks",
+          "mood": 5,
+          "reply": {
+            "text": "Sure, I'll let you off here.",
+            "means": "Okay, you can get off here.",
+            "audio": "assets/audio/toronto/quests/streetcar/stop-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "no",
+            "not yet",
+            "keep going"
+          ],
+          "next": "thanks",
+          "mood": 3,
+          "reply": {
+            "text": "No worries, sit tight.",
+            "means": "No problem, stay on.",
+            "audio": "assets/audio/toronto/quests/streetcar/stop-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "label": "said thanks",
+      "say": {
+        "text": "Here ya go. Watch your step.",
+        "means": "Here's your stop. Mind the step.",
+        "audio": "assets/audio/toronto/quests/streetcar/thanks.mp3"
+      },
+      "facts": [
+        "Many riders call out a thank-you to the driver as they leave.",
+        "Thank Gus the friendly way."
+      ],
+      "hint": "Thanks, have a good one!",
+      "intents": [
+        {
+          "words": [
+            "have a good one",
+            "thanks eh",
+            "thank you eh",
+            "thanks bud"
+          ],
+          "next": "end",
+          "mood": 12
+        },
+        {
+          "words": [
+            "thanks",
+            "thank you",
+            "cheers",
+            "sorry"
+          ],
+          "next": "end",
+          "mood": 6
+        },
+        {
+          "words": [
+            "bye",
+            "goodbye",
+            "see you"
+          ],
+          "next": "end",
+          "mood": 3
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "win": {
+      "text": "Have a good one, eh! Ding ding.",
+      "means": "Have a nice day! Ding ding.",
+      "audio": "assets/audio/toronto/quests/streetcar/win.mp3"
+    },
+    "lose": {
+      "text": "Enjoy your visit! Spa-DYE-na next time, eh.",
+      "means": "Enjoy your visit! Remember, spa-DYE-na.",
+      "audio": "assets/audio/toronto/quests/streetcar/lose.mp3"
+    }
+  }
+}

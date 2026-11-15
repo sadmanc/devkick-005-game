@@ -1,0 +1,404 @@
+{
+  "review": "pending native review",
+  "playable": true,
+  "units": [
+    {
+      "id": "sound",
+      "title": "Sound like a Torontonian",
+      "color": "red",
+      "lessons": [
+        "trawna",
+        "raising-out",
+        "raising-right",
+        "sorry",
+        "eh",
+        "places"
+      ]
+    },
+    {
+      "id": "talk",
+      "title": "Talk like the 6ix",
+      "color": "teal",
+      "lessons": [
+        "mans",
+        "ahlie-styll",
+        "say-less",
+        "rhythm"
+      ]
+    }
+  ],
+  "test": {
+    "title": "Prove You're From the 6ix",
+    "source": "unitTest"
+  },
+  "lessons": [
+    {
+      "id": "trawna",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "Say it like a local: \"Trawna\"",
+      "goal": "Locals squash \"Toronto\" into two quick beats. The second T drops after the N, and the first vowel almost disappears: \"TRAW-na\" or \"TRAH-na\".",
+      "practice": "Say \"To-ron-to\" slowly, then faster and faster until it falls into two beats.",
+      "listenFor": "Two syllables, no second T.",
+      "examples": [
+        {
+          "id": "trawna-1",
+          "say": "I'm from Trawna.",
+          "means": "I'm from Toronto.",
+          "accepted": [
+            "i'm from trawna",
+            "i'm from toronto",
+            "im from toronto",
+            "i'm from tronto",
+            "i'm from tranna"
+          ],
+          "tip": "Two beats: \"TRAW-na\".",
+          "audio": "assets/audio/toronto/lessons/trawna-1.mp3"
+        },
+        {
+          "id": "trawna-2",
+          "say": "Welcome to Trawna!",
+          "means": "Welcome to Toronto!",
+          "accepted": [
+            "welcome to trawna",
+            "welcome to toronto",
+            "welcome to tronto",
+            "welcome to tranna"
+          ],
+          "tip": "Keep \"welcome to\" light and let \"TRAW\" carry the weight.",
+          "audio": "assets/audio/toronto/lessons/trawna-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "raising-out",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "Canadian raising: \"out and about\"",
+      "goal": "Before the sounds t, s, f, k and p, the \"ow\" vowel starts higher, closer to \"uh-oo\". So \"out\" and \"house\" sound different from \"loud\" and \"how\". It is not \"a boot\", it is just a higher start.",
+      "practice": "Say \"loud\" then \"lout\". Feel the vowel in \"lout\" start higher and shorter.",
+      "listenFor": "A higher, shorter start in \"out\", \"about\", \"house\".",
+      "examples": [
+        {
+          "id": "raising-out-1",
+          "say": "Let's head out and about.",
+          "means": "Let's go out and walk around.",
+          "accepted": [
+            "let's head out and about",
+            "lets head out and about",
+            "let's head out and about eh"
+          ],
+          "tip": "\"uh-oot and a-buh-oot\", short and smooth.",
+          "audio": "assets/audio/toronto/lessons/raising-out-1.mp3"
+        },
+        {
+          "id": "raising-out-2",
+          "say": "Come over to my house.",
+          "means": "Come to my place.",
+          "accepted": [
+            "come over to my house",
+            "come over to my house eh",
+            "come over to my house please"
+          ],
+          "tip": "\"House\" starts high and short. Compare it with \"how\".",
+          "audio": "assets/audio/toronto/lessons/raising-out-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "raising-right",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "Canadian raising: \"right\" and \"nice\"",
+      "goal": "The same trick for the \"eye\" vowel: before t, s, f, k and p it starts higher, like \"uh-ee\". So \"write\" and \"ride\" sound different, and \"nice price\" sounds very Canadian.",
+      "practice": "Say \"ride\" then \"write\". The vowel in \"write\" starts higher and is shorter.",
+      "listenFor": "A higher, quicker start in \"right\", \"nice\", \"ice\".",
+      "examples": [
+        {
+          "id": "raising-right-1",
+          "say": "Nice, that's right.",
+          "means": "Great, that's correct.",
+          "accepted": [
+            "nice that's right",
+            "nice thats right",
+            "nice that is right"
+          ],
+          "tip": "\"Nice\" and \"right\" both start high: \"nuh-ees\", \"ruh-eet\".",
+          "audio": "assets/audio/toronto/lessons/raising-right-1.mp3"
+        },
+        {
+          "id": "raising-right-2",
+          "say": "The ice is so nice tonight.",
+          "means": "The ice rink is great tonight.",
+          "accepted": [
+            "the ice is so nice tonight",
+            "ice is so nice tonight",
+            "the ice is so nice tonite"
+          ],
+          "tip": "Every \"ice\", \"nice\", \"-night\" gets the higher start.",
+          "audio": "assets/audio/toronto/lessons/raising-right-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sorry",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "\"Sorry\" and the cot-caught merger",
+      "goal": "Canadians say \"sorry\" with the vowel of \"store\": \"SORE-y\". And \"cot\" and \"caught\" sound the same here, one open \"ah-aw\" vowel.",
+      "practice": "Say \"store\", then \"sorry\", keeping the same \"or\" sound.",
+      "listenFor": "\"Sore-y\", not \"sah-ry\". \"Cot\" and \"caught\" sound identical.",
+      "examples": [
+        {
+          "id": "sorry-1",
+          "say": "Oh, sorry!",
+          "means": "Oh, excuse me!",
+          "accepted": [
+            "oh sorry",
+            "sorry",
+            "oh sorry sorry"
+          ],
+          "tip": "\"SORE-y\", like a store.",
+          "audio": "assets/audio/toronto/lessons/sorry-1.mp3"
+        },
+        {
+          "id": "sorry-2",
+          "say": "Sorry, I caught the wrong car.",
+          "means": "Sorry, I got on the wrong streetcar.",
+          "accepted": [
+            "sorry i caught the wrong car",
+            "sorry i got the wrong car",
+            "sorry i caught the wrong car eh"
+          ],
+          "tip": "\"Caught\" sounds just like \"cot\".",
+          "audio": "assets/audio/toronto/lessons/sorry-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "eh",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "The real \"eh\"",
+      "goal": "Locals do use \"eh\", just not every sentence. It goes at the end, with a little rise, and asks you to agree: \"Nice day, eh?\" Think \"right?\" or \"don't you think?\".",
+      "practice": "Say \"Nice day, right?\" then swap \"right\" for \"eh\", keeping the same rise.",
+      "listenFor": "A short, friendly rise on \"eh\", at the end only.",
+      "examples": [
+        {
+          "id": "eh-1",
+          "say": "Nice day, eh?",
+          "means": "Nice day, isn't it?",
+          "accepted": [
+            "nice day eh",
+            "nice day ay",
+            "nice day a",
+            "nice day hey"
+          ],
+          "tip": "Rise a little on \"eh?\". Keep it light.",
+          "audio": "assets/audio/toronto/lessons/eh-1.mp3"
+        },
+        {
+          "id": "eh-2",
+          "say": "Cold out, eh?",
+          "means": "It's cold outside, isn't it?",
+          "accepted": [
+            "cold out eh",
+            "cold out ay",
+            "cold out a",
+            "cold out hey"
+          ],
+          "tip": "\"Out\" starts high (\"uh-oot\"), then the friendly rise on \"eh?\".",
+          "audio": "assets/audio/toronto/lessons/eh-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "unit": "sound",
+      "kind": "tonality",
+      "title": "Street names tourists get wrong",
+      "goal": "Some Toronto names are not said the way they look: Spadina is \"spa-DYE-na\", Yonge is \"young\", and Etobicoke is \"eh-TOE-bi-coe\" with a silent K.",
+      "practice": "Say each name three times, slowly and then at talking speed.",
+      "listenFor": "\"Spa-DYE-na\", \"young\", \"eh-TOE-bi-coe\".",
+      "examples": [
+        {
+          "id": "places-1",
+          "say": "Does this go to Spadina?",
+          "means": "Does this go to Spadina Avenue?",
+          "accepted": [
+            "does this go to spadina",
+            "does this go to spadeena",
+            "does this go to spadena",
+            "this go to spadina"
+          ],
+          "tip": "Middle beat like \"dine\": \"spa-DYE-na\".",
+          "audio": "assets/audio/toronto/lessons/places-1.mp3"
+        },
+        {
+          "id": "places-2",
+          "say": "I'm meeting you at Yonge and Bloor.",
+          "means": "I'll see you at the corner of Yonge Street and Bloor Street.",
+          "accepted": [
+            "i'm meeting you at yonge and bloor",
+            "i'm meeting you at young and bloor",
+            "im meeting you at young and blore",
+            "i'm meeting you at yonge and blore"
+          ],
+          "tip": "\"Yonge\" is just \"young\".",
+          "audio": "assets/audio/toronto/lessons/places-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mans",
+      "unit": "talk",
+      "kind": "slang",
+      "title": "\"Mans\" and \"the mandem\"",
+      "goal": "In Multicultural Toronto English \"mans\" can mean \"I\" or \"me\" (\"mans is tired\") or \"that guy\". \"The mandem\" is your group of friends. Both came to Toronto through Jamaican and Caribbean communities.",
+      "practice": "Swap \"I\" for \"mans\" in a few of your own sentences.",
+      "listenFor": "\"Mans\" said flat and sure, no question in it.",
+      "examples": [
+        {
+          "id": "mans-1",
+          "say": "Mans is tired, fam.",
+          "means": "I'm tired, friend.",
+          "accepted": [
+            "mans is tired fam",
+            "man's is tired fam",
+            "mans is tired",
+            "man's tired fam",
+            "mans tired fam"
+          ],
+          "tip": "Flat and easy: \"MANS is TIRED\".",
+          "audio": "assets/audio/toronto/lessons/mans-1.mp3"
+        },
+        {
+          "id": "mans-2",
+          "say": "I'm with the mandem.",
+          "means": "I'm with my friends.",
+          "accepted": [
+            "i'm with the mandem",
+            "im with the mandem",
+            "i'm with the man them",
+            "i'm with the mandum"
+          ],
+          "tip": "\"MAN-dem\", even beats.",
+          "audio": "assets/audio/toronto/lessons/mans-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ahlie-styll",
+      "unit": "talk",
+      "kind": "slang",
+      "title": "\"Ahlie\", \"styll\" and \"bare\"",
+      "goal": "\"Ahlie?\" asks \"right? for real?\" at the end of a line. \"Styll\" at the end means \"for real, though\". \"Bare\" means \"a lot\" or \"very\". Toronto picked these up through Caribbean, Somali, South Asian and other communities who share the city.",
+      "practice": "Say a line, then tag \"ahlie?\" (asking) or \"styll\" (telling) at the end.",
+      "listenFor": "\"Ahlie\" rises like a question, \"styll\" lands flat.",
+      "examples": [
+        {
+          "id": "ahlie-styll-1",
+          "say": "It's bare cold, ahlie?",
+          "means": "It's really cold, right?",
+          "accepted": [
+            "it's bare cold ahlie",
+            "its bare cold ahlie",
+            "it's bare cold ally",
+            "it's bear cold ahlie",
+            "it's bare cold a lie",
+            "it's bare cold"
+          ],
+          "tip": "Lean on \"BARE COLD\", then a quick \"ah-lie?\".",
+          "audio": "assets/audio/toronto/lessons/ahlie-styll-1.mp3"
+        },
+        {
+          "id": "ahlie-styll-2",
+          "say": "That was a good game, styll.",
+          "means": "That was a good game, for real.",
+          "accepted": [
+            "that was a good game styll",
+            "that was a good game still",
+            "that was a good game"
+          ],
+          "tip": "\"Styll\" lands flat and sure.",
+          "audio": "assets/audio/toronto/lessons/ahlie-styll-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "say-less",
+      "unit": "talk",
+      "kind": "slang",
+      "title": "\"Wagwan\", \"say less\" and \"fam\"",
+      "goal": "\"Wagwan\" (from Jamaican Patois \"what's going on\") is hello. \"Say less\" means \"got it, no need to explain\". \"Fam\" is a friend.",
+      "practice": "Greet three people in your head: \"Wagwan, fam.\"",
+      "listenFor": "Quick and relaxed: \"wag-WAN\", \"SAY LESS\".",
+      "examples": [
+        {
+          "id": "say-less-1",
+          "say": "Wagwan, fam?",
+          "means": "Hi, friend, what's up?",
+          "accepted": [
+            "wagwan fam",
+            "wag wan fam",
+            "what gwan fam",
+            "wah gwaan fam",
+            "wagwan"
+          ],
+          "tip": "Short and warm: \"wag-WAN, FAM\".",
+          "audio": "assets/audio/toronto/lessons/say-less-1.mp3"
+        },
+        {
+          "id": "say-less-2",
+          "say": "Say less, I'm there.",
+          "means": "Got it, I'll be there.",
+          "accepted": [
+            "say less i'm there",
+            "say less im there",
+            "say less i'm there fam",
+            "say less"
+          ],
+          "tip": "Two even, punchy beats: \"SAY LESS\".",
+          "audio": "assets/audio/toronto/lessons/say-less-2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "rhythm",
+      "unit": "talk",
+      "kind": "tonality",
+      "title": "The Toronto street rhythm",
+      "goal": "Young Torontonians often give syllables more even weight than standard Canadian English, and \"th\" can become \"t\" or \"d\": \"ting\" for \"thing\", \"dem\" for \"them\". Keep it relaxed and confident, never rushed.",
+      "practice": "Tap the table once per syllable and keep the taps even.",
+      "listenFor": "Even beats; \"ting\", \"dem\" with a clean T and D.",
+      "examples": [
+        {
+          "id": "rhythm-1",
+          "say": "That's a different ting.",
+          "means": "That's a different thing.",
+          "accepted": [
+            "that's a different ting",
+            "thats a different ting",
+            "that's a different thing",
+            "dat's a different ting"
+          ],
+          "tip": "\"Ting\" with a clean T, even beats.",
+          "audio": "assets/audio/toronto/lessons/rhythm-1.mp3"
+        },
+        {
+          "id": "rhythm-2",
+          "say": "Tell dem I'm coming.",
+          "means": "Tell them I'm coming.",
+          "accepted": [
+            "tell dem i'm coming",
+            "tell them i'm coming",
+            "tell dem im coming",
+            "tell them im coming"
+          ],
+          "tip": "\"Dem\" with a clean D.",
+          "audio": "assets/audio/toronto/lessons/rhythm-2.mp3"
+        }
+      ]
+    }
+  ]
+}

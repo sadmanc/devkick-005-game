@@ -15,7 +15,8 @@ describe('region registry', () => {
       expect(r.pin.top).toBeLessThan(100);
       expect(r.content.test.length).toBe(3);
       expect(r.words.list.length).toBeGreaterThanOrEqual(12);
-      expect(Object.keys(r.cast).length).toBe(3);
+      expect(Object.keys(r.cast).length).toBeGreaterThanOrEqual(3);
+      expect(Object.keys(r.cast).length).toBeLessThanOrEqual(4);
     }
   });
   it('Glasgow wraps the original files, untouched and live', () => {

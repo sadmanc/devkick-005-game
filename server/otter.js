@@ -61,6 +61,7 @@ const aiTurns = createDailyCap();
 const CAPPED = {
   scotland: "Ach, ah'm aw talked oot the day, pal. Come back the morra an' we'll have a proper blether.",
   mumbai: "Arre, I've talked so much today, my voice is gone! Come back tomorrow, na?",
+  toronto: "Okay, I'm all talked out today, bud. Come back tomorrow, eh?",
 };
 function authoredTurn({ trust, turn, npc }, reply, extra = {}) {
   return {
@@ -192,6 +193,19 @@ const REFUSAL = {
       { say: 'Bas Aunty, one more gulab jamun only', means: "Enough Aunty, just one more sweet" },
     ],
   },
+  toronto: {
+    reply: "Ah, let's not go there, bud. So, what are you up to today?",
+    mood: 'ok',
+    action: 'none',
+    trust_delta: 0,
+    sounded_local: false,
+    hint: '',
+    echo: '',
+    suggestions: [
+      { say: 'Just grabbing a double-double, eh', means: 'Just getting a coffee, two cream, two sugar' },
+      { say: 'Waiting on the streetcar, sorry', means: 'Waiting for the streetcar, excuse me' },
+    ],
+  },
 };
 
 async function askOtter(client, model, npc, history, said, trust, turn, ears) {
@@ -262,6 +276,7 @@ const voiceCachedFor = (model) =>
 const NOT_HEARD = {
   scotland: "Sorry pal, couldnae hear ye. Gie it another go?",
   mumbai: "Sorry yaar, I couldn't hear you. Say it once more?",
+  toronto: "Sorry, bud, couldn't hear you over the streetcar. Say it again?",
 };
 
 // deps.client lets tests pass a fake model client; real traffic builds the Anthropic client.

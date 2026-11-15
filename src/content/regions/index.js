@@ -10,6 +10,13 @@ import cutting from '../mumbai/quests/cutting.json';
 import meter from '../mumbai/quests/meter.json';
 import mumbaiLessons from '../mumbai/lessons.json';
 import { MUMBAI_WORDS, findMumbai } from '../../game/mumbaiWords.js';
+import toronto from '../toronto/toronto.json';
+import torontoCast from '../toronto/cast.json';
+import torontoLessons from '../toronto/lessons.json';
+import doubledouble from '../toronto/quests/doubledouble.json';
+import streetcar from '../toronto/quests/streetcar.json';
+import court from '../toronto/quests/court.json';
+import { TORONTO_WORDS, findToronto } from '../../game/torontoWords.js';
 
 export const PENDING_REVIEW = 'pending native review';
 
@@ -70,6 +77,35 @@ export const REGIONS = {
       language: 'Mumbai English',
       cantHear: "Sorry yaar, couldn't hear you over the band. Say that again?",
       comeBackLater: 'Arre, so much talking! Take a little break and come back later, na?',
+    },
+  },
+  toronto: {
+    id: 'toronto',
+    name: 'Toronto',
+    pin: { left: 19.4, top: 41.7 },
+    content: toronto,
+    cast: torontoCast,
+    words: { list: TORONTO_WORDS, find: findToronto, label: 'Toronto words' },
+    quests: { doubledouble, streetcar, court },
+    lessons: torontoLessons,
+    scene: 'toronto',
+    review: PENDING_REVIEW,
+    ui: {
+      place: 'Toronto, Canada',
+      heading: 'You just moved to the 6ix.',
+      note: 'Torontonians can spot a tourist from the other end of the streetcar. Win over the locals and prove you belong.',
+      howto: [
+        '<b>Hold the button</b> (or Space) and talk.',
+        '<b>Order a double-double, catch the streetcar, get picked on the court:</b> each local has their own scene.',
+        '<b>Sound like a Torontonian:</b> "Trawna", the Canadian "out and about", and a bit of 6ix slang all count.',
+      ],
+      talk: 'Meet the locals',
+      street: 'Queen Street',
+      castHeading: 'Who will you talk to?',
+      castNote: 'Bev, Gus and Dre each have a job for you. Rocco the raccoon just wants to know if you\'re really from here.',
+      language: 'Toronto English',
+      cantHear: 'Sorry, bud, the streetcar was going by. Say that again?',
+      comeBackLater: 'Okay, that\'s a lot of talking, eh. Take a break and come back later.',
     },
   },
 };
