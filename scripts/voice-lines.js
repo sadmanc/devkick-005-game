@@ -22,6 +22,17 @@ export function collectQuestLines(quest) {
   return lines.filter((l) => l?.text && l?.audio);
 }
 
+// Every lesson line in a lessons.json pack (src/content/<place>/lessons.json): lesson intros, examples, reactions.
+export function collectLessonLines(pack) {
+  if (!pack?.lessons) return [];
+  const lines = pack.lessons.flatMap((l) => [
+    { text: `${l.title}. ${l.goal}`, audio: l.introAudio },
+    ...l.examples.map((e) => ({ text: e.say, audio: e.audio })),
+  ]);
+  lines.push(...Object.values(pack.reactions ?? {}));
+  return lines.filter((l) => l?.text && l?.audio);
+}
+
 // Which voice says a line: a character's own voice if the config has one, else the place's voice.
 export function voiceFor(config, speaker) {
   return config.characters?.[speaker]?.voiceId ?? config.voiceId ?? null;
@@ -29,8 +40,8 @@ export function voiceFor(config, speaker) {
 
 // Adds the voice direction tag (if any) in front of the text. Placement lines are said by
 // config.placeSpeaker (if set), quest lines by the quest's character.
-// Cast greetings with a greetingAudio path are said by that character.
-export function buildJobs(place, config, quests = [], cast = {}) {
+// Cast greetings with a greetingAudio path are said by that character; lesson lines by config.lessonSpeaker.
+export function buildJobs(place, config, quests = [], cast = {}, lessons = null) {
   const direction = config.direction ?? {};
   const job = (speaker) => ({ text, audio }) => {
     const tag = direction[audio.split('/').pop()];
@@ -38,6 +49,7 @@ export function buildJobs(place, config, quests = [], cast = {}) {
   };
   return [
     ...collectLines(place).map(job(config.placeSpeaker ?? null)),
+    ...collectLessonLines(lessons).map(job(config.lessonSpeaker ?? config.placeSpeaker ?? null)),
     ...quests.flatMap((q) => collectQuestLines(q).map(job(q.character?.id ?? null))),
     ...Object.values(cast)
       .filter((c) => c.greeting && c.greetingAudio)

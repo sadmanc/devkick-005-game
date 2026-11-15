@@ -79,3 +79,16 @@ describe('Mumbai voice jobs (per character, pending native review)', async () =>
     ]);
   });
 });
+
+describe('Toronto lesson lines', () => {
+  it('collects every lesson intro, example and reaction with an audio path', async () => {
+    const { collectLessonLines, buildJobs } = await import('../scripts/voice-lines.js');
+    const pack = (await import('../src/content/toronto/lessons.json')).default;
+    const lines = collectLessonLines(pack);
+    const examples = pack.lessons.reduce((n, l) => n + l.examples.length, 0);
+    expect(lines.length).toBe(pack.lessons.length + examples + Object.keys(pack.reactions).length);
+    const jobs = buildJobs({}, { lessonSpeaker: 'rocco', characters: { rocco: { voiceId: 'v1' } } }, [], {}, pack);
+    expect(jobs.every((j) => j.speaker === 'rocco' && j.voiceId === 'v1')).toBe(true);
+    expect(collectLessonLines(null)).toEqual([]);
+  });
+});

@@ -64,5 +64,47 @@
       "trap-1.mp3": "[laughs]",
       "win.mp3": "[warmly]"
     }
+  },
+  "toronto": {
+    "review": "pending native review",
+    "voiceId": null,
+    "modelId": "eleven_v3",
+    "placeSpeaker": "rocco",
+    "lessonSpeaker": "rocco",
+    "characters": {
+      "rocco": {
+        "voiceId": null,
+        "voiceName": "Rocco the raccoon (Toronto)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A natural, authentic Toronto, Canada English accent, unmistakably Torontonian, not American, not exaggerated, not a caricature. Mid-30s man, standard Canadian English with clear Canadian raising in 'about', 'house' and 'right', says 'Trawna' for Toronto. Cheeky, warm, friendly know-it-all who loves his neighbourhood. Natural, fluent, a fun cartoon raccoon character in a game."
+        }
+      },
+      "bev": {
+        "voiceId": null,
+        "voiceName": "Bev the beaver (Toronto)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A natural, authentic Toronto, Canada English accent, unmistakably Torontonian, not American, not exaggerated, not a caricature. Middle-aged woman, about 55, standard Canadian English, Canadian raising in 'about' and 'house', the cot-caught merger, friendly 'eh' and polite 'sorry'. Brisk but kind, runs a busy coffee counter, calls everyone 'hon'. Natural, fluent, a fun cartoon beaver character in a game."
+        }
+      },
+      "gus": {
+        "voiceId": null,
+        "voiceName": "Gus the Canada goose (Toronto)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A natural, authentic Toronto, Canada English accent, unmistakably Torontonian, not American, not exaggerated, not a caricature. Man in his early 60s, standard Canadian English, gruff, dry humour, unhurried, Canadian raising in 'out' and 'right'. A streetcar driver who has seen it all and secretly loves helping lost tourists. Natural, fluent, a fun cartoon goose character in a game."
+        }
+      },
+      "dre": {
+        "voiceId": null,
+        "voiceName": "Dre the black squirrel (Toronto)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A natural, authentic young Toronto, Canada voice speaking Multicultural Toronto English: relaxed, laid-back, slightly syllable-timed rhythm with Caribbean-influenced intonation, Canadian vowels, not American, not a caricature, not a London accent. Teenage boy, about 17, easy-going, confident and funny, the kid who always has next on the basketball court. Natural, fluent, a fun cartoon squirrel character in a game."
+        }
+      }
+    },
+    "direction": {}
   }
 }

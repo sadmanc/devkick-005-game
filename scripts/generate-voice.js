@@ -5,6 +5,7 @@
 //   node scripts/generate-voice.js scotland --force  # regenerate everything
 //   node scripts/generate-voice.js scotland --dry    # print the jobs, no API calls
 //   node scripts/generate-voice.js mumbai --dry      # placement + quest lines, one voice per character
+//   node scripts/generate-voice.js toronto --max-chars=20000   # also the lessons in lessons.json
 // Lines are generated per character voice (scripts/voice-config.json, design them first with
 // scripts/design-voices.js). Every file written is logged in assets/manifest.json with its exact prompt.
 // --max-chars=N stops before spending more than N TTS characters (default 10000, the brief's budget).
@@ -37,7 +38,9 @@ export function loadPlace(placeId) {
   const nested = resolve(root, `src/content/${placeId}/cast.json`);
   const castFile = existsSync(flat) ? resolve(root, 'src/content/cast.json') : nested;
   const cast = existsSync(castFile) ? JSON.parse(readFileSync(castFile, 'utf8')) : {};
-  return { place, quests, cast };
+  const lessonsFile = resolve(root, `src/content/${placeId}/lessons.json`);
+  const lessons = existsSync(lessonsFile) ? JSON.parse(readFileSync(lessonsFile, 'utf8')) : null;
+  return { place, quests, cast, lessons };
 }
 
 function logToManifest(done, config) {
@@ -77,11 +80,11 @@ async function main() {
   const force = flags.includes('--force');
   const dry = flags.includes('--dry');
   const maxChars = Number(flags.find((f) => f.startsWith('--max-chars='))?.split('=')[1] ?? 10000);
-  const { place, quests, cast } = loadPlace(placeId);
+  const { place, quests, cast, lessons } = loadPlace(placeId);
   const config = JSON.parse(readFileSync(resolve(root, 'scripts/voice-config.json'), 'utf8'))[placeId];
   if (!config) throw new Error(`No "${placeId}" in scripts/voice-config.json`);
 
-  const jobs = buildJobs(place, config, quests, cast).filter((j) => force || !existsSync(resolve(root, 'public', j.audio)));
+  const jobs = buildJobs(place, config, quests, cast, lessons).filter((j) => force || !existsSync(resolve(root, 'public', j.audio)));
   if (dry) {
     jobs.forEach((j) => console.log(`${j.audio}  [${j.speaker ?? placeId}${j.voiceId ? '' : ', NO VOICE YET'}]  <-  ${j.prompt}`));
     return console.log(`${jobs.length} lines, ${charsOf(jobs)} TTS characters (budget ${maxChars})`);
