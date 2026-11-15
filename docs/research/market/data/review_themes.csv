@@ -1,0 +1,131 @@
+app,theme,positive_count,negative_count,total_coded,mixed_count,sources_included
+(category) AI speaking apps,ai_conversation_voice_quality,0,1,1,0,Reddit
+(category) accent learning,accent_choice,0,0,2,2,Reddit
+Babbel,content_breadth_structure,12,17,29,0,App Store+Google Play+Trustpilot
+Babbel,scoring_accuracy,0,9,9,0,App Store+Google Play
+Babbel,ai_conversation_voice_quality,0,7,8,1,App Store+Google Play+Trustpilot
+Babbel,ui_ux_flow,2,5,7,0,App Store+Google Play
+Babbel,fun_gamification,2,3,5,0,App Store+Trustpilot
+Babbel,bugs_mic_performance,0,5,5,0,App Store+Google Play
+Babbel,feedback_usefulness,3,1,4,0,App Store+Google Play+Trustpilot
+Babbel,subscription_billing,0,3,3,0,App Store+Google Play
+Babbel,accent_choice,1,2,3,0,App Store+Google Play+Trustpilot
+Babbel,progress_effectiveness,3,0,3,0,App Store+Google Play+Trustpilot
+Babbel,customer_support,0,2,2,0,App Store+Google Play
+Babbel,price_paywall_upsell,0,1,2,1,App Store+Google Play
+Babbel,motivation_streaks,1,1,2,0,App Store
+Babbel,human_tutor_quality,0,1,1,0,Google Play
+Babbel,repetitive_boring,0,1,1,0,App Store
+BoldVoice,price_paywall_upsell,2,14,16,0,App Store+Google Play
+BoldVoice,scoring_accuracy,5,10,16,1,App Store+Google Play+Trustpilot
+BoldVoice,feedback_usefulness,9,4,13,0,App Store+Google Play+Trustpilot
+BoldVoice,content_breadth_structure,6,5,12,1,App Store+Google Play+Trustpilot
+BoldVoice,progress_effectiveness,12,0,12,0,App Store+Google Play+Trustpilot
+BoldVoice,subscription_billing,0,10,10,0,App Store+Google Play+Trustpilot
+BoldVoice,bugs_mic_performance,0,10,10,0,App Store+Google Play
+BoldVoice,ui_ux_flow,1,8,9,0,App Store+Google Play
+BoldVoice,accent_choice,0,5,6,1,App Store+Google Play
+BoldVoice,customer_support,1,4,5,0,App Store+Google Play
+BoldVoice,native_speaker_actor_fit,2,1,3,0,App Store+Google Play
+BoldVoice,repetitive_boring,0,2,3,1,App Store
+BoldVoice,motivation_streaks,2,1,3,0,App Store+Trustpilot
+BoldVoice,general_praise_or_complaint,2,0,3,1,App Store+Google Play+Trustpilot
+BoldVoice,fun_gamification,1,0,1,0,Google Play
+Cambly,tutor_worker_review,2,7,14,5,App Store+Google Play+Trustpilot
+Cambly,human_tutor_quality,8,3,12,1,App Store+Google Play+Trustpilot
+Cambly,ui_ux_flow,2,8,10,0,App Store+Google Play
+Cambly,customer_support,0,5,5,0,Google Play+Trustpilot
+Cambly,bugs_mic_performance,0,5,5,0,App Store+Google Play
+Cambly,price_paywall_upsell,0,5,5,0,Google Play
+Cambly,progress_effectiveness,4,0,4,0,App Store+Google Play
+Cambly,subscription_billing,0,2,2,0,App Store+Google Play
+Cambly,content_breadth_structure,0,2,2,0,Google Play
+Cambly,general_praise_or_complaint,2,0,2,0,Google Play
+Cambly,repetitive_boring,0,1,1,0,App Store
+Duolingo,progress_effectiveness,10,10,21,1,App Store+Google Play+Trustpilot
+Duolingo,bugs_mic_performance,0,19,19,0,App Store+Google Play+Trustpilot
+Duolingo,fun_gamification,12,4,18,2,App Store+Google Play+Trustpilot
+Duolingo,ai_conversation_voice_quality,3,13,17,1,App Store+Google Play+Reddit+Trustpilot
+Duolingo,scoring_accuracy,0,17,17,0,App Store+Google Play+Trustpilot
+Duolingo,price_paywall_upsell,1,13,16,2,App Store+Google Play+Trustpilot
+Duolingo,motivation_streaks,7,4,13,2,App Store+Google Play+Reddit+Trustpilot
+Duolingo,ui_ux_flow,1,7,8,0,App Store+Google Play
+Duolingo,content_breadth_structure,2,4,6,0,App Store+Google Play
+Duolingo,subscription_billing,0,5,5,0,App Store+Google Play+Trustpilot
+Duolingo,accent_choice,0,4,4,0,App Store+Google Play+Trustpilot
+Duolingo,customer_support,0,2,2,0,App Store+Trustpilot
+Duolingo,repetitive_boring,0,2,2,0,Google Play+Trustpilot
+Duolingo,feedback_usefulness,1,1,2,0,Google Play
+Duolingo,native_speaker_actor_fit,0,1,1,0,Google Play
+Duolingo,general_praise_or_complaint,1,0,1,0,Google Play
+ELSA Speak,bugs_mic_performance,0,28,28,0,App Store+Google Play+Trustpilot
+ELSA Speak,price_paywall_upsell,1,13,15,1,App Store+Google Play+Reddit
+ELSA Speak,progress_effectiveness,11,1,12,0,App Store+Google Play+Reddit+Trustpilot
+ELSA Speak,scoring_accuracy,3,7,10,0,App Store+Google Play+Trustpilot
+ELSA Speak,subscription_billing,0,9,9,0,App Store+Google Play+Trustpilot
+ELSA Speak,ui_ux_flow,1,8,9,0,App Store+Google Play
+ELSA Speak,content_breadth_structure,7,1,9,1,App Store+Google Play+Trustpilot
+ELSA Speak,ai_conversation_voice_quality,3,2,6,1,App Store+Google Play+Trustpilot
+ELSA Speak,feedback_usefulness,5,1,6,0,App Store+Google Play+Trustpilot
+ELSA Speak,customer_support,0,3,3,0,Trustpilot
+ELSA Speak,fun_gamification,3,0,3,0,App Store+Google Play+Trustpilot
+ELSA Speak,general_praise_or_complaint,2,0,2,0,App Store+Google Play
+ELSA Speak,motivation_streaks,2,0,2,0,App Store+Trustpilot
+ELSA Speak,repetitive_boring,0,1,1,0,Google Play
+ELSA Speak,accent_choice,0,1,1,0,Reddit
+ELSA Speak,native_speaker_actor_fit,1,0,1,0,Reddit
+Praktika,ai_conversation_voice_quality,6,16,23,1,App Store+Google Play+Reddit+Trustpilot
+Praktika,content_breadth_structure,2,8,10,0,App Store+Google Play+Trustpilot
+Praktika,subscription_billing,0,8,8,0,App Store+Google Play
+Praktika,bugs_mic_performance,0,6,6,0,App Store+Google Play+Trustpilot
+Praktika,price_paywall_upsell,0,5,5,0,App Store+Google Play
+Praktika,progress_effectiveness,5,0,5,0,App Store+Google Play+Trustpilot
+Praktika,scoring_accuracy,1,3,4,0,App Store+Reddit+Trustpilot
+Praktika,ui_ux_flow,0,4,4,0,Google Play+Trustpilot
+Praktika,motivation_streaks,4,0,4,0,App Store+Trustpilot
+Praktika,customer_support,0,3,3,0,App Store
+Praktika,repetitive_boring,0,3,3,0,Google Play+Trustpilot
+Praktika,accent_choice,1,1,3,1,Google Play
+Praktika,feedback_usefulness,1,2,3,0,App Store+Trustpilot
+Praktika,fun_gamification,2,0,2,0,App Store+Google Play
+Praktika,general_praise_or_complaint,1,0,1,0,App Store
+Speak,scoring_accuracy,1,12,13,0,App Store+Google Play+Reddit
+Speak,price_paywall_upsell,1,10,13,2,App Store+Google Play
+Speak,content_breadth_structure,2,8,10,0,App Store+Google Play+Reddit
+Speak,ai_conversation_voice_quality,4,4,9,1,App Store+Google Play+Reddit
+Speak,ui_ux_flow,1,5,6,0,App Store+Google Play
+Speak,bugs_mic_performance,0,6,6,0,App Store+Trustpilot
+Speak,progress_effectiveness,6,0,6,0,App Store+Google Play
+Speak,feedback_usefulness,3,2,5,0,App Store+Google Play
+Speak,fun_gamification,5,0,5,0,App Store+Google Play
+Speak,subscription_billing,0,3,3,0,App Store+Trustpilot
+Speak,customer_support,0,2,2,0,Google Play+Trustpilot
+Speak,accent_choice,0,2,2,0,App Store
+Speak,motivation_streaks,1,0,1,0,Google Play
+Speechling,content_breadth_structure,7,6,15,2,App Store+Google Play+Trustpilot
+Speechling,bugs_mic_performance,0,12,12,0,App Store+Google Play
+Speechling,feedback_usefulness,8,2,10,0,App Store+Google Play+Trustpilot
+Speechling,ui_ux_flow,1,8,9,0,App Store+Google Play+Trustpilot
+Speechling,human_tutor_quality,7,1,8,0,App Store+Google Play+Trustpilot
+Speechling,customer_support,0,7,7,0,App Store+Google Play+Trustpilot
+Speechling,progress_effectiveness,7,0,7,0,App Store+Google Play+Trustpilot
+Speechling,subscription_billing,0,6,6,0,App Store+Google Play+Trustpilot
+Speechling,price_paywall_upsell,0,5,5,0,App Store+Google Play
+Speechling,scoring_accuracy,1,2,3,0,Google Play+Trustpilot
+Speechling,general_praise_or_complaint,0,1,1,0,Google Play
+Speechling,repetitive_boring,0,1,1,0,Google Play
+Speechling,accent_choice,0,1,1,0,Google Play
+Speechling,native_speaker_actor_fit,1,0,1,0,Trustpilot
+Speechling,fun_gamification,1,0,1,0,Trustpilot
+The Accent Kit,bugs_mic_performance,0,19,20,1,App Store+Google Play
+The Accent Kit,accent_choice,2,11,13,0,App Store+Google Play
+The Accent Kit,content_breadth_structure,5,3,8,0,App Store+Google Play
+The Accent Kit,price_paywall_upsell,0,7,7,0,App Store+Google Play
+The Accent Kit,native_speaker_actor_fit,7,0,7,0,App Store+Google Play
+The Accent Kit,feedback_usefulness,3,3,6,0,App Store+Google Play
+The Accent Kit,progress_effectiveness,4,0,4,0,App Store+Google Play
+The Accent Kit,subscription_billing,0,2,2,0,Google Play
+The Accent Kit,general_praise_or_complaint,1,0,2,1,Google Play
+The Accent Kit,ui_ux_flow,2,0,2,0,App Store+Google Play
+The Accent Kit,fun_gamification,1,0,1,0,App Store
+The Accent Kit,scoring_accuracy,1,0,1,0,App Store

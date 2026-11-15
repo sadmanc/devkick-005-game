@@ -1,0 +1,49 @@
+group,name,what,scale,price,regional_accents,speaks_and_scored,game_or_characters,accent_angle,threat,accessed
+Direct accent and pronunciation apps,ELSA Speak,AI pronunciation coach for non-native learners,"10M+ GP installs; iOS 4.75 (114,812); ~$60M raised (TechCrunch)","$19.99/mo, $99.99/yr",No (mainly US),Yes (phoneme),AI role-play,,Medium,2026-11-15
+Direct accent and pronunciation apps,BoldVoice,Accent coaching for non-native professionals,"1M+ GP; >$10M ARR, 5M downloads, $21M Series A (PR)","$14.99–24.99/mo, $89.99–199.99/yr",No (US),Yes,No,,Medium,2026-11-15
+Direct accent and pronunciation apps,Speakometer,"AI accent scoring, US/UK",500K+ GP,"$4.99/mo, $29.99/yr",No,Yes,No,,Low,2026-11-15
+Direct accent and pronunciation apps,Speechling,Non-profit; human coaches mark recordings,500K+ GP,Free; $19.99/mo,No,Human,No,,Low,2026-11-15
+Direct accent and pronunciation apps,Say It (Oxford/Phona),Compares your waveform to a model,iOS 4.12 (248); Google Play page 404,"$13.49/mo, $105.99/yr",No (UK/US),Yes,No,,Low,2026-11-15
+Direct accent and pronunciation apps,(How to) Pronounce,Reference audio,"iOS 4.79 (33,431)",$0.99–4.99 packs,Some,No,No,,Low,2026-11-15
+Direct accent and pronunciation apps,Accent Training,"American ""melody"" drills","iOS 4.65 (11,055)","$4.99/mo, $39.99/yr",No,Listen-repeat,No,,Low,2026-11-15
+Direct accent and pronunciation apps,YouGlish,"Search YouTube by accent (US, UK, AU, CA, IE, SCO, NZ, ZA)",500K+ GP,Free (paid tiers UNVERIFIED),Filter only,No,No,,Low,2026-11-15
+Direct accent and pronunciation apps,ChatterFox,AI + human American accent coaching,10K+ GP,~$55 per item,No,Yes,No,,Low,2026-11-15
+Direct accent and pronunciation apps,Sounds Right (British Council),Free phonemic chart,Google Play page 404 (appears delisted),Free,No,No,No,,None,2026-11-15
+Direct accent and pronunciation apps,Accentify,"""Duolingo-style"" accent lessons for actors and natives; human coaches + AI coach","10K+ GP; ~270 paying subscribers (founder, LinkedIn, self-reported)","$3.99/wk, $4.99–9.99/mo, $39.99/yr","Yes (Scottish, Scouse, Irish, Southern US…)",Human + AI,No,,High,2026-11-15
+Direct accent and pronunciation apps,The Accent Kit,Dialect-coach audio kits for actors,50K+ GP; iOS 3.17 (24),"$9.99 per accent (incl. ""North Glasgow Male"")",Yes (100+),No,No,,Medium,2026-11-15
+Direct accent and pronunciation apps,Accentuate (app),"Accent coach for actors, 5 scored courses + 35 voices (incl. a Scottish ""Isla"")",10+ GP (launched Sep 2026),Pro $5.99,Partly,Yes,No,,Medium (idea overlap),2026-11-15
+Direct accent and pronunciation apps,Accent Coach: Master Accents,"On-device scoring of sounds, rhythm and melody; 27 accents",iOS 2.0 (1 rating),Free; Mac $10,Yes,Yes (rhythm/melody),No,,Low today; shows pitch scoring is easy to copy,2026-11-15
+Direct accent and pronunciation apps,AnyAccent,"AI ""closeness"" score, UK/US/AU",0 ratings,"$4.99/mo, $99.99/yr",Partly,Yes,AI personas,,Low,2026-11-15
+Direct accent and pronunciation apps,Mimic: Accent Training,"On-device score, UK/US packs",10+ GP,$9.99 per pack,No,Yes,No,,Low,2026-11-15
+Direct accent and pronunciation apps,The Voice Café,"Accent audio for actors (Geordie, Cockney…)",iOS 2.89 (9),$2.99 per accent,Yes,No,No,,Low,2026-11-15
+Direct accent and pronunciation apps,IDEA archive,"Free dialect recordings, ~1,800 samples from 135 countries (IDEA)",Web,Free,Yes,No,No,,Low (also a possible partner),2026-11-15
+Big language apps and AI speaking apps,Duolingo,Gamified languages + chess + maths; Video Call with AI characters,500M+ GP; 64.9M DAU; $1.22bn FY26 guidance,"Super $12.99/mo, $83.99/yr",,,,Blog covers English dialects (blog); no selectable regional English course (UNVERIFIED),High (fast copier with huge reach),2026-11-15
+Big language apps and AI speaking apps,Babbel,Subscription lessons + Babbel Speak AI + live classes,50M+ GP; 2024 revenue €284.9M (register via firmendata),$12.95+,,,,Varieties only across languages,Low,2026-11-15
+Big language apps and AI speaking apps,Speak,"Speaking-first AI tutor, OpenAI-backed","10M+ GP; >$100M annualised (Forbes ME; an older report says ~$50M, a conflict); $1B valuation (TechCrunch)",$17.99–39.99/mo,,,,Reviewers ask for dialect choice,Medium,2026-11-15
+Big language apps and AI speaking apps,Praktika,AI avatar tutors,"10M+ GP; CEO: $55M ARR, ~0.5M payers","$9.99/mo, $59.99–139.99/yr",,,,"US/UK/AU/""Asian"" tutor voices (help)","Medium-High (could add ""local"" avatars)",2026-11-15
+Big language apps and AI speaking apps,Loora,English-only AI conversation coach,"10M+ GP; ""tens of millions"" ARR; $43M raised",~$11–156 per item (GP),,,,US or UK (support),Medium,2026-11-15
+Big language apps and AI speaking apps,Talkpal,"GPT-based chat and call tutor, 130+ languages",5M+ GP,$19.99–119.99 (GP),,,,"""English (British)"" option",Low,2026-11-15
+Big language apps and AI speaking apps,Langua,AI conversation using voices cloned from real native speakers,100K+ GP; founder: $308K MRR (self-reported),$19.90–199.90 (GP),,,,Country-specific dialect voices: the nearest big-app feature to Sound Local,Medium,2026-11-15
+Big language apps and AI speaking apps,Busuu (Chegg),Courses + native-speaker community feedback,50M+ GP; bought by Chegg for ~$436M (Chegg),"~$10.50/mo, $62.99/yr (third-party price check)",,,,None found,Low,2026-11-15
+Big language apps and AI speaking apps,Memrise,Native-speaker video clips + AI chat partners,50M+ GP; ~$25M raised (CB Insights),Varies widely and A/B-tested (WEAK),,,,None,Low,2026-11-15
+Big language apps and AI speaking apps,Rosetta Stone (IXL),Immersion lessons; TruAccent speech scoring,10M+ GP,"$19.99/mo, $159/yr, $299 lifetime (buy page)",,,,"TruAccent scores against native speakers, not regions",Low,2026-11-15
+Tutors and human coaching,Cambly,On-demand native-speaker video tutors,,~$8.65–18.75 per 30-min lesson depending on plan (Cambly); ~$60M raised (Forbes),,,,,Low,2026-11-15
+Tutors and human coaching,Preply,"Tutor marketplace; $150M Series D at $1.2B (Jan 2026, Preply)",,Tutors set prices; platform takes the trial lesson + 33%→18% (Preply). Example: British pronunciation tutor $60 per 50 min (Preply),,,,,Low,2026-11-15
+Tutors and human coaching,italki,"Tutor marketplace, 150+ languages",,$5–120 per lesson; 15–21% commission (italki),,,,,Low,2026-11-15
+Tutors and human coaching,Dialect coaches,1:1 coaching for actors,,$120–180/hr in the US; £100–135/hr in the UK; £65 discounted actor rate,,,,,"Low (a partner channel, and the price anchor)",2026-11-15
+Tutors and human coaching,The Accent Bank,Coach-led courses and social channels; £40 Scottish DIY course; claims 1.4M+ followers (site),,£37–140,,,,,"Medium (content competitor, possible partner)",2026-11-15
+Tutors and human coaching,21 Accents (Amy Walker),YouTube membership academy,,$4.99 or $8.99/mo (site),,,,,Low,2026-11-15
+Accent games and entertainment,Accentle,"Daily ""guess the accent"" web game, 126 accents; pub licence",,"Free; $1.99/day, $4.99/mo, $7.99/mo pub licence (press)",,,,,"Medium (listening only, but owns ""Wordle for accents"")",2026-11-15
+Accent games and entertainment,"DialectGuessr, AccentGuessr",Free web guessing toys,,Free,,,,,Low,2026-11-15
+Accent games and entertainment,Other Voices: Accent Game,"Android: perform an accent, earn points for ""accuracy and expression"" (Play)",,Free with ads; 100+ installs,,,,,"Low (the closest concept, no traction)",2026-11-15
+Accent games and entertainment,"The Accent Game, Guess the Accent",Listening quizzes,,Free,,,,,Low,2026-11-15
+Accent games and entertainment,Heads Up! (Warner Bros.),Party guessing game with an Accents deck,,iOS $1.99 + decks; 10M+ GP,,,,,Low (could add a scored deck),2026-11-15
+Accent games and entertainment,Accentuate / Utter Nonsense board games,Read cards aloud in accents; people judge,,~£23–29,,,,,Low,2026-11-15
+Accent games and entertainment,Mimic Party (Steam),Voice party game; a local AI scores pitch and rhythm (Steam),,UNVERIFIED,,,,,"Low, but proves pitch scoring is a commodity",2026-11-15
+Accent games and entertainment,Accent creators (TikTok/YouTube),"Kallmekris, Amy Walker, WIRED's Erik Singer, Glasgow comedians",,Free,,,,,Competes for attention; best partners,2026-11-15
+AI voice platforms (copy threats and suppliers),"OpenAI (ChatGPT voice, gpt-realtime)",Free voice chat that can imitate and coach accents on request,,,,,,,"High for casual use. No game, calibrated score, characters or progression",2026-11-15
+AI voice platforms (copy threats and suppliers),"Google (Gemini Live, Translate practice)",Accent and character switching in Gemini Live; pronunciation practice in Translate,,,,,,,Medium-High,2026-11-15
+AI voice platforms (copy threats and suppliers),ElevenLabs,Sound Local's own speech-to-text and voice supplier; accent-filterable voice library; Agents at ~$0.08/min (pricing),,,,,,,Medium (a supplier that could build a consumer demo),2026-11-15
+AI voice platforms (copy threats and suppliers),"Azure, Speechace, SpeechSuper",Pronunciation-scoring APIs scored against standard US/UK/Indian English,,,,,,,Supplier only,2026-11-15
+AI voice platforms (copy threats and suppliers),Voicemod,Real-time voice changer,,,,,,,Low,2026-11-15
+AI voice platforms (copy threats and suppliers),Krisp accent conversion,Software that changes call-centre agents' accents live,,,,,,,Low for consumers; it erodes the call-centre training market,2026-11-15
