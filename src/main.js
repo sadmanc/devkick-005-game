@@ -295,7 +295,7 @@ function showChatPanel() {
   $('level').textContent = `Free talk · ${npc.name}`;
   $('line').textContent = npc.goal;
   $('meaning').textContent = chat.turn
-    ? 'Say anything. Scots words and a local-sounding voice win them over:'
+    ? `Say anything. ${words.label} and a local-sounding voice win them over:`
     : npc.id === 'otter'
       ? `Say anything. Try: “${CHAT_OPENERS[0]}”`
       : 'Say anything. Sound like a local, or else:';
