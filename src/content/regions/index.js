@@ -89,6 +89,7 @@ export const REGIONS = {
     quests: { doubledouble, streetcar, court },
     lessons: torontoLessons,
     scene: 'toronto',
+    voiceLang: 'en-CA',
     review: PENDING_REVIEW,
     ui: {
       place: 'Toronto, Canada',

@@ -1,0 +1,13 @@
+{
+  "about": "Reference recordings measured by measure.py. All are Speech Accent Archive readings of the same elicitation paragraph ('Please call Stella...'), George Mason University, CC BY-NC-SA 4.0 (https://accent.gmu.edu/download). Audio is downloaded to a temp dir outside the repo and deleted after measuring; only these references and the numbers are committed. Glasgow 'otter' lines are the game's own ElevenLabs lines (public/assets/audio/scotland).",
+  "passage": "Please call Stella. Ask her to bring these things with her from the store: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob. We also need a small plastic snake and a big toy frog for the kids. She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.",
+  "groups": {
+    "toronto": ["english101", "english132", "english28", "english301", "english542", "english574", "english61", "english647"],
+    "general_american": ["english59", "english10", "english187", "english197", "english492", "english104", "english118", "english126"],
+    "glasgow": ["english228", "english24", "english440", "english620", "english80"]
+  },
+  "otter": "public/assets/audio/scotland/*.mp3",
+  "not_measured": {
+    "multicultural_toronto_english": "YouTube refused downloads from the research machine on 2026-11-15 ('Sign in to confirm you're not a bot'), so no MTE clip was measured. Candidate clips with timestamps are in ../sources.json (acoustic_candidate: true). Re-run with: python3 measure.py --youtube <url> <start-end> <label>"
+  }
+}

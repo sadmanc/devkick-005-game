@@ -2,7 +2,7 @@
 import './ui/styles.css';
 import { REGIONS, regionList } from './content/regions/index.js';
 import { createStage } from './game/otterScene.js';
-import { say, sfx, setMuted, isMuted, unlockAudio, startBed, setBed, setWarmth, chime } from './game/audio.js';
+import { say, sfx, setMuted, isMuted, unlockAudio, startBed, setBed, setWarmth, chime, setVoiceLang } from './game/audio.js';
 import { measureAccent } from './game/accentCheck.js';
 import { band, clampTrust, placement, trustDelta } from './game/placement.js';
 import { listen, isSupported } from './voice/index.js';
@@ -931,6 +931,7 @@ function chooseRegion(id) {
   words = region.words;
   npc = Object.values(cast)[0];
   stage.setRegion?.(id);
+  setVoiceLang(region.voiceLang ?? null);
   const ui = region.ui;
   $('intro-place').textContent = ui.place;
   $('intro-heading').textContent = ui.heading;
