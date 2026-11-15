@@ -23,6 +23,10 @@ def main():
     data = json.load(open(os.path.join(HERE, 'measurements.json')))['clips']
     os.makedirs(OUT, exist_ok=True)
     groups = [g for g in COL if any(c['group'] == g for c in data)]
+    groups += sorted({c['group'] for c in data} - set(groups))  # e.g. clips added with --youtube URL span mte
+    for i, g in enumerate(groups):
+        COL.setdefault(g, plt.cm.tab10(i))
+        NAME.setdefault(g, g)
     by = {g: [c for c in data if c['group'] == g] for g in groups}
 
     fig, axes = plt.subplots(3, 4, figsize=(16, 11))
