@@ -1,24 +1,28 @@
 // Lane 1: game shell. Title -> world map -> otter placement test -> result path.
 import './ui/styles.css';
-import scotland from './content/scotland.json';
+import { REGIONS, regionList } from './content/regions/index.js';
 import { createStage } from './game/otterScene.js';
-import { say, sfx, setMuted, isMuted, unlockAudio, startBed, setBed, setWarmth, chime } from './game/audio.js';
-import { SCOTS_WORDS, findScots } from './game/scotsWords.js';
+import { say, sfx, setMuted, isMuted, unlockAudio, startBed, setBed, setWarmth, chime, setVoiceLang } from './game/audio.js';
 import { measureAccent } from './game/accentCheck.js';
-import cast from './content/cast.json';
 import { band, clampTrust, placement, trustDelta } from './game/placement.js';
 import { listen, isSupported } from './voice/index.js';
 import { createLive } from './game/liveVoice.js';
-import { createLessons } from './ui/lessons.js';
+import { createLessons, roadmapFrom } from './ui/lessons.js';
+import { lessonItems, unitTestItems, starsFor, loadProgress, saveProgress } from './game/lessonRun.js';
 import { newChat, applyTurn, lineFrom, talk as askOtter, START_TRUST } from './game/conversation.js';
 import { startRecording, blobToBase64 } from './voice/record.js';
-import flowers from './content/flowers.json';
 import { turn } from './game/flowers.js';
+import { startQuest, questTurn, checklist, beatOf, wordingMode, wordLine } from './game/quest.js';
 
 const $ = (id) => document.getElementById(id);
-const stage = createStage($('stage'));
+const stage = createStage($('stage'), Object.fromEntries(Object.values(REGIONS).map((r) => [r.id, r.cast])));
 if (import.meta.env.DEV) window.__stage = stage; // dev-only hook for checking otter reactions
-const place = scotland;
+// The region you picked on the map: its placement test, cast, word tray and scene. Glasgow until then.
+let region = REGIONS.scotland;
+let place = region.content;
+let cast = region.cast;
+let words = region.words;
+const { flowers } = REGIONS.scotland.quests;
 const live = createLive($('live'), $('ring'), $('match'));
 let lastLean = 0;
 live.onVoice((voiced) => {
@@ -47,12 +51,24 @@ function show(id) {
   document.body.classList.toggle('flat', $(id).classList.contains('flat'));
   // after free-talk practice, offer the test straight away
   if (id === 'result') $('result-test').hidden = mode === 'test';
+  $('beats').hidden = mode !== 'quest';
 }
 
 // Placement: a good accent test skips you 50 lessons ahead, otherwise you start at lesson 1.
 const SKIP_AT = 0.6;
 const SKIP_LESSONS = 50;
-const lessons = createLessons({ root: $('learn'), onTap: ({ state }) => sfx(state === 'locked' ? 'ok' : 'tap') });
+const lessons = createLessons({
+  root: $('learn'),
+  onTap: ({ state, id }) => {
+    sfx(state === 'locked' ? 'ok' : 'tap');
+    if (state !== 'locked' && id && region.lessons?.playable) openLesson(id);
+  },
+});
+// A region with playable lessons (lessons.json) plays them through the say-it-back test screen.
+let run = null; // { id, title, items, intro, test } while a lesson or the unit test is on
+const testItems = () => run?.items ?? place.test;
+const playableLessons = () => (region.lessons?.playable ? region.lessons : null);
+const roadmapNodes = (pack) => roadmapFrom(pack).flatMap((u) => u.nodes);
 let placedAt = 0;
 
 // score counts up (time grows with the number, 0.35..1.2 s), then the card settles
@@ -70,11 +86,19 @@ function countUp(el, to) {
 
 function showResult(average, level) {
   const well = average >= SKIP_AT;
-  placedAt = well ? SKIP_LESSONS : 0;
+  const pack = playableLessons();
+  const skip = pack ? pack.units[0].lessons.length : SKIP_LESSONS;
+  placedAt = well ? skip : 0;
   $('result-level').textContent = level.name;
-  $('result-note').textContent = well
-    ? `Ye sound like ye belong here. Skipping you ahead ${SKIP_LESSONS} lessons to lesson ${SKIP_LESSONS + 1}.`
-    : 'Everyone starts somewhere. You begin at lesson 1.';
+  $('result-note').textContent = pack
+    ? well
+      ? `You sound like you belong here. Skipping you ahead ${skip} lessons to "${pack.units[1].title}".`
+      : 'Everyone starts somewhere. You begin at lesson 1.'
+    : well
+      ? `Ye sound like ye belong here. Skipping you ahead ${SKIP_LESSONS} lessons to lesson ${SKIP_LESSONS + 1}.`
+      : 'Everyone starts somewhere. You begin at lesson 1.';
+  $('result-ribbon').textContent = 'Your accent';
+  $('start-learning').textContent = 'Start learning';
   $('result-score').textContent = '0';
   show('result');
   popIn($('result').querySelector('.popup'));
@@ -90,6 +114,7 @@ function popIn(el) {
 async function otterSays(line, mood = 'talk') {
   const bubble = $('bubble');
   $('bubble-text').textContent = line.text;
+  $('bubble-means').textContent = line.means || '';
   bubble.classList.add('show');
   stage.react(mood === 'talk' ? 'talk' : mood);
   setBed('under');
@@ -148,7 +173,7 @@ function buildTray() {
   collected = new Set();
   const tray = $('scots');
   tray.innerHTML = '';
-  for (const w of SCOTS_WORDS) {
+  for (const w of words.list) {
     const b = document.createElement('span');
     b.className = 'word';
     b.dataset.id = w.id;
@@ -159,11 +184,11 @@ function buildTray() {
   updateTrayCount();
 }
 function updateTrayCount() {
-  $('scots').dataset.count = `Scots words ${collected.size} / ${SCOTS_WORDS.length}`;
+  $('scots').dataset.count = `${words.label} ${collected.size} / ${words.list.length}`;
 }
 // Light every newly said word; returns how many were new.
 function collectWords(text) {
-  const fresh = findScots(text).filter((id) => !collected.has(id));
+  const fresh = words.find(text).filter((id) => !collected.has(id));
   fresh.forEach((id, i) => {
     collected.add(id);
     const chip = $('scots').querySelector(`[data-id="${id}"]`);
@@ -171,7 +196,7 @@ function collectWords(text) {
       chime(collected.size - fresh.length + i);
       chip?.classList.add('got');
       if (chip) popIn(chip);
-      floatPop(`${SCOTS_WORDS.find((w) => w.id === id).label}!`, 'word', 0);
+      floatPop(`${words.list.find((w) => w.id === id).label}!`, 'word', 0);
     }, i * 180);
   });
   if (fresh.length) updateTrayCount();
@@ -216,8 +241,8 @@ function stopCaptions() {
 }
 
 function showItem(i) {
-  const item = place.test[i];
-  $('step').textContent = `${i + 1} / ${place.test.length}`;
+  const item = testItems()[i];
+  $('step').textContent = `${i + 1} / ${testItems().length}`;
   $('level').textContent = item.level[0].toUpperCase() + item.level.slice(1);
   $('line').textContent = item.line;
   $('meaning').textContent = `Means: ${item.meaning}`;
@@ -270,7 +295,7 @@ function showChatPanel() {
   $('level').textContent = `Free talk · ${npc.name}`;
   $('line').textContent = npc.goal;
   $('meaning').textContent = chat.turn
-    ? 'Say anything. Scots words and a local-sounding voice win them over:'
+    ? `Say anything. ${words.label} and a local-sounding voice win them over:`
     : npc.id === 'otter'
       ? `Say anything. Try: “${CHAT_OPENERS[0]}”`
       : 'Say anything. Sound like a local, or else:';
@@ -295,7 +320,7 @@ async function primeMic() {
 // ---- the street: pick who to talk to
 function showCast() {
   $('bubble').classList.remove('show');
-  stage.focus('otter');
+  stage.focus(Object.values(cast)[0].id);
   stage.react('idle');
   const wrap = $('cast-cards');
   wrap.innerHTML = '';
@@ -303,13 +328,16 @@ function showCast() {
     const b = document.createElement('button');
     const done = outcomes[c.id];
     b.className = `cast-card ${done === 'local' ? 'won' : done ? 'lost' : ''}`;
-    b.innerHTML = `<img src="${c.card}" alt="" /><b></b><small></small><span class="badge"></span>`;
+    b.innerHTML = `${c.card ? `<img src="${c.card}" alt="" />` : '<i class="card-standin"></i>'}<b></b><small></small><span class="badge"></span>`;
+    if (!c.card) b.querySelector('.card-standin').style.background = `radial-gradient(circle at 50% 40%, ${c.standIn.belly} 0 30%, ${c.standIn.fur} 31%)`;
     b.querySelector('b').textContent = c.name;
     b.querySelector('small').textContent = c.role;
-    b.querySelector('.badge').textContent = done === 'local' ? 'Won' : done ? 'Try again' : 'Talk';
+    const quest = c.quest && region.quests[c.quest];
+    b.querySelector('.badge').textContent = done === 'local' ? 'Won' : done ? 'Try again' : quest ? 'Quest' : 'Talk';
     b.addEventListener('click', () => {
       sfx('tap');
-      startChat(c.id);
+      if (quest) startQuestFor(c.quest);
+      else startChat(c.id);
     });
     b.addEventListener('pointerenter', () => stage.focus(c.id));
     wrap.appendChild(b);
@@ -370,7 +398,7 @@ function readyToTalk(note) {
 async function startChat(id = npc.id) {
   mode = 'chat';
   primeMic();
-  npc = cast[id] ?? cast.otter;
+  npc = cast[id] ?? Object.values(cast)[0];
   pendingEcho = null;
   $('again-line').hidden = false;
   $('speaker').textContent = npc.name;
@@ -396,28 +424,34 @@ async function startChat(id = npc.id) {
     // the player's first answer.
     lastOtterLine = { text: npc.greeting, audio: npc.greetingAudio ?? null };
     chat = { ...chat, history: [{ who: 'otter', text: npc.greeting }] };
-    showSuggestions(OPENING_SUGGESTIONS[npc.id]);
+    showSuggestions(OPENING_SUGGESTIONS[npc.id] ?? npc.openers);
   }
   await otterSays(lastOtterLine, 'suspicious');
   readyToTalk();
 }
 
 // blob: the recorded answer, transcribed by ElevenLabs Scribe on the server.
-async function chatTurn(blob) {
-  if (!blob || blob.size < MIN_ANSWER_BYTES) return readyToTalk('Hold the button down while you talk.');
+// typed: text instead of a recording (the dev-only __say hook); null in real play.
+async function chatTurn(blob, typed = null) {
+  if (typed == null && (!blob || blob.size < MIN_ANSWER_BYTES)) return readyToTalk('Hold the button down while you talk.');
   $('heard').textContent = 'You: …';
   showSuggestions(null);
   setTalk(false, `${npc.short} is thinking...`);
   const echo = pendingEcho;
   // Their ears: your voice against their own last line (rough), and against the say-it-back phrase.
-  const ears = Promise.all([
+  const ears = typed != null ? Promise.resolve([null, null]) : Promise.all([
     measureAccent(blob, lastOtterLine?.audio),
     echo ? measureAccent(blob, echo.audio) : null,
   ]);
   // Send first, then fill the wait with a thinking line while the answer is on its way.
-  const pending = Promise.all([blobToBase64(blob), ears])
+  const pending = Promise.all([typed != null ? null : blobToBase64(blob), ears])
     .then(([audio, [accent, echoAccent]]) =>
-      askOtter(chat, { audio, audioType: blob.type, npc: npc.id, accent, echoAccent, echo: echo?.text ?? '' }),
+      askOtter(
+        chat,
+        typed != null
+          ? { said: typed, npc: npc.id, echo: echo?.text ?? '' }
+          : { audio, audioType: blob.type, npc: npc.id, accent, echoAccent, echo: echo?.text ?? '' },
+      ),
     )
     .then(
       (value) => ({ value }),
@@ -434,10 +468,10 @@ async function chatTurn(blob) {
     console.warn('[chat] /api/otter failed:', error.message);
     // 429: this player is going too fast (or the day's AI turns are spent); a kind line, not an error
     if (error.status === 429) {
-      await otterSays({ text: "Haud on, pal, ye've worn me oot! Gie it a wee minute and come back later." }, 'ok');
+      await otterSays({ text: region.ui.comeBackLater }, 'ok');
       return readyToTalk('Too many turns for now. Come back in a minute.');
     }
-    await otterSays({ text: 'Sorry pal, couldnae hear ye ower the rain. Say that again?' }, 'ok');
+    await otterSays({ text: region.ui.cantHear }, 'ok');
     return readyToTalk('');
   }
   const said = answer.heard || '';
@@ -485,7 +519,7 @@ async function finishChat(outcome) {
   const wins = Object.values(cast).filter((c) => outcomes[c.id] === 'local').length;
   const note = outcome === 'local' ? npc.win : outcome === 'busted' ? npc.bust : OUTCOME_NOTE.out_of_time.replace('The otter', npc.short);
   const legend = wins === Object.keys(cast).length ? ' LOCAL LEGEND: the whole street trusts ye!' : ` Locals won over: ${wins} of ${Object.keys(cast).length}.`;
-  $('result-note').textContent = `${note}${legend} Scots words: ${collected.size} of ${SCOTS_WORDS.length}.`;
+  $('result-note').textContent = `${note}${legend} ${words.label}: ${collected.size} of ${words.list.length}.`;
   $('again').textContent = 'Talk to someone else';
   stage.react(p.index >= 2 ? 'good' : 'ok');
   if (p.level.celebration) {
@@ -497,7 +531,8 @@ async function finishChat(outcome) {
   }
 }
 
-async function startTest() {
+async function startTest(lesson = null) {
+  run = lesson;
   mode = 'test';
   showSuggestions(null);
   primeMic();
@@ -513,13 +548,13 @@ async function startTest() {
   busy = true;
   setTalk(false, 'Listen...');
   showItem(0);
-  await otterSays(place.character.intro, 'suspicious');
+  await otterSays(run ? run.intro : place.character.intro, run ? 'talk' : 'suspicious');
   await new Promise((r) => setTimeout(r, 250));
   await presentItem();
 }
 
 async function presentItem() {
-  const item = place.test[index];
+  const item = testItems()[index];
   busy = true;
   setTalk(false, 'Listen...');
   await otterSays({ text: `Say: "${item.line}"`, audio: item.audio ? item.audio : null });
@@ -538,7 +573,15 @@ async function replayLine() {
     await otterSays(line, 'talk');
     return readyToTalk();
   }
-  const item = place.test[index];
+  if (mode === 'quest') {
+    if (!questLine) return;
+    sfx('tap');
+    busy = true;
+    setTalk(false, 'Listen...');
+    await otterSays(questLine, 'talk');
+    return readyToTalk();
+  }
+  const item = testItems()[index];
   sfx('tap');
   busy = true;
   setTalk(false, 'Listen...');
@@ -619,6 +662,103 @@ async function talkTurn(r) {
   sfx(t.ending === 'buy' ? 'level' : 'bad');
 }
 
+// ---- quests: scripted beats on the quest engine (src/game/quest.js, src/content/<region>/quests/)
+let quest = null;
+let questState = null;
+let questLine = null;
+// ?wording=ai is the hook for model-worded quest lines later; tonight every line is scripted.
+const questWording = new URLSearchParams(location.search).get('wording');
+
+function renderBeats() {
+  const ul = $('beats');
+  ul.innerHTML = '';
+  for (const b of checklist(quest, questState)) {
+    const li = document.createElement('li');
+    li.className = b.done ? 'done' : b.current ? 'current' : '';
+    li.textContent = `${b.done ? '✔' : '◻'} ${b.label}`;
+    ul.appendChild(li);
+  }
+}
+
+function showQuestStep(stuck = false) {
+  const beat = beatOf(quest, questState);
+  $('step').textContent = 'Quest';
+  $('level').textContent = quest.name;
+  $('line').textContent = beat.facts.join(' ');
+  $('meaning').textContent = quest.intro;
+  $('tip').textContent = stuck ? `Tip: try "${beat.hint}"` : '';
+  $('melody').classList.remove('show');
+  renderBeats();
+  popIn($('prompt'));
+}
+
+async function questSays(l, mood) {
+  questLine = await wordLine(l, { quest: quest.id, beat: questState.beat }, { mode: wordingMode(quest, questWording) });
+  await otterSays(questLine, mood);
+}
+
+async function startQuestFor(id) {
+  mode = 'quest';
+  quest = region.quests[id];
+  npc = cast[quest.character.id] ?? npc;
+  primeMic();
+  showSuggestions(null);
+  $('again').textContent = 'Try again';
+  $('again-line').hidden = false;
+  $('scots').classList.remove('show');
+  const start = startQuest(quest);
+  questState = start.state;
+  $('speaker').textContent = quest.character.name;
+  stage.focus(npc.id);
+  live.hide();
+  setTrust(questState.mood);
+  show('test');
+  showQuestStep();
+  $('heard').textContent = '';
+  busy = true;
+  setTalk(false, 'Listen...');
+  await questSays(start.line, 'suspicious');
+  readyToTalk();
+}
+
+async function questTalkTurn(r) {
+  if (!r.transcript) {
+    $('heard').textContent = r.error === 'not-allowed' ? 'Allow the microphone (the mic or lock icon by the address bar), then hold Talk again. No need to refresh.' : "Didn't catch that. Hold the button while you speak.";
+    busy = false;
+    setTalk(true, 'Try again');
+    return;
+  }
+  const before = questState.mood;
+  const t = questTurn(quest, questState, r.transcript);
+  questState = t.state;
+  $('heard').textContent = `Heard: "${r.transcript}"`;
+  setTrust(t.state.mood);
+  const d = t.state.mood - before;
+  const b = t.trap || d < 0 ? 'bad' : d > 0 ? 'good' : 'ok';
+  sfx(b);
+  floatPop(t.trap ? `Tourist trap! ${d}` : `${d >= 0 ? '+' : ''}${d} trust`, b === 'ok' ? '' : b);
+  renderBeats();
+  if (t.aside) await questSays(t.aside, b);
+  await questSays(t.reply, t.ending === 'win' ? 'good' : t.ending === 'lose' ? 'bad' : 'talk');
+  if (!t.ending) {
+    showQuestStep(!t.moved);
+    readyToTalk();
+    return;
+  }
+  outcomes[npc.id] = t.ending === 'win' ? 'local' : 'busted';
+  const wins = Object.values(cast).filter((c) => outcomes[c.id] === 'local').length;
+  $('result-level').textContent = t.ending === 'win' ? 'Local!' : 'Tourist';
+  $('result-score').textContent = String(t.state.mood);
+  $('result-note').textContent = `${t.ending === 'win' ? npc.win : npc.bust} Locals won over: ${wins} of ${Object.keys(cast).length}.`;
+  $('again').textContent = 'Talk to someone else';
+  $('result-ribbon').textContent = 'Your accent';
+  $('start-learning').textContent = 'Start learning';
+  $('bubble').classList.remove('show');
+  show('result');
+  stage.react(t.ending === 'win' ? 'good' : 'ok');
+  sfx(t.ending === 'win' ? 'level' : 'bad');
+}
+
 // ---- talking (hold Space or hold the button)
 let session = null;
 function beginTalk() {
@@ -639,9 +779,9 @@ function beginTalk() {
     return;
   }
   live.start();
-  if (mode === 'flowers') live.hide(); // no reference clip here: keep the mic ring, drop "Match %"
-  const item = place.test[index];
-  session = mode === 'flowers' ? listen() : listen({ expected: item.accepted.concat(item.line), referenceUrl: item.audio });
+  if (mode === 'flowers' || mode === 'quest') live.hide(); // no reference clip here: keep the mic ring, drop "Match %"
+  const item = testItems()[index];
+  session = mode === 'flowers' || mode === 'quest' ? listen() : listen({ expected: item.accepted.concat(item.line), referenceUrl: item.audio });
 }
 
 async function endChatTalk(recording) {
@@ -673,11 +813,11 @@ async function endTalk() {
   s.stop();
   const r = await s.result;
   setBed('full');
-  await (mode === 'flowers' ? talkTurn(r) : judge(r));
+  await (mode === 'flowers' ? talkTurn(r) : mode === 'quest' ? questTalkTurn(r) : judge(r));
 }
 
 async function judge(r) {
-  const item = place.test[index];
+  const item = testItems()[index];
   if (r.error === 'not-allowed') {
     $('heard').textContent = 'Allow the microphone (the mic or lock icon by the address bar), then hold Talk again. No need to refresh.';
     busy = false;
@@ -712,7 +852,7 @@ async function judge(r) {
   scores.push(score);
   await new Promise((res) => setTimeout(res, 700));
   index += 1;
-  if (index < place.test.length) {
+  if (index < testItems().length) {
     showItem(index);
     await presentItem();
   } else {
@@ -721,6 +861,7 @@ async function judge(r) {
 }
 
 async function finish() {
+  if (run) return finishLesson();
   const p = placement(scores, place.path);
   await otterSays(place.character.outro, 'talk');
   $('bubble').classList.remove('show');
@@ -736,6 +877,47 @@ async function finish() {
   }
 }
 
+// ---- lessons: open one from the roadmap, then stars and progress when it's done
+function openLesson(id) {
+  const pack = playableLessons();
+  if (!isSupported()) {
+    alert('This browser cannot record the microphone. Try Chrome, Safari or Edge.');
+    return;
+  }
+  if (id === 'test') return startTest({ id, title: pack.test.title, items: unitTestItems(place), test: true, intro: { text: `${pack.test.title}! ${unitTestItems(place).length} lines. Say each one like a local.` } });
+  const lesson = pack.lessons.find((l) => l.id === id);
+  startTest({ id, title: lesson.title, items: lessonItems(pack, lesson), intro: { text: `${lesson.title}. ${lesson.goal}`, audio: lesson.introAudio ?? null } });
+}
+
+async function finishLesson() {
+  const pack = playableLessons();
+  const avg = scores.reduce((a, b) => a + b, 0) / Math.max(1, scores.length);
+  const stars = starsFor(avg);
+  const nodes = roadmapNodes(pack);
+  const at = nodes.findIndex((n) => n.id === run.id);
+  const passed = run.test ? avg >= SKIP_AT : true;
+  if (passed) saveProgress(region.id, Math.max(loadProgress(region.id), at + 1));
+  const level = run.test ? placement(scores, place.path).level : null;
+  $('bubble').classList.remove('show');
+  $('result-ribbon').textContent = run.test ? pack.test.title : 'Lesson complete';
+  $('result-level').textContent = run.test ? level.name : run.title;
+  const next = nodes[at + 1];
+  $('result-note').textContent = `${'★'.repeat(stars)}${'☆'.repeat(3 - stars)}  ${
+    run.test ? (passed ? 'You passed! The whole unit is done.' : 'Not yet. Do a few lessons again and come back.') : next ? `Next up: ${next.label}.` : 'Unit done!'
+  }`;
+  $('start-learning').textContent = 'Back to lessons';
+  $('result-score').textContent = '0';
+  show('result');
+  popIn($('result').querySelector('.popup'));
+  countUp($('result-score'), Math.round(avg * 100));
+  stage.react(stars >= 2 ? 'good' : 'ok');
+  if (level?.celebration && passed) {
+    setBed('off');
+    await say(level.celebration);
+    setBed('full');
+  } else sfx('level');
+}
+
 // ---- wiring
 $('play').addEventListener('click', () => {
   unlockAudio();
@@ -743,15 +925,52 @@ $('play').addEventListener('click', () => {
   sfx('tap');
   show('map');
 });
-document.querySelector('.pin.live').addEventListener('click', () => {
-  sfx('tap');
-  // Free talk only needs a mic recorder (speech-to-text runs on the server), so most browsers work.
-  if (!navigator.mediaDevices?.getUserMedia || !globalThis.MediaRecorder) {
-    alert('This browser cannot use the microphone. Please open the game in Chrome, Edge, Safari or Firefox.');
-    return;
-  }
-  showIntro();
-});
+// Map pins come from the region registry; picking one loads that region's intro, cast, words and scene.
+function chooseRegion(id) {
+  if (region.id !== id) placedAt = 0; // a placement skip belongs to the region it was earned in
+  region = REGIONS[id];
+  place = region.content;
+  cast = region.cast;
+  words = region.words;
+  npc = Object.values(cast)[0];
+  stage.setRegion?.(id);
+  setVoiceLang(region.voiceLang ?? null);
+  const ui = region.ui;
+  $('intro-place').textContent = ui.place;
+  $('intro-heading').textContent = ui.heading;
+  $('intro-note').textContent = ui.note;
+  $('intro-howto').innerHTML = ui.howto.map((li) => `<li>${li}</li>`).join('');
+  $('intro-review').hidden = !region.review;
+  $('intro-review').textContent = region.review ? `Preview: ${region.review}` : '';
+  $('intro-flowers').hidden = !region.quests.flowers;
+  $('intro-start').textContent = ui.talk;
+  $('cast-street').textContent = ui.street;
+  $('cast-heading').textContent = ui.castHeading;
+  $('cast-note').textContent = ui.castNote;
+  $('learn-lang').textContent = ui.language;
+}
+for (const r of regionList()) {
+  const pin = document.createElement('button');
+  pin.className = 'pin live';
+  pin.dataset.place = r.id;
+  pin.style.left = `${r.pin.left}%`;
+  pin.style.top = `${r.pin.top}%`;
+  pin.setAttribute('aria-label', r.review ? `${r.name} (preview, ${r.review})` : r.name);
+  pin.innerHTML = '<span class="dot"></span><span class="label"></span>';
+  pin.querySelector('.label').textContent = r.name;
+  if (r.review) pin.insertAdjacentHTML('beforeend', '<span class="preview">Preview: pending native review</span>');
+  pin.addEventListener('click', () => {
+    sfx('tap');
+    // Free talk only needs a mic recorder (speech-to-text runs on the server), so most browsers work.
+    if (!navigator.mediaDevices?.getUserMedia || !globalThis.MediaRecorder) {
+      alert('This browser cannot use the microphone. Please open the game in Chrome, Edge, Safari or Firefox.');
+      return;
+    }
+    chooseRegion(r.id);
+    showIntro();
+  });
+  $('map-pins').appendChild(pin);
+}
 $('intro-start').addEventListener('click', () => {
   sfx('tap');
   showCast();
@@ -766,7 +985,7 @@ $('intro-test').addEventListener('click', () => {
     alert('This browser cannot record the microphone. Try Chrome, Safari or Edge.');
     return;
   }
-  startTest();
+  startTest(null);
 });
 $('result-test').addEventListener('click', () => $('intro-test').click());
 $('again-line').addEventListener('click', replayLine);
@@ -780,9 +999,9 @@ $('intro-flowers').addEventListener('click', () => {
 });
 $('again').addEventListener('click', () => {
   sfx('tap');
-  if (mode === 'chat') showCast();
+  if (mode === 'chat' || mode === 'quest') showCast();
   else if (mode === 'flowers') startFlowers();
-  else startTest();
+  else startTest(run);
 });
 $('to-map').addEventListener('click', () => {
   sfx('tap');
@@ -824,12 +1043,40 @@ $('set-motion').addEventListener('change', (e) => {
 $('start-learning').addEventListener('click', () => {
   sfx('tap');
   show('learn');
-  lessons.open(placedAt, { skipped: placedAt > 0 });
+  const pack = playableLessons();
+  if (!pack) return lessons.open(placedAt, { skipped: placedAt > 0 });
+  const done = loadProgress(region.id);
+  const cur = Math.max(done, placedAt);
+  lessons.open(cur, { skipped: placedAt > done, roadmap: roadmapFrom(pack) });
 });
 $('learn-back').addEventListener('click', () => {
   sfx('tap');
   show('map');
 });
+// Dev only, no mic needed: __say('do cutting bhaiya') answers whatever is on screen (placement, flowers,
+// quest, free talk) as if speech-to-text heard it; `score` is the placement match (0-1). #say=<words> does the same.
+if (import.meta.env.DEV) {
+  window.__say = async (transcript, score = 0.8) => {
+    if (busy || session || !$('test').classList.contains('active')) return 'not ready';
+    busy = true;
+    setTalk(false, 'Hmm...');
+    const r = { transcript, score, error: null };
+    await (
+      mode === 'chat'
+        ? chatTurn(null, transcript)
+        : mode === 'quest'
+          ? questTalkTurn(r)
+          : mode === 'flowers'
+            ? talkTurn(r)
+            : judge(r)
+    );
+    return mode;
+  };
+  window.__quest = (id) => startQuestFor(id);
+  window.addEventListener('hashchange', () => {
+    if (location.hash.startsWith('#say=')) window.__say(decodeURIComponent(location.hash.slice(5)));
+  });
+}
 // Demo shortcut without a mic: #good or #bad jumps straight to the result.
 if (location.hash === '#good' || location.hash === '#bad') {
   const avg = location.hash === '#good' ? 0.82 : 0.31;

@@ -1,0 +1,417 @@
+{
+  "id": "court",
+  "name": "I got next",
+  "review": "pending native review",
+  "wording": "scripted",
+  "character": {
+    "id": "dre",
+    "name": "Dre"
+  },
+  "intro": "The basketball court at the park, a pickup game. Greet Dre, ask to run next, keep the banter going, and agree on the teams. Sound like you're from the 6ix.",
+  "mood": 40,
+  "leaveAt": 10,
+  "winAt": 60,
+  "noLocal": -4,
+  "localMax": 8,
+  "miss": -5,
+  "localWords": [
+    "wagwan",
+    "mans",
+    "fam",
+    "say less",
+    "ahlie",
+    "styll",
+    "still",
+    "bare",
+    "ting",
+    "mandem",
+    "u dun know",
+    "you dun know",
+    "the 6ix",
+    "trawna",
+    "bro",
+    "bruv",
+    "the ends",
+    "for real"
+  ],
+  "topics": [
+    {
+      "words": [
+        "raptors",
+        "basketball",
+        "nba",
+        "hoop"
+      ],
+      "mood": 5,
+      "reply": {
+        "text": "Ball is life in the 6ix, ahlie.",
+        "means": "Basketball is a big deal in Toronto, right?",
+        "audio": "assets/audio/toronto/quests/court/topic-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "cold",
+        "snow",
+        "winter"
+      ],
+      "mood": 4,
+      "reply": {
+        "text": "Bare cold, but mans is still out here.",
+        "means": "It's very cold, but I'm still out here playing.",
+        "audio": "assets/audio/toronto/quests/court/topic-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "food",
+        "patty",
+        "hungry",
+        "eat"
+      ],
+      "mood": 4,
+      "reply": {
+        "text": "After the game we're getting patties, say less.",
+        "means": "After the game we'll get beef patties, for sure.",
+        "audio": "assets/audio/toronto/quests/court/topic-3.mp3"
+      }
+    }
+  ],
+  "traps": [
+    {
+      "words": [
+        "fellow kids",
+        "young man",
+        "sir",
+        "good sport",
+        "jolly",
+        "splendid"
+      ],
+      "mood": -8,
+      "reply": {
+        "text": "\"Young man\"? Fam, are you my teacher?",
+        "means": "You sound like a teacher.",
+        "audio": "assets/audio/toronto/quests/court/trap-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "slam dunk contest",
+        "hoops young person",
+        "shoot some hoops"
+      ],
+      "mood": -6,
+      "reply": {
+        "text": "\"Shoot some hoops\"? Nah, we're just running, fam.",
+        "means": "Locals just say \"run\" or \"play\".",
+        "audio": "assets/audio/toronto/quests/court/trap-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "dude",
+        "gnarly",
+        "totally",
+        "awesome sauce"
+      ],
+      "mood": -5,
+      "reply": {
+        "text": "\"Gnarly\"? That's a different city, styll.",
+        "means": "That slang is from somewhere else.",
+        "audio": "assets/audio/toronto/quests/court/trap-3.mp3"
+      }
+    }
+  ],
+  "asides": {
+    "warm": [
+      {
+        "text": "Ayy, you're from the ends, I see.",
+        "means": "You sound like you're from around here.",
+        "audio": "assets/audio/toronto/quests/court/warm-1.mp3"
+      },
+      {
+        "text": "Okay, okay, you know the ting.",
+        "means": "Okay, you know how it works.",
+        "audio": "assets/audio/toronto/quests/court/warm-2.mp3"
+      }
+    ],
+    "cold": [
+      {
+        "text": "Bit stiff, fam. Relax.",
+        "means": "You're a little formal. Relax.",
+        "audio": "assets/audio/toronto/quests/court/cold-1.mp3"
+      },
+      {
+        "text": "You talk like a news reporter, styll.",
+        "means": "You sound like a news reporter, for real.",
+        "audio": "assets/audio/toronto/quests/court/cold-2.mp3"
+      }
+    ],
+    "huh": [
+      {
+        "text": "Say that again, fam?",
+        "means": "Can you repeat that, friend?",
+        "audio": "assets/audio/toronto/quests/court/huh-1.mp3"
+      },
+      {
+        "text": "Huh? Speak up, the ball's loud.",
+        "means": "What? A bit louder, please.",
+        "audio": "assets/audio/toronto/quests/court/huh-2.mp3"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "greet",
+      "label": "said wagwan",
+      "say": {
+        "text": "Wagwan. You tryna run?",
+        "means": "Hi. Do you want to play?",
+        "audio": "assets/audio/toronto/quests/court/greet.mp3"
+      },
+      "facts": [
+        "Dre runs the court and picks the next team.",
+        "Greet him the 6ix way."
+      ],
+      "hint": "Wagwan, fam?",
+      "intents": [
+        {
+          "words": [
+            "wagwan",
+            "wag wan",
+            "what gwan",
+            "wah gwaan",
+            "whagwan"
+          ],
+          "next": "next",
+          "mood": 12,
+          "reply": {
+            "text": "Wagwan! Okay, I see you.",
+            "means": "Hi! Okay, I notice you.",
+            "audio": "assets/audio/toronto/quests/court/greet-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "what's good",
+            "whats good",
+            "what's up fam",
+            "yo fam",
+            "yo"
+          ],
+          "next": "next",
+          "mood": 8,
+          "reply": {
+            "text": "Nothing much, fam. You tryna play?",
+            "means": "Not much, friend. Do you want to play?",
+            "audio": "assets/audio/toronto/quests/court/greet-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "hello",
+            "hi",
+            "hey",
+            "good afternoon",
+            "excuse me"
+          ],
+          "next": "next",
+          "mood": 2,
+          "reply": {
+            "text": "Uh, hi. You tryna run or what?",
+            "means": "Hi. Do you want to play?",
+            "audio": "assets/audio/toronto/quests/court/greet-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "label": "asked to play",
+      "say": {
+        "text": "We got a game going. You want next?",
+        "means": "There's a game on. Want to play the next one?",
+        "audio": "assets/audio/toronto/quests/court/next.mp3"
+      },
+      "facts": [
+        "\"I got next\" means you play the next game.",
+        "Ask to run next."
+      ],
+      "hint": "Can I run next?",
+      "intents": [
+        {
+          "words": [
+            "i got next",
+            "got next",
+            "run next",
+            "can i run",
+            "run with you"
+          ],
+          "next": "banter",
+          "mood": 14,
+          "reply": {
+            "text": "Say less. You're with mans.",
+            "means": "Done. You're on my team.",
+            "audio": "assets/audio/toronto/quests/court/next-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "can i play",
+            "play next",
+            "join",
+            "next game"
+          ],
+          "next": "banter",
+          "mood": 8,
+          "reply": {
+            "text": "Yeah, for sure. You're on my side.",
+            "means": "Yes, sure. You're on my team.",
+            "audio": "assets/audio/toronto/quests/court/next-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "is it okay",
+            "may i",
+            "would it be possible",
+            "permission"
+          ],
+          "next": "banter",
+          "mood": 2,
+          "reply": {
+            "text": "\"May I\"? Fam, just say you got next.",
+            "means": "Just say \"I got next\".",
+            "audio": "assets/audio/toronto/quests/court/next-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "banter",
+      "label": "kept the banter going",
+      "say": {
+        "text": "Mans hasn't missed a shot all day, ahlie.",
+        "means": "I haven't missed a shot all day, right?",
+        "audio": "assets/audio/toronto/quests/court/banter.mp3"
+      },
+      "facts": [
+        "\"Ahlie?\" means \"right? for real?\".",
+        "Back him up, or tease him back."
+      ],
+      "hint": "Ahlie, you're cold styll.",
+      "intents": [
+        {
+          "words": [
+            "ahlie",
+            "a lie",
+            "ally",
+            "styll",
+            "still",
+            "bare"
+          ],
+          "next": "teams",
+          "mood": 12,
+          "reply": {
+            "text": "Ha! You know the ting, fam.",
+            "means": "Ha! You get it, friend.",
+            "audio": "assets/audio/toronto/quests/court/banter-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "for real",
+            "no way",
+            "really",
+            "fam",
+            "bro"
+          ],
+          "next": "teams",
+          "mood": 6,
+          "reply": {
+            "text": "For real, for real. Watch.",
+            "means": "Seriously. Watch me.",
+            "audio": "assets/audio/toronto/quests/court/banter-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "nice",
+            "good job",
+            "well done",
+            "impressive",
+            "wow"
+          ],
+          "next": "teams",
+          "mood": 2,
+          "reply": {
+            "text": "\"Impressive\"? Okay, coach.",
+            "means": "You sound like a coach.",
+            "audio": "assets/audio/toronto/quests/court/banter-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teams",
+      "label": "agreed the teams",
+      "say": {
+        "text": "Aight, you and me versus them. Ready?",
+        "means": "Okay, you and me against them. Ready?",
+        "audio": "assets/audio/toronto/quests/court/teams.mp3"
+      },
+      "facts": [
+        "\"Say less\" means \"got it, no need to explain\".",
+        "Agree the 6ix way."
+      ],
+      "hint": "Say less, fam.",
+      "intents": [
+        {
+          "words": [
+            "say less",
+            "say less fam",
+            "u dun know",
+            "you dun know",
+            "you done know"
+          ],
+          "next": "end",
+          "mood": 12
+        },
+        {
+          "words": [
+            "let's go",
+            "lets go",
+            "ready",
+            "for sure",
+            "bet"
+          ],
+          "next": "end",
+          "mood": 6
+        },
+        {
+          "words": [
+            "yes",
+            "okay",
+            "ok",
+            "sure",
+            "alright"
+          ],
+          "next": "end",
+          "mood": 3
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "win": {
+      "text": "Say less! Mans is picking you first next time.",
+      "means": "Great! I'll pick you first next time.",
+      "audio": "assets/audio/toronto/quests/court/win.mp3"
+    },
+    "lose": {
+      "text": "Aight, you can hold the water bottles, fam.",
+      "means": "Okay, you can look after the water bottles.",
+      "audio": "assets/audio/toronto/quests/court/lose.mp3"
+    }
+  }
+}

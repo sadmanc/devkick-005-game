@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { accentDelta, echoScoreOf, echoWords } from '../server/otter.js';
-import { CHARACTERS, systemPromptFor } from '../server/otter-prompt.js';
+import { CHARACTERS, MUMBAI_CHARACTERS, OTTER_TURN_SCHEMA, regionOf, systemPromptFor, turnSchemaFor } from '../server/otter-prompt.js';
 
 describe('accent moves trust', () => {
   it('a normal answer moves trust up to 6 either way', () => {
@@ -37,5 +37,27 @@ describe('characters', () => {
       expect(p).toContain('Say it back');
     }
     expect(Object.keys(CHARACTERS)).toEqual(['otter', 'senga', 'hamish']);
+  });
+});
+
+describe('regions', () => {
+  it('Mumbai characters get their own rules, not Glasgow ones', () => {
+    for (const id of Object.keys(MUMBAI_CHARACTERS)) {
+      const p = systemPromptFor(id);
+      expect(regionOf(id)).toBe('mumbai');
+      expect(p).toContain(MUMBAI_CHARACTERS[id]);
+      expect(p).toContain('Respect rules');
+      expect(p).toContain('Mumbaikar');
+      expect(p).not.toMatch(/Glaswegian|Scots/);
+    }
+  });
+  it('shared rules appear in every region', () => {
+    for (const id of ['otter', 'mor']) expect(systemPromptFor(id)).toContain('Answer with JSON only, matching the schema.');
+  });
+  it('Glasgow keeps the original schema object; Mumbai gets its own wording', () => {
+    expect(turnSchemaFor('senga')).toBe(OTTER_TURN_SCHEMA);
+    expect(turnSchemaFor('mor').properties.reply.description).toMatch(/Mumbai/);
+    expect(JSON.stringify(turnSchemaFor('mor'))).not.toMatch(/Glaswegian/);
+    expect(OTTER_TURN_SCHEMA.properties.reply.description).toMatch(/Glaswegian/);
   });
 });

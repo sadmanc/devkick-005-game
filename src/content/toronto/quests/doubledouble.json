@@ -1,0 +1,409 @@
+{
+  "id": "doubledouble",
+  "name": "Medium double-double",
+  "review": "pending native review",
+  "wording": "scripted",
+  "character": {
+    "id": "bev",
+    "name": "Bev"
+  },
+  "intro": "Bev's corner coffee counter on a cold morning. Say hi, order a medium double-double, ask for the washroom, and say thanks on your way out. Sound like a regular.",
+  "mood": 40,
+  "leaveAt": 10,
+  "winAt": 60,
+  "noLocal": -4,
+  "localMax": 8,
+  "miss": -5,
+  "localWords": [
+    "eh",
+    "sorry",
+    "double-double",
+    "double double",
+    "washroom",
+    "toque",
+    "hon",
+    "bud",
+    "buddy",
+    "have a good one",
+    "no worries",
+    "for sure",
+    "trawna",
+    "the 6ix",
+    "pop"
+  ],
+  "topics": [
+    {
+      "words": [
+        "cold",
+        "freezing",
+        "snow",
+        "winter"
+      ],
+      "mood": 4,
+      "reply": {
+        "text": "Oh, it's brutal out, eh? Wait till February.",
+        "means": "It's very cold today. It gets worse in February.",
+        "audio": "assets/audio/toronto/quests/doubledouble/topic-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "leafs",
+        "hockey",
+        "raptors",
+        "jays",
+        "basketball",
+        "baseball"
+      ],
+      "mood": 5,
+      "reply": {
+        "text": "Don't get me started, hon. This is the year. Every year's the year.",
+        "means": "Toronto fans are always hopeful, every single season.",
+        "audio": "assets/audio/toronto/quests/doubledouble/topic-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "the ttc",
+        "ttc",
+        "streetcar",
+        "subway"
+      ],
+      "mood": 3,
+      "reply": {
+        "text": "Streetcar's running late again? Grab a coffee, you've got time.",
+        "means": "The streetcar is late, so you have time for coffee.",
+        "audio": "assets/audio/toronto/quests/doubledouble/topic-3.mp3"
+      }
+    }
+  ],
+  "traps": [
+    {
+      "words": [
+        "restroom",
+        "bathroom",
+        "toilet",
+        "loo",
+        "lavatory"
+      ],
+      "mood": -8,
+      "reply": {
+        "text": "The washroom, hon? Round the back, on the left.",
+        "means": "It's called the washroom here. It's in the back, on the left.",
+        "audio": "assets/audio/toronto/quests/doubledouble/trap-1.mp3"
+      }
+    },
+    {
+      "words": [
+        "to ron to",
+        "toe ron toe",
+        "tor onto"
+      ],
+      "mood": -6,
+      "reply": {
+        "text": "Three syllables! You just got here, eh?",
+        "means": "You said all three syllables of Toronto. You're new, right?",
+        "audio": "assets/audio/toronto/quests/doubledouble/trap-2.mp3"
+      }
+    },
+    {
+      "words": [
+        "soda",
+        "cola",
+        "fizzy drink"
+      ],
+      "mood": -6,
+      "reply": {
+        "text": "Pop, hon. Here it's pop. Fridge is on your right.",
+        "means": "Canadians say pop for soda. It's in the fridge on the right.",
+        "audio": "assets/audio/toronto/quests/doubledouble/trap-3.mp3"
+      }
+    }
+  ],
+  "asides": {
+    "warm": [
+      {
+        "text": "Oh, look at you, a real regular.",
+        "means": "You sound like a regular.",
+        "audio": "assets/audio/toronto/quests/doubledouble/warm-1.mp3"
+      },
+      {
+        "text": "You've been here a while, eh?",
+        "means": "You've lived here a while, right?",
+        "audio": "assets/audio/toronto/quests/doubledouble/warm-2.mp3"
+      }
+    ],
+    "cold": [
+      {
+        "text": "Very polite. Bit stiff, but polite.",
+        "means": "Very polite, but a little formal.",
+        "audio": "assets/audio/toronto/quests/doubledouble/cold-1.mp3"
+      },
+      {
+        "text": "Relax, hon, it's a coffee, not a job interview.",
+        "means": "Relax, it's only a coffee order.",
+        "audio": "assets/audio/toronto/quests/doubledouble/cold-2.mp3"
+      }
+    ],
+    "huh": [
+      {
+        "text": "Sorry, hon, didn't catch that. Coffee?",
+        "means": "Sorry, I didn't hear you. Do you want coffee?",
+        "audio": "assets/audio/toronto/quests/doubledouble/huh-1.mp3"
+      },
+      {
+        "text": "Say again? The grinder's loud, eh.",
+        "means": "Can you repeat that? The coffee grinder is loud.",
+        "audio": "assets/audio/toronto/quests/doubledouble/huh-2.mp3"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "greet",
+      "label": "said hi",
+      "say": {
+        "text": "Morning, hon! What can I get ya?",
+        "means": "Good morning! What would you like?",
+        "audio": "assets/audio/toronto/quests/doubledouble/greet.mp3"
+      },
+      "facts": [
+        "Bev is pouring coffee for the morning rush.",
+        "Say hi the easy, friendly way."
+      ],
+      "hint": "Hey, how's it going?",
+      "intents": [
+        {
+          "words": [
+            "how's it going",
+            "hows it going",
+            "how you doing",
+            "how are ya",
+            "what's up",
+            "hey there"
+          ],
+          "next": "order",
+          "mood": 10,
+          "reply": {
+            "text": "Oh, can't complain, eh. What'll it be?",
+            "means": "I'm fine, thanks. What would you like?",
+            "audio": "assets/audio/toronto/quests/doubledouble/greet-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "hey",
+            "hi",
+            "hello",
+            "morning",
+            "good morning"
+          ],
+          "next": "order",
+          "mood": 6,
+          "reply": {
+            "text": "Morning! What can I get started for ya?",
+            "means": "Good morning! What can I make for you?",
+            "audio": "assets/audio/toronto/quests/doubledouble/greet-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "excuse me",
+            "greetings",
+            "good day",
+            "pardon",
+            "i would like"
+          ],
+          "next": "order",
+          "mood": 2,
+          "reply": {
+            "text": "Sure thing. What would you like?",
+            "means": "Of course. What would you like?",
+            "audio": "assets/audio/toronto/quests/doubledouble/greet-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "ordered",
+      "say": {
+        "text": "So, what'll it be?",
+        "means": "What would you like?",
+        "audio": "assets/audio/toronto/quests/doubledouble/order.mp3"
+      },
+      "facts": [
+        "A double-double is coffee with two cream and two sugar.",
+        "Ask for a medium double-double."
+      ],
+      "hint": "Can I get a medium double-double?",
+      "intents": [
+        {
+          "words": [
+            "double double",
+            "double-double",
+            "double double please"
+          ],
+          "next": "washroom",
+          "mood": 14,
+          "reply": {
+            "text": "Medium double-double, you got it. Anything else?",
+            "means": "A medium coffee, two cream, two sugar. Anything else?",
+            "audio": "assets/audio/toronto/quests/doubledouble/order-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "regular",
+            "coffee two cream",
+            "two cream two sugar",
+            "two sugars"
+          ],
+          "next": "washroom",
+          "mood": 8,
+          "reply": {
+            "text": "Sure. You know, you can just say double-double, eh.",
+            "means": "Okay. You can just call that a double-double.",
+            "audio": "assets/audio/toronto/quests/doubledouble/order-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "coffee",
+            "latte",
+            "black coffee",
+            "a drink"
+          ],
+          "next": "washroom",
+          "mood": 2,
+          "reply": {
+            "text": "Coffee, sure. Cream and sugar? Next time, try a double-double.",
+            "means": "Coffee, okay. Try a double-double next time.",
+            "audio": "assets/audio/toronto/quests/doubledouble/order-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "washroom",
+      "label": "found the washroom",
+      "say": {
+        "text": "Ring you up in a sec. Need anything else, hon?",
+        "means": "I'll take your payment in a moment. Anything else?",
+        "audio": "assets/audio/toronto/quests/doubledouble/washroom.mp3"
+      },
+      "facts": [
+        "Canadians say washroom, not restroom.",
+        "Ask where the washroom is, politely."
+      ],
+      "hint": "Sorry, where's the washroom?",
+      "intents": [
+        {
+          "words": [
+            "sorry where's the washroom",
+            "sorry where is the washroom",
+            "washroom"
+          ],
+          "next": "thanks",
+          "mood": 12,
+          "reply": {
+            "text": "No worries, it's just round the back, on your left.",
+            "means": "No problem, it's in the back, on the left.",
+            "audio": "assets/audio/toronto/quests/doubledouble/washroom-1.mp3"
+          }
+        },
+        {
+          "words": [
+            "where is",
+            "can i use",
+            "toilet",
+            "bathroom",
+            "restroom"
+          ],
+          "next": "thanks",
+          "mood": 3,
+          "reply": {
+            "text": "The washroom? Round the back, hon.",
+            "means": "The washroom is in the back.",
+            "audio": "assets/audio/toronto/quests/doubledouble/washroom-2.mp3"
+          }
+        },
+        {
+          "words": [
+            "no",
+            "that's it",
+            "thats it",
+            "no thanks",
+            "nope",
+            "all good"
+          ],
+          "next": "thanks",
+          "mood": 4,
+          "reply": {
+            "text": "All good. That'll be two-fifty, hon.",
+            "means": "Okay. That's two dollars and fifty cents.",
+            "audio": "assets/audio/toronto/quests/doubledouble/washroom-3.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "label": "said thanks",
+      "say": {
+        "text": "That's two-fifty, hon.",
+        "means": "That's two dollars fifty.",
+        "audio": "assets/audio/toronto/quests/doubledouble/thanks.mp3"
+      },
+      "facts": [
+        "Pay, say thanks and leave the friendly way."
+      ],
+      "hint": "Thanks, have a good one!",
+      "intents": [
+        {
+          "words": [
+            "have a good one",
+            "thanks eh",
+            "thank you eh",
+            "cheers eh"
+          ],
+          "next": "end",
+          "mood": 12
+        },
+        {
+          "words": [
+            "thanks",
+            "thank you",
+            "cheers",
+            "sorry"
+          ],
+          "next": "end",
+          "mood": 6
+        },
+        {
+          "words": [
+            "here",
+            "here you go",
+            "card",
+            "cash",
+            "keep the change"
+          ],
+          "next": "end",
+          "mood": 3
+        }
+      ]
+    }
+  ],
+  "endings": {
+    "win": {
+      "text": "There ya go. Have a good one, eh! See ya tomorrow, regular.",
+      "means": "Here you are. Have a nice day! See you tomorrow.",
+      "audio": "assets/audio/toronto/quests/doubledouble/win.mp3"
+    },
+    "lose": {
+      "text": "Two-fifty. Have a nice visit to Toronto!",
+      "means": "Two fifty. Enjoy your visit!",
+      "audio": "assets/audio/toronto/quests/doubledouble/lose.mp3"
+    }
+  }
+}

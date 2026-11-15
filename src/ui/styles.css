@@ -57,6 +57,15 @@ h2 { margin: 0 0 12px; font-size: 30px; }
 }
 .bubble.show { opacity: 1; transform: none; }
 .bubble b { display: block; font-size: 13px; opacity: 0.6; }
+.bubble small { display: block; font-size: 14px; opacity: 0.7; margin-top: 2px; }
+.bubble small:empty { display: none; }
+/* quest beat tracker: "✔ ordered ◻ paid" */
+.beats { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 12px; list-style: none; margin: 6px 0 0; padding: 0; font-size: 15px; font-weight: 600; }
+.beats[hidden] { display: none; }
+.beats li { opacity: 0.55; }
+.beats li.current { opacity: 1; color: var(--blue-dark); }
+.beats li.done { opacity: 1; color: #2f7d32; }
+@media (max-height: 450px) { .beats { font-size: 13px; margin-top: 2px; gap: 2px 10px; } .bubble small { font-size: 12px; } }
 .prompt {
   align-self: center; margin-top: auto; margin-bottom: 12px; text-align: center; background: rgba(255, 250, 240, 0.94);
   border: 3px solid var(--ink); border-radius: 20px; padding: 12px 22px; box-shadow: 0 5px 0 var(--ink);
@@ -632,6 +641,18 @@ body.reduce *, body.reduce *::before, body.reduce *::after { animation: none !im
   .suggest-card b { font-size: 13px; }
   .suggest-card span { font-size: 11px; }
 }
+
+/* Regions in preview (pending native review): a small tag under the pin and on the intro card */
+.pin .preview {
+  font: 600 11px/1.2 var(--body, 'Fredoka', sans-serif); color: var(--brown); background: #ffe7a6; border: 2px solid var(--brown);
+  border-radius: 8px; padding: 1px 6px; white-space: nowrap;
+}
+.review-badge {
+  display: inline-block; margin: 8px auto 0; font-weight: 600; font-size: 13px; color: var(--brown); background: #ffe7a6;
+  border: 2px solid var(--brown); border-radius: 10px; padding: 2px 10px;
+}
+.review-badge[hidden] { display: none; }
+.cast-card .card-standin { display: block; width: 100%; aspect-ratio: 1; border-radius: 10px; }
 
 /* Phones in landscape: Talk sits bottom-right under the thumb, the prompt card scrolls if it runs long,
    and the credit stays on screen (small, bottom-left). */

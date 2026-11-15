@@ -7,9 +7,12 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 import { createLoop } from './loop.js';
 import { createActor } from './actor.js';
 import cast from '../content/cast.json';
+import { buildMumbaiSet, MUMBAI_SKY } from './mumbaiScene.js';
+import { buildTorontoSet, TORONTO_SKY } from './torontoScene.js';
 import { voiceLevel } from './audio.js';
 
-export function createStage(container) {
+// casts: every region's cast, keyed by region id. Glasgow's street and cast show until setRegion() picks another.
+export function createStage(container, casts = { scotland: cast }) {
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(window.innerWidth, window.innerHeight);
@@ -47,6 +50,12 @@ export function createStage(container) {
   // Weather follows the otter's trust: 0 = dreich downpour, 1 = the sun breaks through over the tenements.
   const GREY = new THREE.Color('#aab4be');
   const BLUE = new THREE.Color('#a8d4f5');
+  const SKY = {
+    scotland: [GREY, BLUE],
+    mumbai: [new THREE.Color(MUMBAI_SKY.low), new THREE.Color(MUMBAI_SKY.high)],
+    toronto: [new THREE.Color(TORONTO_SKY.low), new THREE.Color(TORONTO_SKY.high)],
+  };
+  let region = 'scotland';
   let weather = 0.3;
   let weatherGoal = 0.3;
   let rainRate = 1;
@@ -71,10 +80,10 @@ export function createStage(container) {
   const applyWeather = (dt) => {
     weather += (weatherGoal - weather) * Math.min(1, dt * 1.2);
     const k = weather;
-    rain.material.opacity = 0.75 * (1 - k) ** 1.4;
+    rain.material.opacity = region === 'scotland' ? 0.75 * (1 - k) ** 1.4 : 0;
     rain.visible = rain.material.opacity > 0.02;
     rainRate = 1.15 - 0.4 * k;
-    scene.background.copy(GREY).lerp(BLUE, k);
+    scene.background.copy(SKY[region][0]).lerp(SKY[region][1], k);
     scene.fog.color.copy(scene.background);
     scene.fog.far = 70 + 60 * k;
     sun.intensity = 1.2 + 1.6 * k;
@@ -128,18 +137,35 @@ export function createStage(container) {
   cone.position.set(-6.5, 3.3, -1.5);
   street.add(plinth, rider, cone);
   scene.add(street);
+  let glasgowSet = street;
+  const mumbaiSet = buildMumbaiSet();
+  mumbaiSet.visible = false;
+  scene.add(mumbaiSet);
+  const torontoSet = buildTorontoSet();
+  torontoSet.visible = false;
+  scene.add(torontoSet);
   new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).load(
     'assets/models/glasgow.glb',
     (gltf) => {
       scene.remove(street);
-      scene.add(gltf.scene);
+      glasgowSet = gltf.scene;
+      glasgowSet.visible = region === 'scotland';
+      scene.add(glasgowSet);
     },
     undefined,
     () => {},
   );
 
   // The cast: the Devin Otter in the middle, NPCs further down the street. Each swaps in its Meshy model.
-  const actors = Object.fromEntries(Object.values(cast).map((c) => [c.id, createActor(scene, c)]));
+  const actors = {};
+  const regionOfActor = {};
+  for (const [r, list] of Object.entries(casts)) {
+    for (const c of Object.values(list)) {
+      actors[c.id] = createActor(scene, c);
+      regionOfActor[c.id] = r;
+      actors[c.id].setVisible(r === 'scotland');
+    }
+  }
   let focused = actors.otter;
   // Camera spot in front of an actor: the otter's original framing, turned to match the actor's facing.
   const CAM = new THREE.Vector3(0, 2.0, 5.4);
@@ -159,7 +185,7 @@ export function createStage(container) {
   };
   frame(focused, true);
   const focus = (id) => {
-    focused = actors[id] ?? actors.otter;
+    focused = actors[id] && regionOfActor[id] === region ? actors[id] : actors[Object.keys(casts[region])[0]];
     frame(focused, false);
   };
   const react = (m) => focused.react(m);
@@ -184,7 +210,7 @@ export function createStage(container) {
       updateRain(dt);
       applyWeather(dt);
       const voice = voiceLevel();
-      for (const a of Object.values(actors)) a.update(dt, a === focused ? voice : 0);
+      for (const a of Object.values(actors)) if (a.root.visible) a.update(dt, a === focused ? voice : 0);
       camera.position.lerp(camGoal, Math.min(1, dt * 2.5));
       lookNow.lerp(lookGoal, Math.min(1, dt * 2.5));
       camera.lookAt(lookNow);
@@ -203,6 +229,17 @@ export function createStage(container) {
     },
     focus,
     actors,
+    // Swap the street, sky and cast to another region's (Glasgow's set is kept, just hidden).
+    setRegion: (id) => {
+      if (!casts[id]) return;
+      region = id;
+      glasgowSet.visible = id === 'scotland';
+      mumbaiSet.visible = id === 'mumbai';
+      torontoSet.visible = id === 'toronto';
+      for (const [aid, a] of Object.entries(actors)) a.setVisible(regionOfActor[aid] === id);
+      focused = actors[Object.keys(casts[id])[0]];
+      frame(focused, true);
+    },
     setVisible: (v) => focused.setVisible(v),
   };
 }

@@ -1,0 +1,342 @@
+{
+  "id": "toronto",
+  "name": "Toronto",
+  "review": "pending native review",
+  "character": {
+    "name": "Rocco the raccoon",
+    "model": "assets/models/raccoon.glb",
+    "intro": {
+      "text": "Oh hey, new face on my block. Everybody round here, I know. So, let's see if you're from Trawna.",
+      "audio": "assets/audio/toronto/intro.mp3"
+    },
+    "outro": {
+      "text": "Okay, okay. Let's see where you're at, bud.",
+      "audio": "assets/audio/toronto/outro.mp3"
+    },
+    "voice": "ElevenLabs Voice Design: friendly, laid-back Toronto man in his thirties, standard Canadian English, warm and a little sly"
+  },
+  "test": [
+    {
+      "id": "from-trawna",
+      "level": "easy",
+      "line": "I'm from Trawna.",
+      "meaning": "I'm from Toronto.",
+      "accepted": [
+        "i'm from trawna",
+        "im from trawna",
+        "i'm from toronto",
+        "im from toronto",
+        "i'm from tronto",
+        "i'm from tranna",
+        "i'm from trono",
+        "i'm from toronna",
+        "from toronto",
+        "i am from toronto"
+      ],
+      "audio": "assets/audio/toronto/from-trawna.mp3",
+      "tip": "Two beats, not three: \"TRAW-na\". Let the second T disappear, like locals do.",
+      "reactions": {
+        "good": {
+          "text": "Trawna! Okay, okay, I hear you.",
+          "audio": "assets/audio/toronto/from-trawna-good.mp3"
+        },
+        "ok": {
+          "text": "Close. Less \"To-RON-to\", more \"TRAW-na\".",
+          "audio": "assets/audio/toronto/from-trawna-ok.mp3"
+        },
+        "bad": {
+          "text": "Three whole syllables? That's the airport announcement, bud.",
+          "audio": "assets/audio/toronto/from-trawna-bad.mp3"
+        }
+      }
+    },
+    {
+      "id": "out-and-about",
+      "level": "medium",
+      "line": "Let's head out and about, eh?",
+      "meaning": "Let's go out and walk around, right?",
+      "accepted": [
+        "let's head out and about eh",
+        "lets head out and about eh",
+        "let's head out and about",
+        "lets head out and about",
+        "let's head out and about a",
+        "let's head out and about hey",
+        "let's head out and about ay"
+      ],
+      "audio": "assets/audio/toronto/out-and-about.mp3",
+      "tip": "In \"out\" and \"about\" start the vowel a bit higher, closer to \"uh-oot\" than \"ow\". Not \"a boot\"! Then lift \"eh?\" up at the end.",
+      "reactions": {
+        "good": {
+          "text": "Out and about, eh! That's the real thing.",
+          "audio": "assets/audio/toronto/out-and-about-good.mp3"
+        },
+        "ok": {
+          "text": "Good. Start the \"out\" a little higher, \"uh-oot\".",
+          "audio": "assets/audio/toronto/out-and-about-ok.mp3"
+        },
+        "bad": {
+          "text": "That's \"ow-t\". Nobody says it like that around here.",
+          "audio": "assets/audio/toronto/out-and-about-bad.mp3"
+        }
+      }
+    },
+    {
+      "id": "say-less",
+      "level": "hard",
+      "line": "Say less, fam. Mans is on the way, ahlie.",
+      "meaning": "Got it, friend. I'm on my way, for real.",
+      "accepted": [
+        "say less fam mans is on the way ahlie",
+        "say less fam mans is on the way ally",
+        "say less fam man's on the way ahlie",
+        "say less fam mans is on the way a lie",
+        "say less fam mans on the way",
+        "say less fam mans is on the way",
+        "say less fam man's is on the way allie",
+        "say less fam mans is on the way ali"
+      ],
+      "audio": "assets/audio/toronto/say-less.mp3",
+      "tip": "Even, punchy beats: \"SAY LESS. FAM.\" Then \"mans\" means \"I\" here. Finish with a quick \"ah-lie?\", like \"right?\".",
+      "reactions": {
+        "good": {
+          "text": "Ahlie! Okay, you've been around.",
+          "audio": "assets/audio/toronto/say-less-good.mp3"
+        },
+        "ok": {
+          "text": "Not bad. Keep the beats even and quick.",
+          "audio": "assets/audio/toronto/say-less-ok.mp3"
+        },
+        "bad": {
+          "text": "\"Mans\"? You said it like a sentence from a textbook.",
+          "audio": "assets/audio/toronto/say-less-bad.mp3"
+        }
+      }
+    }
+  ],
+  "path": [
+    {
+      "id": "tourist",
+      "name": "Tourist",
+      "minScore": 0,
+      "celebration": {
+        "text": "Total tourist! Don't worry, we'll get you sounding like Trawna.",
+        "audio": "assets/audio/toronto/result-tourist.mp3"
+      }
+    },
+    {
+      "id": "visitor",
+      "name": "Visitor",
+      "minScore": 0.35,
+      "celebration": {
+        "text": "Not bad! You're a proper visitor now, eh.",
+        "audio": "assets/audio/toronto/result-visitor.mp3"
+      }
+    },
+    {
+      "id": "neighbour",
+      "name": "Neighbour",
+      "minScore": 0.6,
+      "celebration": {
+        "text": "Okay! You could get a place on my street.",
+        "audio": "assets/audio/toronto/result-neighbour.mp3"
+      }
+    },
+    {
+      "id": "local",
+      "name": "From the 6ix",
+      "minScore": 0.8,
+      "celebration": {
+        "text": "Say less. You're from the 6ix, no question.",
+        "audio": "assets/audio/toronto/result-local.mp3"
+      }
+    }
+  ],
+  "unitTest": {
+    "title": "Prove You're From the 6ix",
+    "items": [
+      {
+        "id": "unit-sorry",
+        "level": "easy",
+        "line": "Oh, sorry!",
+        "meaning": "Oh, excuse me! (said \"sore-y\")",
+        "accepted": [
+          "oh sorry",
+          "sorry",
+          "oh sorry sorry",
+          "oh soary",
+          "oh sore e"
+        ],
+        "audio": "assets/audio/toronto/unit-sorry.mp3",
+        "tip": "Say \"SORE-y\", with the \"or\" of \"store\", not \"SAH-ry\".",
+        "reactions": {
+          "good": {
+            "text": "Perfect. You even sounded sorry for real.",
+            "audio": "assets/audio/toronto/unit-sorry-good.mp3"
+          },
+          "ok": {
+            "text": "Okay! Try \"sore-y\", like a store.",
+            "audio": "assets/audio/toronto/unit-sorry-ok.mp3"
+          },
+          "bad": {
+            "text": "\"Sah-ry\"? Sorry, that's not how we sorry.",
+            "audio": "assets/audio/toronto/unit-sorry-bad.mp3"
+          }
+        }
+      },
+      {
+        "id": "unit-toque",
+        "level": "easy",
+        "line": "Grab your toque, it's cold out.",
+        "meaning": "Grab your winter hat, it's cold outside.",
+        "accepted": [
+          "grab your toque it's cold out",
+          "grab your took it's cold out",
+          "grab your tuque it's cold out",
+          "grab your toque its cold out",
+          "grab your took its cold out",
+          "grab your tuk it's cold out"
+        ],
+        "audio": "assets/audio/toronto/unit-toque.mp3",
+        "tip": "\"Toque\" rhymes with \"duke\", short: \"took\". And \"out\" starts high: \"uh-oot\".",
+        "reactions": {
+          "good": {
+            "text": "Toque on. You're ready for February.",
+            "audio": "assets/audio/toronto/unit-toque-good.mp3"
+          },
+          "ok": {
+            "text": "Good! \"Toque\" is short, like \"took\".",
+            "audio": "assets/audio/toronto/unit-toque-ok.mp3"
+          },
+          "bad": {
+            "text": "A toke?! No, no. A toque. The hat.",
+            "audio": "assets/audio/toronto/unit-toque-bad.mp3"
+          }
+        }
+      },
+      {
+        "id": "unit-spadina",
+        "level": "medium",
+        "line": "Does this go to Spadina?",
+        "meaning": "Does this streetcar go to Spadina Avenue?",
+        "accepted": [
+          "does this go to spadina",
+          "does this go to spadeena",
+          "does this go to spa dina",
+          "does this go to spadena",
+          "does this go to spadina avenue",
+          "this go to spadina"
+        ],
+        "audio": "assets/audio/toronto/unit-spadina.mp3",
+        "tip": "Locals say \"spa-DYE-na\", the middle like \"dine\". Not \"spa-DEE-na\".",
+        "reactions": {
+          "good": {
+            "text": "Spa-DYE-na. Yep, hop on.",
+            "audio": "assets/audio/toronto/unit-spadina-good.mp3"
+          },
+          "ok": {
+            "text": "Close. Middle is \"DYE\", like \"dine\".",
+            "audio": "assets/audio/toronto/unit-spadina-ok.mp3"
+          },
+          "bad": {
+            "text": "Spa-DEE-na? You must be looking for the tourist streetcar.",
+            "audio": "assets/audio/toronto/unit-spadina-bad.mp3"
+          }
+        }
+      },
+      {
+        "id": "unit-double-double",
+        "level": "medium",
+        "line": "Can I get a medium double-double?",
+        "meaning": "Can I have a medium coffee with two cream and two sugar?",
+        "accepted": [
+          "can i get a medium double double",
+          "can i get a medium double-double",
+          "can i get a double double",
+          "could i get a medium double double",
+          "can i get a medium double double please"
+        ],
+        "audio": "assets/audio/toronto/unit-double-double.mp3",
+        "tip": "Easy and friendly, a little rise on \"double-double?\". Say \"medium\" quick: \"MEE-dee-um\".",
+        "reactions": {
+          "good": {
+            "text": "One double-double coming up, hon.",
+            "audio": "assets/audio/toronto/unit-double-double-good.mp3"
+          },
+          "ok": {
+            "text": "Sure. Bit more relaxed, it's just coffee.",
+            "audio": "assets/audio/toronto/unit-double-double-ok.mp3"
+          },
+          "bad": {
+            "text": "A what? Oh, a double-double. Okay, sure.",
+            "audio": "assets/audio/toronto/unit-double-double-bad.mp3"
+          }
+        }
+      },
+      {
+        "id": "unit-ahlie",
+        "level": "hard",
+        "line": "It's bare cold today, ahlie?",
+        "meaning": "It's really cold today, right?",
+        "accepted": [
+          "it's bare cold today ahlie",
+          "its bare cold today ahlie",
+          "it's bare cold today ally",
+          "it's bear cold today ahlie",
+          "it's bare cold today a lie",
+          "it's bare cold today allie",
+          "it's bare cold today ali",
+          "it's bare cold today"
+        ],
+        "audio": "assets/audio/toronto/unit-ahlie.mp3",
+        "tip": "\"Bare\" means \"very\" here. Lean on \"BARE COLD\", then a quick, low-to-high \"ah-lie?\" to ask \"right?\".",
+        "reactions": {
+          "good": {
+            "text": "Bare cold, ahlie. You get it.",
+            "audio": "assets/audio/toronto/unit-ahlie-good.mp3"
+          },
+          "ok": {
+            "text": "Good. Make \"ahlie\" quicker, it's a tag.",
+            "audio": "assets/audio/toronto/unit-ahlie-ok.mp3"
+          },
+          "bad": {
+            "text": "\"Bear cold\"? Like the animal? Nah.",
+            "audio": "assets/audio/toronto/unit-ahlie-bad.mp3"
+          }
+        }
+      },
+      {
+        "id": "unit-from-the-6ix",
+        "level": "hard",
+        "line": "Wagwan, I'm from the 6ix, styll.",
+        "meaning": "Hi, I'm from Toronto, for real.",
+        "accepted": [
+          "wagwan i'm from the 6ix styll",
+          "wagwan i'm from the six still",
+          "wagwan im from the six still",
+          "what gwan i'm from the six still",
+          "wah gwaan i'm from the six still",
+          "wagwan i'm from the 6 still",
+          "wagwan i'm from the six"
+        ],
+        "audio": "assets/audio/toronto/unit-from-the-6ix.mp3",
+        "tip": "\"Wag-WAN\", quick and easy, then \"the 6ix\" and a flat, sure \"styll\" at the end, like \"for real\".",
+        "reactions": {
+          "good": {
+            "text": "Okay! You're from the 6ix, styll.",
+            "audio": "assets/audio/toronto/unit-from-the-6ix-good.mp3"
+          },
+          "ok": {
+            "text": "Nice. Say \"styll\" flat and sure, no question.",
+            "audio": "assets/audio/toronto/unit-from-the-6ix-ok.mp3"
+          },
+          "bad": {
+            "text": "You said \"styll\" like you're asking. Are you, though?",
+            "audio": "assets/audio/toronto/unit-from-the-6ix-bad.mp3"
+          }
+        }
+      }
+    ]
+  },
+  "setting": "Low-poly Toronto street on a crisp autumn day: red-brick Victorian houses with bay windows, a corner store with an awning, a red streetcar at its stop, a small park basketball court, maple trees and a generic downtown skyline with a tall needle tower silhouette, no brands."
+}

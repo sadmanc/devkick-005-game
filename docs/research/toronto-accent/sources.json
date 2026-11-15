@@ -1,0 +1,3832 @@
+{
+ "about": "Sources for docs/research/toronto-accent/STUDY.md. Collected 2026-11-15 by Devin research sessions. 'what_it_shows' and 'notes' are the collector's own summary; anything marked UNVERIFIED was not confirmed. Video entries were reviewed through metadata, captions and (where possible) playback; no video was downloaded. Instagram entries come from hashtag-page captions only and are UNVERIFIED.",
+ "review": "pending native review",
+ "counts": {
+  "news": 23,
+  "academic": 21,
+  "wiki": 7,
+  "blog": 14,
+  "dictionary": 3,
+  "other": 10,
+  "youtube": 89,
+  "tiktok": 15,
+  "instagram": 12,
+  "corpus": 21,
+  "total": 215
+ },
+ "sources": [
+  {
+   "url": "https://magazine.utoronto.ca/research-ideas/culture-society/do-you-know-toronto-slang/",
+   "platform": "news",
+   "title": "Do You Know Toronto Slang?",
+   "creator": "Scott Anderson, U of T Magazine",
+   "date": "2019-10-02",
+   "what_it_shows": "Profile of Derek Denis's MTE research. Documents mans used as first-person pronoun ('Mans has work in the morning'), earliest UD attestation 'manz' 2006, Twitter 2010; mini-glossary: mans=I/we/them; ting=thing/casual relationship; ahlie=confirmational 'right?'; wallahi='I swear' from Somali (via Arabic); bucktee=pejorative from Somali for drug addict; nize it=shut up (clipping of 'recognize'). Drake's SNL 'Black Jeopardy' line 'I couldn't take the TTC but mans made it over anyway.'",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Reliable: university magazine interviewing the lead researcher.",
+   "features": [
+    "mte-general",
+    "mans",
+    "ahlie",
+    "wallahi",
+    "bucktee",
+    "ting",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://repository.upenn.edu/pwpl/vol26/iss2/3",
+   "platform": "academic",
+   "title": "Why are wasteyutes a ting?",
+   "creator": "Bigelow, Gadanidis, Schlegl, Umbal & Denis (UPenn Working Papers in Linguistics)",
+   "date": "2020-01-01",
+   "what_it_shows": "Study of TH/DH-stopping in MTE: ~10% overall stopping rate in interviews, led by teenage males. Argues ting, wasteyute, mandem are enregistered spellings of a general stopping pattern tied to the stereotyped persona (young, male, suburban, nonwhite, low status).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Peer-reviewed working paper; core phonology evidence.",
+   "features": [
+    "mte-sounds",
+    "ting",
+    "mandem",
+    "wasteman",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Toronto_slang",
+   "platform": "wiki",
+   "title": "Toronto slang (Multicultural Toronto English)",
+   "creator": "Wikipedia",
+   "date": "",
+   "what_it_shows": "Overview of MTE: multi-ethnic dialect of young working-class racialized GTA speakers; sources Jamaican Patois, Arabic, Somali, AAVE; Jane-Finch founder effect (Baxter & Peters); Denis on outsized Somali influence via Rexdale; phonology: rhoticity, Low Back Merger Shift, GOOSE fronting, weaker Canadian raising, unraised pre-nasal TRAP, monophthongal GOAT, variable TH-stopping; long glossary incl. bare, cheesed, greezy, marved, miskeen, peng, wasteman, ahlie, dun know, gyaldem.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Wiki; good aggregator citing Denis, Bigelow et al.; verify against primary sources.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "bare",
+    "fam",
+    "mandem",
+    "ting",
+    "wasteman",
+    "ahlie",
+    "dun-know",
+    "other-slang",
+    "canadian-raising",
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Canadian_raising",
+   "platform": "wiki",
+   "title": "Canadian raising",
+   "creator": "Wikipedia",
+   "date": "",
+   "what_it_shows": "/aI/ and /aU/ raise to mid onsets before voiceless consonants (price, clout) but not voiced (prize, cloud); about~[schwa-bUHt] stereotyped as 'aboot'; writer/rider distinguished by vowel after flapping; raised /aU/ fronter in central/eastern Ontario [EU~3U]; originated late 19th c.; references Chambers 1973, Boberg 2004/2008.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Solid summary with key citations.",
+   "features": [
+    "canadian-raising",
+    "t-flapping"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://torontomansdictionary.com/history.html",
+   "platform": "blog",
+   "title": "The History of Toronto Slang: Where It Came From & How It Developed",
+   "creator": "Toronto Mans Dictionary",
+   "date": "",
+   "what_it_shows": "Neighborhood account: slang built in inner suburbs Jane-Finch, Rexdale, Malvern/Scarborough; Jamaican immigration 60s-80s as biggest source (mans, man dem, wagwan, ahlie, bare); Somali refugee wave early 90s layered wallahi etc.; Jimmy Prime credited with 'the 6ix' before Drake's Views; cites Walrus and Globe pieces on commodification debates.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Community dictionary site, cites Denis's work; medium reliability.",
+   "features": [
+    "mte-general",
+    "mans",
+    "mandem",
+    "ahlie",
+    "wagwan",
+    "bare",
+    "wallahi",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.yorku.ca/twainweb/troberts/raising.html",
+   "platform": "academic",
+   "title": "Canadian raising and other oddities",
+   "creator": "York University linguistics page (Taylor Roberts)",
+   "date": "",
+   "what_it_shows": "Clear explanation: /ay/ and /aw/ raise to mid vowels before voiceless obstruents /p,t,k,s,f/; 'aboot' is a mishearing (vowel raises to mid, not high /u/); notes Torontonians' unique pronunciation of the city's name.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. University linguistics teaching page with audio examples.",
+   "features": [
+    "canadian-raising",
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://en.wiktionary.org/wiki/Appendix:Glossary_of_Canadian_English",
+   "platform": "wiki",
+   "title": "Appendix: Glossary of Canadian English",
+   "creator": "Wiktionary contributors",
+   "date": "",
+   "what_it_shows": "Definitions: double-double (coffee, two creams two sugars), toque (knitted hat), eh (tag for agreement/'huh?'), loonie/toonie, washroom, chesterfield, mickey, two-four, serviette, parkade, homo milk, Gostapo (GO Transit security).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Crowdsourced but reasonable for vocabulary.",
+   "features": [
+    "vocab-canadian",
+    "eh"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://thevarsity.ca/2016/10/23/a-brief-guide-to-turrono-slang/",
+   "platform": "news",
+   "title": "A brief guide to Turrono slang",
+   "creator": "Gabrielle Warren, The Varsity (U of T student paper)",
+   "date": "2016-10-23",
+   "what_it_shows": "Early campus glossary: marved (hungry), styll (sentence-final emphasis/~'though': 'Mans out here are fine, styll'), wasteman/waste yute, cheesed, fam/fom, reach, sweetermans, ting, bare, gyaldem/mandem; notes origin in Scarborough.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. 2016 snapshot — useful for what was current then vs now.",
+   "features": [
+    "styll",
+    "wasteman",
+    "ting",
+    "bare",
+    "fam",
+    "mandem",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.narcity.com/toronto/toronto-slang-words",
+   "platform": "news",
+   "title": "Toronto Slang: The Ultimate Guide For Everyday Situations",
+   "creator": "Eul Basa, Narcity",
+   "date": "2023-10-13",
+   "what_it_shows": "Glossary with example lines: ahlie ('right?'), are u dumb, bare ('Yo bare sweeties at Eaton'), come thru, cyattie, deafaz, differently, dun kno, fam/fom, from time, greezy, merked, link up, lowe, nize it, run up freak, snake, styll, two-twos, wagwan ('Wagwan my G?'), wasteman ('Bare wastemans tryna cop a fry from me tho'), waste yute, gyaldem/mandem, ting. Notes Scarborough-vs-west-end origin debate and Jamaican Patois roots.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Millennial-media listicle; definitions loosely sourced but widely consistent with academic sources.",
+   "features": [
+    "ahlie",
+    "bare",
+    "dun-know",
+    "fam",
+    "styll",
+    "wagwan",
+    "mandem",
+    "ting",
+    "wasteman",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://globalnews.ca/news/8826931/top-ten-most-mispronounced-places-names-toronto/",
+   "platform": "news",
+   "title": "Here are the top 10 most mispronounced places in Toronto",
+   "creator": "Global News (reporting Preply list)",
+   "date": "2022-05-11",
+   "what_it_shows": "List: Toronto = 'tuh-ronno' not 'toe-ron-toe' ('pronouncing the second T sounds pretentious, a dead giveaway'); Geoffrey=jeh-free; Etobicoke=et-toh-bee-co (silent k, from Ojibwe 'wadoopikaang'); Yonge='young'; Wellesley=WELLZ-ly; Grosvenor=gro-vner.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. News coverage of a Preply listicle; place-name details consistent with other sources.",
+   "features": [
+    "trawna",
+    "place-names",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://languagemuseum.ca/wp-content/uploads/2024/05/A-Dictionary-of-English-in-Multicultural-Toronto.pdf",
+   "platform": "dictionary",
+   "title": "A Dictionary of English in Multicultural Toronto",
+   "creator": "Melissa Douglas & Shiyan Liang, Canadian Language Museum (consultants Derek Denis, Vidhya Elango)",
+   "date": "2024-01-01",
+   "what_it_shows": "SSHRC-funded dictionary w/ song-lyric citations: aboki (Hausa), ahlie (Jamaican Patois 'right?'), bare, bredrin, bucktee (Somali: homeless/drug addict/loser), bumbaclot, cheesed, cop, cut, deep it, dukes (parents), dunno/'ya dun know' (Kardinal 'Bakardi Slang' 2000 'T-dot say's Yuh dun know'), from time, fam, man dem (Michie Mee 1991 lyric), mans (Mustafa 'Air Forces' 2021 lyric), marites (Tagalog), marved, mashallah/miskeen (Arabic), murked, nize it (Patois 'noise'), styll ('bout to reach K-BBQ styll'), ting (Sadboi 'X-Ting' lyric), T-dot, waste yute. Intro: 55.7% of Torontonians visible minorities (2021 census); Jamaican community greatest influence; Somali arrivals mostly 1991-2000.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. High-quality community dictionary, expert-reviewed; the single best slang glossary source.",
+   "features": [
+    "mte-general",
+    "mans",
+    "mandem",
+    "ahlie",
+    "wallahi",
+    "bare",
+    "ting",
+    "dun-know",
+    "fam",
+    "wasteman",
+    "styll",
+    "bucktee",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://thewalrus.ca/toronto-accent/",
+   "platform": "news",
+   "title": "The Toronto Accent Is Real",
+   "creator": "Maia Wyman, The Walrus",
+   "date": "2025-04-11",
+   "what_it_shows": "Feature on MTE vs 'Normative Toronto English'; Denis on Jamaican Patwa as major influence, Somali (bucktee), Arabic (wallahi); accent belongs predominantly to Black community (Jamaican/Bajan immigrants from 1950s on); slang emerged late 90s-2000s; TikTok mockery and 'worst accent' discourse; commodification/appropriation debate incl. Ryan Persadie on Drake's 'embodied Caribbeanization'; code-switching and anti-Black stigma.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Longform journalism quoting Denis and scholars; strong on social context and stigma.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "ahlie",
+    "bucktee",
+    "wallahi",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/canada/article-toronto-slang-on-the-rise-thanks-to-citys-growing-pop-culture/",
+   "platform": "news",
+   "title": "Toronto slang on the rise thanks to city's growing pop culture relevance",
+   "creator": "Salmaan Farooqui, The Globe and Mail (Canadian Press)",
+   "date": "2019-10-13",
+   "what_it_shows": "Denis interviewed: slang demarcates in-crowd; 'Milwaukee Bucktees' sign during Raptors run (bucktee from Somali); nize it=shut up, waste yute=silly kid (Patois roots); wallahi=swear on God; ahlie 'functions similarly to eh in normative Canadian English'; Kardinal Offishall's BaKardi Slang (2000) as early lexicon reference; student shame around the variety.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Wire piece; the ahlie~eh functional parallel is a key insight.",
+   "features": [
+    "bucktee",
+    "ahlie",
+    "eh",
+    "wasteman",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://macleans.ca/society/life/in-the-midst-of-the-canadian-vowel-shift/",
+   "platform": "news",
+   "title": "Sah-ry, eh? We're in the midst of the Canadian Vowel Shift",
+   "creator": "Maclean's magazine",
+   "date": "2015-08-01",
+   "what_it_shows": "Accessible account of Canadian Shift: 'God'->'gawd', 'pillow'->'pellow', 'Timbit'->'Tembet', 'Dan'->'Don', sorry less like 'sore-y'; discovered 1995 (Clarke et al.); suspected epicentre urban Ontario; young women leading; De Decker: vowels getting 'higher and backer' (re: back vowels).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Journalism; good plain-language examples; direction of movement simplified.",
+   "features": [
+    "canadian-shift",
+    "sorry",
+    "canadian-raising",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://phys.org/news/2023-07-linguistics-professor-uncovering-toronto-unique.html",
+   "platform": "news",
+   "title": "Linguistics professor uncovering Toronto's unique style of English",
+   "creator": "Ali Raza, U of T Mississauga via Phys.org",
+   "date": "2023-07-17",
+   "what_it_shows": "Denis on MTE findings (J Engl Ling 2023): 'I almost missed the TTC but mans made it here anyways'; Canadian raising avoided in 'about' (stereotype awareness) but present in 'ice' vs 'eyes'; GOAT monophthongization traced to Jamaican Patois; 'Tronno' vs 'Tor-on-toh' as authenticity marker; MTE as 'feature pool' not a dialect.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. University PR piece; direct quotes from Denis.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "canadian-raising",
+    "mans",
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://cla-acl.ca/pdfs/actes-2013/Denis-2013.pdf",
+   "platform": "academic",
+   "title": "The Social Meaning of Eh in Canadian English",
+   "creator": "Derek Denis (CLA 2013 proceedings)",
+   "date": "2013-01-01",
+   "what_it_shows": "History of eh: earliest attestation Goldsmith 1773 (British); Canadian attestation Haliburton's Clockmaker 1836; Avis's narrative/exclamative eh unique to Canada; tracks how eh became enregistered stereotype via indexical orders (Silverstein/Johnstone); commodification; mismatches between actual use and reported use.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Conference paper by the MTE lead scholar; excellent eh background.",
+   "features": [
+    "eh"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/26973/20126/",
+   "platform": "academic",
+   "title": "A note on mans in Toronto",
+   "creator": "Derek Denis, Toronto Working Papers in Linguistics",
+   "date": "2016-10-05",
+   "what_it_shows": "Core mans paper: plural noun 'mans' grammaticalizing into first-person singular pronoun in multiethnic adolescent Toronto English, parallel to man in Multicultural London English (Cheshire 2013) but with differences; raises questions of contact vs independent innovation via Jamaican Creole.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Primary scholarly source for mans.",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2022/05/11/most-commonly-mispronounced-places-toronto-list/",
+   "platform": "news",
+   "title": "The top 10 most mispronounced places in Toronto, from Etobicoke to Queens Quay",
+   "creator": "CityNews Toronto",
+   "date": "2022-05-11",
+   "what_it_shows": "Same Preply list with all ten: Toronto 'Tuh-Ronno'; Geoffrey 'Jeh-Free'; Etobicoke 'Et-Toh-Bee-Co'; Yonge 'Young'; Wellesley 'Wellz-Ly'; Grosvenor 'Gro-Vner'; The Esplanade 'Esplan-Aad'; Strachan 'Strawn'; Spadina 'Spuh-Dee-Nah' (not 'Spuh-Die-Nah'); Roncesvalles 'Rawn-Ses-Vay-Yez'; adds Trethewey 'Treh-Thoo-Wee' (rank 26).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Local news; street-name pronunciations broadly corroborated.",
+   "features": [
+    "place-names",
+    "trawna",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://slangiify.com/toronto-slang/",
+   "platform": "blog",
+   "title": "Toronto Slang: Popular Words, Meanings, and Examples",
+   "creator": "Slangiify",
+   "date": "",
+   "what_it_shows": "Table glossary: mans (I/me/you/we/people, context-dependent), mandem (the guys), ting (can sound objectifying), bare ('not unique to Toronto'), marved, styll/'still' (final 'though'), deep it, wagwan ('what's going on?'), yallah/chalo (Arabic/South Asian 'let's go'), two-twos, mazza, leng, nize it, waste yute; notes Jamaican/Somali/Arabic/South Asian contributions and overlap with UK slang.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. SEO slang blog; medium-low reliability, useful cross-check only.",
+   "features": [
+    "mans",
+    "mandem",
+    "ting",
+    "bare",
+    "styll",
+    "wagwan",
+    "wasteman",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.wikihow.com/Toronto-Slang-Words",
+   "platform": "blog",
+   "title": "70+ Toronto Slang Words You Need to Know",
+   "creator": "wikiHow",
+   "date": "2025-10-08",
+   "what_it_shows": "Long glossary: aboki, ahlie, ballin' up, bare, blem, bredrin, cut, dun kno, fam, from time, gheez, GTA, link up, marved, merked, mickey, mossin', nize it, nyeah eh, reach, say less, styll, two-twos, wallahi, waste yute, the 6ix.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. General-audience guide; verify terms against academic/community sources.",
+   "features": [
+    "mte-general",
+    "ahlie",
+    "bare",
+    "dun-know",
+    "fam",
+    "styll",
+    "say-less",
+    "wallahi",
+    "wasteman",
+    "other-slang",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.blogto.com/city/2021/09/how-people-pronounce-toronto/",
+   "platform": "news",
+   "title": "New research study will finally explain how people pronounce Toronto",
+   "creator": "Amy Carlberg, blogTO",
+   "date": "2021-09-15",
+   "what_it_shows": "On Caitlin Bergin's (Carleton) sociolinguistic survey of how Torontonians say 'Toronto' by GTA postal code and in/out-group; tote-bag spellings TERANO, TRAWNO, TRONNO, TARONNA, TORONOE; notes lively debate on the city's subreddit with hundreds of responses.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Good on variation as identity marker.",
+   "features": [
+    "trawna",
+    "t-flapping",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.blogto.com/city/2024/06/toronto-first-time-visitors-need-know/",
+   "platform": "news",
+   "title": "15 things you need to explain to first-time visitors to Toronto",
+   "creator": "Phoebe Knight, blogTO",
+   "date": "2024-06-23",
+   "what_it_shows": "Tourist-oriented: locals drop first 'o' and second 't' -> 'T'ronno'/'Tuhronno'/'Churonno'; Yonge='young', Strachan='strawn', Etobicoke='eh-toe-bi-coe', Tecumseth='teh-come-see'; nicknames (Hogtown, Big Smoke, T Dot, 6ix) rarely used in conversation; not everyone speaks with the viral 'Toronto accent'.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. City guide; reflects folk knowledge, consistent with academic description.",
+   "features": [
+    "trawna",
+    "place-names",
+    "tourist-mistakes",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.blogto.com/city/2023/10/toronto-top-slang-words/",
+   "platform": "news",
+   "title": "The list of Toronto's top slang words may surprise you",
+   "creator": "blogTO staff (reporting Preply tweet analysis)",
+   "date": "2023-10-03",
+   "what_it_shows": "Preply analysis of ~130,000 geotagged tweets: Toronto's most-used slang word was 'dart' (cigarette), with 'mickey' and 'baby girl' also common; 'whose mans'/'waste yute' didn't make top cut — i.e., everyday Toronto slang skews more Letterkenny than Drake.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Secondhand report of a marketing-firm tweet scrape; weak methodology, interesting counterpoint.",
+   "features": [
+    "other-slang",
+    "mte-general",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/language-variation-and-change/article/abs/third-dialect-of-english-some-canadian-evidence/2770ABFDFC2C5DD8C03D622B717DA484",
+   "platform": "academic",
+   "title": "The third dialect of English: Some Canadian evidence",
+   "creator": "Sandra Clarke, Ford Elms, Amani Youssef — Language Variation and Change 7(2)",
+   "date": "1995-07-01",
+   "what_it_shows": "Founding Canadian Shift paper: lax vowels of Canadian English shifting, pivot argued to be the cot/caught low back merger; lowering/retraction of kit/bet/bat; conditioning by following consonant voicing/manner; gender differences; back vowel fronting.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page; the citation for 'Canadian Shift' itself.",
+   "features": [
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/english-language-and-linguistics/article/if-ur-from-toronto-youll-understand-register-change-and-metadiscursive-engagement-with-mediatized-multicultural-toronto-english/BB67861CE19ACA8A38FA4EA413560A61",
+   "platform": "academic",
+   "title": "'If ur from Toronto you'll understand': register change and metadiscursive engagement with mediatized Multicultural Toronto English",
+   "creator": "Derek Denis et al., English Language & Linguistics (2025)",
+   "date": "2025-01-23",
+   "what_it_shows": "Defines MTE as a register associated with racialized youth; enregisterment driven by social-media metadiscourse disseminating the register wider; audience recontextualization as engine of register change; defines multiethnolect as languaging practices of young people in urban working-class neighbourhoods of first arrival.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract+intro of peer-reviewed article; best current framing of MTE-as-register.",
+   "features": [
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.newyorker.com/culture/culture-desk/a-delightful-dictionary-for-canadian-english",
+   "platform": "news",
+   "title": "A Delightful Dictionary for Canadian English",
+   "creator": "The New Yorker",
+   "date": "2017-03-23",
+   "what_it_shows": "On DCHP-2 (2nd ed., 11 years at UBC under Stefan Dollinger): 'eh' entry ~5,000 words covering confirmational/contesting/pardon-eh/narrative uses (excluded from 1967 1st ed.); hoser coined by Moranis & Thomas on SCTV 1981; toque 'one of the most widely known Canadianisms' (spelling vs [u] pronunciation confuses non-Canadians); double-double & two-four as identity markers; chesterfield now moribund.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Reliable secondary account of the authoritative Canadianisms dictionary.",
+   "features": [
+    "vocab-canadian",
+    "eh"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://languagelog.ldc.upenn.edu/nll/?p=54188",
+   "platform": "blog",
+   "title": "Language Log: 'Say less'",
+   "creator": "Mark Liberman, Language Log",
+   "date": "2022-04-02",
+   "what_it_shows": "Documents spread of 'say less' as substitute for 'say no more' over ~a decade; UD entries back to 2011; 2018 Hypebeast interview with Roy Woods (album 'Say Less', 2017) attributes the expression to Toronto street slang.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Linguist-run blog; the Toronto attribution is via a music interview (moderate).",
+   "features": [
+    "say-less",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://properslang.com/articles/toronto-slang-guide",
+   "platform": "blog",
+   "title": "Toronto slang: 15 words you'll hear in the 6ix, eh",
+   "creator": "Mark Wills, ProperSlang",
+   "date": "",
+   "what_it_shows": "Mixed Canadian+MTE guide: the 6ix (416/647 codes or 6 pre-amalgamation municipalities; older T-dot, Hogtown); mans ('Mans is tired'), ahlie (~Patois 'a lie?'), styll ('I'm not going, styll'), skeen (twist on Jamaican 'seen' = agreed/understood, can mean 'whatever' flatly), nize it, eh, toque, double-double, loonie, keener, give'r, gong show, chirp, deke.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Slang blog; includes a 'use them like a local' respect caveat; medium reliability.",
+   "features": [
+    "mans",
+    "ahlie",
+    "styll",
+    "eh",
+    "vocab-canadian",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://torontomansdictionary.com/",
+   "platform": "dictionary",
+   "title": "Toronto Mans Dictionary — Real Toronto Slang, Defined (73+ Words)",
+   "creator": "Toronto Mans Dictionary",
+   "date": "",
+   "what_it_shows": "Community dictionary with term+example+origin tags: 'llow it (let it go); 416 vs 905 identity codes; 6ix God (Drake's title); ahlie (Patois 'a lie'); bare; big up; blem; bless up; bredren; brodie/crodie; buff; certi; cheesed; chirping; endz ('your neighbourhood, home turf': 'Come through the endz this weekend'); fam; flex; for tru; greasy; GTA; gwap; gyal/gyaldem; Hogtown (19th c. political insult + meatpacking); hooooly; irie; Jane and Finch; leng; link up.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Community-run dictionary citing origins per term; medium-high for glosses/examples.",
+   "features": [
+    "ends",
+    "fam",
+    "ahlie",
+    "bare",
+    "wagwan",
+    "other-slang",
+    "mte-general",
+    "place-names"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://thecanadianencyclopedia.ca/en/article/drake",
+   "platform": "wiki",
+   "title": "Drake",
+   "creator": "The Canadian Encyclopedia",
+   "date": "",
+   "what_it_shows": "States 'the 6'/'the 6ix' was coined by rapper Jimmy Prime; refers to 416/647 area codes and/or six pre-amalgamation municipalities; announced via 'Views From the 6' title July 2014, worldwide Twitter trend; tracks incl. '6 God', '6 Man', 'You & the 6', 'Know Yourself' ('Runnin' through the 6 with my woes').",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Authoritative encyclopedia entry.",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Canadian_English",
+   "platform": "wiki",
+   "title": "Canadian English",
+   "creator": "Wikipedia",
+   "date": "",
+   "what_it_shows": "Standard Canadian English overview: French loans (poutine, toque), homegrown vocab (chesterfield, double-double), Low-Back-Merger Shift shared with western US since 1980s; lists 'Toronto' among named dialects; history of the field (Avis, Geikie 1857 'corrupt dialect' remark).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. General reference.",
+   "features": [
+    "vocab-canadian",
+    "canadian-shift",
+    "cot-caught",
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.utm.utoronto.ca/main-news/utm-linguistics-professor-uncovering-torontos-unique-style-english",
+   "platform": "news",
+   "title": "UTM linguistics professor uncovering Toronto's unique style of English",
+   "creator": "Ali Raza, University of Toronto Mississauga",
+   "date": "2023-07-14",
+   "what_it_shows": "Original UTM version of the phys.org piece: MTE named by Denis's team; mans-as-'I' example with TTC; Canadian raising avoided in stereotype-loaded 'about' but kept in ice/eyes; GOAT monophthongization linked to Jamaican Patois; 'Tronno' as community authenticity feature; feature-pool model.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. University newsroom; same content as phys.org, included as institutional corroboration.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "canadian-raising",
+    "mans",
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.thestar.com/news/gta/taronna-names-how-our-city-leaves-us-tongue-tied/article_997714e9-fc3b-5a45-9306-2f07ee2b860d.html",
+   "platform": "news",
+   "title": "Taronna names: How our city leaves us tongue-tied",
+   "creator": "Curtis Rush, Toronto Star",
+   "date": "2011-03-23",
+   "what_it_shows": "On the TTC automated-announcer 'Spadina' debate: original 'Spa-deenah' vs popular 'Spa-Dinah' (long usage winning per the Star); Roncesvalles 'Rrrrrawn-ses-vay-yez' (or 'Roncy'); Princes' Gate not 'Princess'; Baby Point pronounced 'Bawby' (after settler James Baby); Yonge='Young Street', 'don't make it rhyme with sponge'.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Top local paper with historian Mike Filey; great for place-name nuances.",
+   "features": [
+    "place-names",
+    "trawna",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://dailyhive.com/toronto/toronto-new-student-university-tips-2018",
+   "platform": "news",
+   "title": "17 things you need to know if you're moving to Toronto for university",
+   "creator": "Ainsley Smith, Daily Hive",
+   "date": "2018-08-22",
+   "what_it_shows": "Tip #1: 'It's pronounced Tronno not Tor-on-Toe — no bigger way to scream you're not from here than overemphasizing the T's'; also 'Turrono' variant; calls Toronto 'the most linguistically diverse city in Canada' (~200 languages).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. City-guide folk account; matches linguistic description.",
+   "features": [
+    "trawna",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://our-languages.canada.ca/en/blogue-blog/distinction-in-canadian-and-american-english-eng",
+   "platform": "blog",
+   "title": "The cot-caught distinction in Canadian and American English",
+   "creator": "Rishi Gopinath, Our Languages blog (Language Portal of Canada, Govt of Canada)",
+   "date": "2025-02-17",
+   "what_it_shows": "Explains /ɑ/ vs /ɒ/: Canadians merge both to /ɒ/ (don=dawn, cot=caught, pond=pawned); Inland North US and NYC keep distinct; Californians merge to /ɑ/ — i.e. Canadians and Bostonians merge the OTHER way.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Government language blog by a GTA writer; clear minimal pairs.",
+   "features": [
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/how-canadian-was-eh-a-baseline-investigation-of-usage-and-ideology/DFAD67E2BAB662AADFAE604796E797F7",
+   "platform": "academic",
+   "title": "How Canadian was eh? A baseline investigation of usage and ideology",
+   "creator": "Canadian Journal of Linguistics (Derek Denis)",
+   "date": "2020-11-03",
+   "what_it_shows": "Eh as confirmational seeking addressee confirmation; in modern Toronto corpora eh is INFREQUENT vs other confirmationals yet remains 'the quintessential Canadian English stereotype'; investigates whether it was ever more frequent, comparing Southern Ontario and Vancouver Island corpora.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page of peer-reviewed article; key for 'real uses of eh today'.",
+   "features": [
+    "eh",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/english-language-and-linguistics/article/abs/so-different-and-pretty-cool-recycling-intensifiers-in-toronto-canada1/B101ADFDFAC4B450EA19693995753866",
+   "platform": "academic",
+   "title": "So different and pretty cool! Recycling intensifiers in Toronto, Canada",
+   "creator": "Sali A. Tagliamonte, English Language & Linguistics 12(2)",
+   "date": "2008-07-01",
+   "what_it_shows": "~10,000 adjectival heads from Toronto interviews: 'very' rapidly declining, 'really' expanded dramatically, 'so' and 'pretty' rising; 36.1% of adjectives intensified; recycling model of intensifier renewal.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract+details; classic Toronto variationist study.",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://languagelog.ldc.upenn.edu/nll/?p=4540",
+   "platform": "blog",
+   "title": "Language Log: Chranna and Fluffya",
+   "creator": "Mark Liberman, Language Log",
+   "date": "2013-03-31",
+   "what_it_shows": "NPR transcript: Torontonian physician says [ˈtɹɐɾ̃ə] with nasal tap, 'there's no t in it'; quotes Jack Chambers (U of T): locals drop the second t through sheer frequency of saying the name; Wikipedia variants 'Toronno, Trono, Toranna, Taranna, Chrono, Chranna, Terawhnna'; Ben Zimmer: 'Trawna' is the best pronunciation-spelling.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Linguist blog; nasal-flap detail is the phonetic mechanism behind 'Trawna'.",
+   "features": [
+    "trawna",
+    "t-flapping"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cbc.ca/arts/commotion/toronto-accent-slang-internet-clout-9.7013293",
+   "platform": "news",
+   "title": "Why not just anyone can use the Toronto accent for internet clout",
+   "creator": "CBC Arts Commotion (Sandy Hudson, Matt Amha, Radheyan Simonpillai)",
+   "date": "2025-12-15",
+   "what_it_shows": "Debate on who may profitably perform the Toronto accent; Sandy Hudson (grew up Jamaican-background North York/Scarborough): words she 'had to learn in the culture', notes code-switching necessity vs comedians using the accent as punchline.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Very recent; strong on appropriation/code-switching ethics.",
+   "features": [
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/the-accent-effect-toronto-2-1.4495322",
+   "platform": "news",
+   "title": "What can we tell from how someone speaks? (The Accent Effect)",
+   "creator": "Lakshine Sathiyanathan, Lisa Xing — CBC News",
+   "date": "2018-01-22",
+   "what_it_shows": "CBC Toronto series on accent attitudes: Jamaican-Canadian takeout owner in Scarborough code-switches into patois for customers ('He speaks patois!' vs Canadians 'you have a strong accent' — intelligibility and status perceptions).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Reported feature; documents patois/English code-switching in Scarborough daily life.",
+   "features": [
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://journals.sagepub.com/doi/10.1177/00754242221145164",
+   "platform": "academic",
+   "title": "Exploring the Vowel Space of Multicultural Toronto English",
+   "creator": "Denis, Elango, Nor Kamal, Prashar & Velasco — Journal of English Linguistics",
+   "date": "2023-02-08",
+   "what_it_shows": "First systematic sociophonetic study of MTE (Brampton, GTA youth, 2018 fieldwork): tests GOOSE fronting, Canadian Shift, Canadian raising, ban/bag tensing, GOAT monophthongization; high interspeaker variability; young immigrant men least normative; MTE as variable repertoire/'linguistic alterity' and everyday resistance. Context: 46% of GTA population immigrants, 51% visible minority.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. The core MTE phonology paper.",
+   "features": [
+    "mte-sounds",
+    "mte-general",
+    "canadian-shift",
+    "canadian-raising"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://cla-acl.ca/pdfs/actes-2021/Elango_and_Denis-FOM_and_friends.pdf",
+   "platform": "academic",
+   "title": "Fom and friends: Respellings, enregisterment, and variable pre-nasal /ae/ in Multicultural Toronto English",
+   "creator": "Vidhya Elango & Derek Denis (CLA 2021 proceedings)",
+   "date": "2021-01-01",
+   "what_it_shows": "Feature inventory of MTE: th-stopping, GOAT monophthongization, lack of MOUTH raising, ahlie (confirmational from Jamaican Patwa), styll (utterance-final concessive), pronominal mans (1sg or 3rd person), a/an allomorphy loss ('a apple', Schlegl & Tagliamonte 2021), lexical loans from Patwa and Somali specifically (the city's two largest Black racialized groups). Analyzes 'fom'/'fham' respelling of 'fam' as indexing laxer pre-nasal /ae/ (against NAm pre-nasal tensing, Boberg 2008/2010).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Dense but the single best MTE feature inventory.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "fam",
+    "styll",
+    "ahlie",
+    "mans",
+    "canadian-raising"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.berlitz.com/en-ca/blog/understanding-canadian-slang-and-key-words",
+   "platform": "blog",
+   "title": "Canadian Slang & Vocabulary: Essential English and French Terms",
+   "creator": "Berlitz Canada",
+   "date": "2022-06-23",
+   "what_it_shows": "Core Canadianisms with examples: eh ('right?'), toque, double-double ('I'll have a double-double and a Boston cream'), clicks (km), chesterfield (older), give 'er, two-four ('May two-four' weekend), Hollywood North; everyday terms table incl. washroom, hydro.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Language-school blog; reliable for standard vocabulary.",
+   "features": [
+    "vocab-canadian",
+    "eh"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.contiki.com/six-two/article/canadian-slang-words/",
+   "platform": "blog",
+   "title": "57 Canadian slang words you need to learn",
+   "creator": "Contiki",
+   "date": "2020-11-05",
+   "what_it_shows": "Travel-guide glossary of Canadianisms (toque, loonie/toonie, double-double, keener, give'r, stagette, pop, runners, mickey, two-four, hydro bill, parkade, dart).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Travel brand; vocab corroboration only.",
+   "features": [
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.narcity.com/toronto/40-things-youll-hear-a-scarberian-say",
+   "platform": "news",
+   "title": "40 Things You'll Hear A Scarborough Person Say",
+   "creator": "Narcity",
+   "date": "2015-12-14",
+   "what_it_shows": "Older (2015) Scarborough-centric list: styll as synonym for 'though' at sentence end ('I've ate like 3 patties I needa go to the gym styll'); waste yute ('Stop mall ratting ya waste yute!!'); ting as Patois 'thing' + person you're casually seeing ('All the tings are at Caribana fom you down?').",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Dated in places — good baseline for dated-vs-current tracking.",
+   "features": [
+    "styll",
+    "wasteman",
+    "ting",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.straightdope.com/21344455/what-s-with-the-weird-british-pronunciation-of-words-like-gloucester",
+   "platform": "other",
+   "title": "What's with the weird British pronunciation of words like Gloucester?",
+   "creator": "The Straight Dope",
+   "date": "2017-11-03",
+   "what_it_shows": "Notes Canadians routinely elide: 'When was the last time you heard a Canadian pronounce all three syllables, or the second t, in Toronto? It's Tronno, more like' — framed as ordinary speech-compression like placenames everywhere.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Q&A column; anecdotal but consistent.",
+   "features": [
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/news/toronto/we-the-6-why-the-name-drake-gave-us-is-here-to-stay/article25421112/",
+   "platform": "news",
+   "title": "We The 6: Why the name Drake gave us is here to stay",
+   "creator": "The Globe and Mail",
+   "date": "2015-07-10",
+   "what_it_shows": "On the July 14 2014 'Views from the 6' announcement: initial Torontonian skepticism ('WE DONT CALL IT THE 6 BRO'), then adoption; 'Runnin' through the 6 with my woes' as singalong reference; name tied to area codes/six municipalities.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Contemporaneous 2015 report on the nickname's reception.",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/6089/3096/8418",
+   "platform": "academic",
+   "title": "The Lax Vowel Subsystem in Canadian English Revisited",
+   "creator": "Rebecca Roeder & Lidia-Gabriela Jarmasz, Toronto Working Papers in Linguistics 31",
+   "date": "2009-01-01",
+   "what_it_shows": "First wide-scale acoustic description of the Canadian Shift in mainstream Toronto English (35 natives from Tagliamonte's 2003-06 Toronto corpus, ~1800 tokens): front lax vowels retract AND lower together; retraction dominates recent change; little change since WWII era; argues redistribution in reconfigured space after low back merger rather than a pull-chain.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Working-paper version of their CJL 2010 article; key Toronto data.",
+   "features": [
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.ling.upenn.edu/phono_atlas/Atlas_chapters/Ch15_2nd.rev.pdf",
+   "platform": "academic",
+   "title": "Atlas of North American English, Ch. 15: Canada",
+   "creator": "Labov, Ash & Boberg (ANAE)",
+   "date": "",
+   "what_it_shows": "Low back merger general across Canada; Scargill & Warkentyne 1972 survey of 14,000+ schoolchildren/parents: ~85% say cot/caught rhyme (true rate near 100%); Newfoundland exception ~70%; Don-dawn merger near-uniform before /n/; Chambers 1993 literary evidence of merger in Ontario speech mid-19th c., possibly from merged Pennsylvania Loyalist settlement.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Authoritative atlas chapter; best cot-caught numbers.",
+   "features": [
+    "cot-caught",
+    "canadian-shift"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://torontostreetsmagazine.com/toronto-slang-explained-translated/",
+   "platform": "blog",
+   "title": "TORONTO SLANG EXPLAINED! / Translated",
+   "creator": "Toronto Streets Magazine",
+   "date": "2025-01-15",
+   "what_it_shows": "Glossary: mans (group of people or 'I/me', Caribbean influence); ting (girl/thing/event, Jamaican Patois); waste yute/wasteman (useless person; yute<youth); fam (close friends); frames slang as product of 'the 6ix' multiculturalism.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Local culture magazine; medium reliability.",
+   "features": [
+    "mans",
+    "ting",
+    "wasteman",
+    "fam",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.vice.com/en/article/drake-torontos-slang-isnt-new-its-black/",
+   "platform": "news",
+   "title": "Toronto's Slang Isn't 'New.' It's Black",
+   "creator": "Sharine Taylor, VICE",
+   "date": "2019-10-21",
+   "what_it_shows": "Essential critique: ting, man dem, waste yute, wallahi, bucktee are from Toronto's Black diasporic communities (Caribbean + East African); ting/man dem from Jamaican Patois, bucktee Somali; calls out mainstream coverage (Vanity Fair/Lilly Singh, CP piece, CityNews segment) for erasing Black speakers; analogy to AAVE and code-switching consequences.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Opinion/analysis; crucial for respectful framing and crediting communities.",
+   "features": [
+    "mte-general",
+    "ting",
+    "mandem",
+    "wasteman",
+    "wallahi",
+    "bucktee"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://read.dukeupress.edu/american-speech/article-pdf/85/2/121/395243/ASp85.2C.3Hoffman.pdf",
+   "platform": "academic",
+   "title": "The Role of Social Factors in the Canadian Vowel Shift: Evidence from Toronto",
+   "creator": "Michol F. Hoffman — American Speech 85(2)",
+   "date": "2010-05-01",
+   "what_it_shows": "Acoustic study of bit/bet/bat in Toronto interviews across British, Italian, Chinese ancestry groups: age and sex matter but NO significant ethnicity differences for vowel height/backness — all Toronto ethnic groups participate in the shift.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page (PDF paywalled); key point that mainstream shift is pan-ethnic in Toronto.",
+   "features": [
+    "canadian-shift"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://home.cc.umanitoba.ca/~robh/files/cjlfinaldistr.pdf",
+   "platform": "academic",
+   "title": "Vowel production in Winnipeg",
+   "creator": "Robert Hagiwara, University of Manitoba (CJL)",
+   "date": "",
+   "what_it_shows": "Acoustic study (10 Winnipeg natives, /hVd/+/hVt/ word list): confirms low-back merger, /ae/ retraction, /u,ʊ/ advancement; finds Canadian raising is a shift of BOTH nucleus and offglide across /aɪ,aʊ,oɪ/, not just nucleus heightening; questions uniformity of 'Canadian Shift' vs California.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Full working PDF; useful phonetic detail on raising mechanics.",
+   "features": [
+    "canadian-raising",
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://gadanidis.ca/pdf/buftor.pdf",
+   "platform": "academic",
+   "title": "[d]at's loud, bro! A report on TH-stopping in Multicultural Toronto English",
+   "creator": "Bigelow, Gadanidis, Schlegl, Umbal & Denis (Buffalo-Toronto workshop slides, 2019)",
+   "date": "2019-03-16",
+   "what_it_shows": "Slides summarizing MTE feature list: lexical ((waste)yute, ting, mandem, cheesed, cut, deafaz, nize your beak, wallahi, bare), discourse-pragmatic (ahlie confirmational, styll concessive), morphosyntax (pronominal mans), phonology (Canadian Shift, GOOSE fronting participation; variation in Canadian raising, no short-a nasal split, GOAT monophthongization); TH/DH-stopping ~10%, led by males; enregisterment via orthographic ting/yute/dem.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Conference slides by the research team; compact feature inventory.",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "ting",
+    "mandem",
+    "wasteman",
+    "ahlie",
+    "styll",
+    "wallahi",
+    "bare"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/canadian-raising-retrospect-and-prospect/A528CB8CD3E9AD8C26540586A170EB3C",
+   "platform": "academic",
+   "title": "Canadian Raising: Retrospect and Prospect",
+   "creator": "J.K. Chambers — Canadian Journal of Linguistics",
+   "date": "2016-01-01",
+   "what_it_shows": "Retrospective by the phenomenon's namer: documentary evidence to 1934, comparative atlas data pushes origin to late 19th century; US northern /aɪ/ raising is a different (overlapping) phenomenon; possible threat to /aʊ/ raising from aw-fronting turned out accidental.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page; authority on chronology of the feature.",
+   "features": [
+    "canadian-raising"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/language-in-society/article/deconstructing-variation-in-pragmatic-function-a-transdisciplinary-case-study/0560328484156BD955E96B60DBABFD73",
+   "platform": "academic",
+   "title": "Deconstructing variation in pragmatic function: A transdisciplinary case study",
+   "creator": "Denis et al. — Language in Society",
+   "date": "2018-06-28",
+   "what_it_shows": "Case study of pragmatic markers (confirmational system incl. eh and related forms in Toronto data) using transdisciplinary methods; relevant to how 'eh' and discourse tags vary by function rather than being interchangeable.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page; supports eh/ahlie function comparison.",
+   "features": [
+    "eh",
+    "ahlie",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=styll",
+   "platform": "other",
+   "title": "Urban Dictionary: styll",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "UD entries define styll as Toronto slang for emphasis/affirmation at sentence end ('still/though').",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST: crowd definitions, inconsistent quality; used only as attestation of usage, not as authority.",
+   "features": [
+    "styll"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=mans",
+   "platform": "other",
+   "title": "Urban Dictionary: mans",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "UD's mans entries (Denis notes earliest UD attestation 'manz' 2006): mans as 'I/me' or one's crew in Toronto/London slang.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST but historically important: Denis (2016) dates earliest 'manz' attestation to UD 2006.",
+   "features": [
+    "mans"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Multicultural_London_English",
+   "platform": "wiki",
+   "title": "Multicultural London English",
+   "creator": "Wikipedia",
+   "date": "",
+   "what_it_shows": "The comparison variety: MLE arose in dense immigrant London neighbourhoods; features include man-as-pronoun (Cheshire 2013), TH-stopping/fronting, monophthongal GOAT, 'innit' confirmational, syllable-timed rhythm — the template Denis models MTE on; explains independent-but-parallel mans/man development debate.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Background for why Toronto~London words overlap (shared Jamaican diaspora).",
+   "features": [
+    "mte-general",
+    "mans",
+    "mte-sounds",
+    "ahlie"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.dchp.ca/dchp2/",
+   "platform": "dictionary",
+   "title": "Dictionary of Canadianisms on Historical Principles, 2nd edition",
+   "creator": "Dollinger et al., UBC / University of Vienna",
+   "date": "2017-01-01",
+   "what_it_shows": "DCHP-2 entry site (redirect page to the full dictionary): the authoritative historical dictionary of Canadian English — source for eh, toque, double-double, two-four, washroom, chesterfield as documented Canadianisms with dated quotations.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Landing/redirect page opened; New Yorker piece confirms contents.",
+   "features": [
+    "vocab-canadian",
+    "eh"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=ahlie",
+   "platform": "other",
+   "title": "Urban Dictionary: ahlie",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "Multiple definitions 2011-2021: 'Tdot/Toronto slang for right?' ('You're reaching my crib tonight ahlie?'); agreement ('Tyrone is a Wasteman' -> 'Ahlie'); likened to 'innit'; one poster glosses 'Black talk for is it true? or a lie?'.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST crowd source; corroborates confirmational function + Patois 'a lie' etymology.",
+   "features": [
+    "ahlie"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=bucktee",
+   "platform": "other",
+   "title": "Urban Dictionary: bucktee",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "Entries 2017-2023: 'homeless-crackhead who lives in Toronto', 'a crackhead/useless', 'originally from a Somali word that means crackhead'; example 'Yo I can't go to the Timmies on Dufferin again fam there's always this bucktee outside yelling at mans across the road!'.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST but consistent with academic glosses; note derogatory force toward homeless/addicts.",
+   "features": [
+    "bucktee"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=waste%20yute",
+   "platform": "other",
+   "title": "Urban Dictionary: waste yute",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "Entries 2010-2020: 'Toronto Slang with Caribbean Roots — a youthful person that is a waste of time and space'; 'Jamaican patois... derived from wasted youth'; 'a mandem who is annoying'; dialogue example shows dense Toronto slang in use.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST; consistent with scholarly accounts.",
+   "features": [
+    "wasteman",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=Trawna",
+   "platform": "other",
+   "title": "Urban Dictionary: Trawna",
+   "creator": "Urban Dictionary contributors",
+   "date": "2005-12-02",
+   "what_it_shows": "2005 entry: 'The capital city of Ontario, Canada as pronounced by the locals real slurred like' — early written attestation of the slurred-local pronunciation as a shibboleth.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST; useful only as early attestation (2005).",
+   "features": [
+    "trawna"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://english.stackexchange.com/questions/207431/how-do-torontonians-pronounce-the-name-of-their-hometown",
+   "platform": "other",
+   "title": "How do Torontonians pronounce the name of their hometown?",
+   "creator": "English Language & Usage Stack Exchange",
+   "date": "2014-11-10",
+   "what_it_shows": "Answers: 2-syllable 'trän-ə' (1970s Calgary anecdote), silent second t ('te-rah-na'), Wikipedia /ˈtrɒnoʊ/; one reply: 'Trawna if we're both from there, Trawn-toe if speaking to outsiders' — documents style-shifting of the city name.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Forum Q&A; the insider/outsider style-shift point is valuable.",
+   "features": [
+    "trawna",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://torontoblogs.ca/why-is-toronto-called-the-6ix/",
+   "platform": "blog",
+   "title": "The 6ix Explained: The Story Behind Toronto's Nickname",
+   "creator": "Toronto Blogs",
+   "date": "2022-06-06",
+   "what_it_shows": "Explains 'the six' = 416 area code and/or six pre-1998 municipalities; Drake told Jimmy Fallon he debated 'the 4' but 'the 6ix just sounds cooler'; credits Kardinal Offishall with related T-dot tradition and Drake with globalizing the term in 2015.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Local blog; matches Canadian Encyclopedia account.",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.idea.org/words/Canadianisms",
+   "platform": "blog",
+   "title": "Canadianisms",
+   "creator": "IDEA (International Dialects of English Archive)",
+   "date": "",
+   "what_it_shows": "Short list of Canadianisms: toque (knit cap), loonie, double-double, keener, mickey, two-four, serviette, garburator, parkade, washroom, chesterfield.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Academic dialect archive; brief but reputable.",
+   "features": [
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://kelleyteahen.ca/2017/06/29/canada150-trawnas-crossroads/",
+   "platform": "blog",
+   "title": "My Canada, 149/150: Trawna's crossroads",
+   "creator": "Kelley Teahen",
+   "date": "2017-06-29",
+   "what_it_shows": "'Only people outside Ontario and crisp-dictioned CBC announcers say Toe-RON-toe. TRAH-na by local pronunciation.'",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Personal essay; nice crisp statement of the in-group norm.",
+   "features": [
+    "trawna",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.cambridge.org/core/journals/canadian-journal-of-linguistics-revue-canadienne-de-linguistique/article/abs/vowel-production-in-winnipeg/89F189D9C06019ED3C395229A1138F03",
+   "platform": "academic",
+   "title": "Vowel Production in Winnipeg",
+   "creator": "Robert Hagiwara — Canadian Journal of Linguistics",
+   "date": "",
+   "what_it_shows": "Published version's abstract: confirms low-back merger, /ae/ retraction, /u,ʊ/ advancement; disputes 'Canadian Shift' as distinguishing 'general' Canadian vs Californian English; raising affects nucleus and offglide of /aɪ,aʊ,oɪ/.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Abstract page of the CJL article (same study as the umanitoba PDF).",
+   "features": [
+    "canadian-raising",
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://doi.org/10.1017/s0008413100001614",
+   "platform": "academic",
+   "title": "The Canadian Shift in Toronto",
+   "creator": "Rebecca V. Roeder & Lidia-Gabriela Jarmasz — CJL 55(3)",
+   "date": "2010-11-01",
+   "what_it_shows": "Published version: for ~70 years the shift has NOT affected high front lax /i/; (ɛ) and (æ) lower and retract, retraction now dominant and slowing; continued retraction of the merged low-back vowel implicated; proposes parallel shift (Vowel Dispersion Theory), not a chain shift.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. DOI/abstract page; definitive mainstream Toronto findings.",
+   "features": [
+    "canadian-shift",
+    "cot-caught"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://nowtoronto.com/culture/torontonians-are-roasting-duolingos-take-on-canadian-slang/",
+   "platform": "news",
+   "title": "'What is this fam?' Torontonians are roasting Duolingo's take on Canadian slang",
+   "creator": "Aliya Karimjee, NOW Toronto",
+   "date": "2026-05-14",
+   "what_it_shows": "Locals mocked Duolingo's slang post ('hang a roger' never said; 'it's tuque with a U'; 'What is this fam? We don't use this'); commenters suggest real items: 'two twos', 'my word', 'crodie'; article notes Toronto slang roots in Jamaican Patois, Somali, Arabic + British English.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Recent local coverage; useful for dated-vs-fake slang calibration.",
+   "features": [
+    "fam",
+    "other-slang",
+    "vocab-canadian",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://slanginsights.com/toronto-slang/",
+   "platform": "blog",
+   "title": "Toronto Slang: 150 Funny, Cool, and Popular Terms",
+   "creator": "SlangInsights",
+   "date": "",
+   "what_it_shows": "Glossary incl. Ronto ('how locals refer to the city — sounding the first O and second T is a dead giveaway'); nickname table (the 6ix, T Dot, T.O., 416, 647, GTA); mans, fam, waste, ting, crodie, bucktee ('He's moving bucktee today'), reach, say less ('I understand; no need to explain'), dess, styll; historical note that Michie Mee/Kardinal/Choclair/Dream Warriors represented the vernacular pre-Drake.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. SEO site; medium-low trust, consistent with better sources.",
+   "features": [
+    "trawna",
+    "mans",
+    "fam",
+    "ting",
+    "bucktee",
+    "say-less",
+    "styll",
+    "other-slang",
+    "mte-general",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://knowyourmeme.com/memes/people/plushh",
+   "platform": "wiki",
+   "title": "Plushh (Toronto Accent Girl)",
+   "creator": "Know Your Meme",
+   "date": "2023-10-20",
+   "what_it_shows": "Documents TikToker Plushh whose thick Toronto accent went viral May 2022 — the clip that mainstreamed 'Toronto accent' discourse and its mockery online.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Meme wiki; useful for how the accent is perceived/ridiculed online.",
+   "features": [
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.linguistics.utoronto.ca/people/directories/all-faculty/derek-denis",
+   "platform": "academic",
+   "title": "Derek Denis — Department of Linguistics, U of T",
+   "creator": "University of Toronto",
+   "date": "",
+   "what_it_shows": "Faculty page listing Denis's MTE research agenda (language change, multiethnolects, settler colonialism, pragmatic markers) and publications incl. 'A note on mans in Toronto' (2016), 'Why are wasteyutes a ting?' (2020), 'Deriving homogeneity in a settler colonial variety' (2019), ethnic accents & hiring evaluations in the GTA (2024).",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Authoritative bibliography of the core researcher.",
+   "features": [
+    "mte-general",
+    "mans",
+    "wasteman"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "http://individual.utoronto.ca/tagliamonte/research.html",
+   "platform": "academic",
+   "title": "Sali A. Tagliamonte: Research",
+   "creator": "University of Toronto",
+   "date": "",
+   "what_it_shows": "Bibliography: Roots of English (CUP 2013), Teen Talk: The Language of Adolescents (CUP 2016), 'So different and pretty cool!' intensifiers (ELL 2008) — anchors the Toronto corpora most Toronto English studies draw on.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Author bibliography page.",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/news/toronto/popularization-of-patois-stirs-up-complex-feelings-for-torontos-westindiancommunity/article35884529/",
+   "platform": "news",
+   "title": "Popularization of patois stirs up complex feelings for Toronto's West Indian community",
+   "creator": "The Globe and Mail",
+   "date": "2017-08-04",
+   "what_it_shows": "Feature ('Di soun in di city'): second-generation West Indians' speech peppered with patois in Scarborough Rouge/Jane-Finch; 'It's just a GTA ting'; South Asians in Mississauga answer with 'ahlie'; Croatians in Malvern say 'from time'; Somalis in Rexdale greet with 'wah gwan?'; community ambivalence about mainstream uptake incl. Drake's patois use in Jungle/Views.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Partially paywalled; article text obtained. Excellent for who-says-what across communities.",
+   "features": [
+    "mte-general",
+    "ahlie",
+    "wagwan",
+    "ting",
+    "other-slang"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.threads.com/@southernontarioangling/post/DDCt5oouWio",
+   "platform": "other",
+   "title": "'The Toronto accent isn't even real' (Threads post)",
+   "creator": "@southernontarioangling",
+   "date": "2024-12-01",
+   "what_it_shows": "Viral skepticism: 'The Toronto accent isn't even real. It's put on by SOME teens and young adults. I've never once heard it in person and I work downtown' — exemplifies the denial/mockery discourse MTE speakers face.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. Seen via search result; single anecdotal post, illustrates metadiscourse only.",
+   "features": [
+    "mte-general"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.urbandictionary.com/define.php?term=the%20ends",
+   "platform": "other",
+   "title": "Urban Dictionary: the ends",
+   "creator": "Urban Dictionary contributors",
+   "date": "",
+   "what_it_shows": "UD entries gloss 'the ends/endz' as one's neighbourhood or side of town in Toronto/UK usage.",
+   "timestamps": "",
+   "notes": "read 2026-11-15. LOW-TRUST crowd source; corroborated by torontomansdictionary 'endz' entry.",
+   "features": [
+    "ends"
+   ],
+   "acoustic_candidate": false,
+   "collected_by": "written-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=PZKifWn--VM",
+   "platform": "youtube",
+   "title": "Toronto Dictionary Pt 1",
+   "creator": "WEIRDgangTV",
+   "date": "2012-06-18",
+   "what_it_shows": "2012 'Toronto Dictionary' comedy skit explaining Toronto hood slang of the era",
+   "timestamps": "0:07 [ __ ] bro tell me the man's not; 0:26 kissed the EG not about Brad; 1:11 that yo bro you see that man over there; 1:15 yeah I see him still bro I'm about to; 1:58 man W yo; 2:04 this guy a was man yo; 2:29 swag famous like J Jackson hop up in",
+   "notes": "watched via yt-dlp captions 2026-11-15; Speakers perform Toronto hood speech; produced by Toronto group WEIRDgangTV (native plausible, UNVERIFIED)",
+   "features": [
+    "mans",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ShZSBFPZ8Ck",
+   "platform": "youtube",
+   "title": "WGTV Toronto dictionary pt2",
+   "creator": "WEIRDgangTV",
+   "date": "2012-07-05",
+   "what_it_shows": "Toronto Dictionary part 2, same comedy format",
+   "timestamps": "1:27 my what you saying fam Hey sir; 1:35 Rusty key fam okay man calm; 1:48 [ __ ] hey man what' you do that for; 1:52 man you been; 2:56 face Nickelodeon swag famous like J",
+   "notes": "watched via yt-dlp captions 2026-11-15; Same as pt 1; UNVERIFIED",
+   "features": [
+    "fam",
+    "mans",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=WjtTvkIDvkk",
+   "platform": "youtube",
+   "title": "IF A TORONTO MAN WAS A POET",
+   "creator": "Dre Locksley",
+   "date": "2018-04-12",
+   "what_it_shows": "Comedy skit: a Toronto 'man' as a poet, performing MTE mannerisms",
+   "timestamps": "1:20 were here unknown she said her man's was",
+   "notes": "watched via yt-dlp captions 2026-11-15; Creator Dre Locksley makes Toronto skits; UNVERIFIED",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=_xm_a6sATjI",
+   "platform": "youtube",
+   "title": "How A Toronto Man Compliments You @SeniorGumBoy",
+   "creator": "DaGumDrops",
+   "date": "2019-01-12",
+   "what_it_shows": "SeniorGumBoy sketch on how a Toronto man gives compliments",
+   "timestamps": "0:28 basic damn onesie mm I see any man",
+   "notes": "watched via yt-dlp captions 2026-11-15; Sketch by Toronto-leaning comedy channel; UNVERIFIED",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=9r1CdmEHNy0",
+   "platform": "youtube",
+   "title": "IF YOUR TEACHER WAS A TORONTO HOOD MAN",
+   "creator": "Dre Locksley",
+   "date": "2017-09-26",
+   "what_it_shows": "Sketch: a Toronto hood man as a teacher leaving a voicemail",
+   "timestamps": "0:19 starting only shoes like he keeps this; 0:29 but man tonight trying to catch a case I; 0:37 about grade - so you think she's a; 0:43 man's been Chinese forever and cost",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto-hood character voice; UNVERIFIED",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=HZNO8SevzgU",
+   "platform": "youtube",
+   "title": "A Toronto Man Soap Opera",
+   "creator": "Random Order Studios™",
+   "date": "2021-11-25",
+   "what_it_shows": "Soap-opera parody in exaggerated Toronto mans dialect",
+   "timestamps": "0:58 not even about which man prayed and; 1:02 it's about which man's gonna look please; 1:23 but you know i'm hitting my push-ups",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto comedy channel Random Order; UNVERIFIED",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=RD1hzn12VJ0",
+   "platform": "youtube",
+   "title": "Scarborough Doctor | Torontopia",
+   "creator": "CBC Comedy",
+   "date": "2017-06-20",
+   "what_it_shows": "CBC 'Scarborough Doctor' sketch — doctor with strong Scarborough/Toronto accent",
+   "timestamps": "0:06 to talk to you about your condition.; 0:07 he's from Scarborough.; 0:24 - Are you good dawg, you look cheesed fam.; 0:29 - It's a gut 'ting still, eh?; 0:31 - Yeah a gut 'ting.; 0:42 - Da man's are playin' it's alopecia yo!; 0:58 Like mans aren't like a; 1:01 Man's been a doctor for a minute though.",
+   "notes": "watched via yt-dlp captions 2026-11-15; CBC comedy, character is explicitly from Scarborough [UNVERIFIED]",
+   "features": [
+    "eh",
+    "fam",
+    "mans",
+    "mte-sounds",
+    "place-names",
+    "ting"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-TAFQD1kRTY",
+   "platform": "youtube",
+   "title": "TEACHING MY DAD TORONTO SLANG *HILARIOUS*",
+   "creator": "Urban Sy",
+   "date": "2021-05-02",
+   "what_it_shows": "Toronto creator teaches her dad Toronto slang",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Speaker is a Toronto creator (UrbanSy); dad is non-native",
+   "features": [
+    "mans",
+    "ting",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=3iIqTbjme-s",
+   "platform": "youtube",
+   "title": "YOU THINK YOU KNOW TORONTO SLANG!?",
+   "creator": "Tina Dao",
+   "date": "2018-02-01",
+   "what_it_shows": "Two women quiz each other on Toronto slang (ahlie, dun kno, zeen)",
+   "timestamps": "0:10 Naw man, I'm actually super marved like; 0:13 I'm tryna eat bare later, you down?; 0:17 I'm super marved...I'm tryna eat bare later...; 0:20 'Cause you know like this morning, mans woke up right; 0:40 Sorry, I don't know how to help with that yet; 0:43 See, even Google doesn't even know what you're talking about!; 0:55 Bare; 1:28 Yeah, top left fam",
+   "notes": "watched via yt-dlp captions 2026-11-15; Casual Toronto-Canadian speakers; UNVERIFIED",
+   "features": [
+    "ahlie",
+    "bare",
+    "dun-know",
+    "fam",
+    "mans",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=MoqnEW_W6Lk",
+   "platform": "youtube",
+   "title": "Learning Toronto slang",
+   "creator": "KevOnStage",
+   "date": "2024-01-10",
+   "what_it_shows": "KevOnStage learns Toronto slang words",
+   "timestamps": "1:52 that was an option why are we sitting",
+   "notes": "watched via yt-dlp captions 2026-11-15; US comedian (non-native) reacting; Toronto examples on screen",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=pD7LLoDu0Ac",
+   "platform": "youtube",
+   "title": "TORONTO VS GRENADIAN SLANG| HILARIOUS",
+   "creator": "KISSKAY",
+   "date": "2019-10-26",
+   "what_it_shows": "Toronto vs Grenadian slang comparison between two speakers",
+   "timestamps": "0:09 I had to think about what's good so fun; 3:47 they say that man does never sleep in",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto speaker presents MTE; UNVERIFIED",
+   "features": [
+    "mans",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=FlJsOYdAnPA",
+   "platform": "youtube",
+   "title": "Toronto Guys On Instagram be Like @SeniorGumBoy",
+   "creator": "DaGumDrops",
+   "date": "2019-05-06",
+   "what_it_shows": "SeniorGumBoy sketch of Toronto guys' Instagram talk",
+   "timestamps": "0:09 unfollow oh you have a man now unfollow; 0:45 that man's dog is not really look at",
+   "notes": "watched via yt-dlp captions 2026-11-15; Same channel as _xm; UNVERIFIED",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=idI5x2gT0is",
+   "platform": "youtube",
+   "title": "50 Essential Toronto Slang - Factually Correct",
+   "creator": "Factually Correct",
+   "date": "2025-08-07",
+   "what_it_shows": "Listicle of 50 Toronto slang terms with short demos",
+   "timestamps": "0:02 to be counting down 50 essential slang; 0:16 you're going to be indistinguishable; 0:23 got fam. Fam's a basic one. Fam just; 0:29 means your family. That just means; 0:32 everybody. Everyone's fam. Number two,; 0:57 fam. To be cheesed is to be annoyed, you; 1:12 got bear subscribers, fam. I've got bare; 1:17 Mandm's",
+   "notes": "watched via yt-dlp captions 2026-11-15; Narration voice UNVERIFIED (likely not Toronto)",
+   "features": [
+    "bare",
+    "fam",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=90T46RPU1Jo",
+   "platform": "youtube",
+   "title": "Do You Know Toronto Slang?",
+   "creator": "University of Toronto",
+   "date": "2019-10-08",
+   "what_it_shows": "U of T linguist Derek Denis on how Toronto youth slang emerges",
+   "timestamps": "0:00 \"Ting,\" it's similar to the word \"thing,\" so you; 0:23 that was really about exactly; 0:29 ♫ T dot says \"yuh dun know.\"; 0:45 picked up by their friends, by their peer group.; 0:50 The word \"styll\" means to agree with someone,; 1:34 The exclamation \"wallahi\" means \"I swear to God,\"",
+   "notes": "watched via yt-dlp captions 2026-11-15; Academic, University of Toronto; clear explainer [UNVERIFIED]",
+   "features": [
+    "dun-know",
+    "mte-general",
+    "mte-sounds",
+    "place-names",
+    "styll",
+    "ting",
+    "wallahi"
+   ],
+   "acoustic_candidate": {
+    "start": "0:05",
+    "end": "1:40",
+    "speaker": "Derek Denis, UofT linguistics researcher",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=NxzRIVkoyCQ",
+   "platform": "youtube",
+   "title": "New Toronto slang growing in popularity",
+   "creator": "CityNews",
+   "date": "2019-10-14",
+   "what_it_shows": "CityNews reporter tests Torontonians on slang like 'waste yute'",
+   "timestamps": "0:13 Toronto slang words like man's Tang Ally; 0:19 wallahi commonly used by young people; 0:29 about the city do you hear people using; 0:34 no have you ever heard of buckteeth no; 0:54 Bacardi slang that was really about; 1:21 friends by their peers; 1:29 friends uses it all the time still means; 1:34 truth okay what about knives it I think",
+   "notes": "watched via yt-dlp captions 2026-11-15; Street interviewees are Toronto residents; reporter UNVERIFIED",
+   "features": [
+    "bucktee",
+    "mans",
+    "wallahi",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=kXawxFtT1u8",
+   "platform": "youtube",
+   "title": "Toronto Slang Guide: How To Speak like your from Toronto",
+   "creator": "Baby Productions Clips",
+   "date": "2025-01-22",
+   "what_it_shows": "How-to-speak-Toronto tutorial clip",
+   "timestamps": "0:02 back with another one today I'm putting; 0:09 know how mans talk you're going to feel; 0:12 lost Bud slang is how Toronto mans; 0:26 the quote unquote ends what they say or; 0:31 just chilling downtown number one mans; 0:35 which means people example mans are; 0:38 hungry what's the move number two fam; 0:42 spelled f short for family but used for",
+   "notes": "watched via yt-dlp captions 2026-11-15; Young male talking head; UNVERIFIED",
+   "features": [
+    "ends",
+    "fam",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=0lEGuJg2ckM",
+   "platform": "youtube",
+   "title": "Lilly Singh Teaches You Canadian Slang | Vanity Fair",
+   "creator": "Vanity Fair",
+   "date": "2019-09-24",
+   "what_it_shows": "Lilly Singh teaches Canadian slang ('ting','dun kno')",
+   "timestamps": "0:40 usually followed by man.; 0:41 That's holy, man.; 1:05 Wow, interestingly enough; 1:06 you could also say man at the end of this.; 1:08 Waste man, so waste mans.; 1:17 Yute, ah yes,; 1:20 Yute basically means youth.; 1:22 So you could call someone a waste yute",
+   "notes": "watched via yt-dlp captions 2026-11-15; Lilly Singh is from Scarborough/Toronto — native Canadian; single speaker",
+   "features": [
+    "dun-know",
+    "mans",
+    "other-slang",
+    "ting",
+    "wasteman"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "2:00",
+    "speaker": "Lilly Singh, Scarborough-born",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=bSnjvqa8e0U",
+   "platform": "youtube",
+   "title": "Scottie Barnes talks Toronto slang and how the city feels like home | The Shift",
+   "creator": "TSN",
+   "date": "2022-09-26",
+   "what_it_shows": "Scottie Barnes discusses Toronto slang with Kayla Grey",
+   "timestamps": "0:32 bonding and connecting right away try to; 0:42 to go home be back with family what is; 0:45 it about this city that keeps you here; 1:19 is getting you up to speed on the; 1:31 doing this ends with the Triple S you; 1:37 must be from Scarborough huh; 1:39 I'm actually from Mississauga you're; 1:47 think about this next year the",
+   "notes": "watched via yt-dlp captions 2026-11-15; Barnes is American (non-native); interviewer Canadian",
+   "features": [
+    "ends",
+    "other-slang",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=9Y7PdhLvFOI",
+   "platform": "youtube",
+   "title": "[JAY] HOW TO SPEAK LIKE YOU'RE FROM TORONTO!",
+   "creator": "SquadGoalsTV",
+   "date": "2016-07-26",
+   "what_it_shows": "Jay teaches Miami native Nick Toronto slang",
+   "timestamps": "0:31 oh fam come; 0:39 in ah good fam ah yeah how are you you; 0:41 doing brother I'm doing great man; 1:01 killing young African Aman men yo [ __ ]; 1:09 the Ops be hello going fam hi yo hey yo; 1:12 man's dealing with I got a young lady's; 1:54 dumb dog when fornicating with a female; 2:02 with a Jimmy Fam can you please buy me a",
+   "notes": "watched via yt-dlp captions 2026-11-15; Jay (KINGOFTHELYONS) is a Toronto creator; MTE speaker [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": {
+    "start": "0:40",
+    "end": "2:30",
+    "speaker": "Jay, Toronto creator teaching slang",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=vnpNglQb4OM",
+   "platform": "youtube",
+   "title": "Toronto Slang Challenge in Los Angeles | Hollywood BLVD",
+   "creator": "StevieG",
+   "date": "2018-08-06",
+   "what_it_shows": "Asking people in Los Angeles Toronto slang",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Americans guessing; host likely Toronto (UNVERIFIED)",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=zSSRpHIqrQM",
+   "platform": "youtube",
+   "title": "TORONTO SLANG EXPLAINED! / Translated",
+   "creator": "Talk Da Tingz ",
+   "date": "2024-12-28",
+   "what_it_shows": "Toronto slang explained/translated, talking head",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Talk Da Tingz host, Toronto-area creator (UNVERIFIED)",
+   "features": [
+    "mans",
+    "other-slang"
+   ],
+   "acoustic_candidate": {
+    "start": "1:00",
+    "end": "4:00",
+    "speaker": "Talk Da Tingz host",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=3umEdWZIViY",
+   "platform": "youtube",
+   "title": "DO TORONTO PEOPLE KNOW TORONTO SLANG? (Part 1 of 3)",
+   "creator": "BIG SHENG",
+   "date": "2017-04-17",
+   "what_it_shows": "Street interviews: do Toronto people know their slang",
+   "timestamps": "0:10 torontonians AKA six mans how well they; 0:23 up uh bare man's bare man's so let's say; 0:29 if you go to a party and there's barely; 0:31 any femal there's just be man's in there; 0:34 is there things in there nah just be man; 0:41 bear is like b a r e be man's like ND; 0:44 man's bare man just means you know bare; 0:48 mans there's lots of mans here can you",
+   "notes": "watched via yt-dlp captions 2026-11-15; Downtown Toronto interviewees [UNVERIFIED]",
+   "features": [
+    "bare",
+    "mans",
+    "other-slang",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=BtAHOqbIK0c",
+   "platform": "youtube",
+   "title": "investigating the toronto accent",
+   "creator": "Adrito",
+   "date": "2026-11-01",
+   "what_it_shows": "Longform video essay 'investigating the toronto accent' by a self-described real Torontonian",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Creator states he is Torontonian; mostly single-speaker",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "trawna"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "9:00",
+    "speaker": "Adrito, self-described Torontonian",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=RJedF6vbPPg",
+   "platform": "youtube",
+   "title": "TORONTO SLANG 101 -  WORDS FROM THE 6ix!! (Sh*t Toronto People Say) - 6ixBuzzTV",
+   "creator": "Owolabby Azeez",
+   "date": "2019-01-06",
+   "what_it_shows": "Toronto slang 101 starter-pack guide by Owolabby",
+   "timestamps": "0:00 Hey man, what's good y'all? Welcome back; 0:05 to another video. Gang gang. Wagwan.; 0:06 should already know what what wagwan; 0:10 means. Wagwan means what's good, how you; 1:11 Brampton, Oakville, Scarborough,; 1:18 Rexdale, shout out all the ends.; 1:25 all about providing you with a daily; 2:08 man? Toronto man. Not saying you're a",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto creator speaking casually; UNVERIFIED-native but strong MTE",
+   "features": [
+    "ends",
+    "mans",
+    "mte-general",
+    "other-slang",
+    "place-names",
+    "ting",
+    "wagwan"
+   ],
+   "acoustic_candidate": {
+    "start": "0:45",
+    "end": "4:00",
+    "speaker": "Owolabby Azeez",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=l157EU7WXr8",
+   "platform": "youtube",
+   "title": "All About Canadian English and the Canadian English Accent! 🍁 (Compared Mostly to American English)",
+   "creator": "Learn English with Bob the Canadian",
+   "date": "2021-06-15",
+   "what_it_shows": "Bob the Canadian explains Canadian English features vs American",
+   "timestamps": "0:02 Sorry, it might be a; 0:04 The other day a man was out in; 0:08 but it was really hot, eh,; 0:28 about what Canadian English sounds like; 0:48 about Canadian English.; 1:30 speakers cannot distinguish; 1:48 and I will talk about; 2:21 I said a man was out in his boat.",
+   "notes": "watched via yt-dlp captions 2026-11-15; Bob is an Ontario native English teacher; clean single speaker",
+   "features": [
+    "canadian-raising",
+    "eh",
+    "mans",
+    "sorry",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "1:00",
+    "end": "6:00",
+    "speaker": "Bob, Ontario native ESL teacher",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=FLO1fD7OF9s",
+   "platform": "youtube",
+   "title": "How do you pronounce TORONTO? | Ask Toronto",
+   "creator": "CityNews",
+   "date": "2022-06-29",
+   "what_it_shows": "CityNews asks Torontonians how they pronounce 'Toronto'",
+   "timestamps": "0:12 kevin hart and woody harrelson the man; 1:28 ah man yo i'm a scarborough man; 1:59 queens quake one one too many owls like; 2:58 where are you guys visiting from",
+   "notes": "watched via yt-dlp captions 2026-11-15; Multiple Toronto residents answering [UNVERIFIED]",
+   "features": [
+    "mans",
+    "place-names",
+    "trawna"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=vwPbzin5nmA",
+   "platform": "youtube",
+   "title": "You say Toronto, we say Trono",
+   "creator": "CityNews",
+   "date": "2019-05-31",
+   "what_it_shows": "CityNews: 'You say Toronto, we say Trono' during NBA Finals",
+   "timestamps": "1:02 second T, right? All my friends try to; 1:49 This is humiliating. I'm being",
+   "notes": "watched via yt-dlp captions 2026-11-15; Street interviews with Torontonians",
+   "features": [
+    "trawna"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Kp1HwI1JHkI",
+   "platform": "youtube",
+   "title": "Can Canadians Talk Trash?",
+   "creator": "Jimmy Kimmel Live",
+   "date": "2019-06-06",
+   "what_it_shows": "Jimmy Kimmel asks if Canadians can talk trash",
+   "timestamps": "0:25 THIS HAS BEEN A VERY INTERESTING; 0:29 NOT ONLY ARE THEY HOSTING THEIR; 3:15 IT'S ABOUT TIME FOR TORONTO TO",
+   "notes": "watched via yt-dlp captions 2026-11-15; US show; Canadian audience reactions [UNVERIFIED]",
+   "features": [
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=9XpVHbFsLDQ",
+   "platform": "youtube",
+   "title": "Danger Cats - Accents across Canada",
+   "creator": "Danger Cats",
+   "date": "2018-08-21",
+   "what_it_shows": "Tour of accents across Canada incl. southern Ontario",
+   "timestamps": "0:26 teaching about Canada the greatest; 0:34 don't know anything about this country; 1:02 this because I love teaching about; 1:08 knows enough about us; 1:53 what the hell I'm talking about last; 2:17 butter and stuck it on top of a human's; 2:36 another clip right now about what the; 2:39 hell I'm talking about",
+   "notes": "watched via yt-dlp captions 2026-11-15; Comedy/educational host; UNVERIFIED",
+   "features": [
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=QUtiQhoP-x4",
+   "platform": "youtube",
+   "title": "USA vs Canada l Can 10 Asians Distinguish Canadian and American Accent? l How different Are They?",
+   "creator": "World Friends",
+   "date": "2025-09-09",
+   "what_it_shows": "10 Asians try to distinguish Canadian vs American accents",
+   "timestamps": "0:06 &gt;&gt; You can guess already. Sorry. Sorry.; 0:11 &gt;&gt; Aboot.; 0:14 &gt;&gt; It's about; 1:38 like we have so many different accents.; 1:44 you know, Cali accent. Like so many; 3:04 about about you, but like your accent.; 3:56 &gt;&gt; Oh, that's interesting. I would call it; 4:31 &gt;&gt; I'm doing good. How about you? Do you",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian and American speakers compared [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=6NSQaPjwYs4",
+   "platform": "youtube",
+   "title": "The Truth About the Toronto Hood Accent",
+   "creator": "English With Patricio",
+   "date": "2025-12-14",
+   "what_it_shows": "Breakdown of what makes the Toronto hood accent unique",
+   "timestamps": "0:01 famous Toronto hood accent.; 0:14 you're sick to my stomach, fam. But if; 1:06 the ends, trading words, rhythm, and; 1:20 youth, man. We all got to try to be; 1:35 to the people out there about, you know,; 1:37 &gt;&gt; Ah, man. Driftwood is this my home. Up; 1:41 top shorter, man. This shizzy and the; 1:48 I did about it. So then I I was like,",
+   "notes": "watched via yt-dlp captions 2026-11-15; ESL teacher explaining MTE; UNVERIFIED native",
+   "features": [
+    "ends",
+    "fam",
+    "mans",
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": {
+    "start": "0:20",
+    "end": "6:00",
+    "speaker": "English With Patricio host",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=itF0csF0ZEo",
+   "platform": "youtube",
+   "title": "Guess the Accent: USA or Canada?",
+   "creator": "it'sNNAU",
+   "date": "2025-08-16",
+   "what_it_shows": "Quiz: guess whether speaker is from USA or Canada",
+   "timestamps": "0:50 ended up putting me in net because he; 2:33 deal cuz we see the processing time for; 2:38 inland sponsorships sitting right now at; 3:17 to talk about the issues that matter to; 3:26 heard, a conversation about uh whether; 3:47 here. Don't need to worry about paying; 4:01 then they came back to my mom many,; 4:07 many, many, many years later and said,",
+   "notes": "watched via yt-dlp captions 2026-11-15; Several short speech samples both accents [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "sorry",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=yTChgIf8JRY",
+   "platform": "youtube",
+   "title": "What a Canadian accent sounds like (funny)",
+   "creator": "Lifey",
+   "date": "2015-01-30",
+   "what_it_shows": "Short comic demo of a Canadian accent",
+   "timestamps": "0:25 how about we talk about the Lord?; 0:38 You're eating trash.\"",
+   "notes": "watched via yt-dlp captions 2026-11-15; Single speaker, UNVERIFIED",
+   "features": [
+    "canadian-raising",
+    "eh"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=nmCm3jrYR74",
+   "platform": "youtube",
+   "title": "Toronto girl accent (narrow IPA)",
+   "creator": "trinity null",
+   "date": "2024-08-04",
+   "what_it_shows": "Narrow IPA transcription exercise of a Toronto girl's accent",
+   "timestamps": "0:02 who's who's that YouTuber fam that; 0:07 famous YouTuber who plays basketball; 0:20 fam but if it's not true Shorty's just",
+   "notes": "watched via yt-dlp captions 2026-11-15; Student phonetics project; young female Toronto speaker [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": {
+    "start": "0:02",
+    "end": "0:30",
+    "speaker": "young woman, Toronto speaker (per title)",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=058JhlgxBbc",
+   "platform": "youtube",
+   "title": "American vs Canadian ENGLISH Differences!",
+   "creator": "World Friends",
+   "date": "2021-10-16",
+   "what_it_shows": "World Friends panel compares American vs Canadian English",
+   "timestamps": "0:17 depends depends where yeah depends on; 0:44 a crayon oh man I didn't know that; 1:19 colonized by Britain so right; 1:46 so it really depends on who you're; 3:22 depends where you live in the US too; 3:57 or a napkin so it also depends on the; 4:52 depends on the person to and what; 4:56 there's so many different ways they call",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian and US participants; some Toronto-relevant segments [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "eh",
+    "mans",
+    "other-slang",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=T3wYaCBQVrA",
+   "platform": "youtube",
+   "title": "CANADIAN vs. AMERICAN ACCENT!",
+   "creator": "Carmen and Brian",
+   "date": "2018-11-09",
+   "what_it_shows": "Carmen (Canadian) vs Brian (American) read word lists",
+   "timestamps": "0:12 to talk about how we say different words; 0:30 there's no doubt about that so this will; 0:40 he goes on cruises he spends time with; 0:44 his family and they do fun things in; 1:05 different it'll be an interesting; 1:19 know is different about I would say like; 1:24 now that I'm thinking about it well; 1:26 they're they're about now that I'm",
+   "notes": "watched via yt-dlp captions 2026-11-15; Contrastive word lists [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ajmH5iXWUPU",
+   "platform": "youtube",
+   "title": "English differences Among 4 countries! (American,British,Aussie,Canadian)",
+   "creator": "World Friends",
+   "date": "2022-04-08",
+   "what_it_shows": "4-country comparison incl. Canadian speaker",
+   "timestamps": "1:23 of australia because it's not many; 1:52 kind of conflicting for me because the; 2:18 about; 2:59 interesting; 3:03 in the us we would say mailman in the uk; 3:05 we call it the postman in australia we; 3:08 also call it the postman or posty for; 3:12 called a postman of postie but some",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian participant, UNVERIFIED region",
+   "features": [
+    "canadian-raising"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=evvzG0Xz69Q",
+   "platform": "youtube",
+   "title": "Will Arnett Teaches You Canadian Slang | Vanity Fair",
+   "creator": "Vanity Fair",
+   "date": "2018-07-25",
+   "what_it_shows": "Will Arnett teaches Canadian slang",
+   "timestamps": "0:28 oh she's about she's about a hundred and; 0:40 a to four oh man that's a case of beer; 0:46 you're not getting in but or you might; 1:27 ditch and Gaucho we talked about this; 3:35 don't worry about I'll be chirping the",
+   "notes": "watched via yt-dlp captions 2026-11-15; Arnett is Toronto-born (native); clear talking head",
+   "features": [
+    "mans",
+    "other-slang",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "2:30",
+    "speaker": "Will Arnett, Toronto-born actor",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=qzC28hBsSkA",
+   "platform": "youtube",
+   "title": "Toronto Mans",
+   "creator": "Channel 5 with Andrew Callaghan",
+   "date": "2023-11-12",
+   "what_it_shows": "Channel 5 'Toronto Mans' documentary segment",
+   "timestamps": "0:01 how many clients do you have I have like; 0:27 ratchet and I'm like a grown woman so; 0:39 I hate men like I'm not letting them; 0:58 what about like Central Asia whes like; 1:12 trust any Britney fam okay okay never; 1:16 was telling me the story about Britney; 1:19 fam he was at Britney's crib and you; 1:29 not from Toronto thanks man appreciate",
+   "notes": "watched via yt-dlp captions 2026-11-15; Interviews with Plushh and other Toronto figures; mixed audio [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=swlLKewCIRs",
+   "platform": "youtube",
+   "title": "Toronto Mans Set Up a Hotel for Valentine's Day | $$$4U Promo Sketch",
+   "creator": "Random Order Studios™",
+   "date": "2025-02-11",
+   "what_it_shows": "Drake/OVO promo sketch: Toronto mans run a Valentine's hotel",
+   "timestamps": "1:01 fam you got to say it C I basically said; 1:39 you I'm almost thinking about giving you; 1:53 from computer bro no man no I love you; 1:59 SL and this guy man you guys don't know; 2:06 man I'm on for this bro you're not here; 2:07 man why is this guy moving like that; 2:11 moving bare emotional like he's on his",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto-mans characters; scripted comedy [UNVERIFIED]",
+   "features": [
+    "bare",
+    "fam",
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=_oExwaZ0S7A",
+   "platform": "youtube",
+   "title": "TORONTO MANS: Learning ACCENTS & DIALECTS With Sir David Attenborough",
+   "creator": "Kevin Finn Comedy",
+   "date": "2020-09-30",
+   "what_it_shows": "Attenborough-parody documentary on Toronto mans speech",
+   "timestamps": "0:06 or every english man over the age of 82.; 0:17 we are going to speak toronto mans; 0:28 shall we a normal greeting; 0:37 toronto man; 0:50 yeah yeah that's how you're feeling eh; 0:53 that's how you're you're not about to; 1:17 mandem have to knees it you'll feel me; 1:26 she's a very loud girl you're fam she's",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto comedian performing MTE; UNVERIFIED",
+   "features": [
+    "eh",
+    "fam",
+    "mandem",
+    "mans",
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=IkID1wLm2ug",
+   "platform": "youtube",
+   "title": "Toronto Mans TikTok Compilation 🤣🥷🇨🇦",
+   "creator": "nolimitjs",
+   "date": "2022-12-07",
+   "what_it_shows": "Compilation of Toronto-mans TikToks",
+   "timestamps": "0:00 once Toronto mans try to get your number; 0:34 about I can't run you're stepping on my; 0:38 shoes right now hey yo man's actually; 0:49 I'm 23 years old fam I hope man's are; 0:53 all rested up from delivering bare; 0:55 presents last year but fam Loki I just; 0:58 dukes so yo take this in fam this year; 1:18 me with in the past eh say what's good",
+   "notes": "watched via yt-dlp captions 2026-11-15; Many short TikTok clips aggregated [UNVERIFIED]",
+   "features": [
+    "bare",
+    "eh",
+    "fam",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=n0pnO7YI1zs",
+   "platform": "youtube",
+   "title": "Ekow Fynn   This is everything you need to know about TORONTO GUYS",
+   "creator": "Rob Charko",
+   "date": "2018-09-07",
+   "what_it_shows": "Ekow Fynn's guide to Toronto guys",
+   "timestamps": "0:00 Now, just know that when I speak about; 0:04 guys in Toronto, I'm not talking about; 0:11 about Toronto mans, the urban kind. And; 0:18 Toronto mans are the only group of dudes; 0:25 cuz true I already have an SA. Man just; 0:36 eh? Keep her closer. I'm lucky you.\"; 0:44 Toronto man is about to do something; 0:58 somebody's getting poked. Toronto slang",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto comedian; strong MTE speech [UNVERIFIED]",
+   "features": [
+    "eh",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=TcCe_g5gXas",
+   "platform": "youtube",
+   "title": "Worst Accent Of All Time (Toronto Accent)",
+   "creator": "clumzzii",
+   "date": "2025-03-12",
+   "what_it_shows": "Gaming creator rants that the Toronto accent is the worst",
+   "timestamps": "0:09 you are not familiar with the Toronto; 0:49 putting the kid back inside bro like if; 1:39 boy I'm not going to lie bro putting the; 2:11 your thoughts on Toronto Hood man's; 2:19 that pisses me off about the Toronto; 2:34 right here yo W fam today we're going to; 2:44 it's hurting my ears gerbert is a; 2:47 bro so you go up to a man and you're",
+   "notes": "watched via yt-dlp captions 2026-11-15; Commentary; speaker not Toronto (UNVERIFIED)",
+   "features": [
+    "fam",
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ThabyrIYYS8",
+   "platform": "youtube",
+   "title": "Cynthia on the Toronto Accent",
+   "creator": "Shorty Stories",
+   "date": "2010-09-27",
+   "what_it_shows": "Cynthia responds that Amy Walker's 'Toronto accent' is way off",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian speaker critiquing tourist accent attempts [UNVERIFIED]",
+   "features": [
+    "general-american-reference",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": {
+    "start": "0:02",
+    "end": "0:42",
+    "speaker": "Cynthia, Canadian speaker",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=bPm2ocADg3E",
+   "platform": "youtube",
+   "title": "Nickeil Alexander-Walker Teaches Us Toronto Slang | Talk to Me Nice",
+   "creator": "Nice Kicks",
+   "date": "2025-12-30",
+   "what_it_shows": "NBA player Nickeil Alexander-Walker teaches Toronto slang",
+   "timestamps": "0:06 &gt;&gt; So, what do you want to talk about?; 0:13 think about this quarter zips and matcha; 1:21 got too much stimulating going on in; 1:26 &gt;&gt; Disagree. That's interesting. Why?; 1:34 &gt;&gt; it's interesting because you tweeted; 2:12 hold on. Sorry. Wait.; 2:33 Toronto slang words. Sweeter man.; 2:37 &gt;&gt; You and me. Sweeterman.",
+   "notes": "watched via yt-dlp captions 2026-11-15; Alexander-Walker is a Toronto native",
+   "features": [
+    "mans",
+    "mte-general",
+    "other-slang",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=UJH0dmFomoA",
+   "platform": "youtube",
+   "title": "TORONTO SLANG EXPLAINED",
+   "creator": "The Honcho",
+   "date": "2020-02-11",
+   "what_it_shows": "25 Toronto slang words explained",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Host reading Narcity list; UNVERIFIED",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=N-jiRRr8xCs",
+   "platform": "youtube",
+   "title": "TORONTO SLANG WORDS *EXPLAINED* (6ixbuzz Edition)",
+   "creator": "Julius 101",
+   "date": "2020-04-12",
+   "what_it_shows": "Toronto slang words explained (6ixbuzz edition)",
+   "timestamps": "0:17 a may say him a it's interrupting my; 1:07 Scarborough thing you know the Magnum; 3:06 with their boot it's a flex you getting; 3:58 where for my base from my house; 4:01 [ __ ] what from my house I didn't scoop; 4:29 oh yeah that's yesterday sweeter man I'm; 4:40 sweeter man right here lord have mercy; 5:01 yure of being family look at you had to",
+   "notes": "watched via yt-dlp captions 2026-11-15; Young Toronto-leaning host; UNVERIFIED",
+   "features": [
+    "mans",
+    "other-slang",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=YAFGxKou-Dg",
+   "platform": "youtube",
+   "title": "How To Speak in a Toronto Accent",
+   "creator": "beatboxfunnies",
+   "date": "2011-01-31",
+   "what_it_shows": "Very short demo of speaking in a Toronto accent",
+   "timestamps": "0:05 familiar with this Toronto has um a",
+   "notes": "watched via yt-dlp captions 2026-11-15; UNVERIFIED",
+   "features": [
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=UIPJNz6aonk",
+   "platform": "youtube",
+   "title": "Horrendous Toronto Accent Guy",
+   "creator": "Sajam Clips",
+   "date": "2026-03-02",
+   "what_it_shows": "Streamer 'Horrendous Toronto Accent Guy' clip (Sajam)",
+   "timestamps": "0:20 You're actually waste youth fam. No, not",
+   "notes": "watched via yt-dlp captions 2026-11-15; Sajam (Toronto-area streamer) doing/exemplifying accent [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=bRv56z2CRgA",
+   "platform": "youtube",
+   "title": "Who's Responsible For the Toronto Accent?",
+   "creator": "Borough Sound TV",
+   "date": "2025-03-31",
+   "what_it_shows": "Discussion on who is responsible for the Toronto accent",
+   "timestamps": "0:11 guys went to Miami. Lil Pump recognized; 0:59 or hurting the rep of the city? He's; 1:04 hurting himself. How did you feel about; 1:22 we're getting old and he's still young.; 1:37 getting old. We not We might not; 1:41 about. But if you're open-minded, you're; 2:02 doing is exaggerating it, but it's; 2:06 resonating more with the American",
+   "notes": "watched via yt-dlp captions 2026-11-15; Borough Sound TV panel; Toronto media figures [UNVERIFIED]",
+   "features": [
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=wl7wHtj64Hs",
+   "platform": "youtube",
+   "title": "PLUSHH | “If the business is true” toronto accent (full clip)",
+   "creator": "Fiza.",
+   "date": "2024-01-14",
+   "what_it_shows": "Viral 'if the business is true' clip of Plushh",
+   "timestamps": "0:00 who's who's that YouTuber fam that; 0:05 famous YouTuber who plays basketball was; 0:34 the internet family anyway shorty he's a; 1:04 actually talk about [ __ ] like that if; 1:08 you if that's true cuz yo family if; 1:21 don't yell at me go look at her Ting fam; 1:28 and bloing about how his name shorttime; 1:37 know what you're talking about the point",
+   "notes": "watched via yt-dlp captions 2026-11-15; Plushh, Toronto woman, strong MTE speech [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mte-general",
+    "other-slang",
+    "ting"
+   ],
+   "acoustic_candidate": {
+    "start": "0:10",
+    "end": "1:20",
+    "speaker": "Plushh, Toronto woman",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=1bqP4HCvrVM",
+   "platform": "youtube",
+   "title": "Toronto Accent Girl Breaks Down From Homeless Situation",
+   "creator": "We Love Hip Hop Network",
+   "date": "2026-01-03",
+   "what_it_shows": "Long interview with 'Toronto accent girl' Plushh",
+   "timestamps": "0:24 fam. Right. that girl. She got super; 0:56 posting videos saying that she's living; 1:52 Please. I have no family. I have no; 1:58 friends. I have nobody.; 2:05 a family.; 2:20 I just miss my family,; 2:27 mean about is I try to get a job,; 2:35 but I can barely",
+   "notes": "watched via yt-dlp captions 2026-11-15; Extended Plushh speech; emotional interview [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mte-general",
+    "uptalk"
+   ],
+   "acoustic_candidate": {
+    "start": "3:00",
+    "end": "5:00",
+    "speaker": "Plushh, Toronto woman",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=jiI1N1dnm04",
+   "platform": "youtube",
+   "title": "The Sound of the 6ix: Mapping Multi-Ethnic Toronto English",
+   "creator": "Dr. Clive Forrester",
+   "date": "2026-03-11",
+   "what_it_shows": "Linguistics talk 'The Sound of the 6ix' on Multi-Ethnic Toronto English",
+   "timestamps": "0:00 Yo, nice your beak fam. This Gerber gami; 0:10 mans them come done. Yo.; 0:44 Jane and Finch. In these contact zones,; 1:28 Interestingly, even speakers who say; 1:53 However, Henrik found that many; 2:07 are navigating a narrow path between; 2:12 Then there is Canadian raising in the; 2:17 Canadians say oh in about most",
+   "notes": "watched via yt-dlp captions 2026-11-15; Dr. Clive Forrester (sociophonetics); academic but accessible [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "fam",
+    "mans",
+    "mte-general",
+    "mte-sounds",
+    "place-names"
+   ],
+   "acoustic_candidate": {
+    "start": "0:20",
+    "end": "3:00",
+    "speaker": "Dr. Clive Forrester, linguist",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=hYnamGeTBzc",
+   "platform": "youtube",
+   "title": "Toronto lang & Culture: How language shapes our city life | Out of Office",
+   "creator": "Out Of Office",
+   "date": "2025-08-01",
+   "what_it_shows": "Podcast episode on Toronto language and culture",
+   "timestamps": "0:14 Today we're going to be talking about; 0:25 going to be talking about slang. We're; 0:29 going to be talking about the way that; 0:37 So in this city there are many; 1:10 the spoken language here, right? Many; 1:23 up saying words like wagwan, right?; 1:50 Well, wagwan is a common way of saying,; 3:02 right? Me trying to make friends, right,",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto hosts discussing slang [UNVERIFIED]",
+   "features": [
+    "mte-general",
+    "other-slang",
+    "wagwan"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-cQgj3AhDXo",
+   "platform": "youtube",
+   "title": "Why do London and Toronto slang sound so similar? 🤔",
+   "creator": "wugling",
+   "date": "2022-02-07",
+   "what_it_shows": "Linguistics YouTuber compares London MLE and Toronto MTE features",
+   "timestamps": "0:09 So in this video, I wanted to talk about something; 0:18 talking about London, London. Not London, Ontario.; 0:27 guys happen to be familiar with the dialect; 0:30 demonstrate what I'm talking about let me give you; 0:50 Or \"Roadman\".; 0:57 and it's getting a lot of traction recently.; 1:06 \"Yute\" for example in MLE translated into standard; 1:12 So, for example \"that's the yute who didn't call me back\" would roughly translat",
+   "notes": "watched via yt-dlp captions 2026-11-15; Single speaker, well-researched comparison [UNVERIFIED]",
+   "features": [
+    "ahlie",
+    "bare",
+    "mandem",
+    "mans",
+    "mte-general",
+    "mte-sounds",
+    "other-slang",
+    "ting",
+    "wagwan",
+    "wasteman"
+   ],
+   "acoustic_candidate": {
+    "start": "0:40",
+    "end": "8:30",
+    "speaker": "wugling, linguistics creator",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=3NEsuxYkvIQ",
+   "platform": "youtube",
+   "title": "What is 'CANADIAN RAISING' in English pronunciation?",
+   "creator": "Dr Geoff Lindsey",
+   "date": "2015-06-10",
+   "what_it_shows": "Dr Geoff Lindsey explains Canadian Raising vowels",
+   "timestamps": "0:00 I've been asked a question about; 0:30 But there are many many speakers in places; 0:37 like Scotland and Canada, and many; 0:42 In North America it's called Canadian Raising,; 0:48 many speakers in the USA who have this too.; 0:58 get [ai]. Whereas the word 'ice' begins for many",
+   "notes": "watched via yt-dlp captions 2026-11-15; British phonetician (not Canadian) explaining [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Zw4Btzo7_3M",
+   "platform": "youtube",
+   "title": "VAR_012 - Linguistic Micro-Lectures: Canadian Raising",
+   "creator": "The Virtual Linguistics and Literature Campus",
+   "date": "2016-06-30",
+   "what_it_shows": "Micro-lecture on Canadian Raising",
+   "timestamps": "0:03 Canadian raising is a vowel shift in; 0:07 many dialects of North American English; 0:18 In Canadian raising the nucleus of the; 0:46 Canadian raising occurs before voiceless; 0:57 position, whereas with Canadian raising; 1:06 Although this phonological process is; 1:10 called Canadian raising, this name is",
+   "notes": "watched via yt-dlp captions 2026-11-15; Student lecturer; clear single speaker [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "mte-sounds",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:05",
+    "end": "1:30",
+    "speaker": "Aileen Schneider, linguistics student",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=N5YJnKy1yq8",
+   "platform": "youtube",
+   "title": "Oot And Aboot: Canadian Raising | Natural Canadian Accent",
+   "creator": "LikeANativeSpeaker",
+   "date": "2015-09-14",
+   "what_it_shows": "'Oot and aboot' lesson on Canadian Raising",
+   "timestamps": "0:25 regarding the sound ow many times you'll; 0:46 Canadian raising raising means getting; 1:34 out out and about it's much more relaxed; 1:48 and around out and about down and around; 1:58 out down about around notice that big; 2:11 raised out about and it's exactly the; 2:26 talking about that slippery stuff ice; 3:27 that's Canadian raising a Al and",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian pronunciation teacher [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "3:00",
+    "speaker": "LikeANativeSpeaker host",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=rx-gOWhPMLE",
+   "platform": "youtube",
+   "title": "Canadian Raising ☆ Linguistics Lecture",
+   "creator": "Educational Videos & Lectures",
+   "date": "2016-06-30",
+   "what_it_shows": "Lecture slide video on Canadian Raising",
+   "timestamps": "0:03 Canadian raising is a vowel shift in; 0:07 many dialects of North American English; 0:46 Canadian raising occurs before voiceless; 0:58 with Canadian raising, the tongue is; 1:07 phological process is called Canadian; 1:28 Canadian raising does not occur.",
+   "notes": "watched via yt-dlp captions 2026-11-15; Lecturer, UNVERIFIED",
+   "features": [
+    "canadian-raising",
+    "mte-sounds",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:10",
+    "end": "1:20",
+    "speaker": "lecturer",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=vBjC-KBhJRo",
+   "platform": "youtube",
+   "title": "Canadian vs. American Accent (Canadian Raising?)",
+   "creator": "Mad English TV",
+   "date": "2018-01-15",
+   "what_it_shows": "Mad English TV compares Canadian vs American accent",
+   "timestamps": "0:14 about accent or the pronunciation of; 1:27 but when we're talking about the accent; 1:37 think about the Canadian accent they; 1:52 house and doing normal daily activities; 2:07 was just out and about just doing normal; 2:13 of canadian raising canadian raising; 2:41 okay now Canadian raising is when; 3:11 look at this word about about okay",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian English teacher [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "mte-sounds",
+    "sorry",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:40",
+    "end": "5:00",
+    "speaker": "Mad English TV host, Canadian",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=A8i9Y_Rs2hA",
+   "platform": "youtube",
+   "title": "Canadian English: Diving into \"Canadian Raising\"",
+   "creator": "Comprehend & Converse",
+   "date": "2023-08-20",
+   "what_it_shows": "Dive into Canadian Raising",
+   "timestamps": "0:15 diving deep into a fascinating; 0:19 English Canadian raising if you've ever; 0:34 started Canadian raising refers to the; 1:33 influences Canadian raising isn't unique; 1:44 consistently found across many parts of; 2:05 Canadian raising the I sound in right is; 2:14 two house noun versus house verb when; 2:22 used as a noun house might sound similar",
+   "notes": "watched via yt-dlp captions 2026-11-15; ESL channel explainer [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": {
+    "start": "0:20",
+    "end": "2:40",
+    "speaker": "Comprehend & Converse host",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=hO6l8gQ7Iaw",
+   "platform": "youtube",
+   "title": "Why Canadians Sound Funny: Canadian Raising",
+   "creator": "HAZLETT",
+   "date": "2020-03-16",
+   "what_it_shows": "'Why Canadians sound funny' — Canadian raising overview",
+   "timestamps": "",
+   "notes": "watched via yt-dlp captions 2026-11-15; Single speaker, general Canadian (UNVERIFIED)",
+   "features": [
+    "canadian-raising",
+    "eh",
+    "sorry"
+   ],
+   "acoustic_candidate": {
+    "start": "0:40",
+    "end": "6:00",
+    "speaker": "HAZLETT host",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=rNnYycjdJqU",
+   "platform": "youtube",
+   "title": "A video about JJ Mccullough, Canadian raising, and... about.",
+   "creator": "Noah Davidson",
+   "date": "2021-01-31",
+   "what_it_shows": "Discussion of Canadian raising and JJ McCullough",
+   "timestamps": "0:00 this is a video about the youtuber jj; 0:06 word about and on this channel we love; 0:10 to talk about culture and; 0:11 symbols we are going to talk about; 0:13 about; 0:16 who doesn't talk about; 0:30 it's going to be interesting to explore; 0:33 to begin with uh let's talk about what",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian commentator [UNVERIFIED]",
+   "features": [
+    "canadian-raising"
+   ],
+   "acoustic_candidate": {
+    "start": "0:40",
+    "end": "6:00",
+    "speaker": "Noah Davidson",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=8YTGeIq4pSI",
+   "platform": "youtube",
+   "title": "All aboot Canadian accents",
+   "creator": "J.J. McCullough",
+   "date": "2015-11-01",
+   "what_it_shows": "JJ McCullough 'all aboot Canadian accents'",
+   "timestamps": "0:04 one of three categories something about; 0:08 my hair something about my mustache or; 0:11 something about the way I say this word; 0:14 about to figure out why let's take a; 0:17 fascinating look at the world of; 0:23 called the Canadian raising phenomenon; 0:26 this refers to the weird way many; 0:28 words like house and d and and South it",
+   "notes": "watched via yt-dlp captions 2026-11-15; Canadian YouTuber (Vancouver) explaining accent regions [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "eh",
+    "mte-sounds",
+    "place-names",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "4:00",
+    "speaker": "JJ McCullough, Vancouver",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=1ht0E6-rZ9U",
+   "platform": "youtube",
+   "title": "Learning about the Canadian accent",
+   "creator": "CBC",
+   "date": "2021-11-26",
+   "what_it_shows": "CBC doc: Paige Saunders explores the Canadian accent",
+   "timestamps": "0:09 the canadian broadcasting corporation; 0:15 problem for broadcasting for example; 0:34 about language but a nonsense question; 0:39 would be about accents the less talked; 0:40 about; 0:42 lot of issues about my accent ida; 0:48 and her choice of filming from a tasting; 1:13 my accent oh we're talking about you now",
+   "notes": "watched via yt-dlp captions 2026-11-15; NZ emigrant host + Canadian linguists; mixed [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "cot-caught",
+    "sorry"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=jrTCDi3xbTw",
+   "platform": "youtube",
+   "title": "The Canadian English Accent Part 1",
+   "creator": "Jimiticus",
+   "date": "2016-05-17",
+   "what_it_shows": "'The Canadian English Accent Part 1' long explainer",
+   "timestamps": "0:02 I was out and about lost in the dark I; 0:08 out and about lost in the dark I was out; 0:13 and about lost in the dark anxiously; 2:35 hatter tore through my runners sprinting; 3:58 many of them are speakers of standard; 4:18 too sparse and they come from too many; 5:06 them so Canadian raising we said was; 5:23 distinguished are differentiated in",
+   "notes": "watched via yt-dlp captions 2026-11-15; Jimiticus, Canadian speaker; talking head [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "cot-caught",
+    "eh",
+    "mte-sounds",
+    "sorry",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "1:00",
+    "end": "8:00",
+    "speaker": "Jimiticus, Canadian",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=yBfNLyg6h0o",
+   "platform": "youtube",
+   "title": "Toronto, how many languages do you speak?",
+   "creator": "The New Travel",
+   "date": "2022-10-26",
+   "what_it_shows": "Asking Toronto strangers what languages they speak",
+   "timestamps": "0:00 how many languages do you speak how many; 0:03 languages do you speak how many; 0:16 speak English and half Mandarin because; 0:38 speaking right now that's great man; 0:43 what's your name my name is Aman amanjit; 0:46 Singh yeah thanks so much man I; 1:38 oh brother that was awesome thanks man; 2:14 who was only about six years old",
+   "notes": "watched via yt-dlp captions 2026-11-15; Multilingual street interviews; English with varied accents [UNVERIFIED]",
+   "features": [
+    "mans",
+    "mte-general",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=HEtTUkC2zbk",
+   "platform": "youtube",
+   "title": "Why Everyone HATES the TORONTO Accent!!",
+   "creator": "Talk Da Tingz ",
+   "date": "2024-02-04",
+   "what_it_shows": "'Why everyone hates the Toronto accent' discussion",
+   "timestamps": "0:22 going to be talking about those things; 0:39 to be talking about the Toronto accent,; 0:45 you know, it came from in about, I would; 1:02 that would have been about my great; 2:48 everybody was talking about it. You will; 3:45 You see your mom said I'm disgusting.; 4:05 are you going to say about my now? Like; 4:45 jeering and laughing and supporting them",
+   "notes": "watched via yt-dlp captions 2026-11-15; Talk Da Tingz, Toronto-area creators [UNVERIFIED]",
+   "features": [
+    "mte-general",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5fwABdJqJa0",
+   "platform": "youtube",
+   "title": "Killy cant stop talking about TORONTO SLANG",
+   "creator": "sultanraheem",
+   "date": "2017-10-22",
+   "what_it_shows": "Short clip: Killy talking Toronto slang",
+   "timestamps": "0:27 guess trusting nobody I cannot love her; 0:50 sweat see me don't see stress too many",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto-adjacent rapper content [UNVERIFIED]",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=4RGjzP5HuKY",
+   "platform": "youtube",
+   "title": "How to Speak with a Canadian Accent 🇨🇦 (Sound Like a True Canadian, Eh?)",
+   "creator": "Jeff Virkus",
+   "date": "2025-11-06",
+   "what_it_shows": "Tutorial 'How to speak with a Canadian accent'",
+   "timestamps": "0:00 Today we're talking about the Canadian; 0:24 you're about to offer someone a coffee.; 0:52 spread wide. Keep your tongue sitting; 1:00 trademark Canadian warmth. The cat is in; 1:07 the house. The cat is in the house. Eh,; 1:09 notice the raised vowel in house. Not; 1:12 house. The pitch and stress of a general; 1:23 It's steady. And ends with a nice little",
+   "notes": "watched via yt-dlp captions 2026-11-15; Coach teaching General Canadian; single speaker [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "eh",
+    "ends",
+    "mte-sounds",
+    "sorry"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "5:00",
+    "speaker": "Jeff Virkus",
+    "group": "toronto-general"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=vxEHNVk0dUo",
+   "platform": "youtube",
+   "title": "Guess The Toronto Man | Waveroom",
+   "creator": "Waveroom",
+   "date": "2023-09-13",
+   "what_it_shows": "Game show: 1 real Toronto man among 5 imposters",
+   "timestamps": "0:07 real Toronto man is round by round the; 0:13 if they guess wrong the Toronto mans; 0:23 yo what's your name and what ends are; 0:30 yeah that's a little interesting; 0:40 Toronto man uh I come from old money I; 0:48 some fun and make some new friends today; 0:52 what ends are you from so they call me; 1:06 the two inch demon okay",
+   "notes": "watched via yt-dlp captions 2026-11-15; Multiple speakers claiming Toronto accent [UNVERIFIED]",
+   "features": [
+    "ends",
+    "mans",
+    "mte-general",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=mlg9TlZH2zc",
+   "platform": "youtube",
+   "title": "Toronto Slang Then vs. Now: Kama OG on DJ Firekid Steenie & the Neighborhoods",
+   "creator": "WorldWide Entertainment TV Media",
+   "date": "2026-10-27",
+   "what_it_shows": "Interview: Kama OG on Toronto slang history and DJs",
+   "timestamps": "0:12 heard me talking about project bomb; 0:15 an original Toronto road man. That's the; 0:48 &gt;&gt; Give me your best Toronto man; 0:55 &gt;&gt; I said it was a BB tings man. The BB; 0:57 tings.; 1:01 mans are fried your your if your if your; 1:19 &gt;&gt; Yo, I'm Squints man. They call me AKA; 1:30 represent the man dem from Scarboro down",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto scene veteran, MTE speech [UNVERIFIED]",
+   "features": [
+    "mans",
+    "mte-general",
+    "other-slang",
+    "place-names",
+    "ting"
+   ],
+   "acoustic_candidate": {
+    "start": "1:00",
+    "end": "4:00",
+    "speaker": "Kama OG, Toronto scene veteran",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=dSdrTJ2nM0U",
+   "platform": "youtube",
+   "title": "ROY WOODS SINGS TORONTO SLANG WORDS | MUCHMUSIC",
+   "creator": "MUCH",
+   "date": "2021-07-30",
+   "what_it_shows": "MuchMusic interview: Roy Woods sings Toronto slang words",
+   "timestamps": "0:06 because we got one of brampton's finest; 0:13 building baby so first things first man; 0:37 know first things first man big enough; 0:40 to touch you man that try to touch me a; 0:42 but you know what i'm saying is about a; 0:56 with everything that i'm presenting to; 1:03 know as i've been getting older i've; 1:12 twitter tweeting you know twitter",
+   "notes": "watched via yt-dlp captions 2026-11-15; Roy Woods (Brampton/Toronto artist), native",
+   "features": [
+    "mans",
+    "other-slang",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=xK_2fhzcl2o",
+   "platform": "youtube",
+   "title": "HOW WELL DO YOU KNOW TORONTO SLANG|PUBLIC INTERVIEW",
+   "creator": "KISSKAY",
+   "date": "2021-07-08",
+   "what_it_shows": "Public interview on Toronto slang knowledge",
+   "timestamps": "0:00 okay okay what's good kt famous you're; 0:29 a slime is like can either be a man or a; 1:24 okay okay how about you that's what i; 1:29 how about way suit me; 3:43 house in grade nine last year; 3:56 yeah oh yes at my house i invited like; 4:42 arisha noir taehyung mangos; 4:52 wasteman",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto street interviewees [UNVERIFIED]",
+   "features": [
+    "mans",
+    "other-slang",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=VPAUJRBPPBk",
+   "platform": "youtube",
+   "title": "Asking Toronto People, Toronto Slang | 6ix Questions",
+   "creator": "HeyParis",
+   "date": "2016-05-31",
+   "what_it_shows": "6ix Questions: asking Toronto people Toronto slang",
+   "timestamps": "0:45 katti what does the word wastman mean; 0:51 Vancouver people don't know what wastman; 1:38 swerve what does the word f mean fam f o; 1:49 m like fam like okay use the word f in a; 2:14 in a sentence yo fam come reach to the; 2:19 to the T dot today fam come reach to; 2:21 Young and D fam; 3:35 people cutting their eye at me like you",
+   "notes": "watched via yt-dlp captions 2026-11-15; HeyParis street interviews in Toronto [UNVERIFIED]",
+   "features": [
+    "fam",
+    "other-slang",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5zmHs6HZ3aM",
+   "platform": "youtube",
+   "title": "TORONTO STREET QUESTION WITH JAMAR - DO TORONTO PEOPLE KNOW TORONTO SLANG?",
+   "creator": "Tychon J. Carter",
+   "date": "2022-03-18",
+   "what_it_shows": "Street interviews: do Toronto people know Toronto slang",
+   "timestamps": "0:10 other than shorties i'd be a rich man; 0:19 about all day father; 0:40 jamarto tell them about yourself where; 0:53 about you know speaking like a toronto; 0:57 man for a day can we do it will people; 1:10 have the ultimate toronto man here yes; 1:17 that all day fam; 1:33 i don't believe he's getting the number",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto interviewees [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mans",
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=c1bZAuqPQto",
+   "platform": "youtube",
+   "title": "TORONTO INTERVIEW EDITION",
+   "creator": "hbkchip",
+   "date": "2019-02-19",
+   "what_it_shows": "Toronto slang interview: waste yute, battri tings, mandem",
+   "timestamps": "0:06 wagwan with the Toronto language do you; 0:20 guys know what a batch eating is yes you; 0:22 know you don't know what about you doing; 0:44 what's a battery tank are you about; 0:56 nothing unleash the gentleman see boy; 1:11 Toronto which ends has the best road is; 1:24 like finance the barber man you know I; 2:02 questions about what she knows about",
+   "notes": "watched via yt-dlp captions 2026-11-15; Toronto youth explaining terms [UNVERIFIED]",
+   "features": [
+    "ends",
+    "mandem",
+    "mans",
+    "other-slang",
+    "ting",
+    "wagwan",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=41Gzc8-M3ug",
+   "platform": "youtube",
+   "title": "Drake being Canadian for 3 minutes straight",
+   "creator": "Retishe",
+   "date": "2022-01-05",
+   "what_it_shows": "Compilation of Drake 'being Canadian' interview moments",
+   "timestamps": "0:11 my man yaramir yogurt yo who is that; 0:17 come on dog he's a hockey player the man; 1:00 many; 1:02 devastating things going on it's almost; 1:39 no you don't man; 2:27 house so uh yeah thank you for the all",
+   "notes": "watched via yt-dlp captions 2026-11-15; Drake, Toronto native",
+   "features": [
+    "eh",
+    "mans",
+    "mte-general",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=a3-GJB2htE4",
+   "platform": "youtube",
+   "title": "Why Drake uses a Jamaican accent",
+   "creator": "Vox",
+   "date": "2017-04-05",
+   "what_it_shows": "Vox video essay on why Drake uses a Jamaican accent",
+   "timestamps": "0:33 he’s had mixed luck crafting a character; 1:03 I finesse all this shit from Jane and Weston?’; 1:09 That intersection, Jane Street and Weston; 1:26 around Scarborough.; 1:38 So in 2001 about 71% of Canada’s Jamaican; 2:09 conversation about whether all of this is",
+   "notes": "watched via yt-dlp captions 2026-11-15; Analyzes Toronto patois influence; includes Drake clips [UNVERIFIED]",
+   "features": [
+    "mte-general",
+    "other-slang",
+    "place-names"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=5-FLsdJe03I",
+   "platform": "youtube",
+   "title": "Drake on being a \"Canadian, black Jewish rapper\"",
+   "creator": "CBC News: The National",
+   "date": "2013-10-17",
+   "what_it_shows": "CBC interview with Drake about Toronto roots",
+   "timestamps": "0:50 man I wouldn't have it any other way; 1:30 man I just got to be a good rapper but; 1:52 kind of find out about me and I think; 1:57 more interesting I like I said I I; 2:09 we've talked about uh and you become; 2:14 about painful experiences with your; 2:17 family you mentioned women you've dated; 2:39 stories in a general manner they just",
+   "notes": "watched via yt-dlp captions 2026-11-15; Drake, Toronto native, extended answers",
+   "features": [
+    "mans",
+    "mte-general"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "2:30",
+    "speaker": "Drake, Toronto native",
+    "group": "toronto-mte"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=bCmlohybM0o",
+   "platform": "youtube",
+   "title": "THE MANY ACCENTS OF DRAKE",
+   "creator": "TEIFLUX",
+   "date": "2017-09-15",
+   "what_it_shows": "Compilation showing Drake's accent switching",
+   "timestamps": "0:13 you man's never been a marquee with it; 0:23 men don't care about that right from oh; 0:35 I've said the less I like she's a man; 0:40 have to eat Drake looks like Voldemort; 0:54 with hair dad an inches who's my man oh",
+   "notes": "watched via yt-dlp captions 2026-11-15; Drake clips across contexts [UNVERIFIED]",
+   "features": [
+    "mans",
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Sg0H7l00Yrc",
+   "platform": "youtube",
+   "title": "TESTING THE RAPTORS’ TORONTO ACCENTS | The Shift",
+   "creator": "TSN",
+   "date": "2024-10-22",
+   "what_it_shows": "TSN tests Raptors players' Toronto accents",
+   "timestamps": "0:03 Toronto slang no not at all man are; 0:18 Bare prospects coming into the league; 0:22 Raptors are sitting at the fourth pick; 0:25 and they go ahead and grab a man's like; 0:27 that's Toronto sling for sure a man's; 0:49 man thought it was a dub son's down and; 1:00 to the next man's name teren Ross; 1:13 they run into a man like AI was cooking",
+   "notes": "watched via yt-dlp captions 2026-11-15; Players (mostly non-native) attempting slang",
+   "features": [
+    "bare",
+    "mans",
+    "other-slang",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=96DYkwXgk6w",
+   "platform": "youtube",
+   "title": "DOES TATE MCRAE KNOW TORONTO SLANG? 🤭 | MUCHMUSIC",
+   "creator": "MUCH",
+   "date": "2023-09-26",
+   "what_it_shows": "Tate McRae quizzed on Toronto slang",
+   "timestamps": "0:06 Dude, are you familiar with Toronto; 0:20 So So you are you familiar with it? Like; 0:58 talking about? You don't know.; 2:05 good job. Um, bare.; 2:07 Yeah. So, bare means like a lot of.; 2:51 Whating you?; 4:30 How about this one? Uh, this means a lot; 4:39 That's perfect. Well, hey man, I wanted",
+   "notes": "watched via yt-dlp captions 2026-11-15; McRae is Calgary (Canadian but not Toronto) [UNVERIFIED]",
+   "features": [
+    "bare",
+    "mans",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Sw7pL7OkKEE",
+   "platform": "youtube",
+   "title": "Accent Expert Gives a Tour of North American Accents - (Part 3) | WIRED",
+   "creator": "WIRED",
+   "date": "2021-03-25",
+   "what_it_shows": "WIRED accent expert Erik Singer tour of North American accents part 3",
+   "timestamps": "0:16 Let's talk about California.; 0:18 Let's talk about Southern California.; 0:22 where we have some really exciting, ongoing change.; 1:05 we're talking about a stereotypical surfer accent; 1:29 - Hi again. Now I'm going to talk about Chicano English.; 2:52 - On this stop, we will be visiting; 3:04 - I want him to recognize all Indian tribes.; 3:20 to talk about African-American language in California.",
+   "notes": "watched via yt-dlp captions 2026-11-15; US dialect coach; includes Canadian segment [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "general-american-reference",
+    "mte-sounds",
+    "other-slang"
+   ],
+   "acoustic_candidate": {
+    "start": "4:00",
+    "end": "9:00",
+    "speaker": "Erik Singer, US dialect coach",
+    "group": "general-american"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=fI3J3jbMEmo",
+   "platform": "youtube",
+   "title": "Torontonians Have The Worst Accent Of All Time",
+   "creator": "MoreRAGE",
+   "date": "2023-10-11",
+   "what_it_shows": "Streamer reaction: 'Torontonians have the worst accent'",
+   "timestamps": "0:05 yo Dr F fam if I beat you send 10 mil to; 0:11 saying anyone can get it fam anyone in; 0:46 me tell you the story about how I got; 0:51 even LRG fam so yo I bought my Levis; 0:56 belt fam perfect Levis belt to low ride; 0:58 with fam it's swaggy fam with some Levis; 1:04 fam yo who taught y'all stupid ass how; 1:11 fam because I wanted to put my own",
+   "notes": "watched via yt-dlp captions 2026-11-15; US streamer reacting; includes Toronto clip audio [UNVERIFIED]",
+   "features": [
+    "fam",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=evgnQgCVJSI",
+   "platform": "youtube",
+   "title": "How to Speak with Different AMERICAN ACCENTS",
+   "creator": "Brian Wiles",
+   "date": "2024-09-06",
+   "what_it_shows": "Tutorial on major American accents (NY, Boston, Southern, California)",
+   "timestamps": "0:00 So you want to learn about American accents? Well,; 0:05 Today, we're going to talk about some American accents; 0:24 about the New York accent and the biggest one is; 0:51 th sound so if a word starts or ends with a th; 2:47 about Ben's pen the second point is the ey shift; 3:25 about the Boston accent now the Boston accent; 3:36 let's talk about the three biggest elements; 4:07 ends with a vowel and the following word begins",
+   "notes": "watched via yt-dlp captions 2026-11-15; US accent coach; GA reference samples [UNVERIFIED]",
+   "features": [
+    "ends",
+    "general-american-reference",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": {
+    "start": "0:30",
+    "end": "5:00",
+    "speaker": "Brian Wiles, US accent coach",
+    "group": "general-american"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=UcxByX6rh24",
+   "platform": "youtube",
+   "title": "50 People Show Us Their States' Accents | Culturally Speaking | Condé Nast Traveler",
+   "creator": "Condé Nast Traveler",
+   "date": "2019-06-17",
+   "what_it_shows": "50 Americans demonstrate their state accents",
+   "timestamps": "0:11 the great thing about Oklahoma is it's; 0:36 y'all want to go to Waffle House come on; 0:40 over we're gonna Waffle House it's just; 1:58 eating burritos go skiing up on mountain; 4:50 of yous guys they say yen's what I ends; 4:56 interesting accent it's just got a",
+   "notes": "watched via yt-dlp captions 2026-11-15; Many short US accent samples incl. GA [UNVERIFIED]",
+   "features": [
+    "ends",
+    "general-american-reference"
+   ],
+   "acoustic_candidate": {
+    "start": "0:20",
+    "end": "3:00",
+    "speaker": "various US speakers",
+    "group": "general-american"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=7fpoYrnwGJ4",
+   "platform": "youtube",
+   "title": "Canadian vs. American Pronunciation",
+   "creator": "Brodie Brazil",
+   "date": "2018-06-27",
+   "what_it_shows": "Canadian (Sask) vs American (California) pronunciation comparison",
+   "timestamps": "0:22 right there I've been corrected many; 0:48 about the Oh process so like you eat; 0:54 processed foods; 0:57 I say proper mind processes things yeah; 1:02 starting to realize what we do all right; 1:27 dinner tonight yeah so there's many; 2:15 wanting to do here on sharks pregame",
+   "notes": "watched via yt-dlp captions 2026-11-15; Two talking heads; US speaker = GA reference [UNVERIFIED]",
+   "features": [
+    "canadian-raising",
+    "general-american-reference",
+    "sorry",
+    "vocab-canadian"
+   ],
+   "acoustic_candidate": {
+    "start": "0:20",
+    "end": "2:00",
+    "speaker": "Brodie Brazil, California",
+    "group": "general-american"
+   },
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@talklikethat.com/video/7694018707026169089",
+   "platform": "tiktok",
+   "title": "Is there a “Toronto accent”?",
+   "creator": "Mark D, dialect coach",
+   "date": null,
+   "what_it_shows": "Explains that Toronto has Multicultural Toronto English rather than one accent; contrasts MTE vocabulary (ting, dem, yute, mans/mandem, wasteman, bare) with Canadian phonology.",
+   "timestamps": "0:00 full clip; explains MTE vocabulary and rhotic Toronto speech",
+   "notes": "watched 2026-11-15; UNVERIFIED; description identifies dialect coach; full audio not independently transcribed in this pass",
+   "features": [
+    "mte-general",
+    "mte-sounds",
+    "mans",
+    "mandem",
+    "ting",
+    "bare",
+    "wasteman"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@duolingo/video/7678118445862456606",
+   "platform": "tiktok",
+   "title": "real crodies call it turonno",
+   "creator": "Duolingo",
+   "date": null,
+   "what_it_shows": "Short branded comedy clip presenting “turonno” pronunciation and crodie framing.",
+   "timestamps": "0:00 full clip; on-screen/title says “turonno”",
+   "notes": "watched 2026-11-15; UNVERIFIED; speech clip is short and branded",
+   "features": [
+    "trawna",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@nowtoronto/video/7621268052927089951",
+   "platform": "tiktok",
+   "title": "Camila Morrone teaches Jimmy Fallon Toronto slang",
+   "creator": "Now Toronto",
+   "date": null,
+   "what_it_shows": "News clip critiques an American actress teaching Toronto slang as inaccurate; useful tourist-mistake reference.",
+   "timestamps": "0:00 full clip; critique of inaccurate slang teaching",
+   "notes": "watched 2026-11-15; Speakers/native status not established",
+   "features": [
+    "tourist-mistakes",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@adr.talks1/video/7661711339684973845",
+   "platform": "tiktok",
+   "title": "Ask anyone from Toronto, these are all real.",
+   "creator": "adr",
+   "date": null,
+   "what_it_shows": "Comedy/listicle-style Toronto slang clip; title explicitly tags Toronto mans, Toronto slang and Toronto accent.",
+   "timestamps": "0:00 full clip; slang examples presented",
+   "notes": "watched 2026-11-15; Creator location/native status UNVERIFIED",
+   "features": [
+    "mans",
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@doctor.icee/video/7693951379798297877",
+   "platform": "tiktok",
+   "title": "Official Toronto Slang Tier List",
+   "creator": "doctor.icee",
+   "date": null,
+   "what_it_shows": "Ranks 10 Toronto slang words; captions frame it as local Toronto slang.",
+   "timestamps": "0:00 full clip; tier-list explanations",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@doctor.icee/video/7658760621252496660",
+   "platform": "tiktok",
+   "title": "Think you know Toronto slang?",
+   "creator": "doctor.icee",
+   "date": null,
+   "what_it_shows": "Explains/reviews Toronto slang and asks viewers which word they use.",
+   "timestamps": "0:00 full clip; slang definitions/examples",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@torontotide/video/7502856190410476855",
+   "platform": "tiktok",
+   "title": "Listen Up",
+   "creator": "TorontoTide",
+   "date": null,
+   "what_it_shows": "Toronto-accent comedy clip from a Toronto-focused interview/comedy account.",
+   "timestamps": "0:00 full clip; short accent performance",
+   "notes": "watched 2026-11-15; Native status UNVERIFIED",
+   "features": [
+    "mte-general",
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@torontotide/video/7679565172997934354",
+   "platform": "tiktok",
+   "title": "Goat of interviews",
+   "creator": "TorontoTide",
+   "date": null,
+   "what_it_shows": "Street-interview short with Toronto speech and slang context.",
+   "timestamps": "0:00 full clip; interview answer",
+   "notes": "watched 2026-11-15; Interviewee/native status UNVERIFIED",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@no_filter_sarah/video/7652882439479610655",
+   "platform": "tiktok",
+   "title": "Is this Toronto accent real?",
+   "creator": "No_filter_Sarah",
+   "date": null,
+   "what_it_shows": "Short accent-comedy video explicitly asking whether the performed Toronto accent is real.",
+   "timestamps": "0:00 full clip; performed accent and question",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED; video opened but TikTok login overlay limited playback controls",
+   "features": [
+    "mte-general",
+    "tourist-mistakes"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@hindssight/video/7704767212308942088",
+   "platform": "tiktok",
+   "title": "Listen up! No one from Toronto talks like that!",
+   "creator": "Darryl Hinds",
+   "date": null,
+   "what_it_shows": "Directly critiques fake/exaggerated Toronto accent portrayals.",
+   "timestamps": "0:00 full clip; rebuttal to caricature",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "tourist-mistakes",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@richierichricherson/video/7691338952325860616",
+   "platform": "tiktok",
+   "title": "the Toronto accent broken down",
+   "creator": "Richard Ra",
+   "date": null,
+   "what_it_shows": "Breaks down what Toronto speech sounds like, with an explanatory/comedic framing.",
+   "timestamps": "0:00 full clip; accent breakdown",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "mte-general",
+    "mte-sounds"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@adr.talks1/video/7704071596037655829",
+   "platform": "tiktok",
+   "title": "Have yall ever heard these outside?",
+   "creator": "adr",
+   "date": null,
+   "what_it_shows": "Lists expressions claimed to be heard in Toronto, tagged #torontoaccent.",
+   "timestamps": "0:00 full clip; expressions/examples",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@elsmarshall/video/7699192263473220886",
+   "platform": "tiktok",
+   "title": "CRODIE",
+   "creator": "Els",
+   "date": null,
+   "what_it_shows": "Interview/comedy clip centered on the Toronto term “crodie.”",
+   "timestamps": "0:00 full clip; crodie used/discussed",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@faithwiththejokes/video/6886281909710703873",
+   "platform": "tiktok",
+   "title": "TORONTO SLANG EDITION",
+   "creator": "FaithWithTheJokes",
+   "date": null,
+   "what_it_shows": "Comedy sketch teaching/performing Toronto slang with multiple speakers.",
+   "timestamps": "0:00 full clip; group slang sketch",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.tiktok.com/@faithwiththejokes/video/6910777235993545989",
+   "platform": "tiktok",
+   "title": "TORONTO SLANG EDITION Pt.2",
+   "creator": "FaithWithTheJokes",
+   "date": null,
+   "what_it_shows": "Second Toronto slang comedy sketch with multiple speakers.",
+   "timestamps": "0:00 full clip; group slang sketch",
+   "notes": "watched 2026-11-15; Creator/native status UNVERIFIED",
+   "features": [
+    "other-slang",
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DIbpHJ0KFMP/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "drizzyy like drake is my favourite phrase of all time",
+   "creator": "embeeldn",
+   "date": null,
+   "what_it_shows": "Toronto slang/Drake phrase joke; short reel",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Db_EBUTuuK9/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "A Toronto fan pulled up on Neon to teach him the PROPER way to say the slang",
+   "creator": "quotedtoronto.ca",
+   "date": null,
+   "what_it_shows": "Toronto fan coaches pronunciation/slang in an outdoor clip",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DccbrB0MCDj/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "If the Duolingo Owl was a Toronto Man",
+   "creator": "faithwiththejokes",
+   "date": null,
+   "what_it_shows": "Comedy skit personifying Toronto Man and slang",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "mans"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DWlUAaLD1n5/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "Teaching Toronto slang",
+   "creator": "kaiya.xiii",
+   "date": null,
+   "what_it_shows": "Two-person teaching clip; Toronto slang examples",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/CeO9PgjJia2/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "What is a Cyattie?",
+   "creator": "fridayrickydred",
+   "date": null,
+   "what_it_shows": "Explains/discusses “cyattie” in Toronto slang",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DWM-D6LEbRl/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "Lost Toronto slang pt 3",
+   "creator": "phatkhat7",
+   "date": null,
+   "what_it_shows": "Comedy reel about older/less-used Toronto slang",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DS8Y-_vDsPZ/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "Which accent is better québécois or Toronto slang?",
+   "creator": "chris_sarault",
+   "date": null,
+   "what_it_shows": "Compares Québécois and Toronto-slang performance",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DSEIESajEEB/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "It’s the ENDING for me",
+   "creator": "faithwiththejokes",
+   "date": null,
+   "what_it_shows": "Toronto comedy voiceover/skit with Toronto tags and slang",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "mte-general"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DT-seBujlDG/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "I’m the new urban dictionary",
+   "creator": "mellowbanksclips",
+   "date": null,
+   "what_it_shows": "UK slang/Toronto slang translation format",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Ci_U6QOJfll/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "Honestly, not too far off",
+   "creator": "curiocitytoronto",
+   "date": null,
+   "what_it_shows": "Reposts a Toronto slang translation clip and asks viewers to translate",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Cj0hTL_Dmbb/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "beefing the Nyeah eh sauce",
+   "creator": "iam_prophett",
+   "date": null,
+   "what_it_shows": "Podcast clip discussing “nyeah eh” Toronto expression",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "eh"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DRk2Lg0jrnq/?utm_source=popular_topic_grid",
+   "platform": "instagram",
+   "title": "Which slang is better Toronto or québécois slang?",
+   "creator": "chris_sarault",
+   "date": null,
+   "what_it_shows": "Comparison of Toronto and Québécois slang",
+   "timestamps": "0:00 full reel; rendered caption/thumbnail reviewed",
+   "notes": "watched 2026-11-15; native/UNVERIFIED; Instagram allowed logged-out hashtag browsing but individual playback/login behavior was inconsistent; speech details limited to rendered reel text/thumbnail",
+   "features": [
+    "other-slang"
+   ],
+   "acoustic_candidate": null,
+   "collected_by": "video-sources research session"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english101/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english101 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english132/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english132 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english28/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english28 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english301/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english301 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english542/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english542 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english574/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english574 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english61/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english61 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english647/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english647 (toronto)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english59/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english59 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english10/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english10 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english187/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english187 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english197/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english197 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english492/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english492 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english104/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english104 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english118/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english118 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english126/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english126 (general american)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english228/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english228 (glasgow)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english24/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english24 (glasgow)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english440/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english440 (glasgow)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english620/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english620 (glasgow)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  },
+  {
+   "url": "https://accent.gmu.edu/samples/english80/",
+   "platform": "corpus",
+   "title": "Speech Accent Archive english80 (glasgow)",
+   "creator": "Weinberger, S. (ed.), George Mason University",
+   "date": null,
+   "what_it_shows": "Read 'Please call Stella' paragraph; measured in acoustics/measurements.json",
+   "timestamps": null,
+   "notes": "CC BY-NC-SA 4.0; audio not committed",
+   "features": [
+    "acoustic reference"
+   ],
+   "acoustic_candidate": true,
+   "collected_by": "main session (acoustics)"
+  }
+ ]
+}

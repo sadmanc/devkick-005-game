@@ -1,0 +1,145 @@
+{
+  "rocco": {
+    "id": "rocco",
+    "name": "Rocco the raccoon",
+    "model": "",
+    "face": false,
+    "x": 0,
+    "z": 0,
+    "facing": 0,
+    "standIn": {
+      "fur": "#7d7b78",
+      "belly": "#d9d4cc",
+      "hat": "#c8102e",
+      "bobble": "#f2f2ee",
+      "tail": "#3b3a38"
+    },
+    "short": "Rocco",
+    "role": "Owns the block outside the corner store",
+    "goal": "Convince him you're from the 6ix (free talk)",
+    "card": "",
+    "greeting": "Oh, hey. New face on my block, eh? Where you from? And don't say Trawna if you can't say it right.",
+    "greetingAudio": "assets/audio/toronto/greeting-rocco.mp3",
+    "win": "Rocco shared his spot on the porch. You're from the 6ix now!",
+    "bust": "Tourist! Rocco pointed you to the tourist map. Sorry, bud.",
+    "openers": [
+      {
+        "say": "Hey, sorry, is this Queen Street?",
+        "means": "Excuse me, is this Queen Street?"
+      },
+      {
+        "say": "I'm from Trawna, eh",
+        "means": "I'm from Toronto, you know"
+      }
+    ],
+    "review": "pending native review"
+  },
+  "bev": {
+    "id": "bev",
+    "name": "Bev the beaver",
+    "model": "",
+    "face": false,
+    "x": -3.6,
+    "z": -4.2,
+    "facing": 0.55,
+    "standIn": {
+      "fur": "#8a5a32",
+      "belly": "#c99a6b",
+      "hat": "#2f6d3a",
+      "bobble": "#f2f2ee",
+      "tail": "#4a3424"
+    },
+    "short": "Bev",
+    "role": "Runs the corner coffee counter",
+    "goal": "Order your coffee like a regular",
+    "card": "",
+    "quest": "doubledouble",
+    "greeting": "Morning, hon! What can I get ya?",
+    "greetingAudio": "assets/audio/toronto/greeting-bev.mp3",
+    "win": "Bev started your double-double before you got to the counter. You're a regular!",
+    "bust": "Tourist! Bev gave you a tourist map with your coffee. Sorry, eh.",
+    "openers": [
+      {
+        "say": "Hey, can I get a medium double-double?",
+        "means": "A medium coffee with two cream and two sugar, please"
+      },
+      {
+        "say": "Sorry, where's the washroom?",
+        "means": "Excuse me, where's the bathroom?"
+      }
+    ],
+    "review": "pending native review"
+  },
+  "gus": {
+    "id": "gus",
+    "name": "Gus the Canada goose",
+    "model": "",
+    "face": false,
+    "x": 3.6,
+    "z": -4.0,
+    "facing": -0.55,
+    "standIn": {
+      "fur": "#3a3632",
+      "belly": "#e9e4da",
+      "beak": "#1c1c1c",
+      "hat": "#c8102e",
+      "bobble": "#1c1c1c"
+    },
+    "short": "Gus",
+    "role": "Drives the red streetcar",
+    "goal": "Get to your stop without sounding like a tourist",
+    "card": "",
+    "quest": "streetcar",
+    "greeting": "Hop on, hop on. Where ya headed?",
+    "greetingAudio": "assets/audio/toronto/greeting-gus.mp3",
+    "win": "Gus rang the bell for you. \"Have a good one, eh!\"",
+    "bust": "Tourist! Gus called out every single stop, just for you.",
+    "openers": [
+      {
+        "say": "Does this go to Spadina?",
+        "means": "Does this streetcar go to Spadina Avenue? (say spa-DYE-na)"
+      },
+      {
+        "say": "Sorry, is this the stop for Yonge?",
+        "means": "Excuse me, is this my stop for Yonge Street? (say young)"
+      }
+    ],
+    "review": "pending native review"
+  },
+  "dre": {
+    "id": "dre",
+    "name": "Dre the black squirrel",
+    "model": "",
+    "face": false,
+    "x": -7.4,
+    "z": -5.4,
+    "facing": 0.8,
+    "standIn": {
+      "fur": "#1e1d1c",
+      "belly": "#3a3836",
+      "hat": "#2a5db0",
+      "bobble": "#f2c230",
+      "tail": "#1e1d1c"
+    },
+    "short": "Dre",
+    "role": "Runs the court at the park",
+    "goal": "Get picked for the next game",
+    "card": "",
+    "quest": "court",
+    "greeting": "Wagwan. You tryna run next?",
+    "greetingAudio": "assets/audio/toronto/greeting-dre.mp3",
+    "win": "Dre picked you first for next game. Say less!",
+    "bust": "Tourist! Dre made you the water-bottle holder.",
+    "openers": [
+      {
+        "say": "Wagwan, can I run next?",
+        "means": "Hi, can I play in the next game?"
+      },
+      {
+        "say": "Say less, fam",
+        "means": "Got it, friend, no need to explain"
+      }
+    ],
+    "review": "pending native review"
+  }
+}

@@ -15,8 +15,16 @@ export function setMuted(m) {
 }
 export const isMuted = () => muted;
 
+// A region can ask the browser fallback voice for its own accent first (Toronto: en-CA).
+let preferLang = null;
+export function setVoiceLang(lang) {
+  preferLang = lang;
+}
+
 function pickVoice() {
   const voices = speechSynthesis.getVoices();
+  const own = preferLang && voices.find((v) => v.lang.replace('_', '-').toLowerCase() === preferLang.toLowerCase());
+  if (own) return own;
   return (
     voices.find((v) => /fiona/i.test(v.name)) || // macOS Scottish voice
     voices.find((v) => /en[-_](gb|scotland)/i.test(v.lang)) ||

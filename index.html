@@ -54,10 +54,7 @@
     <section id="map" class="screen flat">
       <div class="map-wrap">
         <div class="ribbon teal">Where to?</div>
-        <div class="map" style="background-image: url(assets/images/world-map.webp)">
-          <button class="pin live" data-place="scotland" style="left: 42.6%; top: 34.9%" aria-label="Scotland">
-            <span class="dot"></span><span class="label">Scotland</span>
-          </button>
+        <div class="map" id="map-pins" style="background-image: url(assets/images/world-map.webp)">
         </div>
         <p class="hint">More places coming soon</p>
       </div>
@@ -66,10 +63,11 @@
     <!-- Intro: set the scene over the street before the otter talks -->
     <section id="intro" class="screen">
       <div class="paper-wrap"><div class="popup intro-pop">
-        <div class="ribbon teal">Glasgow, Scotland</div>
-        <h2>You just moved here.</h2>
-        <p class="note">Glaswegians can spot a tourist a mile off. Talk to the Devin Otter and convince him you're a real local.</p>
-        <ul class="howto">
+        <div class="ribbon teal" id="intro-place">Glasgow, Scotland</div>
+        <p class="review-badge" id="intro-review" hidden></p>
+        <h2 id="intro-heading">You just moved here.</h2>
+        <p class="note" id="intro-note">Glaswegians can spot a tourist a mile off. Talk to the Devin Otter and convince him you're a real local.</p>
+        <ul class="howto" id="intro-howto">
           <li><b>Hold the button</b> (or Space) and talk. Say anything you like.</li>
           <li><b>Win his trust:</b> reach 100 and you're a local. Hit 0 and you're busted.</li>
           <li><b>Sound Glaswegian:</b> Scots words, local knowledge and the accent all count.</li>
@@ -88,9 +86,9 @@
     <!-- Free talk: pick who to talk to on the street -->
     <section id="cast" class="screen">
       <div class="paper-wrap"><div class="popup cast-pop">
-        <div class="ribbon teal">Buchanan Street</div>
-        <h2>Who are ye talkin' tae?</h2>
-        <p class="note">Win all three and you're a local legend. Sound like a tourist and they'll get suspicious.</p>
+        <div class="ribbon teal" id="cast-street">Buchanan Street</div>
+        <h2 id="cast-heading">Who are ye talkin' tae?</h2>
+        <p class="note" id="cast-note">Win all three and you're a local legend. Sound like a tourist and they'll get suspicious.</p>
         <div class="cast-cards" id="cast-cards"></div>
         <div class="row small"><button id="cast-back" class="kbtn light">Back</button></div>
       </div></div>
@@ -104,12 +102,13 @@
           <div class="bar"><div class="fill" id="trust-fill"></div></div>
         </div>
       </div>
-      <div class="bubble" id="bubble"><b id="speaker">The Devin Otter</b><span id="bubble-text"></span></div>
+      <div class="bubble" id="bubble"><b id="speaker">The Devin Otter</b><span id="bubble-text"></span><small id="bubble-means"></small></div>
       <div class="prompt" id="prompt">
         <div class="level" id="level">Easy</div>
         <div class="line" id="line"></div>
         <div class="meaning" id="meaning"></div>
         <div class="scots" id="scots" aria-label="Scots words to collect"></div>
+        <ul class="beats" id="beats" aria-label="Quest steps" hidden></ul>
         <div class="heard" id="heard"></div>
         <svg class="melody" id="melody" viewBox="0 0 240 48" preserveAspectRatio="none" aria-label="Your melody compared with the otter's"><polyline id="mel-ref" /><polyline id="mel-you" /></svg>
         <div class="sing">
@@ -132,7 +131,7 @@
     <!-- Result (2D popup) -->
     <section id="result" class="screen flat">
       <div class="paper-wrap"><div class="sheet"></div><div class="popup">
-        <div class="ribbon red">Your accent</div>
+        <div class="ribbon red" id="result-ribbon">Your accent</div>
         <div class="score-ring"><b id="result-score">0</b><small>/ 100</small></div>
         <h2 id="result-level">Tourist</h2>
         <p id="result-note" class="note"></p>
@@ -151,7 +150,7 @@
     <section id="learn" class="screen flat">
       <header class="topbar">
         <button id="learn-back" class="chip back" aria-label="Back to the world map"><svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7" /></svg></button>
-        <span class="chip"><i class="flag"></i>Scots</span>
+        <span class="chip"><i class="flag"></i><span id="learn-lang">Scots</span></span>
         <span class="chip"><svg class="ic fire" viewBox="0 0 24 24"><path d="M12 2c1 4 6 6 6 12a6 6 0 0 1-12 0c0-3 2-5 3-6 0 2 1 3 2 3 0-4-1-6 1-9z" /></svg>1</span>
         <span class="chip"><svg class="ic gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9z" /></svg>250</span>
       </header>
