@@ -1,0 +1,3 @@
+# Sound Local: market and competitor analysis — in progress, 15 Nov 2026
+
+This report is in progress. It will cover the eight sections requested in the market-analysis brief: (1) the market, including sourced sizing and TAM/SAM/SOM; (2) competitors, including current features and pricing; (3) review mining of real user feedback; (4) positioning maps; (5) how we beat them, including SWOT, wedge and moat; (6) go-to-market and pricing recommendations; (7) risks and mitigations; and (8) what to decide next, with recommendations for the founders. Findings will distinguish verified evidence from assumptions and unverified claims.
