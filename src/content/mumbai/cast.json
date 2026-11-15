@@ -1,0 +1,70 @@
+{
+  "kaju": {
+    "id": "kaju",
+    "name": "Kaju the crow",
+    "model": "",
+    "face": false,
+    "x": 0,
+    "z": 0,
+    "facing": 0,
+    "standIn": { "fur": "#2d2f36", "belly": "#5b5f6b", "beak": "#e8b923", "hat": "#f2f2ee", "bobble": "#e8a23b" },
+    "short": "Kaju",
+    "role": "Runs the chai tapri",
+    "goal": "Order your chai like a real Mumbaikar",
+    "card": "",
+    "quest": "cutting",
+    "greeting": "Arre, new face! What will you have, boss?",
+    "greetingAudio": "assets/audio/mumbai/greeting-kaju.mp3",
+    "win": "Kaju says: \"Your usual?\" You're a regular now!",
+    "bust": "Tourist! Kaju made you a chai tea latte. With a straw.",
+    "openers": [
+      { "say": "Bhaiya, do cutting dena", "means": "Brother, give me two cutting chais" },
+      { "say": "Kaise ho, boss?", "means": "How are you, boss?" }
+    ]
+  },
+  "mangesh": {
+    "id": "mangesh",
+    "name": "Mangesh the mongoose",
+    "model": "",
+    "face": false,
+    "x": 3.6,
+    "z": -4.0,
+    "facing": -0.55,
+    "standIn": { "fur": "#a8743f", "belly": "#d6b98a", "hat": "#c9b27a", "bobble": "#2f6d3a" },
+    "short": "Mangesh",
+    "role": "Drives an auto-rickshaw",
+    "goal": "Get a fair ride on the meter",
+    "card": "",
+    "quest": "meter",
+    "greeting": "Haan, where to? Quickly, quickly.",
+    "greetingAudio": "assets/audio/mumbai/greeting-mangesh.mp3",
+    "win": "Mangesh waived the last ten rupees. \"For you, boss.\"",
+    "bust": "Tourist! Mangesh turned the radio up and gave you the full guided tour.",
+    "openers": [
+      { "say": "Bhaiya, Dadar chalo", "means": "Brother, take me to Dadar" },
+      { "say": "Meter se chalo, na", "means": "Go by the meter, okay?" }
+    ]
+  },
+  "mor": {
+    "id": "mor",
+    "name": "Mor Aunty",
+    "model": "",
+    "face": false,
+    "x": -3.6,
+    "z": -4.2,
+    "facing": 0.55,
+    "standIn": { "fur": "#1f5fa8", "belly": "#2a9d8f", "beak": "#d9b44a", "hat": "#d4af37", "bobble": "#2a9d8f", "tail": "#3fa34d" },
+    "short": "Mor Aunty",
+    "role": "At the family wedding",
+    "goal": "Charm her at the wedding (free talk)",
+    "card": "",
+    "greeting": "Arre beta, you came! Have you eaten? Whose side are you from, bride or groom?",
+    "greetingAudio": "assets/audio/mumbai/greeting-mor.mp3",
+    "win": "Mor Aunty pulled you into the family photo!",
+    "bust": "Tourist! Mor Aunty sent you to the buffet line, the long one.",
+    "openers": [
+      { "say": "Namaste Aunty! Bride's side only", "means": "Hello Aunty! I'm from the bride's side" },
+      { "say": "Haan Aunty, the food is too good", "means": "Yes Aunty, the food is really good" }
+    ]
+  }
+}

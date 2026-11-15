@@ -1,9 +1,19 @@
 {
-  "_readme": "Settings for scripts/generate-voice.js. direction adds eleven_v3 audio tags in front of a line (keyed by the audio file name). Test lines have no tags: they are the reference the accent score compares against.",
+  "_readme": "Settings for scripts/generate-voice.js. direction adds eleven_v3 audio tags in front of a line (keyed by the audio file name). Test lines have no tags: they are the reference the accent score compares against. A place can give each character its own voice (characters.<id>.voiceId, designed from characters.<id>.design with scripts/design-voices.js); placeSpeaker says the placement lines.",
   "scotland": {
     "voiceId": "9wOu10b6k3SOUgwDbKKv",
     "voiceName": "Devin Otter (Glaswegian)",
     "modelId": "eleven_v3",
+    "characters": {
+      "senga": {
+        "voiceId": "U8lGdXfIYVx0Nas6m5XL",
+        "voiceName": "Senga (Glasgow seagull), on Sadman's account: run with that key"
+      },
+      "hamish": {
+        "voiceId": "KnVW5icoKhKlU7DbTW8i",
+        "voiceName": "Big Hamish (Glasgow bus driver), on Sadman's account: run with that key"
+      }
+    },
     "direction": {
       "intro.mp3": "[suspicious]",
       "aye-good.mp3": "[impressed]",
@@ -12,6 +22,47 @@
       "braw-bad.mp3": "[teasing]",
       "dinnae-good.mp3": "[delighted]",
       "dinnae-bad.mp3": "[laughs]"
+    }
+  },
+  "mumbai": {
+    "review": "pending native review",
+    "voiceId": null,
+    "modelId": "eleven_v3",
+    "placeSpeaker": "kaju",
+    "characters": {
+      "kaju": {
+        "voiceId": null,
+        "voiceName": "Kaju the crow (Mumbai)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A warm, authentic Mumbai, India English accent with natural Hinglish, unmistakably Mumbaikar, not generic or exaggerated. Late 20s man, quick, sharp and cheeky, runs a busy chai stall by the station and knows everyone, fast and friendly. Natural, fluent, confident, a fun cartoon crow character in a game."
+        }
+      },
+      "mangesh": {
+        "voiceId": null,
+        "voiceName": "Mangesh the mongoose (Mumbai)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A warm, authentic Mumbai, India English accent with natural Hinglish, unmistakably Mumbaikar, not generic or exaggerated. Early 40s man, fast-talking and unimpressed, a city auto-rickshaw driver who loves a good bargain, dry humour, big heart. Natural, fluent, confident, a fun cartoon mongoose character in a game."
+        }
+      },
+      "mor": {
+        "voiceId": null,
+        "voiceName": "Mor Aunty (Mumbai)",
+        "design": {
+          "model_id": "eleven_ttv_v3",
+          "voice_description": "A warm, authentic Mumbai, India English accent with natural Hinglish, unmistakably Mumbaikar, not generic or exaggerated. Late 50s woman, grand, warm and nosy, the aunty at a family wedding who feeds everyone and asks when they are getting married, affectionate and loud. Natural, fluent, confident, a fun cartoon peacock character in a game."
+        }
+      }
+    },
+    "direction": {
+      "intro.mp3": "[curious]",
+      "haan-chalo-good.mp3": "[cheerful]",
+      "haan-chalo-bad.mp3": "[teasing]",
+      "cutting-chai-good.mp3": "[delighted]",
+      "cutting-chai-bad.mp3": "[laughs]",
+      "trap-1.mp3": "[laughs]",
+      "win.mp3": "[warmly]"
     }
   }
 }

@@ -1,0 +1,17 @@
+# Python 3.10. Versions used for the committed charts.
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+matplotlib==3.10.9
+scikit-learn==1.7.2
+librosa==0.11.0
+soundfile==0.14.0
+praat-parselmouth==0.4.7
+numba==0.68.1
+TextGrid==1.6.1
+remotezip==0.12.6
+torch==2.5.1
+transformers==4.46.3
+huggingface-hub==0.36.0
+# Forced alignment (separate conda/mamba env): montreal-forced-aligner==3.4.3 from conda-forge
+# Phone-channel simulation needs ffmpeg with libopus on PATH.

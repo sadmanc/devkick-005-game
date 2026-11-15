@@ -1,0 +1,66 @@
+{
+ "CMU ARCTIC (7 speakers, 200 sentences)": {
+  "pairs": 8400,
+  "sentences": 200,
+  "same_mean": 0.8920888886972699,
+  "different_mean": 0.8542363716892396,
+  "auc_score": 0.6290947222222222,
+  "auc_melody_distance": 0.540134375,
+  "auc_envelope_distance": 0.6911538888888888
+ },
+ "VCTK (same sentences, 52 speakers)": {
+  "pairs": 55994,
+  "sentences": 25,
+  "same_mean": 0.8951156387985398,
+  "different_mean": 0.8781749717244747,
+  "auc_score": 0.542819436112733,
+  "auc_melody_distance": 0.5414859474146708,
+  "auc_envelope_distance": 0.5327325910347446
+ },
+ "vctk_mean_score_matrix": {
+  "accents": [
+   "Scottish",
+   "Canadian",
+   "American",
+   "Indian",
+   "English"
+  ],
+  "matrix": [
+   [
+    0.887,
+    0.866,
+    0.866,
+    0.777,
+    0.86
+   ],
+   [
+    0.886,
+    0.884,
+    0.883,
+    0.797,
+    0.868
+   ],
+   [
+    0.898,
+    0.897,
+    0.898,
+    0.826,
+    0.89
+   ],
+   [
+    0.857,
+    0.848,
+    0.867,
+    0.831,
+    0.866
+   ],
+   [
+    0.904,
+    0.896,
+    0.904,
+    0.845,
+    0.906
+   ]
+  ]
+ }
+}

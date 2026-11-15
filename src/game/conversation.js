@@ -34,7 +34,7 @@ export async function talk(chat, answer, { timeoutMs = 25000 } = {}) {
       signal: ctrl.signal,
     });
     const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    if (!res.ok) throw Object.assign(new Error(data.error || `HTTP ${res.status}`), { status: res.status, retryAfter: data.retryAfter });
     return data;
   } finally {
     clearTimeout(timer);
