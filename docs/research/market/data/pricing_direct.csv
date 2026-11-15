@@ -1,0 +1,74 @@
+app,plan,price,currency,period,country,source_url,accessed
+ELSA Speak,Pro monthly,19.99,USD,month,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Pro 3 months,47.99,USD,3 months,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Pro 1 year,99.99,USD,year,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Annual variant,71.00,USD,year,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Annual variant,109.99,USD,year,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Annual variant,129.99,USD,year,US,https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886,2026-11-15
+ELSA Speak,Google Play IAP range,0.99-849.99,USD,per item,US,https://play.google.com/store/apps/details?id=us.nobarriers.elsa,2026-11-15
+BoldVoice,Monthly,14.99,USD,month,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Monthly (alt),24.99,USD,month,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Annual,89.99,USD,year,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Annual,99.99,USD,year,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Annual,149.99,USD,year,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Annual,167.99,USD,year,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Annual,199.99,USD,year,US,https://apps.apple.com/us/app/boldvoice-accent-training/id1567841142,2026-11-15
+BoldVoice,Google Play IAP range,9.99-199.99,USD,per item,US,https://play.google.com/store/apps/details?id=com.wellocution.androidapp,2026-11-15
+Speakometer,Premium monthly,4.99,USD,month,US,https://apps.apple.com/us/app/speakometer-accent-training/id1529508890,2026-11-15
+Speakometer,Premium 6 months,19.99,USD,6 months,US,https://apps.apple.com/us/app/speakometer-accent-training/id1529508890,2026-11-15
+Speakometer,Premium annual,29.99,USD,year,US,https://apps.apple.com/us/app/speakometer-accent-training/id1529508890,2026-11-15
+Speechling,Free plan,0,USD,free,US,https://speechling.com/pricing,2026-11-15
+Speechling,Unlimited,19.99,USD,month,US,https://speechling.com/,2026-11-15
+Speechling,Google Play IAP range,22.99-274.99,USD,per item,US,https://play.google.com/store/apps/details?id=com.speechling.speechling,2026-11-15
+Say It (Phona/Oxford),Monthly,13.49,USD,month,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+Say It (Phona/Oxford),3 months,28.99,USD,3 months,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+Say It (Phona/Oxford),Annual,105.99,USD,year,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+Say It (Phona/Oxford),American Words,6.99,USD,one-time,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+Say It (Phona/Oxford),British Words / Sound Chart,7.99,USD,one-time,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+Say It (Phona/Oxford),English File products,2.99,USD,one-time,US,https://apps.apple.com/us/app/say-it-english-pronunciation/id919978521,2026-11-15
+(How to) Pronounce,All topics,4.99,USD,one-time,US,https://apps.apple.com/us/app/how-to-pronounce/id717945069,2026-11-15
+(How to) Pronounce,Topic packs,0.99-1.99,USD,one-time,US,https://apps.apple.com/us/app/how-to-pronounce/id717945069,2026-11-15
+(How to) Pronounce PRO,Paid app,1.99,USD,one-time,US,https://apps.apple.com/us/app/how-to-pronounce-pro/id953959208,2026-11-15
+Accent Training,Remove Ads,4.99,USD,one-time,US,https://apps.apple.com/us/app/accent-training/id1103315286,2026-11-15
+Accent Training,Plus monthly,4.99,USD,month,US,https://apps.apple.com/us/app/accent-training/id1103315286,2026-11-15
+Accent Training,Plus annual,39.99,USD,year,US,https://apps.apple.com/us/app/accent-training/id1103315286,2026-11-15
+Accentify,Weekly,3.99,USD,week,US,https://apps.apple.com/us/app/accentify/id6677050225,2026-11-15
+Accentify,Monthly,4.99,USD,month,US,https://apps.apple.com/us/app/accentify/id6677050225,2026-11-15
+Accentify,Monthly (alt),9.99,USD,month,US,https://apps.apple.com/us/app/accentify/id6677050225,2026-11-15
+Accentify,Yearly,39.99,USD,year,US,https://apps.apple.com/us/app/accentify/id6677050225,2026-11-15
+Accentify,Elite,9.99,USD,UNVERIFIED period,US,https://apps.apple.com/us/app/accentify/id6677050225,2026-11-15
+Accentify,Google Play IAP range,0.49-79.99,USD,per item,US,https://play.google.com/store/apps/details?id=com.accentify,2026-11-15
+Accentify,Free tier (website claim),0,USD,free,n/a,https://www.accentify.co.uk/,2026-11-15
+The Accent Kit,"Per accent kit (e.g. North Glasgow Male, Ayr Male, Dublin City Female, Boston Male)",9.99,USD,one-time,US,https://apps.apple.com/us/app/the-accent-kit/id854413379,2026-11-15
+The Accent Kit,Google Play per item,12.99,USD,one-time,US,https://play.google.com/store/apps/details?id=com.theaccentkit.theaccentkit,2026-11-15
+The Voice Café Accent App,"Per accent (RP, Cockney, Geordie, Melbourne, etc.)",2.99,USD,one-time,US,https://apps.apple.com/us/app/the-voice-cafe-accent-app/id950959220,2026-11-15
+AnyAccent,Monthly,4.99,USD,month,US,https://apps.apple.com/us/app/anyaccent-ai-accent-trainer/id6758423887,2026-11-15
+AnyAccent,3 months,12.99,USD,3 months,US,https://apps.apple.com/us/app/anyaccent-ai-accent-trainer/id6758423887,2026-11-15
+AnyAccent,Annual,99.99,USD,year,US,https://apps.apple.com/us/app/anyaccent-ai-accent-trainer/id6758423887,2026-11-15
+AnyAccent,Premium (other),19.99,USD,UNVERIFIED period,US,https://apps.apple.com/us/app/anyaccent-ai-accent-trainer/id6758423887,2026-11-15
+Mimic: Accent Training,British Accent Pack,9.99,USD,one-time,US,https://apps.apple.com/us/app/mimic-accent-training/id6802016732,2026-11-15
+Mimic: Accent Training,American Accent Pack,9.99,USD,one-time,US,https://apps.apple.com/us/app/mimic-accent-training/id6802016732,2026-11-15
+Accentuate,Pro,5.99,USD,UNVERIFIED period,US,https://apps.apple.com/us/app/accentuate-accent-coach/id6809026532,2026-11-15
+Accent Coach: Master Accents,iOS download,0,USD,free,US,https://apps.apple.com/us/app/accent-coach-master-accents/id6788997973,2026-11-15
+Accent Coach: Master Accents,Mac edition,10,USD,one-time,US (UNVERIFIED country),https://www.macossoftware.com/accent-coach/,2026-11-15
+Accent Lab: British Accent,Monthly,14.99,USD,month,US,https://apps.apple.com/us/app/accent-lab-british-accent/id6744029603,2026-11-15
+Accent Lab: British Accent,Yearly,24.99,USD,year,US,https://apps.apple.com/us/app/accent-lab-british-accent/id6744029603,2026-11-15
+Accent Lab: British Accent,Yearly (alt),29.99,USD,year,US,https://apps.apple.com/us/app/accent-lab-british-accent/id6744029603,2026-11-15
+JUNA Accent Coach,Monthly,7.00,USD,month,US,https://apps.apple.com/us/app/juna-accent-coach/id957254390,2026-11-15
+JUNA Accent Coach,3 months,18.00,USD,3 months,US,https://apps.apple.com/us/app/juna-accent-coach/id957254390,2026-11-15
+JUNA Accent Coach,Annual,60.00,USD,year,US,https://apps.apple.com/us/app/juna-accent-coach/id957254390,2026-11-15
+Accent AI: English Teacher,Weekly,6.99,USD,week,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+Accent AI: English Teacher,Monthly,12.99,USD,month,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+Accent AI: English Teacher,3 months,29.99,USD,3 months,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+Accent AI: English Teacher,Annual,59.99,USD,year,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+Accent AI: English Teacher,Annual (alt),79.99,USD,year,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+Accent AI: English Teacher,Lifetime,199.99,USD,lifetime,US,https://apps.apple.com/us/app/accent-ai-english-teacher/id6747029788,2026-11-15
+ChatterFox,Google Play IAP range,54.99-56.37,USD,per item,US,https://play.google.com/store/apps/details?id=app.chatterfox.android,2026-11-15
+Speakerly/Pronounce,Google Play IAP range,19.99-120.00,USD,per item,US,https://play.google.com/store/apps/details?id=com.getpronounce.app.twa,2026-11-15
+Perfect Accent,Google Play IAP range,9.99-399.99,USD,per item,US,https://play.google.com/store/apps/details?id=com.fluentworlds.accent,2026-11-15
+Get Rid of Your Accent UK1,Paid app,19.99,USD,one-time,US,https://apps.apple.com/us/app/get-rid-of-your-accent-uk1/id673687753,2026-11-15
+YouGlish,Free,0,USD,"free (20 searches/day per third party, UNVERIFIED)",n/a,https://youglish.com/,2026-11-15
+YouGlish,"Paid tiers (third-party report, UNVERIFIED)",3-30,EUR,month,n/a,https://macmyths.com/apps/youglish/,2026-11-15
+Other Voices: Accent Game,Free with ads,0,USD,free,US,https://play.google.com/store/apps/details?id=com.othervoices,2026-11-15
+IDEA archive,Free,0,USD,free,n/a,https://www.dialectsarchive.com/,2026-11-15
+Sounds (Macmillan),"Paid app (legacy, AppBrain)",6.27,USD (UNVERIFIED),one-time,UNVERIFIED,https://www.appbrain.com/app/sounds-the-pronunciation-app/com.macmillan.app.sounds,2026-11-15
