@@ -1,0 +1,2932 @@
+[
+ {
+  "title": "The Social Stratification of English in New York City",
+  "authors": [
+   "William Labov"
+  ],
+  "year": 2006,
+  "venue": "Cambridge University Press",
+  "url": "https://doi.org/10.1017/CBO9780511618208",
+  "open_access": false,
+  "free_url": null,
+  "region": "New York City",
+  "features_measured": [
+   "coda /r/ (r-1 vs r-0) rate",
+   "short-a (BAD) raising",
+   "THOUGHT raising",
+   "stylistic stratification"
+  ],
+  "key_finding_with_numbers": "Foundational NYC study (2006 2nd edition of the 1966 book): coda /r/ stratified by social class and speech style, with the department-store survey; other NYC vowels (short-a, THOUGHT) described. Specific percentages: UNVERIFIED.",
+  "graphable_signature": "Bar chart: % coda [r] by class x style (casual -> word list); NYC r-less is the local value",
+  "why_it_matters_for_sound_local": "Defines the three classic NYC markers to score: r-dropping, raised BAD/short-a, raised THOUGHT.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Saks vs. Macys: (r-1) marches on in New York City department stores",
+  "authors": [
+   "Gregory R. Guy"
+  ],
+  "year": 2018,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/a4084623-964e-4bbe-8725-6210c35a61fb",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/daa7fbee-cca0-4473-a72b-7ea7ce4793a2/content",
+  "region": "New York City",
+  "features_measured": [
+   "coda /r/ (r-1) rate in \"fourth floor\" by store, word, emphatic repetition"
+  ],
+  "key_finding_with_numbers": "54-year trend extension of Labov's department-store study: Saks employees using only r-1 rose from 29% (1963) to 78% (2017); Macy's from 20% to 57%. In 1963 \"floor\" had about double the r-1 rate of \"fourth\" (44% vs 22% Macy's; 63% vs 30% Saks).",
+  "graphable_signature": "Line chart of % r-ful by year (1963, 1986, 2009, 2017); a \"localness\" r-score should treat r-lessness as declining/older-sounding",
+  "why_it_matters_for_sound_local": "Direct calibration for the NYC r-lessness scorer and a ready-made elicitation phrase (\"fourth floor\").",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Social Stratification of /r/ in New York City",
+  "authors": [
+   "Patrick-André Mather"
+  ],
+  "year": 2011,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424211431265",
+  "open_access": false,
+  "free_url": null,
+  "region": "New York City",
+  "features_measured": [
+   "coda /r/ rate by store, age, position"
+  ],
+  "key_finding_with_numbers": "169 participants (June 2009) in a replica of Labov's department-store study; overall r-ful percentages up by about 10-20 points versus earlier surveys; younger lower-middle-class speakers still use r-less forms.",
+  "graphable_signature": "% r-1 by store x year (1962/1986/2009)",
+  "why_it_matters_for_sound_local": "Shows modern NYC r-lessness is real but minority; set the \"local\" bonus accordingly.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "(r) we there yet? The change to rhoticity in New York City English",
+  "authors": [
+   "Kara Becker"
+  ],
+  "year": 2014,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394514000064",
+  "open_access": false,
+  "free_url": null,
+  "region": "New York City",
+  "features_measured": [
+   "coda /r/ production rate",
+   "age",
+   "style"
+  ],
+  "key_finding_with_numbers": "65 Lower East Side speakers; mean /r/ production rate 68% (abstract). Change toward rhoticity continues slowly.",
+  "graphable_signature": "% coda [r] by birth decade; NYC typical ~68% r-ful in conversation",
+  "why_it_matters_for_sound_local": "Gives a realistic modern baseline: an all-r-less NYC player is \"old-school\"; ~30% r-lessness is typical.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Short-a System of New York City English: An Update",
+  "authors": [
+   "Kara Becker",
+   "Amy Wing-mei Wong"
+  ],
+  "year": 2010,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/7ed8ed5a-c3a9-4a87-8f36-21a7f0281c97",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/33b9604c-3758-416b-be44-2a5e9da3c3e8/content",
+  "region": "New York City",
+  "features_measured": [
+   "short-a F1/F2 (onset and offset, 35 ms), F0, F3, duration by following environment"
+  ],
+  "key_finding_with_numbers": "Measured F0, F1, F2, F3 at onset (35 ms) and offset plus duration for each short-a token; table reports environment mean F1 values from about 507 to 700 Hz (exact environment-to-value mapping UNVERIFIED: PDF table text garbled). Young ethnic-minority native New Yorkers (Chinese, Puerto Rican, African American) produce a nasal tensing system, not the traditional NYC split.",
+  "graphable_signature": "Short-a F1 by following segment: tense (raised) NYC environments have lower F1 than lax ones; range ~507-700 Hz across environments",
+  "why_it_matters_for_sound_local": "Best open source of actual Hz values for the NYC short-a split; lets the game test BAD vs BAT contrast.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Aspects of change in New York City English short-a",
+  "authors": [
+   "Bill Haddican",
+   "Michael Newman",
+   "Cecelia Cutler",
+   "Christina Tortora"
+  ],
+  "year": 2021,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394521000120",
+  "open_access": false,
+  "free_url": null,
+  "region": "New York City",
+  "features_measured": [
+   "short-a by environment",
+   "apparent time",
+   "trap-backing"
+  ],
+  "key_finding_with_numbers": "At least two separate changes: prenasal short-a and pre-oral obstruent contexts (including \"trap-backing\") change differently; the traditional split is receding. Effect sizes: UNVERIFIED.",
+  "graphable_signature": "Short-a F1/F2 by birth year, split by prenasal vs pre-oral",
+  "why_it_matters_for_sound_local": "Tells you which NYC short-a cues mark older vs younger New Yorkers.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Cross-Speaker Covariation across Six Vocalic Changes in New York City English",
+  "authors": [
+   "Bill Haddican",
+   "Cecelia Cutler",
+   "Michael Newman",
+   "Christina Tortora"
+  ],
+  "year": 2022,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-9616153",
+  "open_access": false,
+  "free_url": null,
+  "region": "New York City",
+  "features_measured": [
+   "six vocalic changes: THOUGHT lowering, short-a, PRICE, etc."
+  ],
+  "key_finding_with_numbers": "Corpus of conversational speech from 140 speakers; covariation across six vocalic changes is conditioned by their local social embedding. Formant values: UNVERIFIED.",
+  "graphable_signature": "Per-speaker correlation matrix of six vowel indices",
+  "why_it_matters_for_sound_local": "A multi-feature NYC score should not assume features move together.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Almost everyone in New York is raising PRICEs",
+  "authors": [
+   "Michael Newman",
+   "Bill Haddican",
+   "Zi Zi Gina Tan"
+  ],
+  "year": 2018,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/28f8efa8-72e5-47a4-ab76-8445183bd290",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/27d683aa-49d7-4858-a382-9791b7de6e47/content",
+  "region": "New York City",
+  "features_measured": [
+   "PRICE F2 at 35% (DARLA, Watt-Fabricius normalised)",
+   "LOT-PALM Pillai"
+  ],
+  "key_finding_with_numbers": "CUNY Corpus of NYC English: for non-Black speakers, lower LOT-PALM Pillai (more overlap) goes with more PRICE fronting; Black New Yorkers show no such relationship.",
+  "graphable_signature": "Scatter: speaker PRICE F2 vs LOT-PALM Pillai score",
+  "why_it_matters_for_sound_local": "Adds PRICE/PALM to the NYC feature set and warns of ethnic differences.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Lowering of Raised-THOUGHT and the Low-Back Distinction in New York City: Evidence from Chinese Americans",
+  "authors": [
+   "Amy Wing-mei Wong"
+  ],
+  "year": 2012,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/796eac43-b62a-4288-b9b3-6a14273dc651",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/2484820f-f4b4-4f63-a453-88e93612bf42/content",
+  "region": "New York City",
+  "features_measured": [
+   "THOUGHT/LOT normalised F1/F2",
+   "Pillai",
+   "Euclidean distance"
+  ],
+  "key_finding_with_numbers": "16 NYC-born Chinese American males aged 11-61; about 600 THOUGHT and LOT tokens measured; normalised F1 of THOUGHT lowers as year of birth increases (corroborating Becker 2010).",
+  "graphable_signature": "THOUGHT normalised F1 vs birth year (raised = older NYC)",
+  "why_it_matters_for_sound_local": "Raised THOUGHT (\"cawfee\") is a strong but ageing NYC cue.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Myth of the New York City Borough Accent: Evidence from Perception",
+  "authors": [
+   "Kara Becker",
+   "Luiza Newlin-Lukowicz"
+  ],
+  "year": 2018,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/22118aa3-f75c-4e75-ba77-eec013de1d25",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/62514fc2-2c1a-4709-807c-46757c995f71/content",
+  "region": "New York City",
+  "features_measured": [
+   "rhoticity ratio",
+   "BOUGHT mean F1",
+   "BAD/BAT Euclidean distance",
+   "listener borough judgments"
+  ],
+  "key_finding_with_numbers": "Six talkers all exceeded the ANAE BOUGHT-raising threshold (F1 < 700 Hz; means 550-655 Hz). Listeners, including New Yorkers, could not identify talkers' boroughs; only one talker got a majority (72%/77% of votes).",
+  "graphable_signature": "BOUGHT F1 < 700 Hz = raised (NYC); borough-level classification is not feasible",
+  "why_it_matters_for_sound_local": "Do not promise \"which borough\"; NYC-level scoring is the right granularity. Gives a concrete THOUGHT threshold.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Transmission and diffusion",
+  "authors": [
+   "William Labov"
+  ],
+  "year": 2007,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.2007.0082",
+  "open_access": false,
+  "free_url": null,
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "NYC short-a diffusion",
+   "NCS"
+  ],
+  "key_finding_with_numbers": "Transmission (within communities) vs diffusion (across); NYC short-a split did not diffuse intact, NCS diffused broadly. Numbers UNVERIFIED.",
+  "graphable_signature": "Map/flow diagram of feature diffusion",
+  "why_it_matters_for_sound_local": "Explains why NCS features appear far from Chicago.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Contextualizing reversal: Local dynamics of the Northern Cities Shift in a Chicago community",
+  "authors": [
+   "Annette D'Onofrio",
+   "Jaime Benheim"
+  ],
+  "year": 2019,
+  "venue": "Journal of Sociolinguistics",
+  "url": "https://doi.org/10.1111/josl.12398",
+  "open_access": false,
+  "free_url": null,
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "NCS vowels F1/F2 in apparent time"
+  ],
+  "key_finding_with_numbers": "42 White speakers in one Chicago community; NCS features reverse in apparent time but not uniformly. Formant numbers UNVERIFIED.",
+  "graphable_signature": "TRAP, LOT, THOUGHT F1/F2 by birth year (Chicago)",
+  "why_it_matters_for_sound_local": "Young Chicagoans may sound less NCS; scoring should be age-aware.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Northern Cities Shift in Chicago",
+  "authors": [
+   "Corrine McCarthy"
+  ],
+  "year": 2010,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424210384226",
+  "open_access": false,
+  "free_url": null,
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "BAT, BOT, BOUGHT, BUT F1/F2"
+  ],
+  "key_finding_with_numbers": "Acoustic data from 36 Chicago speakers: none of BAT, BOT, BOUGHT continues shifting in the expected direction; marginal BOT reversal; BUT/BOUGHT overlap.",
+  "graphable_signature": "Chicago vowel plot: raised/fronted BAT, fronted BOT, BUT backed toward BOUGHT",
+  "why_it_matters_for_sound_local": "Defines which Chicago vowels are stable enough to score.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Rise and Fall of the Northern Cities Shift",
+  "authors": [
+   "Monica Nesbitt"
+  ],
+  "year": 2021,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-8791754",
+  "open_access": false,
+  "free_url": null,
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "TRAP F1, F2, diphthongal quality"
+  ],
+  "key_finding_with_numbers": "36 White Lansing, Michigan speakers (18 women, 18 men) across the 20th century: NCS raised TRAP rose then fell.",
+  "graphable_signature": "TRAP F1 vs birth year: raised then lowered",
+  "why_it_matters_for_sound_local": "Classic NCS raised TRAP is now generational.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Economic Change and the Decline of Raised TRAP in Lansing, MI",
+  "authors": [
+   "Monica Nesbitt"
+  ],
+  "year": 2018,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/ebec219b-be3b-4da8-9bb5-55a5251986f7",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/8d304577-3a11-43c9-a3c7-2da0e0094de8/content",
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "TRAP F1/F2",
+   "pre-nasal vs pre-oral Pillai"
+  ],
+  "key_finding_with_numbers": "Lansing natives born 1907-1997 (N=27): NCS raised TRAP reverses in the Baby Boomer generation, with a class distinction emerging. Figure reference lines at 700 Hz (F1) and 1855 Hz (F2); one Boomer speaker had only 15% of TRAP tokens raised above her LOT cloud.",
+  "graphable_signature": "TRAP pre-nasal vs pre-oral Pillai by birth year; F1 ~700 Hz / F2 ~1855 Hz reference lines",
+  "why_it_matters_for_sound_local": "Gives Hz reference lines for NCS vs non-NCS TRAP.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Reversal and Re-Organization of the Northern Cities Shift in Michigan",
+  "authors": [
+   "Suzanne E Wagner",
+   "Alexander Mason",
+   "Monica Nesbitt",
+   "Erin Pevan",
+   "Matt Savage"
+  ],
+  "year": 2016,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/1cd242f8-0ffb-4718-93d4-90ad45dee0fd",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/9260018b-df99-41da-af26-595bcbd231ca/content",
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "NCS vowels F1/F2",
+   "TRAP Pillai"
+  ],
+  "key_finding_with_numbers": "50 speakers born 1908-1996: NCS shows reversal, reorganisation and continuation; some young speakers cluster around 1300 Hz F2 for one vowel, 50-100 Hz backer than the comparison group (vowel: see paper).",
+  "graphable_signature": "Per-vowel F2 by birth year; TRAP Pillai by birth year",
+  "why_it_matters_for_sound_local": "\"Reversal\" is not uniform; per-vowel scoring is safer.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Reversal of the Northern Cities Shift in Syracuse, New York",
+  "authors": [
+   "Anna Driscoll",
+   "Emma Lape"
+  ],
+  "year": 2015,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/16353006-2549-475f-86b6-f1545595ed20",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/9696a029-3eb3-4417-8d6f-58347f9d49a9/content",
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "six NCS lax vowels, Lobanov normalised (FAVE)"
+  ],
+  "key_finding_with_numbers": "54 Syracuse interviews (ages 18-89), 14,026 tokens; NCS is reversing in Syracuse. Manual vs FAVE check on ~10% of speakers.",
+  "graphable_signature": "Normalised F1/F2 of /ae, o, oh, e, uh, ih/ by age group",
+  "why_it_matters_for_sound_local": "Shows FAVE-style automatic measurement is good enough, which also suits a phone pipeline.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "THE BAG THAT SCOTT Bought: THE LOW VOWELS IN NORTHWEST WISCONSIN",
+  "authors": [
+   "Erica J. Benson",
+   "Michael J. Fox",
+   "Jared Balkman"
+  ],
+  "year": 2011,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-1503910",
+  "open_access": false,
+  "free_url": null,
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "/ae, a, open-o/ F1/F2"
+  ],
+  "key_finding_with_numbers": "40 respondents in greater Eau Claire, NW Wisconsin: advanced /ae/ raising before /g/, moderate raising elsewhere, little /a/ fronting, low-back merger in progress.",
+  "graphable_signature": "\"bag\" raised vs \"bat\" lower; LOT/THOUGHT overlap",
+  "why_it_matters_for_sound_local": "Pre-/g/ raising (bag) is a useful Upper Midwest cue.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The St. Louis Corridor: Mixing, Competing, and Retreating Dialects",
+  "authors": [
+   "Lauren Friedman"
+  ],
+  "year": 2014,
+  "venue": "PhD dissertation, University of Pennsylvania (UPenn repository)",
+  "url": "https://repository.upenn.edu/items/243a1006-7c63-4758-a3bd-dd2b10b23eed",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/00c0cea2-27f0-4140-8eb5-144b294e1cc1/content",
+  "region": "Chicago & Inland North (Northern Cities Shift)",
+  "features_measured": [
+   "NCS features along the St. Louis Corridor"
+  ],
+  "key_finding_with_numbers": "Dissertation: NCS rose and retreated in the St. Louis Corridor, linked to Route 66 and population movement; data from new interviews and interviews as early as 1972. Numbers UNVERIFIED.",
+  "graphable_signature": "NCS index by birth year in St. Louis",
+  "why_it_matters_for_sound_local": "Shows NCS-like sound outside the Inland North.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Bostonians /r/ Speaking: A Quantitative Look at (R) in Boston",
+  "authors": [
+   "Patricia Irwin",
+   "Naomi Nagy"
+  ],
+  "year": 2007,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/4e60588f-b3ab-453e-8b13-b0ec04719ed1",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/d0d4671a-a995-4978-8056-793ba331d3de/content",
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "(R) coda /r/ rate"
+  ],
+  "key_finding_with_numbers": "Boston: (R) realised as [r] 38% of the time overall (VARBRUL input 0.35); inter-coder agreement about 90% on 400 tokens; highly educated speakers around 66%.",
+  "graphable_signature": "% r-less (~62% overall) by speaker group",
+  "why_it_matters_for_sound_local": "Direct calibration for \"pahk the cah\".",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Boston (r): Neighbo(r)s nea(r) and fa(r)",
+  "authors": [
+   "Naomi Nagy",
+   "Patricia Irwin"
+  ],
+  "year": 2010,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394510000062",
+  "open_access": false,
+  "free_url": null,
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "coda /r/ in Boston and New Hampshire"
+  ],
+  "key_finding_with_numbers": "Boston (r) patterns fit transmission (Boston) and diffusion (New Hampshire) only with accommodation theory. Rates UNVERIFIED.",
+  "graphable_signature": "% r-less by city and age",
+  "why_it_matters_for_sound_local": "Supports a Boston r-less score that changes with age.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Multiple vectors of unidirectional dialect change in eastern New England",
+  "authors": [
+   "James N. Stanford",
+   "Nathan A. Severance",
+   "Kenneth P. Baclawski"
+  ],
+  "year": 2014,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394513000227",
+  "open_access": false,
+  "free_url": null,
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "Eastern New England dialect features (specific variables: UNVERIFIED)"
+  ],
+  "key_finding_with_numbers": "Eastern New England traditional features are receding along several dimensions. Numbers UNVERIFIED.",
+  "graphable_signature": "Traditional-feature rate by birth year (e.g. % r-less)",
+  "why_it_matters_for_sound_local": "Older Boston features matter more for \"local\" than young speech.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Farewell to the Founders: Major Dialect Changes Along the East-West New England Border",
+  "authors": [
+   "James N. Stanford",
+   "Thomas A. Leddy-Cecere",
+   "Kenneth P. Baclawski"
+  ],
+  "year": 2012,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-1668190",
+  "open_access": true,
+  "free_url": "https://read.dukeupress.edu/american-speech/article-pdf/87/2/126/230221/ASp87.2E.2StanfordEtal.pdf",
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "east-west New England contrasts"
+  ],
+  "key_finding_with_numbers": "The east-west Vermont/New England contrast reported by Kurath (1939) and Carver (1987) has weakened considerably.",
+  "graphable_signature": "Feature maps east vs west",
+  "why_it_matters_for_sound_local": "Regional boundaries are fading; use broad regions.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "New England English",
+  "authors": [
+   "James N. Stanford"
+  ],
+  "year": 2019,
+  "venue": "Oxford University PressNew York",
+  "url": "https://doi.org/10.1093/oso/9780190625658.001.0001",
+  "open_access": false,
+  "free_url": null,
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "New England phonetics (r, START, low back)"
+  ],
+  "key_finding_with_numbers": "Book: data from over 1,600 New Englanders (367 field interviews, 626 audio-recorded interviews, 634 online questionnaires).",
+  "graphable_signature": "Maps of feature rates across six states",
+  "why_it_matters_for_sound_local": "The broadest New England source.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Structure, Chronology, and Local Social Meaning of a Supra-Local Vowel Shift: Emergence of the Low-Back-Merger Shift in New England",
+  "authors": [
+   "Monica Nesbitt",
+   "James N. Stanford"
+  ],
+  "year": 2021,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394521000168",
+  "open_access": false,
+  "free_url": null,
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "Low-Back-Merger Shift",
+   "NCS",
+   "New England features"
+  ],
+  "key_finding_with_numbers": "59 White Western Massachusetts speakers aged 18-89: LBMS is emerging at the expense of NCS and traditional New England features.",
+  "graphable_signature": "TRAP lowering + LOT/THOUGHT merger by age",
+  "why_it_matters_for_sound_local": "Western Mass sounds different from Boston; avoid lumping New England.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Black Boston and Eastern New England English in the Late 20th Century",
+  "authors": [
+   "Monica Nesbitt",
+   "Amalia L. Robinson",
+   "Xiao Dong"
+  ],
+  "year": 2025,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/7b52dd76-cce7-4f0c-84c6-d5abcf5ce15d",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/031c00f8-97a6-45ba-903c-120657d3ec03/content",
+  "region": "Boston & Eastern New England",
+  "features_measured": [
+   "rhoticity",
+   "MARY-MERRY-MARRY Pillai",
+   "BAT/BAN allophony"
+  ],
+  "key_finding_with_numbers": "23 African American and Caribbean American women born 1982-2000 in Boston: r-lessness generally below 35% and often zero; no effect of birth year (p=0.173), ethnicity (p=0.058) or style (p=0.804) on MARY-MERRY-MARRY distinction.",
+  "graphable_signature": "% r-less per speaker; MARY/MERRY/MARRY Pillai",
+  "why_it_matters_for_sound_local": "Boston r-lessness differs across communities.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Linguistic Variation and Change in Atlanta, Georgia",
+  "authors": [
+   "Hilary Prichard"
+  ],
+  "year": 2010,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/9dea5066-93fe-4988-b588-98063066dfec",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/a12d14b5-ade4-45ef-bbdb-9c0b30fae008/content",
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "/ay/ monophthongisation before voiced consonants"
+  ],
+  "key_finding_with_numbers": "Atlanta rapid-anonymous survey of 59 speakers: 36% (n=21) used monophthongal /ay/; 59% (n=16) of Black vs 17% (n=5) of white speakers (42-point gap, p < .01).",
+  "graphable_signature": "% monophthongal PRICE by group and neighbourhood",
+  "why_it_matters_for_sound_local": "The only Atlanta-specific study found; /ai/ monophthongisation is a strong cue.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Vowel shifting in the southern states",
+  "authors": [
+   "Crawford Feagin"
+  ],
+  "year": 2003,
+  "venue": "English in the Southern United States",
+  "url": "https://doi.org/10.1017/CBO9780511486715.009",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "Southern Vowel Shift"
+  ],
+  "key_finding_with_numbers": "Chapter on Southern vowel shifting. Numbers UNVERIFIED.",
+  "graphable_signature": "SVS vowel chart",
+  "why_it_matters_for_sound_local": "Background on Southern vowels.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Southern Shift in Memphis, Tennessee",
+  "authors": [
+   "Valerie Fridland"
+  ],
+  "year": 1999,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394599113024",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "front and back vowels F1/F2"
+  ],
+  "key_finding_with_numbers": "Instrumental analysis of vowel systems of 25 native Memphians; describes Southern Shift movement.",
+  "graphable_signature": "Southern Shift: tense/lax front-vowel nuclei reverse (e.g. /e/ nucleus lowers toward /ɛ/); exact Hz UNVERIFIED",
+  "why_it_matters_for_sound_local": "Defines SVS reversals for scoring.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "‘Tie, tied and tight’: The expansion of /ai/ monophthongization in African‐American and European‐American speech in Memphis, Tennessee",
+  "authors": [
+   "Valerie Fridland"
+  ],
+  "year": 2003,
+  "venue": "Journal of Sociolinguistics",
+  "url": "https://doi.org/10.1111/1467-9481.00225",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "/ai/ monophthongisation"
+  ],
+  "key_finding_with_numbers": "/ai/ monophthongisation spreading to pre-voiceless contexts (\"tight\") among African Americans in Memphis. Numbers UNVERIFIED.",
+  "graphable_signature": "% monophthongal PRICE by following voicing",
+  "why_it_matters_for_sound_local": "Pre-voiceless \"tight\" monophthong is the strongest Southern cue.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Variation in perception and production of mid front vowels in the U.S. Southern Vowel Shift",
+  "authors": [
+   "Tyler Kendall",
+   "Valerie Fridland"
+  ],
+  "year": 2012,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2011.12.002",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "mid front vowel production and perception"
+  ],
+  "key_finding_with_numbers": "Southern production and perception of mid front vowels are linked. Numbers UNVERIFIED.",
+  "graphable_signature": "/e/ vs /ɛ/ F1/F2 by region",
+  "why_it_matters_for_sound_local": "Perception-production link suggests locals hear these differences.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Durational and spectral differences in American English vowels: Dialect variation within and across regions",
+  "authors": [
+   "Valerie Fridland",
+   "Tyler Kendall",
+   "Charlie Farrington"
+  ],
+  "year": 2014,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.4883599",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "vowel duration and F1/F2 by dialect"
+  ],
+  "key_finding_with_numbers": "Positive correlation between spectral overlap and vowel duration for Northern and Western speakers; durational correlates of the low-back merger and of SVS front-vowel reversals.",
+  "graphable_signature": "Vowel duration vs spectral overlap",
+  "why_it_matters_for_sound_local": "Use duration as a second cue when formants overlap.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Regional relationships among the low vowels of U.S. English: Evidence from production and perception",
+  "authors": [
+   "Tyler Kendall",
+   "Valerie Fridland"
+  ],
+  "year": 2017,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394517000084",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "low vowels across US regions"
+  ],
+  "key_finding_with_numbers": "Regional relationships among low vowels. Numbers UNVERIFIED.",
+  "graphable_signature": "TRAP/LOT/THOUGHT positions by region",
+  "why_it_matters_for_sound_local": "Cross-regional low-vowel map for scoring.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Modeling dynamic trajectories of front vowels in the American South",
+  "authors": [
+   "Margaret E. L. Renwick",
+   "Joseph A. Stanley"
+  ],
+  "year": 2020,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0000549",
+  "open_access": true,
+  "free_url": "https://asa.scitation.org/doi/pdf/10.1121/10.0000549",
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "trajectories of /i, eɪ, ɪ, ɛ/"
+  ],
+  "key_finding_with_numbers": "64-speaker Digital Archive of Southern Speech: dynamic trajectories of front vowels differ by social group.",
+  "graphable_signature": "Trajectory (20-80%) of /eɪ/ and /ɪ/: Southern \"drawl\" movement",
+  "why_it_matters_for_sound_local": "Southern-ness lives in trajectories, not midpoints.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Iconization and the Timing of Southern Vowels: A Case Study of /æ/",
+  "authors": [
+   "Christian Koops"
+  ],
+  "year": 2014,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/32d78414-bc5c-4c26-a077-f0b7b9fb8814",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/eb3abe3d-87a9-49ae-bd74-fe6c4e5d8fd6/content",
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "/æ/ trajectories and duration"
+  ],
+  "key_finding_with_numbers": "Southern drawl: extreme lengthening (e.g. 374, 381 and 411 ms tokens) correlates with triphthongised /æ/.",
+  "graphable_signature": "TRAP duration (> 350 ms) and F2 trajectory",
+  "why_it_matters_for_sound_local": "Duration and triphthong shape are strong Southern cues.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Urban rejection of the vernacular: The SVS undone",
+  "authors": [
+   "Robin Dodsworth",
+   "Mary Kohn"
+  ],
+  "year": 2012,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394512000105",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "five front vowels"
+  ],
+  "key_finding_with_numbers": "59 white-collar Raleigh natives over three generations: all five front vowels moved away from Southern variants.",
+  "graphable_signature": "Front vowels F1/F2 by generation",
+  "why_it_matters_for_sound_local": "Urban Southern youth may not sound Southern.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Social network cohesion and the retreat from Southern vowels in Raleigh",
+  "authors": [
+   "Robin Dodsworth",
+   "Richard A. Benton"
+  ],
+  "year": 2017,
+  "venue": "Language in Society",
+  "url": "https://doi.org/10.1017/S0047404517000185",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "front vowels",
+   "network cohesion"
+  ],
+  "key_finding_with_numbers": "160-speaker Raleigh subset: network cohesion predicts retreat from Southern vowels.",
+  "graphable_signature": "SVS index vs network cohesion",
+  "why_it_matters_for_sound_local": "Same.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Retreat from the Southern Vowel Shift in Raleigh, NC: Social Factors",
+  "authors": [
+   "Robin Dodsworth"
+  ],
+  "year": 2013,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/043212a8-89aa-4f69-8b16-47e730986fff",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/8cc2b43f-e252-4651-be88-57a93e5951c6/content",
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "Z2-Z1 of five front vowels"
+  ],
+  "key_finding_with_numbers": "108-speaker subset of a 250-speaker Raleigh corpus; community shifted nearly uniformly from Southern to regionless standard system.",
+  "graphable_signature": "Z2-Z1 per front vowel by age",
+  "why_it_matters_for_sound_local": "Normalised measure (Z2-Z1) is a ready SVS metric.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The fronting of the back upgliding vowels in Charleston, South Carolina",
+  "authors": [
+   "Maciej Baranowski"
+  ],
+  "year": 2008,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394508000136",
+  "open_access": true,
+  "free_url": "https://pure.manchester.ac.uk/ws/files/28193901/POST-PEER-REVIEW-PUBLISHERS.PDF",
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "back upgliding vowels"
+  ],
+  "key_finding_with_numbers": "Charleston fronting of back upgliding vowels. Numbers UNVERIFIED.",
+  "graphable_signature": "GOAT/GOOSE F2 by age",
+  "why_it_matters_for_sound_local": "Charleston differs from inland South.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "A Real-Time Trend Study of the Southern Vowel Shift in Kentuckiana",
+  "authors": [
+   "Brian Jose"
+  ],
+  "year": 2023,
+  "venue": "American Speech: A Quarterly of Linguistic Usage",
+  "url": "https://doi.org/10.1215/00031283-9766911",
+  "open_access": false,
+  "free_url": null,
+  "region": "Atlanta & the South",
+  "features_measured": [
+   "SVS front and back shifts"
+  ],
+  "key_finding_with_numbers": "Real-time study of SVS in a rural Kentuckiana community over 50 years. Numbers UNVERIFIED.",
+  "graphable_signature": "SVS indices by year",
+  "why_it_matters_for_sound_local": "Real-time evidence of SVS change.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "African American Vernacular English: Vowel Phonology In A Georgia Community",
+  "authors": [
+   "Claire Andres",
+   "Rachel Votta"
+  ],
+  "year": 2009,
+  "venue": "The Publication of the American Dialect Society",
+  "url": "https://doi.org/10.1215/-94-1-75",
+  "open_access": false,
+  "free_url": null,
+  "region": "African American English",
+  "features_measured": [
+   "AAVE vowels in Georgia"
+  ],
+  "key_finding_with_numbers": "AAVE vowel phonology in a Georgia community. Numbers UNVERIFIED.",
+  "graphable_signature": "Vowel plot",
+  "why_it_matters_for_sound_local": "Georgia AAE vowel reference.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "One Hundred Years of Sound Change in Philadelphia: Linear Incrementation, Reversal, and Reanalysis",
+  "authors": [
+   "William Labov",
+   "Ingrid Rosenfelder",
+   "Josef Fruehwald"
+  ],
+  "year": 2013,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.2013.0015",
+  "open_access": true,
+  "free_url": "https://www.research.ed.ac.uk/files/13269097/One_Hundred_Years_of_Sound_Change_in_Philadelphia.pdf",
+  "region": "Philadelphia",
+  "features_measured": [
+   "vowel F1/F2 (forced alignment + automatic measurement)"
+  ],
+  "key_finding_with_numbers": "379 Philadelphia Neighborhood Corpus speakers, born 1888-1991: two 1970s changes show linear incrementation; fronting of /aw/ and /ow/ reverses for those born after 1940.",
+  "graphable_signature": "/aw/ and /ow/ F2 vs birth year: rise then fall after 1940",
+  "why_it_matters_for_sound_local": "Massive acoustic baseline for Philadelphia.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Competing systems in Philadelphia phonology",
+  "authors": [
+   "William Labov",
+   "Sabriya Fisher",
+   "Duna Gylfadottír",
+   "Anita Henderson",
+   "Betsy Sneller"
+  ],
+  "year": 2016,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394516000132",
+  "open_access": false,
+  "free_url": null,
+  "region": "Philadelphia",
+  "features_measured": [
+   "short-a systems (Pillai, bimodality)"
+  ],
+  "key_finding_with_numbers": "106 subjects: Philadelphia short-a split vs nasal system measured by Pillai statistic and bimodality diagrams.",
+  "graphable_signature": "Short-a F1 by environment; Pillai per speaker",
+  "why_it_matters_for_sound_local": "The Philly short-a split is a scoring target.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The early influence of phonology on a phonetic change",
+  "authors": [
+   "Josef Fruehwald"
+  ],
+  "year": 2016,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.2016.0041",
+  "open_access": true,
+  "free_url": "https://muse.jhu.edu/pub/24/article/621188",
+  "region": "Philadelphia",
+  "features_measured": [
+   "/ay/ raising before voiceless"
+  ],
+  "key_finding_with_numbers": "Argues phonology influences a phonetic change early, against the error-accumulation model (case: UNVERIFIED, reported as Philadelphia /ay/ raising).",
+  "graphable_signature": "PRICE onset F1 before voiceless vs voiced",
+  "why_it_matters_for_sound_local": "Raised /ay/ (\"tight\") is a Philly cue.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The role of African Americans in Philadelphia sound change",
+  "authors": [
+   "William Labov"
+  ],
+  "year": 2014,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394513000240",
+  "open_access": false,
+  "free_url": null,
+  "region": "Philadelphia",
+  "features_measured": [
+   "vowel systems of African Americans"
+  ],
+  "key_finding_with_numbers": "36 African American speakers in the PNC: their development differs from the mainstream community.",
+  "graphable_signature": "Vowel plots by ethnicity",
+  "why_it_matters_for_sound_local": "Philly scoring should consider ethnicity.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Mobility, Indexicality, and the Enregisterment of “Pittsburghese”",
+  "authors": [
+   "Barbara Johnstone",
+   "Jennifer Andrus",
+   "Andrew E. Danielson"
+  ],
+  "year": 2006,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424206290692",
+  "open_access": true,
+  "free_url": "https://figshare.com/articles/journal_contribution/Mobility_Indexicality_and_the_Enregisterment_of_Pittsburghese_/6469676",
+  "region": "Pittsburgh",
+  "features_measured": [
+   "/aw/ monophthongisation and enregisterment"
+  ],
+  "key_finding_with_numbers": "Pittsburghese enregisterment: features become linked to local identity. Numbers UNVERIFIED.",
+  "graphable_signature": "\"dahntahn\": /aw/ F1-F2 trajectory flat",
+  "why_it_matters_for_sound_local": "Pittsburgh cue: monophthongal /aw/.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Indexicality and experience: Exploring the meanings of /aw/‐monophthongization in Pittsburgh\n                    1",
+  "authors": [
+   "Barbara Johnstone",
+   "Scott F. Kiesling"
+  ],
+  "year": 2008,
+  "venue": "Journal of Sociolinguistics",
+  "url": "https://doi.org/10.1111/j.1467-9841.2008.00351.x",
+  "open_access": false,
+  "free_url": null,
+  "region": "Pittsburgh",
+  "features_measured": [
+   "/aw/ monophthongisation"
+  ],
+  "key_finding_with_numbers": "Tests whether monophthongal /aw/ is linked to local identity in Pittsburgh. Numbers UNVERIFIED.",
+  "graphable_signature": "/aw/ trajectory length",
+  "why_it_matters_for_sound_local": "Same.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Chain Shifting and Centralization in California Vowels: An Acoustic Analysis",
+  "authors": [
+   "Robert Kennedy",
+   "James Grama"
+  ],
+  "year": 2012,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-1599950",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "F1/F2 of California vowels"
+  ],
+  "key_finding_with_numbers": "California young adults show lower short front vowels /ɪ, ɛ, æ/ and centralised /ow/ relative to ANAE baselines.",
+  "graphable_signature": "Lowered /ɪ, ɛ, æ/ and centralised GOAT (/ow/) relative to ANAE baselines",
+  "why_it_matters_for_sound_local": "California Vowel Shift reference.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Country ideology and the California Vowel Shift",
+  "authors": [
+   "Robert J. Podesva",
+   "Annette D'Onofrio",
+   "Janneke Van Hofwegen",
+   "Seung Kyung Kim"
+  ],
+  "year": 2015,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S095439451500006X",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "BOOT/BOAT fronting, BAN raising, BAT backing, BOT/BOUGHT merger"
+  ],
+  "key_finding_with_numbers": "30 white lifelong residents of a rural California community; country ideology shapes California Vowel Shift participation. Location detail UNVERIFIED.",
+  "graphable_signature": "BOOT/BOAT F2, BAN F1, BAT F2",
+  "why_it_matters_for_sound_local": "Rural CA may sound different.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Compression in the California Vowel Shift: Tracking generational sound change in California's Central Valley",
+  "authors": [
+   "Annette D'Onofrio",
+   "Teresa Pratt",
+   "Janneke Van Hofwegen"
+  ],
+  "year": 2019,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394519000085",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "CVS vowel space compression"
+  ],
+  "key_finding_with_numbers": "72 Californians: no clear evidence of a gradual chain shift; vowel space compression.",
+  "graphable_signature": "Vowel space area by generation",
+  "why_it_matters_for_sound_local": "CVS may be about compression.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Dialect variation and formant frequency: The American English vowels revisited",
+  "authors": [
+   "Robert Hagiwara"
+  ],
+  "year": 1997,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.419712",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "F1/F2 vowels, Southern California"
+  ],
+  "key_finding_with_numbers": "15 Southern Californian monolinguals differ greatly from Peterson & Barney (1952) and Hillenbrand et al. (1995).",
+  "graphable_signature": "SoCal vowel chart vs P&B",
+  "why_it_matters_for_sound_local": "A Western vowel baseline.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "‘Flip-flop’ and mergers-in-progress",
+  "authors": [
+   "Lauren Hall-Lew"
+  ],
+  "year": 2013,
+  "venue": "English Language and Linguistics",
+  "url": "https://doi.org/10.1017/S1360674313000063",
+  "open_access": true,
+  "free_url": "https://hdl.handle.net/20.500.11820/10eba9a4-b61c-4c97-8525-e819053bbb82",
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "LOT/THOUGHT merger"
+  ],
+  "key_finding_with_numbers": "Mergers in progress can show \"flip-flop\" (direction-reversing) patterns. Location and numbers UNVERIFIED.",
+  "graphable_signature": "LOT/THOUGHT Pillai",
+  "why_it_matters_for_sound_local": "Merger can flip direction.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Beyond midpoints: Vowel dynamics of the low-back-merger shift",
+  "authors": [
+   "Joey Stanley"
+  ],
+  "year": 2021,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0007655",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "LBMS vowel trajectories (11 timepoints, GAMM)"
+  ],
+  "key_finding_with_numbers": "45 hours of interviews in SW Washington (ages 18-86): lax vowels shift; F2 change over duration decreased over time.",
+  "graphable_signature": "Trajectory shape of TRAP, DRESS, KIT by age",
+  "why_it_matters_for_sound_local": "Trajectories distinguish Pacific NW.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Sociolinguistic Patterns in Seattle English",
+  "authors": [
+   "Alicia Beckford Wassink"
+  ],
+  "year": 2015,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394514000234",
+  "open_access": false,
+  "free_url": null,
+  "region": "California, the West & the Low-Back Merger",
+  "features_measured": [
+   "Western markers: cot/caught merger, etc."
+  ],
+  "key_finding_with_numbers": "25-person subsample in Seattle clarifies use of key markers of Western speech, including cot/caught merger.",
+  "graphable_signature": "Seattle vowel plot",
+  "why_it_matters_for_sound_local": "PNW reference.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Cross-generational vowel change in American English",
+  "authors": [
+   "Ewa Jacewicz",
+   "Robert Allen Fox",
+   "Joseph Salmons"
+  ],
+  "year": 2011,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394510000219",
+  "open_access": true,
+  "free_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4134908",
+  "region": "Midland & cross-regional US",
+  "features_measured": [
+   "F1/F2 at 20-80% of vowel",
+   "three generations"
+  ],
+  "key_finding_with_numbers": "239 speakers (grandparents 66-91, parents 35-51, children 8-12) from Ohio, Wisconsin and North Carolina: parallel chain-like changes (the \"North American Shift\"); Ohio young adults identified parents' \"hod\" 78% vs children's \"hod\" 58%.",
+  "graphable_signature": "F1/F2 trajectories by generation for three dialects",
+  "why_it_matters_for_sound_local": "Large three-region baseline.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Vowel Duration In Three American English Dialects",
+  "authors": [
+   "Ewa Jacewicz",
+   "Robert A. Fox",
+   "Joseph Salmons"
+  ],
+  "year": 2007,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-2007-024",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829779/",
+  "region": "Midland & cross-regional US",
+  "features_measured": [
+   "vowel duration"
+  ],
+  "key_finding_with_numbers": "Five vowels: South longest, Inland North shortest, Midland intermediate.",
+  "graphable_signature": "Vowel duration by region",
+  "why_it_matters_for_sound_local": "Duration as a regional cue.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Twentieth Century Sound Change in Washington DC African American English",
+  "authors": [
+   "Shelby Arnson",
+   "Charlie Farrington"
+  ],
+  "year": 2017,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/65c32ce2-ba09-4a7b-aeec-0469cb95921b",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/c18fd9f2-3386-4e42-88e1-52d219a957b6/content",
+  "region": "African American English",
+  "features_measured": [
+   "vowel F1/F2 (midpoint; diphthongs at 25%/75%)",
+   "CORAAL DC"
+  ],
+  "key_finding_with_numbers": "29 speakers from CORAAL Washington DC, interviews from 1968 and 2015/2016, born 1907-1998: older regional DC AAE patterns and participation in the African American Vowel System (Thomas 2007).",
+  "graphable_signature": "DC AAE vowel plot by birth cohort; diphthong nucleus (25%) -> glide (75%) arrows",
+  "why_it_matters_for_sound_local": "Open CORAAL-based acoustic baseline for AAE; ensures Black players are scored fairly.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Phonological and Phonetic Characteristics of African American Vernacular English",
+  "authors": [
+   "Erik R. Thomas"
+  ],
+  "year": 2007,
+  "venue": "Language and Linguistics Compass",
+  "url": "https://doi.org/10.1111/j.1749-818X.2007.00029.x",
+  "open_access": false,
+  "free_url": null,
+  "region": "African American English",
+  "features_measured": [
+   "AAVE phonology and phonetics: vowels, consonants, prosody"
+  ],
+  "key_finding_with_numbers": "Review of phonological and phonetic characteristics of AAVE, including the African American Vowel System and prosody. Numbers UNVERIFIED.",
+  "graphable_signature": "AAE vowel system schematic (e.g. less fronting of GOOSE/GOAT vs white Southern speakers: UNVERIFIED)",
+  "why_it_matters_for_sound_local": "Core review to avoid treating AAE features as \"non-local\".",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Prosodic rhythm and African American English",
+  "authors": [
+   "Erik R. Thomas",
+   "Phillip M. Carter"
+  ],
+  "year": 2006,
+  "venue": "English World-Wide. A Journal of Varieties of English",
+  "url": "https://doi.org/10.1075/eww.27.3.06tho",
+  "open_access": false,
+  "free_url": null,
+  "region": "African American English",
+  "features_measured": [
+   "prosodic rhythm (Low, Grabe & Nolan pairwise variability metric)"
+  ],
+  "key_finding_with_numbers": "Rhythm measured for 20 African American and 20 European American North Carolina speakers, plus ex-slave recordings, Southern European Americans, and Jamaican and Hispanic control groups. Group values UNVERIFIED.",
+  "graphable_signature": "Vowel-duration PVI per speaker group",
+  "why_it_matters_for_sound_local": "Rhythm is a cheap, phone-robust cue beyond formants.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "From African American Vernacular English to African American Language: Rethinking the Study of Race and Language in African Americans’ Speech",
+  "authors": [
+   "Sharese King"
+  ],
+  "year": 2020,
+  "venue": "Annual Review of Linguistics",
+  "url": "https://doi.org/10.1146/annurev-linguistics-011619-030556",
+  "open_access": false,
+  "free_url": null,
+  "region": "African American English",
+  "features_measured": [
+   "review: AAL variation, regional variation"
+  ],
+  "key_finding_with_numbers": "Review arguing for \"African American Language\" and attention to regional variation within it. Numbers UNVERIFIED.",
+  "graphable_signature": "n/a (review)",
+  "why_it_matters_for_sound_local": "Framing for respectful AAE handling in a \"localness\" game.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Sources of variation in the speech of African Americans: Perspectives from sociophonetics",
+  "authors": [
+   "Charlie Farrington",
+   "Sharese King",
+   "Mary Kohn"
+  ],
+  "year": 2021,
+  "venue": "WIREs Cognitive Science",
+  "url": "https://doi.org/10.1002/wcs.1550",
+  "open_access": true,
+  "free_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wcs.1550",
+  "region": "African American English",
+  "features_measured": [
+   "review of sources of variation in African American speech"
+  ],
+  "key_finding_with_numbers": "Review from sociolinguistics and speech sciences on regional, social and stylistic variation in African American speech. Numbers UNVERIFIED.",
+  "graphable_signature": "n/a (review)",
+  "why_it_matters_for_sound_local": "Open-access overview linking AAE variation to speech technology.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Variation in Question Intonation in the Corpus of Regional African American Language",
+  "authors": [
+   "Nicole R. Holliday"
+  ],
+  "year": 2019,
+  "venue": "American Speech",
+  "url": "https://doi.org/10.1215/00031283-7308038",
+  "open_access": false,
+  "free_url": null,
+  "region": "African American English",
+  "features_measured": [
+   "question intonation (F0) in CORAAL"
+  ],
+  "key_finding_with_numbers": "Variation in question intonation across CORAAL. Numbers UNVERIFIED.",
+  "graphable_signature": "F0 contour of yes/no questions by CORAAL site",
+  "why_it_matters_for_sound_local": "Pitch cues for AAE regional variety.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Racial disparities in automated speech recognition",
+  "authors": [
+   "Allison Koenecke",
+   "Andrew Nam",
+   "Emily Lake",
+   "Joe Nudell",
+   "Minnie Quartey",
+   "Zion Mengesha",
+   "Connor Toups",
+   "John R. Rickford",
+   "Dan Jurafsky",
+   "Sharad Goel"
+  ],
+  "year": 2020,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "url": "https://doi.org/10.1073/pnas.1915768117",
+  "open_access": true,
+  "free_url": "https://www.pnas.org/content/pnas/117/14/7684.full.pdf",
+  "region": "African American English",
+  "features_measured": [
+   "ASR word error rate by race"
+  ],
+  "key_finding_with_numbers": "Five commercial ASR systems on 42 white and 73 Black speakers (19.8 h, five US cities): mean WER 0.35 for Black vs 0.19 for white speakers; best system (Microsoft) 0.27 vs 0.15.",
+  "graphable_signature": "Bar chart: WER by speaker race per ASR system",
+  "why_it_matters_for_sound_local": "Warning: any ASR-based step in Sound Local will be biased against AAE speakers; prefer acoustic features or calibrate.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Canadian shift in Montreal",
+  "authors": [
+   "Charles Boberg"
+  ],
+  "year": 2005,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394505050064",
+  "open_access": false,
+  "free_url": null,
+  "region": "Canada (comparison)",
+  "features_measured": [
+   "Canadian Shift: TRAP, DRESS, KIT F1/F2"
+  ],
+  "key_finding_with_numbers": "Canadian Shift in Montreal. Numbers UNVERIFIED.",
+  "graphable_signature": "TRAP retracted (lower F2), DRESS lowered",
+  "why_it_matters_for_sound_local": "Canadian Shift vs California Shift look alike; useful negative control.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Canadian raising",
+  "authors": [
+   "J. K. Chambers"
+  ],
+  "year": 1973,
+  "venue": "Canadian Journal of Linguistics/Revue canadienne de linguistique",
+  "url": "https://doi.org/10.1017/S0008413100007350",
+  "open_access": false,
+  "free_url": null,
+  "region": "Canada (comparison)",
+  "features_measured": [
+   "Canadian Raising of /ai/ and /au/"
+  ],
+  "key_finding_with_numbers": "Classic systematic description of Canadian Raising, building on Joos (1942). Acoustic numbers: UNVERIFIED (1973 paper predates acoustic norms; paywalled).",
+  "graphable_signature": "PRICE/MOUTH onset F1 before voiceless (lower F1 = raised) vs voiced",
+  "why_it_matters_for_sound_local": "Canadian Raising is the cue a Toronto player will produce.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The English Language in Canada",
+  "authors": [
+   "Charles Boberg"
+  ],
+  "year": 2010,
+  "venue": "Cambridge University Press",
+  "url": "https://doi.org/10.1017/CBO9780511781056",
+  "open_access": false,
+  "free_url": null,
+  "region": "Canada (comparison)",
+  "features_measured": [
+   "Canadian English phonetics, Canadian Shift, raising"
+  ],
+  "key_finding_with_numbers": "Book-length description of Canadian English, including acoustic phonetics. Numbers UNVERIFIED.",
+  "graphable_signature": "Canadian vowel chart",
+  "why_it_matters_for_sound_local": "Comprehensive Canadian reference.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Joining the Western Region: Sociophonetic Shift in Victoria",
+  "authors": [
+   "Rebecca Roeder",
+   "Sky Onosson",
+   "Alexandra D’Arcy"
+  ],
+  "year": 2018,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424217753987",
+  "open_access": false,
+  "free_url": null,
+  "region": "Canada (comparison)",
+  "features_measured": [
+   "Victoria BC vowel shift"
+  ],
+  "key_finding_with_numbers": "Victoria participates in national changes and is conservative in some; supports Boberg (2008, 2010). Numbers UNVERIFIED.",
+  "graphable_signature": "Canadian Shift indices by age",
+  "why_it_matters_for_sound_local": "Western Canada comparison.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "A Closer Look at the Short Front Vowel Shift in Canada",
+  "authors": [
+   "Charles Boberg"
+  ],
+  "year": 2019,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424219831353",
+  "open_access": false,
+  "free_url": null,
+  "region": "Canada (comparison)",
+  "features_measured": [
+   "short front vowel shift by word, region, sex"
+  ],
+  "key_finding_with_numbers": "Canadian Short Front Vowel Shift: relations among vowels, word-level allophony, and regional/national identity. Numbers UNVERIFIED.",
+  "graphable_signature": "TRAP/DRESS/KIT F1-F2 by region",
+  "why_it_matters_for_sound_local": "Canada-vs-US cue design.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Dialect Identification Across a Nation-State Border: Perception of Dialectal Variants in Seattle, WA and Vancouver, BC",
+  "authors": [
+   "Julia Thomas Swan",
+   "Molly Babel"
+  ],
+  "year": 2018,
+  "venue": "University of Pennsylvania Working Papers in Linguistics (ScholarlyCommons/UPenn repository)",
+  "url": "https://repository.upenn.edu/items/0d80fb07-e8f3-41fd-95e5-f214fad0f015",
+  "open_access": true,
+  "free_url": "https://repository.upenn.edu/server/api/core/bitstreams/cb8af389-85af-499a-996c-7d4f764294bd/content",
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "listener identification Seattle vs Vancouver: Canadian Raising, pre-nasal /æ/, /æg/ raising, /æ/ retraction"
+  ],
+  "key_finding_with_numbers": "Listener accuracy at telling Seattle from Vancouver talkers was low (\"unimpressive\"); Seattle listeners somewhat more accurate; analysed with signal detection theory. Production study (Swan 2016) found Canadian Raising and pre-nasal /æ/ raising separate the cities.",
+  "graphable_signature": "d-prime by feature; MOUTH onset F1 Seattle vs Vancouver",
+  "why_it_matters_for_sound_local": "Upper bound: if humans can't tell, the game shouldn't claim to.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Effects of gender and regional dialect on prosodic patterns in American English",
+  "authors": [
+   "Cynthia G. Clopper",
+   "Rajka Smiljanic"
+  ],
+  "year": 2011,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2011.02.006",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3113495/",
+  "region": "Prosody across US regions",
+  "features_measured": [
+   "speaking rate (syll/s), pause frequency and duration (>100 ms), ToBI pitch accents and boundary tones"
+  ],
+  "key_finding_with_numbers": "Northern vs Southern US speakers (and gender) differ in prosody; measured on 40 read passages with ToBI. Group values UNVERIFIED in this summary.",
+  "graphable_signature": "Speaking rate and pitch-accent distribution by region",
+  "why_it_matters_for_sound_local": "Prosodic cues are phone-robust.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Regional variation in temporal organization in American English",
+  "authors": [
+   "Cynthia G. Clopper",
+   "Rajka Smiljanic"
+  ],
+  "year": 2015,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2014.10.002",
+  "open_access": false,
+  "free_url": null,
+  "region": "Prosody across US regions",
+  "features_measured": [
+   "temporal organisation: rate, durations"
+  ],
+  "key_finding_with_numbers": "Regional variation in temporal organisation of American English. Numbers UNVERIFIED.",
+  "graphable_signature": "Duration ratios by region",
+  "why_it_matters_for_sound_local": "Timing cues.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Prosodic and segmental cues to regional dialect variation in American English",
+  "authors": [
+   "Rajka Smiljanic",
+   "Cynthia G. Clopper"
+  ],
+  "year": 2017,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.5014765",
+  "open_access": false,
+  "free_url": null,
+  "region": "Prosody across US regions",
+  "features_measured": [
+   "articulation rate, pauses, pitch accents, boundary tones, nPVI; free classification"
+  ],
+  "key_finding_with_numbers": "Regional dialect affects articulation rate, pauses, pitch accents, boundary tones and syllable duration variability; listeners from Ohio and Texas grouped 60 talkers using unmodified, monotone and low-pass filtered speech.",
+  "graphable_signature": "Free-classification clustering of talkers; F0-flattened vs filtered conditions",
+  "why_it_matters_for_sound_local": "Shows how much \"accent\" survives without segments (prosody-only).",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Between-speaker and within-speaker variation in speech tempo of American English",
+  "authors": [
+   "Ewa Jacewicz",
+   "Robert Allen Fox",
+   "Lai Wei"
+  ],
+  "year": 2010,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.3459842",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2933259/",
+  "region": "Prosody across US regions",
+  "features_measured": [
+   "speech tempo (syll/s) read and spontaneous"
+  ],
+  "key_finding_with_numbers": "192 speakers from Wisconsin and North Carolina: Wisconsin speakers speak faster with shorter phrases; tempo fastest in the 40s; men faster than women.",
+  "graphable_signature": "Syllables/second by region x age",
+  "why_it_matters_for_sound_local": "Speaking rate needs age/sex normalisation.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Acoustic characteristics of the vowel systems of six regional varieties of American English",
+  "authors": [
+   "Cynthia G. Clopper",
+   "David B. Pisoni",
+   "Kenneth de Jong"
+  ],
+  "year": 2005,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.2000774",
+  "open_access": true,
+  "free_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3432912",
+  "region": "Midland & cross-regional US",
+  "features_measured": [
+   "F1/F2, duration of 11 vowels"
+  ],
+  "key_finding_with_numbers": "48 talkers, both genders, six US regions (NSP), five repetitions of 11 vowels: acoustic regional differences.",
+  "graphable_signature": "Six-region vowel charts (New England, Mid-Atlantic, North, Midland, South, West)",
+  "why_it_matters_for_sound_local": "Directly comparable six-region acoustic baseline in hVd.",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Some acoustic cues for the perceptual categorization of American English regional dialects",
+  "authors": [
+   "Cynthia G. Clopper",
+   "David B. Pisoni"
+  ],
+  "year": 2004,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/S0095-4470(03)00009-3",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065110/",
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "acoustic cues + 6-region categorisation"
+  ],
+  "key_finding_with_numbers": "Experiment 1 identified phonetic features distinguishing dialects; Experiment 2 naive listeners categorised talkers into six regions. Accuracy UNVERIFIED.",
+  "graphable_signature": "Confusion matrix of 6-way listener categorisation",
+  "why_it_matters_for_sound_local": "Human benchmark for regional classification.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Homebodies and army brats: Some effects of early linguistic experience and residential history on dialect categorization",
+  "authors": [
+   "Cynthia G. Clopper",
+   "David B. Pisoni"
+  ],
+  "year": 2004,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/S0954394504161036",
+  "open_access": true,
+  "free_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3083069",
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "listener categorisation by residential history"
+  ],
+  "key_finding_with_numbers": "\"Army brats\" (lived in 3+ states) categorised regions more accurately than \"homebodies\"; experience with a region helped for that region. Accuracy UNVERIFIED.",
+  "graphable_signature": "Accuracy by listener group",
+  "why_it_matters_for_sound_local": "Exposure matters: human judges vary.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Free classification of regional dialects of American English",
+  "authors": [
+   "Cynthia G. Clopper",
+   "David B. Pisoni"
+  ],
+  "year": 2007,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2006.06.001",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3059784/",
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "free classification of regional dialects"
+  ],
+  "key_finding_with_numbers": "Naive listeners perform poorly in forced-choice categorisation; free classification reveals perceptual groupings. Numbers UNVERIFIED.",
+  "graphable_signature": "MDS map of talker clusters",
+  "why_it_matters_for_sound_local": "Use coarse regional buckets.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "The Nationwide Speech Project: A new corpus of American English dialects",
+  "authors": [
+   "Cynthia G. Clopper",
+   "David B. Pisoni"
+  ],
+  "year": 2006,
+  "venue": "Speech Communication",
+  "url": "https://doi.org/10.1016/j.specom.2005.09.010",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3060775/",
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "corpus design"
+  ],
+  "key_finding_with_numbers": "Nationwide Speech Project: nearly an hour of speech from each of 60 talkers across six regions.",
+  "graphable_signature": "n/a (corpus)",
+  "why_it_matters_for_sound_local": "Licensable training/testing corpus (LDC2007S15).",
+  "evidence_strength": 5,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Perceptual and Phonetic Experiments on American English Dialect Identification",
+  "authors": [
+   "Thomas Purnell",
+   "William Idsardi",
+   "John Baugh"
+  ],
+  "year": 1999,
+  "venue": "Journal of Language and Social Psychology",
+  "url": "https://doi.org/10.1177/0261927X99018001002",
+  "open_access": false,
+  "free_url": null,
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "listener dialect identification",
+   "phonetic measures"
+  ],
+  "key_finding_with_numbers": "Perceptual and phonetic experiments on dialect identification. Numbers UNVERIFIED.",
+  "graphable_signature": "Identification by dialect",
+  "why_it_matters_for_sound_local": "Short-prompt identification.",
+  "evidence_strength": 4,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "Unsupervised Discriminative Training With Application to Dialect Classification",
+  "authors": [
+   "Rongqing Huang",
+   "John H. L. Hansen"
+  ],
+  "year": 2007,
+  "venue": "IEEE Transactions on Audio, Speech and Language Processing",
+  "url": "https://doi.org/10.1109/TASL.2007.903302",
+  "open_access": false,
+  "free_url": null,
+  "region": "Perception & automatic dialect ID",
+  "features_measured": [
+   "automatic dialect classification (unsupervised discriminative training)"
+  ],
+  "key_finding_with_numbers": "Unsupervised discriminative training for dialect classification. Corpora and accuracies UNVERIFIED.",
+  "graphable_signature": "Classifier accuracy",
+  "why_it_matters_for_sound_local": "Machine dialect-ID baseline.",
+  "evidence_strength": 3,
+  "access_date": "2026-11-19",
+  "verified": true,
+  "list": "north_america"
+ },
+ {
+  "title": "ACCDIST: a metric for comparing speakers' accents",
+  "authors": "Huckvale, Mark",
+  "year": 2004,
+  "venue": "Interspeech 2004",
+  "url": "https://doi.org/10.21437/interspeech.2004-29",
+  "open_access": true,
+  "free_url": "https://discovery.ucl.ac.uk/12139/1/12139.pdf",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "14 British Isles accents (ABI corpus)",
+  "what_it_measured": "ACCDIST: correlates each speaker's table of inter-segment spectral distances with accent-group tables, so the score reflects pronunciation system not voice.",
+  "key_finding_with_numbers": "274 speakers (10 M + 10 F per area, 20 shared sentences) from 14 accent areas; 11% classification error, half the error of a direct spectral-distance metric (full text checked).",
+  "why_it_matters_for_sound_local": "Blueprint for a speaker-normalised \"how local\" score: compare the learner's own vowel-to-vowel distance pattern with a local reference pattern, which cancels mic and voice differences.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Human and computer recognition of regional accents and ethnic groups from British English speech",
+  "authors": "Hanani, A.; Russell, M.J.; Carey, M.J.",
+  "year": 2013,
+  "venue": "Computer Speech & Language",
+  "url": "https://doi.org/10.1016/j.csl.2012.01.003",
+  "open_access": true,
+  "free_url": "http://etheses.bham.ac.uk/3279/2/Hanani_12_PhD.pdf",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "14 British regional accents; British ethnic groups (incl. British Asian)",
+  "what_it_measured": "Human listeners vs automatic language-ID-style systems on regional accent and ethnic group from British English speech.",
+  "key_finding_with_numbers": "Systems did much better on a 12-class language task and a 2-class ethnic-group task than on 14-class regional accent (abstract). Human-vs-machine accuracy figures UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Shows regional accent is harder to detect than L1/ethnic background, so Sound Local needs targeted segmental features, not a generic accent-ID model.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Automatic sociophonetics: Exploring corpora with a forensic accent recognition system",
+  "authors": "Brown, Georgina; Wormald, Jessica",
+  "year": 2017,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.4991330",
+  "open_access": true,
+  "free_url": "https://asa.scitation.org/doi/pdf/10.1121/1.4991330",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "British English regional corpora",
+  "what_it_measured": "Y-ACCDIST forensic accent recognition used as a sociophonetic exploration tool.",
+  "key_finding_with_numbers": "Classified speakers by region/language background, produced clusters matching local social networks and ranked which phonemes carry most accent information (abstract). Accuracy numbers UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Ranking phonemes by accent information tells the game which words/vowels to put in a level.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Perceptive evaluation of Levenshtein dialect distance measurements using Norwegian dialect data",
+  "authors": "Gooskens, Charlotte; Heeringa, Wilbert",
+  "year": 2004,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/s0954394504163023",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "15 Norwegian dialects",
+  "what_it_measured": "Levenshtein (string) dialect distances vs distances judged by native listeners.",
+  "key_finding_with_numbers": "Correlates computed Levenshtein distances with listener-judged distances for 15 dialects (abstract). Correlation value UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Classic proof that an automatic phonetic distance can track what listeners hear as \"different\"; the validation design Sound Local should copy.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Measuring Norwegian dialect distances using acoustic features",
+  "authors": "Heeringa, Wilbert; Johnson, Keith; Gooskens, Charlotte",
+  "year": 2009,
+  "venue": "Speech Communication",
+  "url": "https://doi.org/10.1016/j.specom.2008.07.006",
+  "open_access": true,
+  "free_url": "https://pure.knaw.nl/portal/files/460500/spc07.pdf",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "Norwegian dialects",
+  "what_it_measured": "Fully acoustic (no transcription) dialect distances vs traditional dialectology and listener perception.",
+  "key_finding_with_numbers": "Tests whether acoustic-only measures approximate transcription-based and perceptual distances (abstract). Correlations UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Sound Local has audio, not transcriptions; this is the evidence base for acoustic-only distance.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Inducing a measure of phonetic similarity from pronunciation variation",
+  "authors": "Wieling, Martijn; Margaretha, Eliza; Nerbonne, John",
+  "year": 2012,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2011.12.004",
+  "open_access": true,
+  "free_url": "https://research.rug.nl/files/183302154/paper.pdf",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "Dialect atlases (six)",
+  "what_it_measured": "Induces segment-to-segment phonetic distances from pronunciation alternations via alignment + pointwise mutual information.",
+  "key_finding_with_numbers": "Method applied to six dialect atlases; induced distances relate to acoustic vowel distances (abstract). Correlation values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Gives data-driven costs for substitutions (e.g. how bad /t/ vs [ʔ] is) instead of hand-set penalties.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Advances in Dialectometry",
+  "authors": "Wieling, Martijn; Nerbonne, John",
+  "year": 2015,
+  "venue": "Annual Review of Linguistics",
+  "url": "https://doi.org/10.1146/annurev-linguist-030514-124930",
+  "open_access": true,
+  "free_url": "https://research.rug.nl/files/98242219/Advances_in_dialectometry.pdf",
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "Many (review)",
+  "what_it_measured": "Review of computational and statistical dialectometry methods.",
+  "key_finding_with_numbers": "Review; no single headline number.",
+  "why_it_matters_for_sound_local": "Map of which distance methods have been validated, useful before choosing the scoring metric.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Formant frequencies of vowels in 13 accents of the British Isles",
+  "authors": "Ferragne, Emmanuel; Pellegrino, François",
+  "year": 2010,
+  "venue": "Journal of the International Phonetic Association",
+  "url": "https://doi.org/10.1017/s0025100309990247",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "13 accents of the British Isles incl. Glasgow, London",
+  "what_it_measured": "Semi-automatic F1/F2 of vowels from male speakers in 13 accents; z-scored Bark and Hz.",
+  "key_finding_with_numbers": "Acoustic vowel data for 13 accents with discussion of automatic formant-measurement pitfalls (abstract). Per-vowel values in paper (UNVERIFIED here).",
+  "why_it_matters_for_sound_local": "Reference vowel targets for Glasgow and London from one consistent method.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Vowel normalization for accent: An investigation of best exemplar locations in northern and southern British English sentences",
+  "authors": "Evans, Bronwen G.; Iverson, Paul",
+  "year": 2003,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.1635413",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent distance and perception (validated against listeners)",
+  "accents": "Northern vs Southern British English",
+  "what_it_measured": "Listeners' best-exemplar vowel locations after carrier sentences in different accents.",
+  "key_finding_with_numbers": "Listeners shifted vowel categorisation to match the carrier sentence accent; shift depended on language background and regional experience (abstract). Effect sizes UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Listeners judge a vowel relative to the rest of the accent, so the score should judge vowels relative to the player's own system.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent distance and perception (validated against listeners)"
+ },
+ {
+  "title": "Plasticity in vowel perception and production: A study of accent change in young adults",
+  "authors": "Evans, Bronwen G.; Iverson, Paul",
+  "year": 2007,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.2722209",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent learning and imitation",
+  "accents": "Northern vs Southern British English (university students)",
+  "what_it_measured": "Production and perception of vowels in students tracked over two years after moving.",
+  "key_finding_with_numbers": "Students changed their accent over two years; production related to perception, but perception did not reliably change over time (abstract). Size of change UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Real-world evidence of how much adults can shift an accent and over what timescale; sets expectations for levels.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Imitation Improves Language Comprehension",
+  "authors": "Adank, Patti; Hagoort, Peter; Bekkering, Harold",
+  "year": 2010,
+  "venue": "Psychological Science",
+  "url": "https://doi.org/10.1177/0956797610389192",
+  "open_access": true,
+  "free_url": "https://research.manchester.ac.uk/en/publications/591b1a15-813c-4108-a017-aa2c28a3d912",
+  "topic": "Accent learning and imitation",
+  "accents": "Unfamiliar Dutch accent",
+  "what_it_measured": "Comprehension after imitating vs listening, repeating in own accent, or transcribing.",
+  "key_finding_with_numbers": "Imitating the accent improved comprehension more than the other three conditions (abstract). Effect sizes UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Direct support for the game loop itself: speaking in the accent helps understanding.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Accent imitation positively affects language attitudes",
+  "authors": "Adank, Patti; Stewart, Andrew J.; Connell, Louise; Wood, Jeffrey",
+  "year": 2013,
+  "venue": "Frontiers in Psychology",
+  "url": "https://doi.org/10.3389/fpsyg.2013.00280",
+  "open_access": true,
+  "free_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00280/pdf",
+  "topic": "Accent learning and imitation",
+  "accents": "Glasgow (Glaswegian English)",
+  "what_it_measured": "Attitudes to a Glaswegian speaker after imitating vs repeating.",
+  "key_finding_with_numbers": "52 participants (full text); imitation increased social-attractiveness ratings vs repeating without imitation (abstract). Effect sizes UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Glaswegian stimuli; supports the \"kind, never mocking\" brief: imitating an accent increases warmth toward its speakers.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Dialect Acquisition",
+  "authors": "Chambers, J. K.",
+  "year": 1992,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.1992.0060",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent learning and imitation",
+  "accents": "Canadian English speakers moving to southern England",
+  "what_it_measured": "Second-dialect acquisition by Canadian children in southern England.",
+  "key_finding_with_numbers": "Proposes eight principles of dialect acquisition (e.g. lexical before phonological, simple rules before complex) (abstract).",
+  "why_it_matters_for_sound_local": "Predicts which accent features learners pick up first; orders Sound Local's difficulty curve. Chambers is UofT.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Second Dialect Acquisition: A Sociophonetic Perspective",
+  "authors": "Nycz, Jennifer",
+  "year": 2015,
+  "venue": "Language and Linguistics Compass",
+  "url": "https://doi.org/10.1111/lnc3.12163",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent learning and imitation",
+  "accents": "Many (review)",
+  "what_it_measured": "Review of second-dialect acquisition from a sociophonetic perspective.",
+  "key_finding_with_numbers": "Acquisition changes specific features, shaped by linguistic, social and developmental factors (abstract).",
+  "why_it_matters_for_sound_local": "Up-to-date summary of which features adult learners can change.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Adolescents, Young Adults, and the Critical Period: Two Case Studies from “Seven Up”",
+  "authors": "Sankoff, Gillian",
+  "year": 2004,
+  "venue": "Sociolinguistic Variation",
+  "url": "https://doi.org/10.1093/oso/9780195170399.003.0008",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Accent learning and imitation",
+  "accents": "Northern/Southern British English (Seven Up speakers)",
+  "what_it_measured": "Longitudinal accent change of individuals filmed from childhood to adulthood.",
+  "key_finding_with_numbers": "Shows individuals change vowel features after adolescence, complicating apparent-time assumptions (abstract). Numbers UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Evidence adults retain accent plasticity, which Sound Local relies on.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Accent learning and imitation"
+ },
+ {
+  "title": "Ethnolects and the city: Ethnic orientation and linguistic variation in Toronto English",
+  "authors": "Hoffman, Michol F.; Walker, James A.",
+  "year": 2010,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/s0954394509990238",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Toronto and MTE",
+  "accents": "Toronto English (Chinese, Italian, British-origin Torontonians)",
+  "what_it_measured": "Linguistic variables across generations and ethnic orientation (variable list UNVERIFIED).",
+  "key_finding_with_numbers": "First-generation speakers show L1 transfer; later generations largely converge, with ethnic orientation linked to rates for some variables (abstract). Rates UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Core paper on how ethnicity shapes Toronto English; MTE \"local\" sound is heritage-linked, not one standard.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Toronto and MTE"
+ },
+ {
+  "title": "‘If ur from Toronto you’ll understand’: register change and metadiscursive engagement with mediatized Multicultural Toronto English",
+  "authors": "DENIS, DEREK; ELANGO, VIDHYA",
+  "year": 2024,
+  "venue": "English Language and Linguistics",
+  "url": "https://doi.org/10.1017/s1360674324000509",
+  "open_access": true,
+  "free_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BB67861CE19ACA8A38FA4EA413560A61/S1360674324000509a.pdf/div-class-title-if-ur-from-toronto-you-ll-understand-register-change-and-metadiscursive-engagement-with-mediatized-multicultural-toronto-english-div.pdf",
+  "topic": "Toronto and MTE",
+  "accents": "Multicultural Toronto English (MTE)",
+  "what_it_measured": "How MTE is discussed and stylised on social media (enregisterment).",
+  "key_finding_with_numbers": "Documents MTE as a register associated with racialised Toronto youth and its spread via online metadiscourse (abstract).",
+  "why_it_matters_for_sound_local": "Shows what Torontonians themselves treat as MTE markers; ground truth for MTE content and respectful framing.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Toronto and MTE"
+ },
+ {
+  "title": "Heritage Tagalog Phonology and a Variationist Framework of Language Contact",
+  "authors": "Pocholo Umbal; Naomi Nagy",
+  "year": 2021,
+  "venue": "Languages",
+  "url": "https://doi.org/10.3390/languages6040201",
+  "open_access": true,
+  "free_url": "https://www.mdpi.com/2226-471X/6/4/201/pdf?version=1638779245",
+  "topic": "Toronto and MTE",
+  "accents": "Toronto heritage Tagalog speakers vs Manila",
+  "what_it_measured": "Rhotic realisation in heritage Tagalog in Toronto.",
+  "key_finding_with_numbers": "About 3,000 /r/ tokens from 23 Toronto heritage speakers and 9 Manila speakers; approximant [ɹ] more common in 2nd generation and in speakers using more English (abstract).",
+  "why_it_matters_for_sound_local": "Evidence of English /r/ transfer in Toronto's Filipino community; relevant to MTE-style multilingual input.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Toronto and MTE"
+ },
+ {
+  "title": "The private life of stops: VOT in a real-time corpus of spontaneous Glaswegian",
+  "authors": "Stuart-Smith, Jane; Sonderegger, Morgan; Rathcke, Tamara; Macdonald, Rachel",
+  "year": 2015,
+  "venue": "Laboratory Phonology",
+  "url": "https://doi.org/10.1515/lp-2015-0015",
+  "open_access": true,
+  "free_url": "https://www.degruyter.com/document/doi/10.1515/lp-2015-0015/pdf",
+  "topic": "Glasgow and Scottish English",
+  "accents": "Glasgow (spontaneous, real-time corpus)",
+  "what_it_measured": "VOT of voiceless stops in spontaneous Glaswegian across decades, semi-automated measurement.",
+  "key_finding_with_numbers": "Glaswegian /p t k/ range from vernacular short-lag (unaspirated) to more aspirated Scottish Standard English (abstract). VOT ms values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Short-lag VOT is a measurable Glasgow cue; semi-automatic VOT method is phone-feasible.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "The role of gesture delay in coda /r/ weakening: An articulatory, auditory and acoustic study",
+  "authors": "Lawson, Eleanor; Stuart-Smith, Jane; Scobbie, James M.",
+  "year": 2018,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.5027833",
+  "open_access": true,
+  "free_url": "https://asa.scitation.org/doi/pdf/10.1121/1.5027833",
+  "topic": "Glasgow and Scottish English",
+  "accents": "Central Scotland (Glasgow area) sociolects",
+  "what_it_measured": "Ultrasound tongue gesture timing, auditory and acoustic rhoticity of coda /r/.",
+  "key_finding_with_numbers": "Delayed tongue-gesture timing links to weaker acoustic and perceived rhoticity, differing between Central Scottish sociolects (abstract). Which groups and measures UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Glasgow /r/ is sociolect-dependent; a single \"rhotic=Scottish\" F3 rule will mis-score some local speakers.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "Bunched /r/ promotes vowel merger to schwar: An ultrasound tongue imaging study of Scottish sociophonetic variation",
+  "authors": "Lawson, Eleanor; Scobbie, James M.; Stuart-Smith, Jane",
+  "year": 2013,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2013.01.004",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Glasgow and Scottish English",
+  "accents": "Scottish English (Edinburgh/Central Belt)",
+  "what_it_measured": "Ultrasound of bunched vs tip-up /r/ and pre-/r/ vowel mergers.",
+  "key_finding_with_numbers": "Bunched /r/ associated with merger of pre-rhotic vowels to a rhotic schwa/syllabic /r/ (abstract). Proportions UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Pre-/r/ vowels (e.g. \"bird\", \"word\") need Scottish-specific targets.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "On the Tail of the Scottish Vowel Length Rule in Glasgow",
+  "authors": "Rathcke, Tamara V.; Stuart-Smith, Jane H.",
+  "year": 2016,
+  "venue": "Language and Speech",
+  "url": "https://doi.org/10.1177/0023830915611428",
+  "open_access": true,
+  "free_url": "https://kar.kent.ac.uk/53108/1/Rathcke_Stuart-Smith_2016_authormanuscript.pdf",
+  "topic": "Glasgow and Scottish English",
+  "accents": "Glasgow (1970s and 2000s spontaneous speech)",
+  "what_it_measured": "Durations of /i u a/ under the Scottish Vowel Length Rule across four speaker groups.",
+  "key_finding_with_numbers": "Durational analyses of /i u a/ across 1970s and 2000s Glaswegian (full text); SVLR may be weakening via dialect contact and prosody (abstract). ms values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "SVLR (short \"feed\" vs long \"freeze\") is a duration cue robust to phone mics; this paper says how strong it really is today.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "Structured Heterogeneity in Scottish Stops Over the Twentieth Century",
+  "authors": "Sonderegger, Morgan; Stuart-Smith, Jane; Knowles, Thea; Macdonald, Rachel; Rathcke, Tamara",
+  "year": 2020,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.2020.0003",
+  "open_access": true,
+  "free_url": "https://muse.jhu.edu/article/751034/pdf",
+  "topic": "Glasgow and Scottish English",
+  "accents": "Scottish English (20th-century corpus)",
+  "what_it_measured": "VOT and voicing cues of stops across speakers and decades.",
+  "key_finding_with_numbers": "Stop-voicing contrast varies in structured ways across speakers, linked to sound change (abstract). Estimates UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Calibrates how much stop variation counts as still local.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "Intonational diglossia: a case study of Glasgow",
+  "authors": "Cruttenden, Alan",
+  "year": 2007,
+  "venue": "Journal of the International Phonetic Association",
+  "url": "https://doi.org/10.1017/s0025100307002915",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Glasgow and Scottish English",
+  "accents": "Glasgow",
+  "what_it_measured": "Intonation of conversational vs read Glaswegian.",
+  "key_finding_with_numbers": "Conversational Glaswegian uses a distinct local intonation while read speech resembles standard British (RP-like) intonation (abstract). Contour inventory UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Glasgow melody shows up in conversational, not read, prompts; game prompts should be conversational.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "Structural and dialectal effects on pitch peak alignment in two varieties of British English",
+  "authors": "Ladd, D.R.; Schepman, Astrid; White, Laurence; Quarmby, Louise May; Stackhouse, Rebekah",
+  "year": 2009,
+  "venue": "Journal of Phonetics",
+  "url": "https://doi.org/10.1016/j.wocn.2008.11.001",
+  "open_access": true,
+  "free_url": "https://www.research.ed.ac.uk/en/publications/269b7141-4d80-40ec-bc73-51f276b84e7e",
+  "topic": "Glasgow and Scottish English",
+  "accents": "Scottish Standard English vs Southern British English",
+  "what_it_measured": "Pitch-peak alignment in nuclear and prenuclear accents.",
+  "key_finding_with_numbers": "Reports dialectal differences in peak alignment between the two varieties (abstract). Direction and ms values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Peak timing is a pitch cue that differentiates Scottish from Southern British melody.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Glasgow and Scottish English"
+ },
+ {
+  "title": "The influence of Gujarati and Tamil L1s on Indian English: a preliminary study",
+  "authors": "Wiltshire, Caroline R.; Harnsberger, James D.",
+  "year": 2006,
+  "venue": "World Englishes",
+  "url": "https://doi.org/10.1111/j.0083-2919.2006.00448.x",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Indian English",
+  "accents": "Gujarati English, Tamil English",
+  "what_it_measured": "Consonants, vowels and intonation of 5 Gujarati and 5 Tamil L1 speakers of English.",
+  "key_finding_with_numbers": "Some features shared (pan-Indian), others reflect L1 transfer (abstract). Feature counts UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Indian English is not one target; Mumbai (Marathi/Gujarati/Hindi) speakers may differ from Tamil speakers.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "Homogeneity vs Heterogeneity in Indian English: Investigating Influences of L1 on f0 Range",
+  "authors": "Maxwell, Olga; Payne, Elinor; Billington, Rosey",
+  "year": 2018,
+  "venue": "Interspeech 2018",
+  "url": "https://doi.org/10.21437/interspeech.2018-1476",
+  "open_access": true,
+  "free_url": "https://ora.ox.ac.uk/objects/uuid:53be69df-5e4e-456a-ae3f-819f8b5def96/files/mac7491bf3e6270bacee6c3bfe2d581a5",
+  "topic": "Indian English",
+  "accents": "Indian English (Telugu, Tamil, Hindi, Bengali L1)",
+  "what_it_measured": "Pitch level, span and dynamism of educated Indian English speakers by L1.",
+  "key_finding_with_numbers": "Tests whether f0 range is homogeneous across L1 groups (abstract). Semitone values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Pitch range is a cheap phone-robust feature; this shows whether one Indian English pitch target is valid.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "Speech Rhythm in Varieties of English",
+  "authors": "Fuchs, Robert",
+  "year": 2016,
+  "venue": "Prosody, Phonology and Phonetics",
+  "url": "https://doi.org/10.1007/978-3-662-47818-9",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Indian English",
+  "accents": "Indian English, British English (and others)",
+  "what_it_measured": "Speech rhythm metrics (durational variability, accentual vs syllable timing) in varieties of English.",
+  "key_finding_with_numbers": "Monograph; rhythm results UNVERIFIED (no abstract retrieved).",
+  "why_it_matters_for_sound_local": "Main reference for measuring Indian English syllable-timed rhythm.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "The “Indian English” of Tibeto-Burman language speakers",
+  "authors": "Wiltshire, Caroline R.",
+  "year": 2005,
+  "venue": "English World-Wide. A Journal of Varieties of English",
+  "url": "https://doi.org/10.1075/eww.26.3.03wil",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Indian English",
+  "accents": "Indian English of Angami, Ao, Mizo (Tibeto-Burman) L1 speakers",
+  "what_it_measured": "Phonetic and phonological features of English by Northeast Indian speakers.",
+  "key_finding_with_numbers": "Describes features and compares with mainstream Indian English (abstract). Numbers UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Further evidence that Indian English varies by L1; supports a Mumbai-specific target.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "[v]at is going on? Local and global ideologies about Indian English",
+  "authors": "Vineeta Chand",
+  "year": 2009,
+  "venue": "Language in Society",
+  "url": "https://doi.org/10.1017/S0047404509990200",
+  "open_access": true,
+  "free_url": "https://repository.essex.ac.uk/431/1/chand2009.pdf",
+  "topic": "Indian English",
+  "accents": "Indian English",
+  "what_it_measured": "/v/~/w/ realisation and its local vs global social meanings.",
+  "key_finding_with_numbers": "[w]-like /v/ is a salient, ideologically loaded Indian English marker (abstract). Rates UNVERIFIED. Free repository link timed out on 2026-11-19 check (UNVERIFIED); DOI works.",
+  "why_it_matters_for_sound_local": "Salient markers are what listeners hear as \"Indian\"; also flags sensitivity for respectful design.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "Style repertoire and social change in British Asian English",
+  "authors": "Sharma, Devyani",
+  "year": 2011,
+  "venue": "Journal of Sociolinguistics",
+  "url": "https://doi.org/10.1111/j.1467-9841.2011.00503.x",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Indian English",
+  "accents": "British Asian English (London)",
+  "what_it_measured": "Ethnically marked phonetic variants across speakers' style repertoires.",
+  "key_finding_with_numbers": "Speakers shift between Indian-like and British variants by context; interviews alone underestimate this (abstract).",
+  "why_it_matters_for_sound_local": "Shows London itself includes Indian-origin features; MLE/London and Indian targets overlap.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "Acoustic properties of the monophthongs of Assamese Indian English speakers",
+  "authors": "Sarmah, Priyankoo; Wiltshire, Caroline R.",
+  "year": 2023,
+  "venue": "World Englishes",
+  "url": "https://doi.org/10.1111/weng.12637",
+  "open_access": true,
+  "free_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/weng.12637",
+  "topic": "Indian English",
+  "accents": "Assamese Indian English",
+  "what_it_measured": "Acoustic monophthongs of 20 Assamese speakers by medium of education.",
+  "key_finding_with_numbers": "Vowel space differs by medium of education (abstract). Formant values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Education/medium shapes Indian English vowels; useful for choosing reference speakers.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Indian English"
+ },
+ {
+  "title": "Reversing “drift”: Innovation and diffusion in the London diphthong system",
+  "authors": "Paul E. Kerswill; Eivind Nessa Torgersen; Susan Patricia Fox",
+  "year": 2008,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/s0954394508000148",
+  "open_access": true,
+  "free_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0549153430FB87761B24C80EA3CDF656/S0954394508000148a.pdf/div-class-title-reversing-drift-innovation-and-diffusion-in-the-london-diphthong-system-div.pdf",
+  "topic": "London, MLE and Southern British English",
+  "accents": "London (inner vs outer)",
+  "what_it_measured": "PRICE, MOUTH, FACE, GOAT diphthongs across age, ethnicity, area.",
+  "key_finding_with_numbers": "Young inner-London speakers reverse the long-running diphthong-shift \"drift\", with innovations linked to multiethnic social networks (abstract). Specific vowel qualities and formant values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Defines what young London actually sounds like; Cockney-style targets would be outdated.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "An investigation of speech rhythm in London English",
+  "authors": "Torgersen, Eivind Nessa; Szakay, Anita",
+  "year": 2012,
+  "venue": "Lingua",
+  "url": "https://doi.org/10.1016/j.lingua.2012.01.004",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "London (inner vs outer, MLE)",
+  "what_it_measured": "Speech rhythm metrics in London English.",
+  "key_finding_with_numbers": "Inner London/MLE rhythm more syllable-timed than outer London (UNVERIFIED: abstract not retrieved).",
+  "why_it_matters_for_sound_local": "Rhythm separates MLE from other London speech.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Individual profiles amidst a multiethnolect: Acoustic hetereogeneity in London English",
+  "authors": "Kerswill, Paul; Gibson, Andy; Sharma, Devyani; McCarthy, Kathleen; Passoni, Elisa; Hellmuth, Sam",
+  "year": 2023,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0023714",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "Multicultural London English vs Standard Southern British",
+  "what_it_measured": "Acoustic vowel profiles of individual MLE speakers.",
+  "key_finding_with_numbers": "MLE is systematic yet heterogeneous across individuals (abstract). Numbers UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Score must accept a range of MLE realisations, not one mean.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Formant frequencies of RP monophthongs in four age groups of speakers",
+  "authors": "Hawkins, Sarah; Midgley, Jonathan",
+  "year": 2005,
+  "venue": "Journal of the International Phonetic Association",
+  "url": "https://doi.org/10.1017/s0025100305002124",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "RP (four age groups)",
+  "what_it_measured": "F1/F2 of 11 RP monophthongs across four age groups of male speakers.",
+  "key_finding_with_numbers": "880 recorded items, 11 monophthongs, four age groups (abstract); age-related shifts present, specific vowels/values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Shows how SSBE vowels shifted; modern references needed.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Variation and change in the<scp>trap</scp>and<scp>strut</scp>vowels of RP: a real time comparison of five acoustic data sets",
+  "authors": "Fabricius, Anne H.",
+  "year": 2007,
+  "venue": "Journal of the International Phonetic Association",
+  "url": "https://doi.org/10.1017/s002510030700312x",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "RP (five data sets over time)",
+  "what_it_measured": "TRAP and STRUT positions, measured by angle and distance.",
+  "key_finding_with_numbers": "Real-time change in TRAP/STRUT relationship (abstract). Values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "A geometry measure (angle/distance between vowels) is normalisation-friendly, like ACCDIST.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Compensation for coarticulation, /u/-fronting, and sound change in standard southern British: An acoustic and perceptual study",
+  "authors": "Harrington, Jonathan; Kleber, Felicitas; Reubold, Ulrich",
+  "year": 2008,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.2897042",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "Standard Southern British English",
+  "what_it_measured": "GOOSE /u/-fronting in production and perception by age.",
+  "key_finding_with_numbers": "Younger speakers front /u/ and listeners' compensation for coarticulation tracks this (abstract). Values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "GOOSE fronting is a strong Southern British cue.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "A cross-dialectal acoustic comparison of vowels in Northern and Southern British English",
+  "authors": "Williams, Daniel; Escudero, Paola",
+  "year": 2014,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.4896471",
+  "open_access": false,
+  "free_url": null,
+  "topic": "London, MLE and Southern British English",
+  "accents": "Northern vs Southern British English",
+  "what_it_measured": "Duration, F1, F2 and DCT trajectories for 11 monophthongs and 5 diphthongs.",
+  "key_finding_with_numbers": "Significant dialect differences in several vowels incl. dynamic trajectories (abstract). Values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Supports measuring trajectories (DCT), not just midpoints.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Social Salience and the Sociolinguistic Monitor",
+  "authors": "Levon, Erez; Fox, Sue",
+  "year": 2014,
+  "venue": "Journal of English Linguistics",
+  "url": "https://doi.org/10.1177/0075424214531487",
+  "open_access": true,
+  "free_url": "http://qmro.qmul.ac.uk/xmlui/handle/123456789/12228",
+  "topic": "London, MLE and Southern British English",
+  "accents": "British English (ING, TH-fronting)",
+  "what_it_measured": "Listener sensitivity to frequency of two variables differing in social salience.",
+  "key_finding_with_numbers": "149 British listeners; sensitivity to variant frequency differed by variable's salience (abstract).",
+  "why_it_matters_for_sound_local": "Not all features count equally; weight salient ones (e.g. TH-fronting) higher.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "A typology of laterals in twelve English dialects",
+  "authors": "Kirkham, Sam; Turton, Danielle; Leemann, Adrian",
+  "year": 2020,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0001587",
+  "open_access": true,
+  "free_url": "https://asa.scitation.org/doi/pdf/10.1121/10.0001587",
+  "topic": "London, MLE and Southern British English",
+  "accents": "12 UK English dialects",
+  "what_it_measured": "Onset vs coda /l/ acoustics from crowdsourced smartphone recordings.",
+  "key_finding_with_numbers": "95 speakers across 12 dialects; three main onset/coda lateral patterns (abstract).",
+  "why_it_matters_for_sound_local": "Smartphone-collected data still yields dialect-level /l/ differences; usable feature.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "Towards an updated dialect atlas of British English",
+  "authors": "MacKenzie, Laurel; Bailey, George; Turton, Danielle",
+  "year": 2022,
+  "venue": "Journal of Linguistic Geography",
+  "url": "https://doi.org/10.1017/jlg.2022.2",
+  "open_access": true,
+  "free_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/07AD1E071645452F33A118B08E038CD6/S2049754722000026a.pdf/div-class-title-towards-an-updated-dialect-atlas-of-british-english-div.pdf",
+  "topic": "London, MLE and Southern British English",
+  "accents": "England, Scotland, Wales",
+  "what_it_measured": "Crowdsourced survey of 12 phonological, lexical and morphosyntactic variables.",
+  "key_finding_with_numbers": "Over 14,000 responses; maps 12 variables (abstract).",
+  "why_it_matters_for_sound_local": "Current geography of features, incl. BATH/TRAP and others; update to Trudgill-era maps.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "London, MLE and Southern British English"
+ },
+ {
+  "title": "The beauty in a beast: Minimising the effects of diverse recording quality on vowel formant measurements in sociophonetic real-time studies",
+  "authors": "Rathcke, Tamara; Stuart-Smith, Jane; Torsney, Bernard; Harrington, Jonathan",
+  "year": 2017,
+  "venue": "Speech Communication",
+  "url": "https://doi.org/10.1016/j.specom.2016.11.001",
+  "open_access": true,
+  "free_url": "https://kar.kent.ac.uk/58978/1/Rathckeetal2016_SpeechComm_authormanuscript.pdf",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Glasgow (real-time corpus)",
+  "what_it_measured": "Effect of diverse recording quality on formant measurements; compares normalisations.",
+  "key_finding_with_numbers": "Compared Lobanov, Nearey, Watt-Fabricius, distance-ratio and statistical estimation against raw Bark (full text); some methods better reduced technical artefacts (abstract).",
+  "why_it_matters_for_sound_local": "Directly about making formant scores robust to bad recordings.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Remote sociophonetic data collection: Vowels and nasalization over video conferencing apps",
+  "authors": "Freeman, Valerie; De Decker, Paul",
+  "year": 2021,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0003529",
+  "open_access": true,
+  "free_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7928232/pdf/",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "US English vowels and nasalisation",
+  "what_it_measured": "Zoom, Skype, Teams vs professional and iPad recordings.",
+  "key_finding_with_numbers": "Compared vowel configurations, mergers and nasalisation across apps vs professional/iPad recordings (abstract). Which measures were distorted and by how much UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Compression artefacts vary by app; avoid nasality-type features.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "(Don't) Try this at Home! The Effects of Recording Devices and Software on Phonetic Analysis",
+  "authors": "Sanker, Chelsea; Babinski, Sarah; Burns, Roslyn; Evans, Marisha; Johns, Jeremy; Kim, Juhyae; Smith, Slater; Weber, Natalie; Bowern, Claire",
+  "year": 2021,
+  "venue": "Language",
+  "url": "https://doi.org/10.1353/lan.2021.0075",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "American English",
+  "what_it_measured": "Effects of recording devices and software on phonetic measures.",
+  "key_finding_with_numbers": "Devices and software substantially altered frequency, duration and noise measurements (abstract). Values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Quantifies the device bias Sound Local must cancel.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Comparing acoustic analyses of speech data collected remotely",
+  "authors": "Zhang, Cong; Jepson, Kathleen; Lohfink, Georg; Arvaniti, Amalia",
+  "year": 2021,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/10.0005132",
+  "open_access": true,
+  "free_url": "https://asa.scitation.org/doi/pdf/10.1121/10.0005132",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "English",
+  "what_it_measured": "Remote recording via phones, laptops and Zoom vs Zoom H6 recorder.",
+  "key_finding_with_numbers": "F0 tracked accurately by all devices; phones closer than Zoom to the H6 for F1–F3 (abstract).",
+  "why_it_matters_for_sound_local": "Phone mic recording is acceptable for F0 and formants; streaming apps are worse.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Is Zoom viable for sociophonetic research? A comparison of in-person and online recordings for vocalic analysis",
+  "authors": "Calder, Jeremy; Wheeler, Rebecca; Adams, Sarah; Amarelo, Daniel; Arnold-Murray, Katherine; Bai, Justin; Church, Meredith; Daniels, Josh; Gomez, Sarah; Henry, Jacob; Jia, Yunan; Johnson-Morris, Brienna; Lee, Kyo; Miller, Kit; Powell, Derrek; Ramsey-Smith, Caitlin; Rayl, Sydney; Rosenau, Sara; Salvador, Nadine",
+  "year": 2022,
+  "venue": "Linguistics Vanguard",
+  "url": "https://doi.org/10.1515/lingvan-2020-0148",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "English vowels",
+  "what_it_measured": "Zoom vs in-person recordings of vowels.",
+  "key_finding_with_numbers": "Zoom gave lower raw F1 and higher F2; discrepancies remained after normalisation (abstract).",
+  "why_it_matters_for_sound_local": "Normalisation does not fully remove channel bias; calibrate per device.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Crowdsourcing Language Change with Smartphone Applications",
+  "authors": "Leemann, Adrian; Kolly, Marie-José; Purves, Ross; Britain, David; Glaser, Elvira",
+  "year": 2016,
+  "venue": "PLOS ONE",
+  "url": "https://doi.org/10.1371/journal.pone.0143060",
+  "open_access": true,
+  "free_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0143060&type=printable",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Swiss German dialects",
+  "what_it_measured": "Smartphone app predicting dialect from 16 variables.",
+  "key_finding_with_numbers": "Data from nearly 60,000 speakers; 16 variables (full text).",
+  "why_it_matters_for_sound_local": "Proof that a playful phone dialect app gathers large, analysable data.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Smartphone Recordings are Comparable to “Gold Standard” Recordings for Acoustic Measurements of Voice",
+  "authors": "Awan, Shaheen N.; Shaikh, Mohsin Ahmed; Awan, Jordan A.; Abdalla, Ibrahim; Lim, Kelvin O.; Misono, Stephanie",
+  "year": 2025,
+  "venue": "Journal of Voice",
+  "url": "https://doi.org/10.1016/j.jvoice.2023.01.031",
+  "open_access": true,
+  "free_url": "https://www.sciencedirect.com/science/article/am/pii/S0892199723000310",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "General (voice)",
+  "what_it_measured": "iPhone and Samsung recordings vs studio across rooms and distances.",
+  "key_finding_with_numbers": "24 diverse speakers; smartphone acoustic voice measures comparable to gold standard (abstract). Agreement statistics UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Supports phone-mic f0 and voice-quality measures.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Comparing measurement errors for formants in synthetic and natural vowels",
+  "authors": "Shadle, Christine H.; Nam, Hosung; Whalen, D. H.",
+  "year": 2016,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.4940665",
+  "open_access": true,
+  "free_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4752539",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Synthetic and natural vowels",
+  "what_it_measured": "Formant measurement error vs F0 for manual and automatic methods.",
+  "key_finding_with_numbers": "Measurement bias depends on F0 (abstract); prior literature reports about ±60 Hz F1/F2 LPC error for F0 100–300 Hz (full text). New error values UNVERIFIED.",
+  "why_it_matters_for_sound_local": "High-pitched voices (women, children) get worse formants; widen tolerance or weight by F0.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Fast Track: fast (nearly) automatic formant-tracking using Praat",
+  "authors": "Santiago Barreda",
+  "year": 2021,
+  "venue": "Linguistics Vanguard",
+  "url": "https://doi.org/10.1515/lingvan-2020-0051",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Any",
+  "what_it_measured": "Fast Track: Praat formant tracker choosing among multiple analyses.",
+  "key_finding_with_numbers": "Selects smoothest candidate track and outputs formants, bandwidths, F0 and logs (abstract).",
+  "why_it_matters_for_sound_local": "Multiple-candidate formant tracking reduces tracking errors on phone audio.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Improving the Consistency of Formant Measurement",
+  "authors": "Duckworth, Martin; McDougall, Kirsty; de Jong, Gea; Shockey, Linda",
+  "year": 2011,
+  "venue": "The International Journal of Speech, Language and the Law",
+  "url": "https://doi.org/10.1558/ijsll.v18i1.35",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "British English",
+  "what_it_measured": "Inter-analyst formant consistency across three labs.",
+  "key_finding_with_numbers": "40 British male speakers, six monophthongs, six repetitions; common procedures reduced but did not remove differences (abstract).",
+  "why_it_matters_for_sound_local": "Even experts disagree on formants; the score needs tolerance bands.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "A comparison of three speaker-intrinsic vowel formant frequency normalization algorithms for sociophonetics",
+  "authors": "Anne H. Fabricius; Dominic J. L. Watt; Daniel Ezra Johnson",
+  "year": 2009,
+  "venue": "Language Variation and Change",
+  "url": "https://doi.org/10.1017/s0954394509990160",
+  "open_access": true,
+  "free_url": "https://eprints.lancs.ac.uk/id/eprint/68946/1/fabricius_et_al_2009.pdf",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "RP and Aberdeen English",
+  "what_it_measured": "Compares Watt-Fabricius S-centroid with Lobanov and Nearey normalisation.",
+  "key_finding_with_numbers": "Modified W&F performs between Lobanov and Nearey, sometimes as well as both (full text).",
+  "why_it_matters_for_sound_local": "Picks the normalisation for comparing a player to a local reference.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "The ΔF method of vocal tract length normalization for vowels",
+  "authors": "Johnson, Keith",
+  "year": 2020,
+  "venue": "Laboratory Phonology: Journal of the Association for Laboratory Phonology",
+  "url": "https://doi.org/10.5334/labphon.196",
+  "open_access": true,
+  "free_url": "https://doi.org/10.5334/labphon.196",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Any",
+  "what_it_measured": "ΔF vocal-tract-length normalisation from average formant spacing.",
+  "key_finding_with_numbers": "Method normalises using a single speaker scale factor (abstract).",
+  "why_it_matters_for_sound_local": "Works from few vowels; suited to short game sessions.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "A regression approach to vowel normalization for missing and unbalanced data",
+  "authors": "Santiago Barreda; Terrance M. Nearey",
+  "year": 2018,
+  "venue": "The Journal of the Acoustical Society of America",
+  "url": "https://doi.org/10.1121/1.5047742",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Any",
+  "what_it_measured": "Regression-based normalisation for missing/unbalanced vowel data.",
+  "key_finding_with_numbers": "Compares log-mean and Lobanov; proposes regression approach for unbalanced data (abstract).",
+  "why_it_matters_for_sound_local": "Players produce uneven vowel sets; this method handles that.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Performance analysis of several pitch detection algorithms on simulated and real noisy speech data",
+  "authors": "Jouvet, Denis; Laprie, Yves",
+  "year": 2017,
+  "venue": "2017 25th European Signal Processing Conference (EUSIPCO)",
+  "url": "https://doi.org/10.23919/eusipco.2017.8081482",
+  "open_access": true,
+  "free_url": "https://hal.science/hal-01585554v1",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Any",
+  "what_it_measured": "Pitch trackers on simulated and real noisy speech.",
+  "key_finding_with_numbers": "Real public-place noise behaved like clean speech plus babble noise (abstract). Error rates UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Choose a pitch tracker tested in real noise.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Today’s Most Frequently Used F0 Estimation Methods, and Their Accuracy in Estimating Male and Female Pitch in Clean Speech",
+  "authors": "Strömbergsson, Sofia",
+  "year": 2016,
+  "venue": "Interspeech 2016",
+  "url": "https://doi.org/10.21437/interspeech.2016-240",
+  "open_access": true,
+  "free_url": "https://doi.org/10.21437/interspeech.2016-240",
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Male and female clean speech",
+  "what_it_measured": "Accuracy of common F0 estimators for male and female voices.",
+  "key_finding_with_numbers": "Praat most accurate; setting pitch range by gender improved accuracy (abstract TLDR).",
+  "why_it_matters_for_sound_local": "Set F0 range per player before scoring melody.",
+  "evidence_strength": 3,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "PEFAC - A Pitch Estimation Algorithm Robust to High Levels of Noise",
+  "authors": "Gonzalez, Sira; Brookes, Mike",
+  "year": 2014,
+  "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+  "url": "https://doi.org/10.1109/TASLP.2013.2295918",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "Any",
+  "what_it_measured": "PEFAC pitch estimator for high noise.",
+  "key_finding_with_numbers": "Designed for high noise levels via normalisation, harmonic summing and voicing probability (abstract). Error rates UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Candidate pitch tracker for noisy phone audio.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ },
+ {
+  "title": "Beware of the ‘telephone effect’: the influence of telephone transmission on the measurement of formant frequencies",
+  "authors": "Kunzel, Hermann J.",
+  "year": 2001,
+  "venue": "International Journal of Speech, Language and the Law",
+  "url": "https://doi.org/10.1558/ijsll.v8i1.80",
+  "open_access": false,
+  "free_url": null,
+  "topic": "Measurement robustness (phone, remote, formants, pitch)",
+  "accents": "German (telephone)",
+  "what_it_measured": "Telephone transmission effect on formants.",
+  "key_finding_with_numbers": "Telephone band-pass attenuates low frequencies and raises measured F1 (abstract). Size UNVERIFIED.",
+  "why_it_matters_for_sound_local": "Phone codecs shift F1; calibrate rather than compare raw Hz.",
+  "evidence_strength": 4,
+  "verified": true,
+  "list": "other",
+  "region": "Measurement robustness (phone, remote, formants, pitch)"
+ }
+]
