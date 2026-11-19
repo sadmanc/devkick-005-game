@@ -1,0 +1,45 @@
+name: Mobile
+on:
+  pull_request:
+    paths: ['mobile/**', 'src/**', 'assets/**', 'public/**', 'index.html', 'vite.config.js', 'package*.json', '.github/workflows/mobile.yml']
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm ci --prefix mobile
+      - name: Build for the iOS simulator (unsigned)
+        working-directory: mobile
+        run: npm run build:ios-sim
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - run: npm ci --prefix mobile
+      - name: Build the debug APK
+        working-directory: mobile
+        run: npm run build:android
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sound-local-debug-apk
+          path: mobile/android/app/build/outputs/apk/debug/app-debug.apk
