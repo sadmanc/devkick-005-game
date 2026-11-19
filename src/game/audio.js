@@ -10,7 +10,7 @@ function ac() {
 let muted = false;
 export function setMuted(m) {
   muted = m;
-  if (m) speechSynthesis.cancel();
+  if (m) globalThis.speechSynthesis?.cancel();
   applyBed();
 }
 export const isMuted = () => muted;
@@ -230,6 +230,6 @@ function synthSfx(kind) {
 
 export function unlockAudio() {
   ac();
-  speechSynthesis?.getVoices();
+  globalThis.speechSynthesis?.getVoices(); // missing in Android WebView
   for (const kind of SFX_KINDS) if (!sfxBuffers.has(kind)) loadSfx(kind);
 }
