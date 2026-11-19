@@ -328,12 +328,31 @@ export async function handleOtter(body, env, deps = {}) {
 }
 
 // Minimal Node (req, res) adapter used by both the dev server and Vercel.
+// The native app's web view loads the game from these origins and calls the hosted API cross-origin.
+export const APP_ORIGINS = ['capacitor://localhost', 'https://localhost', 'ionic://localhost'];
+
+export function corsHeaders(origin) {
+  if (!APP_ORIGINS.includes(origin)) return {};
+  return {
+    'access-control-allow-origin': origin,
+    'access-control-allow-methods': 'POST, OPTIONS',
+    'access-control-allow-headers': 'content-type',
+    'access-control-max-age': '86400',
+    vary: 'Origin',
+  };
+}
+
 export async function nodeHandler(req, res, env, handler = handleOtter) {
   const send = (status, data) => {
     res.statusCode = status;
     res.setHeader('content-type', 'application/json');
     res.end(JSON.stringify(data));
   };
+  for (const [k, v] of Object.entries(corsHeaders(req.headers?.origin))) res.setHeader(k, v);
+  if (req.method === 'OPTIONS') {
+    res.statusCode = 204;
+    return res.end();
+  }
   if (req.method !== 'POST') return send(405, { error: 'POST only' });
   const limit = limiterFor(handler.name || 'api').check(clientIp(req, Boolean(env?.VERCEL)));
   if (!limit.ok) {

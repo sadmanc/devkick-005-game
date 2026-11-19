@@ -1,5 +1,6 @@
 // Client side of the free-talk mode: sends what the player said to /api/otter and keeps the state.
 // Pure state helpers are exported for tests; talk() does the network call.
+import { apiUrl } from '../apiBase.js';
 
 export const START_TRUST = 30;
 
@@ -27,7 +28,7 @@ export async function talk(chat, answer, { timeoutMs = 25000 } = {}) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
-    const res = await fetch('api/otter', {
+    const res = await fetch(apiUrl('api/otter'), {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ ...answer, trust: chat.trust, turn: chat.turn, history: chat.history }),

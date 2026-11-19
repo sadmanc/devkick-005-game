@@ -1,0 +1,6 @@
+{
+  "appId": "com.soundlocal.app",
+  "appName": "Sound Local",
+  "webDir": "../dist",
+  "ios": { "contentInset": "never" }
+}
