@@ -342,6 +342,20 @@
       "file": "public/assets/images/npcs/*.webp",
       "tool": "320px crops of the three reference pictures",
       "date": "2026-11-14"
+    },
+    {
+      "id": "ios-app-icon",
+      "file": "mobile/ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png",
+      "tool": "Pillow script: art/otter-scot-smooth.png with its grey background flood-filled out, placed on a teal (#2e9fa6) square, 1024x1024",
+      "made_by": "Devin",
+      "date": "2026-11-22"
+    },
+    {
+      "id": "ios-splash",
+      "file": "mobile/ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732*.png",
+      "tool": "Pillow script: same cut-out otter centred on the wood background colour (#2a201b), 2732x2732, 128-colour PNG",
+      "made_by": "Devin",
+      "date": "2026-11-22"
     }
   ],
   "_example": {
