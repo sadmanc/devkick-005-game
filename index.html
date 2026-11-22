@@ -48,6 +48,19 @@
           <p class="note small-note">Made at devkick Kick 005, University of Toronto, November 2026</p>
         </div></div>
       </div>
+
+      <div class="modal" id="consent" role="dialog" aria-label="Voice and AI">
+        <div class="paper-wrap"><div class="sheet"></div><div class="popup">
+          <div class="ribbon teal">Before you play</div>
+          <p class="consent-text">The locals need to hear you. When you hold Talk, your recording is sent to
+            <b>ElevenLabs</b> to turn it into text, and that text goes to <b>Anthropic's Claude</b> so the characters can
+            answer. The characters' voices are also made by ElevenLabs. Nothing is used for anything except the game.</p>
+          <div class="row small">
+            <button id="consent-agree" class="kbtn red">I agree, let's play</button>
+            <button id="consent-later" class="kbtn light" data-close>Not now</button>
+          </div>
+        </div></div>
+      </div>
     </section>
 
     <!-- World map (2D) -->

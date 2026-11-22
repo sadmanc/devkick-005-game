@@ -22,6 +22,27 @@ jobs:
       - name: Build for the iOS simulator (unsigned)
         working-directory: mobile
         run: npm run build:ios-sim
+      - name: Launch in the simulator, click through the first screens, screenshot each one
+        working-directory: mobile
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "import json,sys; d=json.load(sys.stdin)['devices']; print(next(x['udid'] for k in sorted(d, reverse=True) if 'iOS' in k for x in d[k] if x['name'].startswith('iPhone')))")
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl install "$UDID" ios/App/build/Build/Products/Debug-iphonesimulator/App.app
+          xcrun simctl privacy "$UDID" grant microphone com.soundlocal.app
+          mkdir -p smoke
+          xcrun simctl launch --console-pty "$UDID" com.soundlocal.app \
+            -smokeClicks "10:#play,13:#consent-agree,16:.pin.live,19:#intro-start,22:.cast-card" > smoke/console.log 2>&1 &
+          for t in 8 11 14 17 20 24 34; do
+            sleep $(( t - ${last:-0} )); last=$t
+            xcrun simctl io "$UDID" screenshot "smoke/${t}s.png"
+          done
+          (cd ios/App/build/Build/Products/Debug-iphonesimulator && zip -qry ../../../../../../smoke/SoundLocal-simulator.app.zip App.app)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-simulator-smoke
+          path: mobile/smoke/
   android:
     runs-on: ubuntu-latest
     steps:

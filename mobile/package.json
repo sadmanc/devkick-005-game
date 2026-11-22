@@ -7,7 +7,7 @@
     "build:web": "VITE_API_BASE=${VITE_API_BASE:-https://sound-local.vercel.app} npm --prefix .. run build",
     "sync": "npm run build:web && cap sync",
     "build:android": "npm run build:web && cap sync android && cd android && ./gradlew assembleDebug",
-    "build:ios-sim": "npm run build:web && cap sync ios && xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build"
+    "build:ios-sim": "npm run build:web && cap sync ios && xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath ios/App/build CODE_SIGNING_ALLOWED=NO build"
   },
   "dependencies": {
     "@capacitor/android": "8.6.2",

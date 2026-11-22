@@ -737,11 +737,23 @@ async function finish() {
 }
 
 // ---- wiring
-$('play').addEventListener('click', () => {
+function enterGame() {
   unlockAudio();
   startBed();
   sfx('tap');
   show('map');
+}
+// The phone app asks once before any voice goes to ElevenLabs or Claude (App Store guideline 5.1.2).
+const isNativeApp = Boolean(globalThis.Capacitor?.isNativePlatform?.());
+const CONSENT_KEY = 'sound-local-ai-consent';
+$('play').addEventListener('click', () => {
+  if (isNativeApp && localStorage.getItem(CONSENT_KEY) !== 'yes') return openModal('consent');
+  enterGame();
+});
+$('consent-agree').addEventListener('click', () => {
+  localStorage.setItem(CONSENT_KEY, 'yes');
+  closeModals();
+  enterGame();
 });
 document.querySelector('.pin.live').addEventListener('click', () => {
   sfx('tap');
@@ -793,7 +805,7 @@ $('to-map').addEventListener('click', () => {
 function openModal(id) {
   sfx('tap');
   $(id).classList.add('open');
-  $(id).querySelector('.close').focus();
+  $(id).querySelector('.close, .kbtn').focus();
 }
 function closeModals() {
   document.querySelectorAll('.modal.open').forEach((m) => m.classList.remove('open'));
