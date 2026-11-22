@@ -410,6 +410,7 @@ body.flat #learn.active ~ #credit, body.flat:has(#learn.active) #credit { displa
 .toggle input:checked + i::after { transform: translateX(30px); }
 .toggle input:focus-visible + i { outline: 3px solid var(--k-yellow); outline-offset: 3px; }
 .small-note { font-size: 14px; opacity: 0.75; margin: 14px 0 0; }
+.consent-text { max-width: 460px; margin: 4px auto 0; font-size: 17px; line-height: 1.4; text-align: center; }
 .credits { margin: 4px 0 0; text-align: center; }
 .credits dt { font-size: 14px; font-weight: 600; opacity: 0.65; margin-top: 12px; }
 .credits dd { margin: 2px 0 0; font-size: 20px; font-family: 'Lilita One', 'Fredoka', sans-serif; color: var(--k-red-d); }
@@ -417,6 +418,7 @@ body.flat #learn.active ~ #credit, body.flat:has(#learn.active) #credit { displa
   .sign .row.small { margin-top: 10px; }
   .modal .popup { padding-top: 48px; } .toggle { min-height: 46px; font-size: 18px; }
   .credits dt { margin-top: 6px; } .credits dd { font-size: 17px; }
+  .consent-text { font-size: 15px; }
 }
 body.reduce *, body.reduce *::before, body.reduce *::after { animation: none !important; transition-duration: 0.01s !important; }
 

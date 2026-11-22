@@ -10,7 +10,7 @@ function ac() {
 let muted = false;
 export function setMuted(m) {
   muted = m;
-  if (m) speechSynthesis.cancel();
+  if (m) globalThis.speechSynthesis?.cancel();
   applyBed();
 }
 export const isMuted = () => muted;
@@ -114,7 +114,8 @@ const sfxBuffers = new Map();
 async function loadSfx(kind) {
   try {
     const res = await fetch(`${SFX_DIR}${kind}.mp3`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    // status 0: the iOS app serves bundled mp3s without an HTTP status
+    if (!res.ok && res.status !== 0) throw new Error(`HTTP ${res.status}`);
     sfxBuffers.set(kind, await ac().decodeAudioData(await res.arrayBuffer()));
   } catch (err) {
     console.warn(`[audio] sfx "${kind}" unavailable, using synth:`, err.message);
@@ -230,6 +231,6 @@ function synthSfx(kind) {
 
 export function unlockAudio() {
   ac();
-  speechSynthesis?.getVoices();
+  globalThis.speechSynthesis?.getVoices(); // missing in Android WebView
   for (const kind of SFX_KINDS) if (!sfxBuffers.has(kind)) loadSfx(kind);
 }

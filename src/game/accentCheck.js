@@ -17,7 +17,7 @@ function refSamples(url) {
     refCache.set(
       url,
       fetch(url)
-        .then((r) => (r.ok ? r.arrayBuffer() : null))
+        .then((r) => (r.ok || r.status === 0 ? r.arrayBuffer() : null)) // 0: bundled mp3 in the iOS app
         .then((b) => b && decode(b))
         .catch(() => null),
     );

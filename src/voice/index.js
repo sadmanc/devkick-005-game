@@ -1,6 +1,7 @@
 // Voice contract (see README.md). Words from ElevenLabs speech-to-text (/api/stt), accent from the mic vs. the otter's clip.
 import { wordScore } from './match.js';
 import { accent } from './pitch.js';
+import { apiUrl } from '../apiBase.js';
 
 const SR = 16000; // decode straight to 16 kHz: plenty for voice pitch, keeps YIN fast
 
@@ -40,7 +41,7 @@ async function serverTranscript(blob) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 7000);
   try {
-    const res = await fetch('api/stt', {
+    const res = await fetch(apiUrl('api/stt'), {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ audio: btoa(bin), audioType: blob.type }),

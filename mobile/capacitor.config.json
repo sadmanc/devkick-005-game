@@ -1,0 +1,11 @@
+{
+  "appId": "com.soundlocal.app",
+  "appName": "Sound Local",
+  "webDir": "../dist",
+  "backgroundColor": "#2a201b",
+  "ios": {
+    "contentInset": "always",
+    "scrollEnabled": false,
+    "backgroundColor": "#2a201b"
+  }
+}
