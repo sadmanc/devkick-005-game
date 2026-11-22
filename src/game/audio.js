@@ -114,7 +114,8 @@ const sfxBuffers = new Map();
 async function loadSfx(kind) {
   try {
     const res = await fetch(`${SFX_DIR}${kind}.mp3`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    // status 0: the iOS app serves bundled mp3s without an HTTP status
+    if (!res.ok && res.status !== 0) throw new Error(`HTTP ${res.status}`);
     sfxBuffers.set(kind, await ac().decodeAudioData(await res.arrayBuffer()));
   } catch (err) {
     console.warn(`[audio] sfx "${kind}" unavailable, using synth:`, err.message);
